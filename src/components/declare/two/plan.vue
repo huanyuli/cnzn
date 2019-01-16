@@ -41,6 +41,7 @@
           <!--<el-button size="small" type="primary" >导出列表</el-button>-->
         </div>
         <div v-if="this.no_val == 1" class="content_list">
+          <p class="table_title">电量单位：千瓦时（kWh）</p>
           <div class="list_table">
             <el-table
               :data="tableData"
@@ -307,60 +308,66 @@
         //月份
         form_2:[
           {
-            value: '1',
+            value: 1,
             label: '1月',
           },
           {
-            value: '2',
+            value: 2,
             label: '2月',
           },
           {
-            value: '3',
+            value: 3,
             label: '3月',
           }
           ,
           {
-            value: '4',
+            value: 4,
             label: '4月',
           }
           ,
           {
-            value: '5',
+            value: 5,
             label: '5月',
           },
           {
-            value: '6',
+            value: 6,
             label: '6月',
           },
           {
-            value: '7',
+            value: 7,
             label: '7月',
           },
           {
-            value: '9',
+            value: 8,
+            label: '8月',
+          },
+          {
+            value: 9,
             label: '9月',
           },
           {
-            value: '10',
+            value: 10,
             label: '10月',
           },
           {
-            value: '11',
+            value: 11,
             label: '11月',
           },
           {
-            value: '12',
+            value: 12,
             label: '12月',
           }
         ],
         finds:{
-          find_1:2018,
-          find_2:"6",
+          find_1:2019,
+          find_2:1,
         },
         par_form:{
             area:"",
           find_area:"",  //查询列表参数
-          find_lists:{}, //查询列表获取参数
+          find_lists:{
+                list:[]
+          }, //查询列表获取参数
           year_list:{}  //年份列表
         },
         ruleForm:{
@@ -457,7 +464,7 @@
         }, (res) => {
           if(res.status == 200){
             this.linkAlert = false
-            this.par_form.find_area = "{'year':'"+ this.tableData[0].data_year +"','month':'"+ this.tableData[0].data_month +"'}"
+            this.par_form.find_area = "{'year':"+ this.tableData[0].data_year +",'month':"+ this.tableData[0].data_month +"}"
             this.find_list(this.par_form.find_area)
             this.$message({
               message: '保存成功',
@@ -473,54 +480,55 @@
         }, (res) => {
             this.find_lists = res.body
           this.tableData = []
-          var _temp_type = this.tableData;
-          $.map( this.find_lists.list,function(data){
-            _temp_type.push({
-              data_id:data.id,
-              data_year:data.year,
-              data_month:data.month,
-              data_1: data.customerName, //客户名称
-              data_2: data.contractPowerAmount, //当月合同直购电电量,
-              data_3:data.surplusPowerBase, //当月富余电基数
-              data_lock_1:data.lockStatus1, //"第一次 锁定状态（值为'lock'表示冻结）",
-              data_Source_1:data.dataSource1, //"第一次 数据来源(值为'INPUT'表示用户输入,为'COPY'表示复制上一次数据)",
-              data_4: data.usePowerAmount1,  //"第一次 预计当月用电量",
-              data_5: data.surplusPower1, //"第一次 其中富余电
+          if(this.find_lists.list  != [] && this.find_lists.list != "" && this.find_lists.list != null){
+            var _temp_type = this.tableData;
+            $.map( this.find_lists.list,function(data){
+              _temp_type.push({
+                data_id:data.id,
+                data_year:data.year,
+                data_month:data.month,
+                data_1: data.customerName, //客户名称
+                data_2: data.contractPowerAmount, //当月合同直购电电量,
+                data_3:data.surplusPowerBase, //当月富余电基数
+                data_lock_1:data.lockStatus1, //"第一次 锁定状态（值为'lock'表示冻结）",
+                data_Source_1:data.dataSource1, //"第一次 数据来源(值为'INPUT'表示用户输入,为'COPY'表示复制上一次数据)",
+                data_4: data.usePowerAmount1,  //"第一次 预计当月用电量",
+                data_5: data.surplusPower1, //"第一次 其中富余电
 
-              data_lock_2:data.lockStatus2,
-              data_Source_2:data.dataSource2,
-              data_6: data.usePowerAmount2,
-              data_7: data.surplusPower2,
+                data_lock_2:data.lockStatus2,
+                data_Source_2:data.dataSource2,
+                data_6: data.usePowerAmount2,
+                data_7: data.surplusPower2,
 
-              data_lock_3:data.lockStatus3,
-              data_Source_3:data.dataSource3,
-              data_8: data.usePowerAmount3,
-              data_9: data.surplusPower3,
+                data_lock_3:data.lockStatus3,
+                data_Source_3:data.dataSource3,
+                data_8: data.usePowerAmount3,
+                data_9: data.surplusPower3,
 
-              data_lock_4:data.lockStatus4,
-              data_Source_4:data.dataSource4,
-              data_10: data.usePowerAmount4,
-              data_11: data.surplusPower4,
+                data_lock_4:data.lockStatus4,
+                data_Source_4:data.dataSource4,
+                data_10: data.usePowerAmount4,
+                data_11: data.surplusPower4,
 
-              data_lock_5:data.lockStatus5,
-              data_Source_5:data.dataSource5,
-              data_12: data.usePowerAmount5,
-              data_13: data.surplusPower5,
+                data_lock_5:data.lockStatus5,
+                data_Source_5:data.dataSource5,
+                data_12: data.usePowerAmount5,
+                data_13: data.surplusPower5,
 
-              data_14: data.actualUsePowerAmount, //实际用电量
-              data_15: data.actualSurplusPower, //实际其中富余电
-              data_16: data.remark, //备注
+                data_14: data.actualUsePowerAmount, //实际用电量
+                data_15: data.actualSurplusPower, //实际其中富余电
+                data_16: data.remark, //备注
 
+              });
             });
-          });
-
-          this.finds.find_1 = this.tableData[0].data_year
-          this.finds.find_2 = this.tableData[0].data_month
+            this.finds.find_1 = this.tableData[0].data_year
+            this.finds.find_2 = this.tableData[0].data_month
+          }
 
         });
       },
       find_screen(){ //筛选
-        this.par_form.find_area = "{'year':'"+ this.finds.find_1 +"','month':'"+ this.finds.find_2 +"'}"
+        this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +"}"
         this.find_list(this.par_form.find_area)
       },
       submits(){
@@ -561,14 +569,20 @@
         });
       },
       empty_find(){ //清空
-        this.finds.find_1 = ""
-        this.finds.find_2 = ""
+        var date=new Date;
+        this.finds.find_1 = date.getFullYear()
+        this.finds.find_2 = date.getMonth() + 1
+        this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +"}"
+        this.find_list(this.par_form.find_area)
       },
     },
 //生命周期钩子函数，进入页面显示之前获取数据到store
     created () {
       this.menuList = JSON.parse(localStorage.getItem('menuList'));
-      this.par_form.find_area = "{'year':'"+ this.finds.find_1 +"','month':'"+ this.finds.find_2 +"'}"
+      var date=new Date;
+      this.finds.find_1 = date.getFullYear()
+      this.finds.find_2 = date.getMonth() + 1
+      this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +"}"
       this.find_list(this.par_form.find_area)
       this.par_form.area = "{}"
       ajax_list.constatsService(this.par_form.area, res => {  //年份
@@ -688,10 +702,19 @@
     min-height: calc(100vh - 352px);
     background-color: white;
   }
+  .table_title{
+    padding: 0px;
+    width: 86%;
+    margin: 20px auto;
+    text-align: right;
+    font-weight:400;
+    color:rgba(112,112,112,1);
+    font-size: 12px;
+  }
   .list_table{
     width: 96%;
     margin:0px auto;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px;
     border: 1px solid rgba(234,234,234,1);
   }

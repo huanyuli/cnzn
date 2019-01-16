@@ -29,7 +29,7 @@
 
 <script>
   // 引入axios
-
+  import add_ajax from '../../../api/contract'
   export default {
     data() {
       return {
@@ -58,7 +58,14 @@
       },
       add_affirm(){ //提交
        // this.$router.push({name:'addSucceed',params:{btn_id:1,cont_id:this.con_id}});
-        this.succeed_id = 1
+        var _temp_zd = "{'id':"+ this.add_con_id +"}"
+        add_ajax.contractSubmitService(_temp_zd, res => {  //提交合同
+          this.$emit('login-success', res);
+        }, (res) => {
+          if(res.status == 200){
+            this.succeed_id = 1
+          }
+        });
       },
       add_edit(){ //继续编辑
 //        this.$router.push({path:'/Contract/compile',query:{cont_id:this.add_con_id}});

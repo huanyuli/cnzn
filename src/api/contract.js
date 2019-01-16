@@ -36,6 +36,15 @@ export default {
   contractCreateService(params, success_callback, fail_callback) {
     withAxios.requestData('POST', 3,'/api/contractCreateService', params, success_callback, fail_callback);
   },
+
+
+/**
+ *  /api/contractSubmitService 提交合同（售电合同）
+ */
+contractSubmitService(params, success_callback, fail_callback) {
+  withAxios.requestData('POST', 3,'/api/contractSubmitService', params, success_callback, fail_callback);
+},
+
   /**
    *  /api/contractDetailService 合同详情 （售电合同）
    */

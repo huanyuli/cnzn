@@ -63,6 +63,7 @@
         <div class="content_list year_list">
           <el-tabs v-model="activeName2" type="card" @tab-click="handleClick">
             <el-tab-pane label="客户用电情况" name="first">
+              <p class="table_title_s">电量单位：千瓦时（kWh）</p>
               <div class="list_table">
                 <el-table
                   :data="tableData"
@@ -277,6 +278,7 @@
               </div>
             </el-tab-pane>
             <el-tab-pane label="客户已购电情况" name="second">
+              <p class="table_title_s">电量单位：千瓦时（kWh）</p>
               <div class="list_table">
                 <el-table
                   :data="tableData_1"
@@ -396,6 +398,7 @@
               </div>
             </el-tab-pane>
             <el-tab-pane label="客户用电缺口" name="three">
+              <p class="table_title_s">电量单位：千瓦时（kWh）</p>
               <div class="list_table">
                 <el-table
                   :data="tableData_2"
@@ -536,6 +539,7 @@
                 <el-form-item style="width: 65%;"  label-width="80px" label="电厂名称"  prop="set_0s">
                   <el-input  size="medium" v-model="ruleForm_1.set_0s" placeholder=""></el-input>
                 </el-form-item>
+                <p class="table_title_s">电量单位：千瓦时（kWh）</p>
                 <div class="set_left">
                   <el-form-item label="1月"  prop="set_1">
                     <el-input type="number" size="medium" v-model.number="ruleForm_1.set_1" placeholder=""></el-input>
@@ -1051,10 +1055,19 @@
     min-height: calc(100vh - 352px);
     background-color: white;
   }
+  .table_title_s{
+    padding: 0px;
+    width: 86%;
+    margin: 20px auto;
+    text-align: right;
+    font-weight:400;
+    color:rgba(112,112,112,1);
+    font-size: 12px;
+  }
   .list_table{
     width: 98%;
     margin:0px auto;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px;
     border: 1px solid rgba(234,234,234,1);
   }

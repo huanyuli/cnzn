@@ -66,6 +66,7 @@
         <div class="content_list">
           <el-tabs v-model="activeName2" type="card" @tab-click="handleClick">
             <el-tab-pane label="客户用电情况" name="first">
+              <p class="table_title_s">电量单位：千瓦时（kWh）</p>
               <div class="list_table">
                 <el-table
                   :data="tableData"
@@ -124,6 +125,7 @@
               </div>
             </el-tab-pane>
             <el-tab-pane label="已购电及缺口情况（向电厂购买）" name="second">
+              <p class="table_title_s">电量单位：千瓦时（kWh）</p>
               <div class="list_module">
                 <div class="list_con" >
                   <div class="table three_table">
@@ -304,6 +306,7 @@
             <div class='one_con'>
               <el-tabs v-model="activeName3" type="card">
                 <el-tab-pane label="客户用电情况" name="one_pane">
+                  <p class="table_title_s">电量单位：千瓦时（kWh）</p>
                   <div class="list_table">
                     <el-table
                       :data="tableData_1"
@@ -362,6 +365,7 @@
                   </div>
                 </el-tab-pane>
                 <el-tab-pane label="已购电及缺口情况（向电厂购买）" name="two_pane">
+                  <p class="table_title_s">电量单位：千瓦时（kWh）</p>
                   <div class="list_module">
                     <div class="list_con" >
                       <div class="table three_table">
@@ -842,19 +846,22 @@
           this.par_data.d = this.par_form.find_list.totalMap.remainderDirectPower
 
           this.tableData = []
-          var _temp_type = this.tableData;
-          $.map( this.par_form.find_list.list,function(data){
-            _temp_type.push({
-              data_1: data.customerName, //客户名称
-              data_2: data.contractPowerAmount, //月合同直购电量
-              data_3: data.surplusPowerBase, //当月富余电基数
-              data_4: data.lastUsePowerAmount,  //本次计划用电量
-              data_5: data.lastSurplusPower, //其中富余电
-              data_6: data.directPower, //其中直购电
-              data_7: data.canDoSurplusPower , //可做富余电
-              data_8: data.remainderDirectPower  // 剩余直购电
+          if(this.par_form.find_list.list.length != 0){
+            var _temp_type = this.tableData;
+            $.map( this.par_form.find_list.list,function(data){
+              _temp_type.push({
+                data_1: data.customerName, //客户名称
+                data_2: data.contractPowerAmount, //月合同直购电量
+                data_3: data.surplusPowerBase, //当月富余电基数
+                data_4: data.lastUsePowerAmount,  //本次计划用电量
+                data_5: data.lastSurplusPower, //其中富余电
+                data_6: data.directPower, //其中直购电
+                data_7: data.canDoSurplusPower , //可做富余电
+                data_8: data.remainderDirectPower  // 剩余直购电
+              });
             });
-          });
+          }
+
         });
 
         ajax_list.monthGapParamDetailService (data, res => {  //
@@ -903,8 +910,11 @@
       empty_find(){ //清空
         this.finds.find_1 = ""
         this.finds.find_2 = ""
-        this.finds.find_3 = ""
-        this.finds.find_4 = ""
+        var date=new Date;
+        this.finds.find_3 = date.getFullYear()
+        this.finds.find_4 = date.getMonth() + 1
+        this.par_form.find_area = "{'year':"+ this.finds.find_3 +",'month':"+ this.finds.find_4 +"}"
+        this.find_list(this.par_form.find_area)
       },
 //      handleClick(obj){
 ////          console.log(obj)
@@ -1055,6 +1065,9 @@
 //生命周期钩子函数，进入页面显示之前获取数据到store
     created () {
       this.menuList = JSON.parse(localStorage.getItem('menuList'));
+      var date=new Date;
+      this.finds.find_3 = date.getFullYear()
+      this.finds.find_4 = date.getMonth() + 1
       this.par_form.find_area = "{'year':"+ this.finds.find_3 +",'month':"+ this.finds.find_4 +"}"
       this.find_list(this.par_form.find_area)
       this.par_form.area = "{}"
@@ -1191,6 +1204,15 @@
     margin: 0 auto;
     min-height: calc(100vh - 352px);
     background-color: white;
+  }
+  .table_title_s{
+    padding: 0px;
+    width: 86%;
+    margin: 20px auto;
+    text-align: right;
+    font-weight:400;
+    color:rgba(112,112,112,1);
+    font-size: 12px;
   }
   .list_table{
     width: 98%;

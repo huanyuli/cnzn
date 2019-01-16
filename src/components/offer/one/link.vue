@@ -698,6 +698,9 @@
 
 </style>
 <style>
+  .el-message-box__status{
+    left:20px
+  }
   .el-dialog__header {
     background: rgba(73,138,243,1)!important;
   }

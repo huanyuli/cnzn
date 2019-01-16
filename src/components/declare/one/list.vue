@@ -70,6 +70,7 @@
           <!--<el-button size="small" type="primary" >导出列表</el-button>-->
         </div>
         <div v-if="this.no_val == 1" class="content_list">
+          <p class="table_title">电量单位：千瓦时（KWh）</p>
           <div class="list_table">
             <el-table
               :data="tableData"
@@ -130,7 +131,7 @@
     </div>
     <!--<router-view></router-view>-->
     <div class="add_alert add_enough">
-      <el-dialog  title="添加客户" width="40%"  :visible.sync="linkAlert">
+      <el-dialog  title="添加富余电基数" width="40%"  :visible.sync="linkAlert">
         <div class='add_div'>
           <div class='add_div_one'>
             <div class='one_con'>
@@ -156,7 +157,7 @@
                     </el-option>
                   </el-select>
                 </el-form-item>
-
+                <p style="margin-bottom: 10px;text-align: right">用电单位：千瓦时（kwh）</p>
                 <div class="set_left">
                   <el-form-item label="6月"  prop="set_6">
                     <el-input type="number" size="medium" v-model.number="ruleForm.set_6" placeholder=""></el-input>
@@ -283,13 +284,13 @@
 
     },
     methods: {
+
       add_user(){
+        if (this.$refs["ruleForm"]!==undefined) {
+          this.$refs["ruleForm"].resetFields();
+        }
         this.linkAlert = true
-        this.ruleForm.vue_2 = ""
-        this.ruleForm.vue_1 = ""
         this.ruleForm.vue_0 = this.finds.find_1
-
-
       },
       change_3(){ //地区
         this.par_form.ares_s ={
@@ -625,7 +626,15 @@
     margin-bottom: 10px;
     border: 1px solid rgba(234,234,234,1);
   }
-
+  .table_title{
+    padding: 0px;
+    width: 86%;
+    margin: 20px auto;
+    text-align: right;
+    font-weight:400;
+    color:rgba(112,112,112,1);
+    font-size: 12px;
+  }
 
   /*** 弹窗 ***/
 

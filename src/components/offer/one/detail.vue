@@ -47,8 +47,8 @@
         </div>
         <div v-if="this.no_val == 1" class="content_list">
           <div class="list_module   off_input">
+            <div class="table_hint" style="margin-top: 20px">电量单位：千瓦时（kwh）</div>
             <div class="list_con" >
-              <div class="table_hint">电量单位：千瓦时（kwh）</div>
               <div class="table three_table">
                 <div class="table_tr table_title">
                   <div class="table_td"><div class="table_td_w">类别</div></div>
@@ -886,7 +886,7 @@
     /*margin-bottom: 10px;*/
   }
   .table{
-    width: 98%;
+    width: 160%;
     margin: 0 auto;
     border:1px solid rgba(234,234,234,1)
   }
@@ -920,13 +920,13 @@
     float: left;
   }
   .three_table  .table_tr .table_td:nth-child(1){
-    width: calc(10%);
+    /*width: calc(10%);*/
   }
   .three_table .table_title .table_td .table_td_w{
-    width: 76%;
+    width: 90%;
   }
   .three_table  .table_td .table_td_w{
-    width: 70%;
+    width: 86%;
     margin: 0 auto;
     height: 32px;
     font-size:14px;
