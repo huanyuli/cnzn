@@ -403,7 +403,7 @@
             <div class='one_con'>
               <el-form :model="ruleForm_1"  :rules="rules_1" ref="ruleForm_1"   label-width="55px" class="demo-ruleForm">
                 <el-form-item label="年度"  prop="set_0">
-                  <el-select style="width: 60%;"  size="medium" v-model="ruleForm_1.set_0" placeholder="请选择">
+                  <el-select style="width: 60%;" @change="find_year"  size="medium" v-model="ruleForm_1.set_0" placeholder="请选择">
                     <el-option
                       v-for="item in form_1"
                       :key="item.value"
@@ -412,6 +412,7 @@
                     </el-option>
                   </el-select>
                 </el-form-item>
+                <p class="table_title">价格单位：元/千瓦时</p>
                 <div class="set_left">
                   <el-form-item label="1月"  prop="set_1">
                     <el-input type="number" size="medium" v-model.number="ruleForm_1.set_1" placeholder=""></el-input>
@@ -734,7 +735,7 @@
           if (valid) {
             this.load_add = true
             var _temp_data ="{'year':'"+ this.ruleForm.vue_0 +"','customerName':'"+ this.ruleForm.vue_2 +"'}"
-            ajax_list.customerContractQuotedCreateService(_temp_data, res => {  //客户合同报价-客户合同报价添加
+            ajax_list.customerContractQuotedCreateService(_temp_data, res => {  //客户合同价格统计-客户合同价格统计添加
 
              // this.$emit('login-success', res);
               this.load_add = false
@@ -792,6 +793,35 @@
           } else {
             console.log('error submit!!');
             return false;
+          }
+        });
+      },
+      find_year(data){
+
+        if (this.$refs["ruleForm_1"]!==undefined) {
+          this.$refs["ruleForm_1"].resetFields();
+        }
+        var _temp_body = ""
+        var _temp_data = "{year:"+ data +"}"
+        ajax_list.thermalPowerPriceDetailService (_temp_data, res => {  //
+          // this.$emit('login-success', res);
+        }, (res) => {
+          if(res.status == 200){
+            _temp_body = res.body.price
+            this.ruleForm_1.set_0 = parseFloat(_temp_body.year)
+            this.ruleForm_1.set_1 = _temp_body.month1
+            this.ruleForm_1.set_2 = _temp_body.month2
+            this.ruleForm_1.set_3 = _temp_body.month3
+            this.ruleForm_1.set_4 = _temp_body.month4
+            this.ruleForm_1.set_5 = _temp_body.month5
+            this.ruleForm_1.set_6 = _temp_body.month6
+            this.ruleForm_1.set_7 = _temp_body.month7
+            this.ruleForm_1.set_8 = _temp_body.month8
+            this.ruleForm_1.set_9 = _temp_body.month9
+            this.ruleForm_1.set_10 = _temp_body.month10
+            this.ruleForm_1.set_11 = _temp_body.month11
+            this.ruleForm_1.set_12 = _temp_body.month12
+
           }
         });
       },

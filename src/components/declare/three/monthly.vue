@@ -130,13 +130,13 @@
                 <div class="list_con" >
                   <div class="table three_table">
                     <div class="table_tr table_title">
-                      <div class="table_td"><div class="table_td_w">年度已购电</div></div>
+                      <div class="table_td"><div class="table_td_w"></div></div>
                       <div class="table_td"><div class="table_td_w">直购电已买电量</div></div>
                       <div class="table_td"><div class="table_td_w">富余电已买电量</div></div>
                     </div>
                     <div class="table_tr">
-                      <div class="table_td"><div class="table_td_w"></div></div>
-                      <div class="table_td"><div class="table_td_w">电量池年度交易池中的总量的当月</div></div>
+                      <div class="table_td"><div class="table_td_w">年度已购电</div></div>
+                      <div class="table_td"><div class="table_td_w">{{this.year_yg}}</div></div>
                       <div class="table_td"><div class="table_td_w">NA</div></div>
                     </div>
                     <el-form :model="ruleThree" :rules="rules_three" ref="ruleThree" label-width="0px" class="demo-ruleForm">
@@ -370,13 +370,13 @@
                     <div class="list_con" >
                       <div class="table three_table">
                         <div class="table_tr table_title">
-                          <div class="table_td"><div class="table_td_w">年度已购电</div></div>
+                          <div class="table_td"><div class="table_td_w"></div></div>
                           <div class="table_td"><div class="table_td_w">直购电已买电量</div></div>
                           <div class="table_td"><div class="table_td_w">富余电已买电量</div></div>
                         </div>
                         <div class="table_tr">
-                          <div class="table_td"><div class="table_td_w"></div></div>
-                          <div class="table_td"><div class="table_td_w">电量池年度交易池中的总量的当月</div></div>
+                          <div class="table_td"><div class="table_td_w">年度已购电</div></div>
+                          <div class="table_td"><div class="table_td_w">{{this.mn_year_yg}}</div></div>
                           <div class="table_td"><div class="table_td_w">NA</div></div>
                         </div>
                         <el-form :model="ruleTwo" :rules="rules_two" ref="ruleTwo" label-width="0px" class="demo-ruleForm">
@@ -737,6 +737,9 @@
           d:0,  //剩余直购电
         },
 
+        year_yg:"",
+        mn_year_yg:"",
+
         tableData:[],
         tableData_1:[],   //模拟数据
 
@@ -807,8 +810,15 @@
 
       },
       toPercent(point){
-        var str=Number(point*100).toFixed(2);
-        str+="%";
+          var str=0
+          if(!isNaN(point)){
+            str=Number(point*100).toFixed(2);
+            str+="%";
+          }else{
+              str ="0%"
+          }
+
+
         return str;
       },
       change_3(){ //地区
@@ -867,7 +877,7 @@
         ajax_list.monthGapParamDetailService (data, res => {  //
           this.$emit('login-success', res);
         }, (res) => {
-            if(res.body.param != null){
+            if(res.body.param){
               this.par_form.param_list = res.body.param
               this.ruleThree.one_1 = this.par_form.param_list.directPowerAmount1
               this.ruleThree.one_2 = this.par_form.param_list.surplusPowerAmount1
@@ -899,6 +909,18 @@
               this.ruleThree.year = this.finds.find_3
               this.ruleThree.month = this.finds.find_4
             }
+
+        });
+
+        var _year = "{'year':"+ this.finds.find_3 +"}"
+        ajax_list.poolYearPurchasedPowerListService (_year, res => {  //
+          this.$emit('login-success', res);
+        }, (res) => {
+          if(res.body.totalAmountMap){
+            this.year_yg = res.body.totalAmountMap['totalAmount' + this.finds.find_4]
+          }else{
+            this.year_yg = 0
+          }
 
         });
 
@@ -1009,7 +1031,7 @@
                     this.ruleTwo.one_11 = 0
                     this.ruleTwo.one_12 = 0
 
-                    if(res.body.param != null){
+                    if(res.body.param){
                       this.par_form.mn_param_list = res.body.param
                       this.ruleTwo.one_1 = this.par_form.mn_param_list.directPowerAmount1
                       this.ruleTwo.one_2 = this.par_form.mn_param_list.surplusPowerAmount1
@@ -1025,6 +1047,19 @@
                       this.ruleTwo.one_12 = this.par_form.mn_param_list.currentSurplusPowerAmount
                       this.ruleTwo.year = this.par_form.mn_param_list.year
                       this.ruleTwo.month = this.par_form.mn_param_list.month
+                    }
+
+                  });
+
+
+                  var _year = "{'year':"+ this.ruleThree.year +"}"
+                  ajax_list.poolYearPurchasedPowerListService (_year, res => {  //
+                    this.$emit('login-success', res);
+                  }, (res) => {
+                    if(res.body.totalAmountMap){
+                      this.mn_year_yg = res.body.totalAmountMap['totalAmount' + this.ruleThree.month ]
+                    }else{
+                      this.mn_year_yg = 0
                     }
 
                   });
@@ -1314,7 +1349,7 @@
     width: calc(100% - 0px);
     margin: 0 auto;
     height: auto;
-    overflow: auto;
+    /*overflow: auto;*/
     padding: 26px 0;
   }
   .list_con_input{
@@ -1404,7 +1439,7 @@
     /*margin-bottom: 10px;*/
   }
   .table{
-    width: 80%;
+    width: 96%;
     margin: 0 auto;
     border:1px solid rgba(234,234,234,1)
   }
@@ -1482,7 +1517,7 @@
     margin-top: 2px;
   }
   .one_con{
-    width: 70%;
+    width: 96%;
     margin: 0px auto;
     margin-top: 50px;
   }

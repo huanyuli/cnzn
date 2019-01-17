@@ -79,7 +79,7 @@
                     <div class="table_td"><div class="table_td_w">丰</div></div>
                     <div class="table_td"><div class="table_td_w">丰</div></div>
                     <div class="table_td"><div class="table_td_w">丰</div></div>
-                    <div class="table_td"><div class="table_td_w">丰</div></div>
+                    <div class="table_td"><div class="table_td_w">平</div></div>
                     <div class="table_td"><div class="table_td_w">枯</div></div>
                   </div>
                 <el-form :model="ruleThree" :rules="rules_three" ref="ruleThree" label-width="0px" class="demo-ruleForm">

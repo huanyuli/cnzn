@@ -116,7 +116,7 @@
                   end-placeholder="结束日期">
                 </el-date-picker>
               </el-form-item>
-              <el-form-item label="上传合同"  prop="vue_4">
+              <el-form-item class="up_btn" label="上传合同"  prop="vue_4">
                 <el-upload
                   class="upload-demo"
                   action="http://39.98.43.90/uploads"
@@ -126,7 +126,7 @@
                   :on-exceed="on_ex"
                   :file-list="fileList"
                   :limit="1">
-                  <el-button slot="trigger" plain>添加附件（支持上传word文档格式）</el-button>
+                  <el-button slot="trigger" plain>添加附件（支持上传word、pdf等格式）</el-button>
                 </el-upload>
               </el-form-item>
 
@@ -718,5 +718,9 @@
   .el-message--success {
     background-color: rgba(242,245,255,1);
     border-color: #e1f3d8;
+  }
+
+  .up_btn .el-button{
+    margin-left: 0px!important;
   }
 </style>

@@ -8,7 +8,7 @@
       </div>
       <div v-if="show_map(11) == 11" @click='bb' class="left_two_list" :class="{click_list:this.click_index == 2}">
         <div class="list_right list_right_one">
-          <p>客户合同报价</p>
+          <p>客户合同价格统计</p>
         </div>
       </div>
     </div>

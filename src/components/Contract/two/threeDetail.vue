@@ -75,7 +75,7 @@
                   end-placeholder="结束日期">
                 </el-date-picker>
               </el-form-item>
-              <el-form-item label="上传合同"  prop="vue_4">
+              <el-form-item class="up_btn" label="上传合同"  prop="vue_4">
                 <el-upload
                   class="upload-demo"
                   action="http://39.98.43.90/uploads"
@@ -85,7 +85,7 @@
                   :on-exceed="on_ex"
                   :file-list="fileList"
                   :limit="1">
-                  <el-button slot="trigger" plain>添加附件（支持上传word文档格式）</el-button>
+                  <el-button slot="trigger" plain>添加附件（支持上传word、pdf等格式）</el-button>
                 </el-upload>
               </el-form-item>
             </el-form>
@@ -592,26 +592,30 @@
   .el-message-box__status.el-icon-warning {
     color: #ff253a;
   }
-  .el-message-box__btns {
-    padding: 5px 15px 0;
-    text-align: center;
-  }
-  .el-message-box__status {
-    position: absolute;
-    top: 50%;
-    left: 110px;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-size: 24px!important;
-  }
-  .el-message-box__status+.el-message-box__message {
-    padding-left: 36px;
-    padding-right: 12px;
-    text-align: center;
-  }
+  /*.el-message-box__btns {*/
+    /*padding: 5px 15px 0;*/
+    /*text-align: center;*/
+  /*}*/
+  /*.el-message-box__status {*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 110px;*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+    /*font-size: 24px!important;*/
+  /*}*/
+  /*.el-message-box__status+.el-message-box__message {*/
+    /*padding-left: 36px;*/
+    /*padding-right: 12px;*/
+    /*text-align: center;*/
+  /*}*/
 
   .ma_left_con .el-icon-arrow-right{
     margin: 0 10px;
     margin-top: 7px;
+  }
+
+  .up_btn .el-button{
+    margin-left: 0px!important;
   }
 </style>

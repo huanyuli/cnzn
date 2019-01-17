@@ -277,7 +277,7 @@
                 </el-table>
               </div>
             </el-tab-pane>
-            <el-tab-pane label="客户已购电情况" name="second">
+            <el-tab-pane label="已购电情况" name="second">
               <p class="table_title_s">电量单位：千瓦时（kWh）</p>
               <div class="list_table">
                 <el-table
@@ -397,7 +397,7 @@
                 </el-table>
               </div>
             </el-tab-pane>
-            <el-tab-pane label="客户用电缺口" name="three">
+            <el-tab-pane label="用电缺口" name="three">
               <p class="table_title_s">电量单位：千瓦时（kWh）</p>
               <div class="list_table">
                 <el-table

@@ -90,28 +90,28 @@ export default {
 
 
   /**
-   *  /api/customerContractQuotedListService 客户合同报价-客户合同报价查询
+   *  /api/customerContractQuotedListService 客户合同价格统计-客户合同价格统计查询
    */
   customerContractQuotedListService(params, success_callback, fail_callback) {
     withAxios.requestData('POST', 3,'/api/customerContractQuotedListService', params, success_callback, fail_callback);
   },
 
   /**
-   * /api/customerContractQuotedCreateService 客户合同报价-客户合同报价添加
+   * /api/customerContractQuotedCreateService 客户合同价格统计-客户合同价格统计添加
    */
   customerContractQuotedCreateService(params, success_callback, fail_callback) {
     withAxios.requestData('POST', 3,'/api/customerContractQuotedCreateService', params, success_callback, fail_callback);
   },
 
   /**
-   * /api/thermalPowerPriceCreateService 客户合同报价-火电价格创建
+   * /api/thermalPowerPriceCreateService 客户合同价格统计-火电价格创建
    */
   thermalPowerPriceCreateService(params, success_callback, fail_callback) {
     withAxios.requestData('POST', 3,'/api/thermalPowerPriceCreateService', params, success_callback, fail_callback);
   },
 
   /**
-   * /api/thermalPowerPriceDetailService 客户合同报价-火电价格查询
+   * /api/thermalPowerPriceDetailService 客户合同价格统计-火电价格查询
    */
   thermalPowerPriceDetailService(params, success_callback, fail_callback) {
     withAxios.requestData('POST', 3,'/api/thermalPowerPriceDetailService', params, success_callback, fail_callback);

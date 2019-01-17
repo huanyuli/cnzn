@@ -423,7 +423,7 @@
         this.$confirm(_temp_fime, '删除计划用电量', {
           confirmButtonText: '确定',
           cancelButtonText: '取消',
-          type: 'warning'
+          type: 'warning',
         }).then(() => {
           var _temp_id = "{'customerQuotedId':'"+ obj.data_id  +"'}"
           ajax_list.customerQuotedDeleteService(_temp_id, res => {  //客户报价删除
@@ -698,9 +698,7 @@
 
 </style>
 <style>
-  .el-message-box__status{
-    left:20px
-  }
+
   .el-dialog__header {
     background: rgba(73,138,243,1)!important;
   }
@@ -755,4 +753,5 @@
     color: #5a5e66;
     border: 1px solid #d8dce5;
   }
+
 </style>

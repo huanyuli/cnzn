@@ -4867,31 +4867,30 @@
 
   .el-message-box__status.el-icon-warning {
     color: #ff253a;
-    margin-left: -25px;
   }
 
-  .el-message-box__btns {
-    padding: 5px 15px 0;
-    text-align: center;
-  }
+  /*.el-message-box__btns {*/
+    /*padding: 5px 15px 0;*/
+    /*text-align: center;*/
+  /*}*/
 
-  .el-message-box__status {
-    position: absolute;
-    top: 50%;
-    left: 110px;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-size: 24px !important;
-  }
+  /*.el-message-box__status {*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 110px;*/
+    /*-webkit-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+    /*font-size: 24px !important;*/
+  /*}*/
 
-  .el-message-box__status + .el-message-box__message {
-    padding-left: 36px;
-    padding-right: 12px;
-    text-align: center;
-  }
+  /*.el-message-box__status + .el-message-box__message {*/
+    /*padding-left: 36px;*/
+    /*padding-right: 12px;*/
+    /*text-align: center;*/
+  /*}*/
 
-  .ma_left_con .el-icon-arrow-right {
-    margin: 0 10px;
-    margin-top: 7px;
-  }
+  /*.ma_left_con .el-icon-arrow-right {*/
+    /*margin: 0 10px;*/
+    /*margin-top: 7px;*/
+  /*}*/
 </style>
