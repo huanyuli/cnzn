@@ -11,6 +11,11 @@
           <p>每月计划用电量</p>
         </div>
       </div>
+      <div v-if="show_map(11) == 11" @click='ee' class="left_two_list" :class="{click_list:this.click_index == 5}">
+        <div class="list_right list_right_one">
+          <p>客户合同价格统计</p>
+        </div>
+      </div>
       <div  v-if="show_map(17) == 17" @click='cc' class="left_two_list" :class="{click_list:this.click_index == 3}">
         <div class="list_right list_right_one">
           <p>电量池月度交易</p>
@@ -21,6 +26,7 @@
           <p>电量池年度交易</p>
         </div>
       </div>
+
     </div>
     <div class="right_two">
       <router-view></router-view>
@@ -75,19 +81,27 @@
         this.$router.push('/declare/year');
 //        this.dl_css();
       },
+      ee(){
+        this.click_index = 5;
+        this.$router.push('/declare/clientList');
+//        this.dl_css();
+      },
     },
     created(){
       this.menuList = JSON.parse(localStorage.getItem('menuList')) || '';
       if(this.show_map(14) == 14){
         this.click_index =1;
         this.$router.push('/declare/enough');
-      }else if(this.show_map(14) != 10 && this.show_map(15) == 15){
+      }else if(this.show_map(14) != 14 && this.show_map(15) == 15){
         this.click_index = 2;
         this.$router.push('/declare/plan');
-      }else if(this.show_map(14) != 10 && this.show_map(15) != 15 && this.show_map(17) == 17){
+      }else if(this.show_map(14) != 14 && this.show_map(15) != 15 && this.show_map(11) == 11){
+        this.click_index = 5;
+        this.$router.push('/declare/clientList');
+      }else if(this.show_map(14) != 14 && this.show_map(15) != 15 && this.show_map(11) != 11 && this.show_map(17) == 17){
         this.click_index = 3;
         this.$router.push('/declare/monthly');
-      }else if(this.show_map(14) != 10 && this.show_map(15) != 15 && this.show_map(17) != 17 && this.show_map(19) == 19){
+      }else if(this.show_map(14) != 14 && this.show_map(15) != 15  && this.show_map(11) != 11 && this.show_map(17) != 17 && this.show_map(19) == 19){
         this.click_index = 4;
         this.$router.push('/declare/year');
       }

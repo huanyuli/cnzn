@@ -220,6 +220,11 @@
                 <el-input size="medium" v-model="ruleForm.add_7" placeholder=""></el-input>
               </el-form-item>
             </div>
+            <div class="list_con_input">
+              <el-form-item label="用户代码" prop="add_14">
+                <el-input size="medium" v-model="ruleForm.add_14" placeholder=""></el-input>
+              </el-form-item>
+            </div>
             <div class="list_tile list_margin_top">联系方式 </div>
 
             <div class="list_con_input">
@@ -662,6 +667,7 @@
           add_11:"",  //办公电话
           add_12:"",  //传真号码
           add_13:"",  //网址
+          add_14:"",  //用户代码
 
           add_two_1:"",  //社会信用代码
           add_two_2:"",  //法定代表人姓名
@@ -957,6 +963,7 @@
 //                contactOfficePhoneNo:this.ruleForm.add_11,
                 contactFax:this.ruleForm.add_12,
                 contactWeb:this.ruleForm.add_13,
+              customerCode:this.ruleForm.add_14,
 
                 socialCreditCode:this.ruleForm.add_two_1,
                 representativeName:this.ruleForm.add_two_2,
@@ -1398,6 +1405,9 @@
         }
         if(this.form_list.contactWeb != null && this.form_list.contactWeb != ""){
           this.ruleForm.add_13 = this.form_list.contactWeb
+        }
+        if(this.form_list.customerCode != null && this.form_list.customerCode != ""){
+          this.ruleForm.add_14 = this.form_list.customerCode
         }
         if(this.form_list.socialCreditCode != null && this.form_list.socialCreditCode != ""){
           this.ruleForm.add_two_1 = this.form_list.socialCreditCode

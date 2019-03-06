@@ -24,9 +24,17 @@
             <div class="ma_ui_div">
               <p>所在区域：</p>
               <div class="input_ss">
-                <el-select style="width: 100%;"  size="medium" v-model="contract_Type" placeholder="全部区域">
+                <el-select style="width: 49%;" @change="change_2"  size="medium" v-model="contract_Type" placeholder="全部省份">
                   <el-option
                     v-for="item in select_contractType"
+                    :key="item.value"
+                    :label="item.label"
+                    :value="item.value">
+                  </el-option>
+                </el-select>
+                <el-select size="medium" style="width: 49%;" v-model="contract_city" clearable placeholder="请选择">
+                  <el-option
+                    v-for="item in select_contractCity"
                     :key="item.value"
                     :label="item.label"
                     :value="item.value">
@@ -143,6 +151,8 @@
         page:1,
         count:0,
         one_img:1,
+        form_code_q:"",
+        form_select_q:"",
         dialogTableVisible:false,
         /*合同列表参数*/
         formData: "{}",
@@ -157,8 +167,13 @@
         ],  //客户状态
         select_contractType:[{
           value:'',
+          label:"全部省份"
+        }],  //所在区域
+        select_contractCity:[{
+          value:'',
           label:"全部区域"
         }],  //所在区域
+
         timeOptions:[{
           value:'',
           label:"全部行业"
@@ -167,6 +182,9 @@
 
         contract_Status:"",//客户状态选中的值
         contract_Type:"",//所在区域选中的值
+        contract_Types:"",//所在区域选中的代码
+        contract_city:"",//所在区域选中的值
+
         time_value:"",  //所属行业选中值
 
         options4: [],  //客户名称选择框数组
@@ -190,6 +208,35 @@
 
     },
     methods: {
+      change_2(val){  //点击省份获取市数据
+
+        let obj = {};
+        obj = this.select_contractType.find((item)=>{
+          return item.value === val;
+        });
+        this.contract_Types = obj.label
+
+        this.form_code_q ={
+          code:this.contract_Type,
+          areaLevel:"province"
+        }
+        this.form_code_q = JSON.stringify(this.form_code_q);
+        ajax_list.areaListService(this.form_code_q, res => {  //列表字典
+          this.$emit('login-success', res);
+        }, (res) => {
+          this.form_select_q = res.body;
+          this.select_contractCity = []
+          this.contract_city = ""
+          var _temp_one_4 = this.select_contractCity;   //所在行政区域
+          $.map(this.form_select_q,function(value){
+            _temp_one_4.push({
+              value:value.code,
+              label:value.name
+            });
+          });
+        });
+
+      },
       current_change(val){
         this.page = val
         this.formData  = "{'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
@@ -212,7 +259,7 @@
       },
       find_list(){   //进行筛选
         this.page = 1
-        this.formData = "{'page':'"+ this.page +"','limit':'"+ this.limit +"','signStatus': '"+ this.contract_Status +"','provinceCode':'"+ this.contract_Type +"','name':'"+ this.value9 +"','businessId':'"+ this.value9_s +"','industry':'"+ this.time_value +"'}",
+        this.formData = "{'page':'"+ this.page +"','limit':'"+ this.limit +"','signStatus': '"+ this.contract_Status +"','provinceCode':'"+ this.contract_Type +"','cityCode':'"+ this.contract_city +"','name':'"+ this.value9 +"','businessId':'"+ this.value9_s +"','industry':'"+ this.time_value +"'}",
       //  console.log(this.formData)
           this.list_find(this.formData,2)
       },

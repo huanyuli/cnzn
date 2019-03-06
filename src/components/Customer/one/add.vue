@@ -231,6 +231,12 @@
                   <el-input size="medium" v-model="ruleForm.add_7" placeholder=""></el-input>
                 </el-form-item>
               </div>
+              <div class="list_con_input">
+                <el-form-item label="用户代码" prop="add_14">
+                  <el-input v-model="ruleForm.add_14"></el-input>
+                </el-form-item>
+              </div>
+
               <div class="list_tile list_margin_top">联系方式</div>
 
               <div class="list_con_input">
@@ -661,6 +667,7 @@
           add_11:"",  //办公电话
           add_12:"",  //传真号码
           add_13:"",  //网址
+          add_14:"",  //用户代码
         },
         rules: {  //第一步的验证
           one_1: [
@@ -1008,6 +1015,7 @@
 //                contactOfficePhoneNo:this.ruleForm.add_11,
                 contactFax:this.ruleForm.add_12,
                 contactWeb:this.ruleForm.add_13,
+                customerCode:this.ruleForm.add_14,
 
                 socialCreditCode:this.ruleTwo.add_two_1,
                 representativeName:this.ruleTwo.add_two_2,

@@ -120,7 +120,7 @@ export default new Router({
 
               },
               {
-                path: '/Offer',  //报价环节
+                path: '/Offer',  //报量环节
                 component: resolve => require(['@/components/Offer/offer'],resolve),
                 children:[
                   {
@@ -133,12 +133,12 @@ export default new Router({
                     component: resolve => require(['@/components/Offer/one/detail'],resolve),
 
                   },
-                  {
-                    path: 'clientList',
-                    name:"clientList",
-                    component: resolve => require(['@/components/Offer/two/list'],resolve),
-
-                  },
+                  // {
+                  //   path: 'clientList',
+                  //   name:"clientList",
+                  //   component: resolve => require(['@/components/Offer/two/list'],resolve),
+                  //
+                  // },
                 ]
               },
               {
@@ -158,6 +158,12 @@ export default new Router({
                   {
                     path: 'enough',
                     component: resolve => require(['@/components/declare/one/list'],resolve),
+                  },
+                  {
+                    path: 'clientList',
+                    name:"clientList",
+                    component: resolve => require(['@/components/declare/five/list'],resolve),
+
                   },
                 ]
               },

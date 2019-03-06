@@ -72,6 +72,13 @@
                   sum-text="汇总"
                   style="width: 100%;text-align: center">
                   <el-table-column
+                    prop="data_0"
+                    align="center"
+                    width="100"
+                    label="用户代码"
+                  >
+                  </el-table-column>
+                  <el-table-column
                     prop="data_1"
                     align="center"
                     width="180"
@@ -86,194 +93,205 @@
                   >
                   </el-table-column>
                   <el-table-column
-                    prop="data_3"
                     align="center"
-                    width="120"
                     label="合同总电量"
                   >
-                    <template slot-scope="scope">
-                      <span style="color:#FF9900">{{ scope.row.data_3 }}</span>
-                    </template>
+                    <el-table-column
+                      prop="data_3"
+                      width="120"
+                      align="center"
+                      label="总"
+                    >
+                      <template slot-scope="scope">
+                        <span style="color:#FF9900">{{ scope.row.data_3 }}</span>
+                      </template>
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_4"
+                      width="120"
+                      align="center"
+                      label="1月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_5"
+                      width="120"
+                      align="center"
+                      label="2月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_6"
+                      width="120"
+                      align="center"
+                      label="3月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_7"
+                      width="120"
+                      align="center"
+                      label="4月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_8"
+                      width="120"
+                      align="center"
+                      label="5月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_9"
+                      width="120"
+                      align="center"
+                      label="6月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_10"
+                      width="120"
+                      align="center"
+                      label="7月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_11"
+                      width="120"
+                      align="center"
+                      label="8月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_12"
+                      width="120"
+                      align="center"
+                      label="9月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_13"
+                      width="120"
+                      align="center"
+                      label="10月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_14"
+                      width="120"
+                      align="center"
+                      label="11月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_15"
+                      width="120"
+                      align="center"
+                      label="12月"
+                    >
+                    </el-table-column>
                   </el-table-column>
                   <el-table-column
-                    prop="data_4"
-                    width="120"
-                    align="center"
-                    label="1月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_5"
-                    width="120"
-                    align="center"
-                    label="2月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_6"
-                    width="120"
-                    align="center"
-                    label="3月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_7"
-                    width="120"
-                    align="center"
-                    label="4月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_8"
-                    width="120"
-                    align="center"
-                    label="5月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_9"
-                    width="120"
-                    align="center"
-                    label="6月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_10"
-                    width="120"
-                    align="center"
-                    label="7月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_11"
-                    width="120"
-                    align="center"
-                    label="8月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_12"
-                    width="120"
-                    align="center"
-                    label="9月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_13"
-                    width="120"
-                    align="center"
-                    label="10月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_14"
-                    width="120"
-                    align="center"
-                    label="11月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_15"
-                    width="120"
-                    align="center"
-                    label="12月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_16"
-                    width="150"
                     align="center"
                     label="直购电水电"
                   >
-                    <template slot-scope="scope">
-                      <span style="color:#FF9900">{{ scope.row.data_16 }}</span>
-                    </template>
-                  </el-table-column>
-                  <el-table-column
-                  prop="data_17"
-                  width="120"
-                    align="center"
-                  label="1月"
-                  >
+                    <el-table-column
+                      prop="data_16"
+                      width="150"
+                      align="center"
+                      label="总"
+                    >
+                      <template slot-scope="scope">
+                        <span style="color:#FF9900">{{ scope.row.data_16 }}</span>
+                      </template>
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_17"
+                      width="120"
+                      align="center"
+                      label="1月"
+                    >
 
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_18"
+                      width="120"
+                      align="center"
+                      label="2月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_19"
+                      width="120"
+                      align="center"
+                      label="3月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_20"
+                      width="120"
+                      align="center"
+                      label="4月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_21"
+                      width="120"
+                      align="center"
+                      label="5月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_22"
+                      width="120"
+                      align="center"
+                      label="6月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_23"
+                      width="120"
+                      align="center"
+                      label="7月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_24"
+                      width="120"
+                      align="center"
+                      label="8月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_25"
+                      width="120"
+                      align="center"
+                      label="9月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_26"
+                      width="120"
+                      align="center"
+                      label="10月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_27"
+                      width="120"
+                      align="center"
+                      label="11月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_28"
+                      width="120"
+                      align="center"
+                      label="12月"
+                    >
+                    </el-table-column>
                   </el-table-column>
-                  <el-table-column
-                    prop="data_18"
-                    width="120"
-                    align="center"
-                    label="2月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_19"
-                    width="120"
-                    align="center"
-                    label="3月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_20"
-                    width="120"
-                    align="center"
-                    label="4月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_21"
-                    width="120"
-                    align="center"
-                    label="5月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_22"
-                    width="120"
-                    align="center"
-                    label="6月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_23"
-                    width="120"
-                    align="center"
-                    label="7月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_24"
-                    width="120"
-                    align="center"
-                    label="8月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_25"
-                    width="120"
-                    align="center"
-                    label="9月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_26"
-                    width="120"
-                    align="center"
-                    label="10月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_27"
-                    width="120"
-                    align="center"
-                    label="11月"
-                  >
-                  </el-table-column>
-                  <el-table-column
-                    prop="data_28"
-                    width="120"
-                    align="center"
-                    label="12月"
-                  >
-                  </el-table-column>
+
                 </el-table>
               </div>
             </el-tab-pane>
@@ -407,17 +425,17 @@
                   <el-table-column
                     prop="data_1"
                     align="center"
-                    width="180"
+                    width="120"
                     label=""
                   >
                   </el-table-column>
-                  <el-table-column
-                    prop="data_2"
-                    align="center"
-                    width="100"
-                    label="年份"
-                  >
-                  </el-table-column>
+                  <!--<el-table-column-->
+                    <!--prop="data_2"-->
+                    <!--align="center"-->
+                    <!--width="100"-->
+                    <!--label="年份"-->
+                  <!--&gt;-->
+                  <!--</el-table-column>-->
                   <el-table-column
                     prop="data_3"
                     align="center"
@@ -772,6 +790,7 @@
               var _temp_type = this.tableData;  //客户用电情况
               $.map(this.par_form.user_list.list,function(data){
                 _temp_type.push({
+                  data_0: data.customerCode, //用户代码
                   data_1: data.customerName, //客户名称
                   data_2: _temp_year, //年份
                   data_3:data.totalAmount, //合同总电量-总,
@@ -843,7 +862,7 @@
             if(this.par_form.three_list != ""){
               this.tableData_2.push({
                   data_1: "缺口", //客户名称
-                  data_2: _temp_year, //年份
+//                  data_2: _temp_year, //年份
                   data_3:this.par_form.three_list.waterAmount, //合同总电量-总,
                   data_4: this.par_form.three_list.waterAmount1,  //1月
                   data_5: this.par_form.three_list.waterAmount2,

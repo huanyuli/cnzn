@@ -116,4 +116,12 @@ export default {
   thermalPowerPriceDetailService(params, success_callback, fail_callback) {
     withAxios.requestData('POST', 3,'/api/thermalPowerPriceDetailService', params, success_callback, fail_callback);
   },
+
+  /**
+   *  /api/customerCodeService 客户资料字典
+   */
+  customerCodeService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/customerCodeService', params, success_callback, fail_callback);
+  },
+
 }

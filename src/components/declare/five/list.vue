@@ -87,6 +87,12 @@
                   >
                   </el-table-column>
                   <el-table-column
+                    prop="data_2s"
+                    align="center"
+                    label="用户代码"
+                  >
+                  </el-table-column>
+                  <el-table-column
                     prop="data_2"
                     align="center"
                     label="客户"
@@ -159,6 +165,13 @@
                     type="index"
                     align="center"
                     label="序号"
+                  >
+                  </el-table-column>
+                  <el-table-column
+                    prop="data_2s"
+                    min-width="100px"
+                    align="center"
+                    label="用户代码"
                   >
                   </el-table-column>
                   <el-table-column
@@ -260,6 +273,13 @@
                     type="index"
                     align="center"
                     label="序号"
+                  >
+                  </el-table-column>
+                  <el-table-column
+                    prop="data_2s"
+                    align="center"
+                    min-width="120px"
+                    label="客户代码"
                   >
                   </el-table-column>
                   <el-table-column
@@ -638,6 +658,7 @@
 
               _temp_type.push({
                 data_2: data.customerName, //客户名称
+                data_2s: data.customerCode, //用户代码
                 data_3:data.year, //年份
                 data_4: data.laRich,  //长协价格（丰）
                 data_5: data.laFlat, //长协价格（平）
@@ -649,6 +670,7 @@
               });
               _temp_type1.push({
                 data_2: data.customerName, //客户名称
+                data_2s: data.customerCode, //用户代码
                 data_3:data.year, //年份
                 data_4: data.laMonth1,
                 data_5: data.laMonth2,
@@ -665,6 +687,7 @@
               });
               _temp_type2.push({
                 data_2: data.customerName, //客户名称
+                data_2s: data.customerCode, //客户名称
                 data_3:data.year, //年份
                 data_4: data.inMonth1,
                 data_5: data.inMonth2,

@@ -4,7 +4,7 @@
       <div class="ma_title">
         <div class="ma_title_left" @click="aff_cancel">
           <i class="el-icon-arrow-left"></i>
-          <p>报价</p>
+          <p>报量</p>
         </div>
       </div>
       <div class="ma_content">
@@ -49,159 +49,350 @@
           <div class="list_module   off_input">
             <div class="table_hint" style="margin-top: 20px">电量单位：千瓦时（kwh）</div>
             <div class="list_con" >
+
               <div class="table three_table">
+
                 <div class="table_tr table_title">
-                  <div class="table_td"><div class="table_td_w">类别</div></div>
-                  <div class="table_td"><div class="table_td_w"><span>*</span>总电量</div></div>
-                  <div class="table_td"><div class="table_td_w">1月</div></div>
-                  <div class="table_td"><div class="table_td_w">2月</div></div>
-                  <div class="table_td"><div class="table_td_w">3月</div></div>
-                  <div class="table_td"><div class="table_td_w">4月</div></div>
-                  <div class="table_td"><div class="table_td_w">5月</div></div>
-                  <div class="table_td"><div class="table_td_w">6月</div></div>
-                  <div class="table_td"><div class="table_td_w">7月</div></div>
-                  <div class="table_td"><div class="table_td_w">8月</div></div>
-                  <div class="table_td"><div class="table_td_w">9月</div></div>
-                  <div class="table_td"><div class="table_td_w">10月</div></div>
-                  <div class="table_td"><div class="table_td_w">11月</div></div>
-                  <div class="table_td"><div class="table_td_w">12月</div></div>
+                  <div class="table_td"><div class="table_td_w"> </div></div>
+                  <div class="table_td"><div class="table_td_w"> </div></div>
+                  <div class="table_td"><div class="table_td_w"> 计划用电量</div></div>
+                  <div class="table_td"><div class="table_td_w"> 富余电</div></div>
+                  <div class="table_td"><div class="table_td_w"> 直购电</div></div>
                 </div>
-                <div class="table_tr">
-                    <div class="table_td"><div class="table_td_w"> </div></div>
-                    <div class="table_td"><div class="table_td_w"> </div></div>
-                    <div class="table_td"><div class="table_td_w">枯</div></div>
-                    <div class="table_td"><div class="table_td_w">枯</div></div>
-                    <div class="table_td"><div class="table_td_w">枯</div></div>
-                    <div class="table_td"><div class="table_td_w">枯</div></div>
-                    <div class="table_td"><div class="table_td_w">平</div></div>
-                    <div class="table_td"><div class="table_td_w">丰</div></div>
-                    <div class="table_td"><div class="table_td_w">丰</div></div>
-                    <div class="table_td"><div class="table_td_w">丰</div></div>
-                    <div class="table_td"><div class="table_td_w">丰</div></div>
-                    <div class="table_td"><div class="table_td_w">丰</div></div>
-                    <div class="table_td"><div class="table_td_w">平</div></div>
-                    <div class="table_td"><div class="table_td_w">枯</div></div>
-                  </div>
                 <el-form :model="ruleThree" :rules="rules_three" ref="ruleThree" label-width="0px" class="demo-ruleForm">
-                  <div class="table_tr">
-                    <div class="table_td"><div class="table_td_w">计划用电量</div></div>
+                  <div class="table_tr ">
+                    <div class="table_td"><div class="table_td_w"><span>*</span>总电量</div></div>
+                    <div class="table_td"><div class="table_td_w">/</div></div>
                     <div class="table_td"><div class="table_td_w table_td_color">{{ruleThree.one_1 + ruleThree.one_2 + ruleThree.one_3 + ruleThree.one_4 + ruleThree.one_5 + ruleThree.one_6 + ruleThree.one_7 + ruleThree.one_8 + ruleThree.one_9 + ruleThree.one_10 + ruleThree.one_11 + ruleThree.one_12}}</div></div>
+                    <div class="table_td"><div class="table_td_w table_td_color" >{{ruleThree.two_6 + ruleThree.two_7 + ruleThree.two_8 + ruleThree.two_9 + ruleThree.two_10}}</div></div>
+                    <div class="table_td"><div class="table_td_w table_td_color">{{ruleThree.one_1 + ruleThree.one_2 + ruleThree.one_3 + ruleThree.one_4 + ruleThree.one_5 + ( ruleThree.one_6 - ruleThree.two_6 ) + ( this.ruleThree.one_7 - this.ruleThree.two_7 ) + ( this.ruleThree.one_8 - this.ruleThree.two_8 ) + ( this.ruleThree.one_9 - this.ruleThree.two_9 ) + ( this.ruleThree.one_10 - this.ruleThree.two_10 ) + ruleThree.one_11 + ruleThree.one_12}}</div></div>
+                  </div>
+                  <div class="table_tr ">
+                    <div class="table_td"><div class="table_td_w">1月</div></div>
+                    <div class="table_td"><div class="table_td_w">枯</div></div>
                     <div class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="one_1">
                         <el-input type="number" @change="changes('one_1',ruleThree.one_1)" v-model.number ="ruleThree.one_1"></el-input>
                       </el-form-item>
                     </div></div>
+                    <div class="table_td"><div class="table_td_w">/</div></div>
+                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_1}}</div></div>
+                  </div>
+                  <div class="table_tr ">
+                    <div class="table_td"><div class="table_td_w">2月</div></div>
+                    <div class="table_td"><div class="table_td_w">枯</div></div>
                     <div class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="one_2">
-                        <el-input type="number" @change="changes('one_2',ruleThree.one_2)" v-model.number="ruleThree.one_2"></el-input>
+                        <el-input type="number" @change="changes('one_2',ruleThree.one_2)" v-model.number ="ruleThree.one_2"></el-input>
                       </el-form-item>
                     </div></div>
+                    <div class="table_td"><div class="table_td_w">/</div></div>
+                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_2}}</div></div>
+                  </div>
+                  <div class="table_tr ">
+                    <div class="table_td"><div class="table_td_w">3月</div></div>
+                    <div class="table_td"><div class="table_td_w">枯</div></div>
                     <div class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="one_3">
-                        <el-input type="number" @change="changes('one_3',ruleThree.one_3)" v-model.number="ruleThree.one_3"></el-input>
+                        <el-input type="number" @change="changes('one_3',ruleThree.one_3)" v-model.number ="ruleThree.one_3"></el-input>
                       </el-form-item>
                     </div></div>
+                    <div class="table_td"><div class="table_td_w">/</div></div>
+                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_3}}</div></div>
+                  </div>
+                  <div class="table_tr ">
+                    <div class="table_td"><div class="table_td_w">4月</div></div>
+                    <div class="table_td"><div class="table_td_w">枯</div></div>
                     <div class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="one_4">
-                        <el-input type="number" @change="changes('one_4',ruleThree.one_4)" v-model.number="ruleThree.one_4"></el-input>
+                        <el-input type="number" @change="changes('one_4',ruleThree.one_4)" v-model.number ="ruleThree.one_4"></el-input>
                       </el-form-item>
                     </div></div>
+                    <div class="table_td"><div class="table_td_w">/</div></div>
+                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_4}}</div></div>
+                  </div>
+                  <div class="table_tr ">
+                    <div class="table_td"><div class="table_td_w">5月</div></div>
+                    <div class="table_td"><div class="table_td_w">平</div></div>
                     <div class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="one_5">
-                        <el-input type="number" @change="changes('one_5',ruleThree.one_5)" v-model.number="ruleThree.one_5"></el-input>
+                        <el-input type="number" @change="changes('one_5',ruleThree.one_5)" v-model.number ="ruleThree.one_5"></el-input>
                       </el-form-item>
                     </div></div>
+                    <div class="table_td"><div class="table_td_w">/</div></div>
+                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_5}}</div></div>
+                  </div>
+                  <div class="table_tr ">
+                    <div class="table_td"><div class="table_td_w">6月</div></div>
+                    <div class="table_td"><div class="table_td_w">丰</div></div>
                     <div class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="one_6">
-                        <el-input type="number" @change="changes('one_6',ruleThree.one_6)" v-model.number="ruleThree.one_6"></el-input>
+                        <el-input type="number" @change="changes('one_6',ruleThree.one_6)" v-model.number ="ruleThree.one_6"></el-input>
                       </el-form-item>
                     </div></div>
-                    <div class="table_td"><div class="table_td_w">
-                      <el-form-item label=""  prop="one_7">
-                        <el-input type="number" @change="changes('one_7',ruleThree.one_7)" v-model.number="ruleThree.one_7"></el-input>
-                      </el-form-item>
-                    </div></div>
-                    <div class="table_td"><div class="table_td_w">
-                      <el-form-item label=""  prop="one_8">
-                        <el-input type="number" @change="changes('one_8',ruleThree.one_8)" v-model.number="ruleThree.one_8"></el-input>
-                      </el-form-item>
-                    </div></div>
-                    <div class="table_td"><div class="table_td_w">
-                      <el-form-item label=""  prop="one_9">
-                        <el-input type="number" @change="changes('one_9',ruleThree.one_9)" v-model.number="ruleThree.one_9"></el-input>
-                      </el-form-item>
-                    </div></div>
-                    <div class="table_td"><div class="table_td_w">
-                      <el-form-item label=""  prop="one_10">
-                        <el-input type="number" @change="changes('one_10',ruleThree.one_10)" v-model.number="ruleThree.one_10"></el-input>
-                      </el-form-item>
-                    </div></div>
-                    <div class="table_td"><div class="table_td_w">
-                      <el-form-item label=""  prop="one_11">
-                        <el-input type="number" @change="changes('one_11',ruleThree.one_11)" v-model.number="ruleThree.one_11"></el-input>
-                      </el-form-item>
-                    </div></div>
-                    <div class="table_td"><div class="table_td_w">
-                      <el-form-item label=""  prop="one_12">
-                        <el-input type="number" @change="changes('one_12',ruleThree.one_12)" v-model.number="ruleThree.one_12"></el-input>
-                      </el-form-item>
-                    </div></div>
-                  </div>
-                  <div class="table_tr">
-                    <div class="table_td"><div class="table_td_w">富余电</div></div>
-                    <div class="table_td"><div class="table_td_w table_td_color" >{{ruleThree.two_6 + ruleThree.two_7 + ruleThree.two_8 + ruleThree.two_9 + ruleThree.two_10}}</div></div>
-                    <div class="table_td"><div class="table_td_w">/</div></div>
-                    <div class="table_td"><div class="table_td_w">/</div></div>
-                    <div class="table_td"><div class="table_td_w">/</div></div>
-                    <div class="table_td"><div class="table_td_w">/</div></div>
-                    <div class="table_td"><div class="table_td_w">/</div></div>
-                    <div class="table_td"><div class="table_td_w">
+                    <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w">/</div></div>
+                    <div  v-else="" class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="two_6">
                         <el-input type="number" @change="changes('two_6',ruleThree.two_6)" v-model.number="ruleThree.two_6"></el-input>
                       </el-form-item>
                     </div></div>
+                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_6 - this.ruleThree.two_6}}</div></div>
+                  </div>
+                  <div class="table_tr ">
+                    <div class="table_td"><div class="table_td_w">7月</div></div>
+                    <div class="table_td"><div class="table_td_w">丰</div></div>
                     <div class="table_td"><div class="table_td_w">
+                      <el-form-item label=""  prop="one_7">
+                        <el-input type="number" @change="changes('one_7',ruleThree.one_7)" v-model.number ="ruleThree.one_7"></el-input>
+                      </el-form-item>
+                    </div></div>
+                    <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w">/</div></div>
+                    <div  v-else="" class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="two_7">
                         <el-input type="number" @change="changes('two_7',ruleThree.two_7)" v-model.number="ruleThree.two_7"></el-input>
                       </el-form-item>
                     </div></div>
+                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_7 - this.ruleThree.two_7}}</div></div>
+                  </div>
+                  <div class="table_tr ">
+                    <div class="table_td"><div class="table_td_w">8月</div></div>
+                    <div class="table_td"><div class="table_td_w">丰</div></div>
                     <div class="table_td"><div class="table_td_w">
+                      <el-form-item label=""  prop="one_8">
+                        <el-input type="number" @change="changes('one_8',ruleThree.one_8)" v-model.number ="ruleThree.one_8"></el-input>
+                      </el-form-item>
+                    </div></div>
+                    <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w">/</div></div>
+                    <div  v-else="" class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="two_8">
                         <el-input type="number" @change="changes('two_8',ruleThree.two_8)" v-model.number="ruleThree.two_8"></el-input>
                       </el-form-item>
                     </div></div>
+                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_8 - this.ruleThree.two_8}}</div></div>
+                  </div>
+                  <div class="table_tr ">
+                    <div class="table_td"><div class="table_td_w">9月</div></div>
+                    <div class="table_td"><div class="table_td_w">丰</div></div>
                     <div class="table_td"><div class="table_td_w">
+                      <el-form-item label=""  prop="one_9">
+                        <el-input type="number" @change="changes('one_9',ruleThree.one_9)" v-model.number ="ruleThree.one_9"></el-input>
+                      </el-form-item>
+                    </div></div>
+                    <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w">/</div></div>
+                    <div  v-else="" class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="two_9">
                         <el-input type="number" @change="changes('two_9',ruleThree.two_9)" v-model.number="ruleThree.two_9"></el-input>
                       </el-form-item>
                     </div></div>
+                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_9 - this.ruleThree.two_9}}</div></div>
+                  </div>
+                  <div class="table_tr ">
+                    <div class="table_td"><div class="table_td_w">10月</div></div>
+                    <div class="table_td"><div class="table_td_w">丰</div></div>
                     <div class="table_td"><div class="table_td_w">
+                      <el-form-item label=""  prop="one_10">
+                        <el-input type="number" @change="changes('one_10',ruleThree.one_10)" v-model.number ="ruleThree.one_10"></el-input>
+                      </el-form-item>
+                    </div></div>
+                    <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w">/</div></div>
+                    <div  v-else="" class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="two_10">
                         <el-input type="number" @change="changes('two_10',ruleThree.two_10)" v-model.number="ruleThree.two_10"></el-input>
                       </el-form-item>
                     </div></div>
-                    <div class="table_td"><div class="table_td_w">/</div></div>
-                    <div class="table_td"><div class="table_td_w">/</div></div>
-                  </div>
-                  <div class="table_tr table_tr_input">
-                    <div class="table_td"><div class="table_td_w">直购电</div></div>
-                    <div class="table_td"><div class="table_td_w table_td_color">{{ruleThree.one_1 + ruleThree.one_2 + ruleThree.one_3 + ruleThree.one_4 + ruleThree.one_5 + ( ruleThree.one_6 - ruleThree.two_6 ) + ( this.ruleThree.one_7 - this.ruleThree.two_7 ) + ( this.ruleThree.one_8 - this.ruleThree.two_8 ) + ( this.ruleThree.one_9 - this.ruleThree.two_9 ) + ( this.ruleThree.one_10 - this.ruleThree.two_10 ) + ruleThree.one_11 + ruleThree.one_12}}</div></div>
-                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_1}}</div></div>
-                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_2}}</div></div>
-                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_3}}</div></div>
-                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_4}}</div></div>
-                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_5}}</div></div>
-                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_6 - this.ruleThree.two_6}}</div></div>
-                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_7 - this.ruleThree.two_7}}</div></div>
-                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_8 - this.ruleThree.two_8}}</div></div>
-                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_9 - this.ruleThree.two_9}}</div></div>
                     <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_10 - this.ruleThree.two_10}}</div></div>
+                  </div>
+                  <div class="table_tr ">
+                    <div class="table_td"><div class="table_td_w">11月</div></div>
+                    <div class="table_td"><div class="table_td_w">平</div></div>
+                    <div class="table_td"><div class="table_td_w">
+                      <el-form-item label=""  prop="one_11">
+                        <el-input type="number" @change="changes('one_11',ruleThree.one_11)" v-model.number ="ruleThree.one_11"></el-input>
+                      </el-form-item>
+                    </div></div>
+                    <div class="table_td" ><div class="table_td_w">/</div></div>
                     <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_11}}</div></div>
+                  </div>
+                  <div class="table_tr ">
+                    <div class="table_td"><div class="table_td_w">12月</div></div>
+                    <div class="table_td"><div class="table_td_w">枯</div></div>
+                    <div class="table_td"><div class="table_td_w">
+                      <el-form-item label=""  prop="one_12">
+                        <el-input type="number" @change="changes('one_12',ruleThree.one_12)" v-model.number ="ruleThree.one_12"></el-input>
+                      </el-form-item>
+                    </div></div>
+                    <div class="table_td" ><div class="table_td_w">/</div></div>
                     <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_12}}</div></div>
                   </div>
                 </el-form>
-
               </div>
+
+    <!--横向表格  开始   -->
+              <!--<div class="table three_table">-->
+                <!--<div class="table_tr table_title">-->
+                  <!--<div class="table_td"><div class="table_td_w">类别</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w"><span>*</span>总电量</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">1月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">2月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">3月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">4月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">5月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">6月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">7月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">8月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">9月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">10月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">11月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">12月</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w"> </div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w"> </div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">枯</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">枯</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">枯</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">枯</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">平</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">丰</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">丰</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">丰</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">丰</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">丰</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">平</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">枯</div></div>-->
+                <!--</div>-->
+                <!--<el-form :model="ruleThree" :rules="rules_three" ref="ruleThree" label-width="0px" class="demo-ruleForm">-->
+                  <!--<div class="table_tr">-->
+                    <!--<div class="table_td"><div class="table_td_w">计划用电量</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w table_td_color">{{ruleThree.one_1 + ruleThree.one_2 + ruleThree.one_3 + ruleThree.one_4 + ruleThree.one_5 + ruleThree.one_6 + ruleThree.one_7 + ruleThree.one_8 + ruleThree.one_9 + ruleThree.one_10 + ruleThree.one_11 + ruleThree.one_12}}</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">-->
+                      <!--<el-form-item label=""  prop="one_1">-->
+                        <!--<el-input type="number" @change="changes('one_1',ruleThree.one_1)" v-model.number ="ruleThree.one_1"></el-input>-->
+                      <!--</el-form-item>-->
+                    <!--</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">-->
+                      <!--<el-form-item label=""  prop="one_2">-->
+                        <!--<el-input type="number" @change="changes('one_2',ruleThree.one_2)" v-model.number="ruleThree.one_2"></el-input>-->
+                      <!--</el-form-item>-->
+                    <!--</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">-->
+                      <!--<el-form-item label=""  prop="one_3">-->
+                        <!--<el-input type="number" @change="changes('one_3',ruleThree.one_3)" v-model.number="ruleThree.one_3"></el-input>-->
+                      <!--</el-form-item>-->
+                    <!--</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">-->
+                      <!--<el-form-item label=""  prop="one_4">-->
+                        <!--<el-input type="number" @change="changes('one_4',ruleThree.one_4)" v-model.number="ruleThree.one_4"></el-input>-->
+                      <!--</el-form-item>-->
+                    <!--</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">-->
+                      <!--<el-form-item label=""  prop="one_5">-->
+                        <!--<el-input type="number" @change="changes('one_5',ruleThree.one_5)" v-model.number="ruleThree.one_5"></el-input>-->
+                      <!--</el-form-item>-->
+                    <!--</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">-->
+                      <!--<el-form-item label=""  prop="one_6">-->
+                        <!--<el-input type="number" @change="changes('one_6',ruleThree.one_6)" v-model.number="ruleThree.one_6"></el-input>-->
+                      <!--</el-form-item>-->
+                    <!--</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">-->
+                      <!--<el-form-item label=""  prop="one_7">-->
+                        <!--<el-input type="number" @change="changes('one_7',ruleThree.one_7)" v-model.number="ruleThree.one_7"></el-input>-->
+                      <!--</el-form-item>-->
+                    <!--</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">-->
+                      <!--<el-form-item label=""  prop="one_8">-->
+                        <!--<el-input type="number" @change="changes('one_8',ruleThree.one_8)" v-model.number="ruleThree.one_8"></el-input>-->
+                      <!--</el-form-item>-->
+                    <!--</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">-->
+                      <!--<el-form-item label=""  prop="one_9">-->
+                        <!--<el-input type="number" @change="changes('one_9',ruleThree.one_9)" v-model.number="ruleThree.one_9"></el-input>-->
+                      <!--</el-form-item>-->
+                    <!--</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">-->
+                      <!--<el-form-item label=""  prop="one_10">-->
+                        <!--<el-input type="number" @change="changes('one_10',ruleThree.one_10)" v-model.number="ruleThree.one_10"></el-input>-->
+                      <!--</el-form-item>-->
+                    <!--</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">-->
+                      <!--<el-form-item label=""  prop="one_11">-->
+                        <!--<el-input type="number" @change="changes('one_11',ruleThree.one_11)" v-model.number="ruleThree.one_11"></el-input>-->
+                      <!--</el-form-item>-->
+                    <!--</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">-->
+                      <!--<el-form-item label=""  prop="one_12">-->
+                        <!--<el-input type="number" @change="changes('one_12',ruleThree.one_12)" v-model.number="ruleThree.one_12"></el-input>-->
+                      <!--</el-form-item>-->
+                    <!--</div></div>-->
+                  <!--</div>-->
+                  <!--<div class="table_tr">-->
+                    <!--<div class="table_td"><div class="table_td_w">富余电</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w table_td_color" >{{ruleThree.two_6 + ruleThree.two_7 + ruleThree.two_8 + ruleThree.two_9 + ruleThree.two_10}}</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">/</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">/</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">/</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">/</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">/</div></div>-->
+                    <!--<div v-if="this.isBigIndustry == true">-->
+                      <!--<div class="table_td"><div class="table_td_w">/</div></div>-->
+                      <!--<div class="table_td"><div class="table_td_w">/</div></div>-->
+                      <!--<div class="table_td"><div class="table_td_w">/</div></div>-->
+                      <!--<div class="table_td"><div class="table_td_w">/</div></div>-->
+                      <!--<div class="table_td"><div class="table_td_w">/</div></div>-->
+                    <!--</div>-->
+                    <!--<div v-if="this.isBigIndustry == false">-->
+                      <!--<div class="table_td"><div class="table_td_w">-->
+                        <!--<el-form-item label=""  prop="two_6">-->
+                          <!--<el-input type="number" @change="changes('two_6',ruleThree.two_6)" v-model.number="ruleThree.two_6"></el-input>-->
+                        <!--</el-form-item>-->
+                      <!--</div></div>-->
+                      <!--<div class="table_td"><div class="table_td_w">-->
+                        <!--<el-form-item label=""  prop="two_7">-->
+                          <!--<el-input type="number" @change="changes('two_7',ruleThree.two_7)" v-model.number="ruleThree.two_7"></el-input>-->
+                        <!--</el-form-item>-->
+                      <!--</div></div>-->
+                      <!--<div class="table_td"><div class="table_td_w">-->
+                        <!--<el-form-item label=""  prop="two_8">-->
+                          <!--<el-input type="number" @change="changes('two_8',ruleThree.two_8)" v-model.number="ruleThree.two_8"></el-input>-->
+                        <!--</el-form-item>-->
+                      <!--</div></div>-->
+                      <!--<div class="table_td"><div class="table_td_w">-->
+                        <!--<el-form-item label=""  prop="two_9">-->
+                          <!--<el-input type="number" @change="changes('two_9',ruleThree.two_9)" v-model.number="ruleThree.two_9"></el-input>-->
+                        <!--</el-form-item>-->
+                      <!--</div></div>-->
+                      <!--<div class="table_td"><div class="table_td_w">-->
+                        <!--<el-form-item label=""  prop="two_10">-->
+                          <!--<el-input type="number" @change="changes('two_10',ruleThree.two_10)" v-model.number="ruleThree.two_10"></el-input>-->
+                        <!--</el-form-item>-->
+                      <!--</div></div>-->
+                    <!--</div>-->
+
+                    <!--<div class="table_td"><div class="table_td_w">/</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">/</div></div>-->
+                  <!--</div>-->
+                  <!--<div class="table_tr table_tr_input">-->
+                    <!--<div class="table_td"><div class="table_td_w">直购电</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w table_td_color">{{ruleThree.one_1 + ruleThree.one_2 + ruleThree.one_3 + ruleThree.one_4 + ruleThree.one_5 + ( ruleThree.one_6 - ruleThree.two_6 ) + ( this.ruleThree.one_7 - this.ruleThree.two_7 ) + ( this.ruleThree.one_8 - this.ruleThree.two_8 ) + ( this.ruleThree.one_9 - this.ruleThree.two_9 ) + ( this.ruleThree.one_10 - this.ruleThree.two_10 ) + ruleThree.one_11 + ruleThree.one_12}}</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">{{this.ruleThree.one_1}}</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">{{this.ruleThree.one_2}}</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">{{this.ruleThree.one_3}}</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">{{this.ruleThree.one_4}}</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">{{this.ruleThree.one_5}}</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">{{this.ruleThree.one_6 - this.ruleThree.two_6}}</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">{{this.ruleThree.one_7 - this.ruleThree.two_7}}</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">{{this.ruleThree.one_8 - this.ruleThree.two_8}}</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">{{this.ruleThree.one_9 - this.ruleThree.two_9}}</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">{{this.ruleThree.one_10 - this.ruleThree.two_10}}</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">{{this.ruleThree.one_11}}</div></div>-->
+                    <!--<div class="table_td"><div class="table_td_w">{{this.ruleThree.one_12}}</div></div>-->
+                  <!--</div>-->
+                <!--</el-form>-->
+
+              <!--</div>-->
+    <!--横向表格  结束   -->
+
             </div>
           </div>
           <div class="ma_btn_S">
@@ -233,6 +424,7 @@
           find_3:"",
           find_4:"",
         },
+        isBigIndustry:false,
         par:{
           id:"",
           name:"", //业务员
@@ -254,6 +446,7 @@
           one_10:0,
           one_11:0,
           one_12:0,
+
           two_5:0,
           two_6:0,
           two_7:0,
@@ -262,6 +455,7 @@
           two_10:0,
           two_11:0,
           two_12:0,
+
           three_1:0,
           three_2:0,
           three_3:0,
@@ -376,6 +570,7 @@
           this.bj_list.id_1 = this.par_form.find_list.plan.id
           this.bj_list.id_2 = this.par_form.find_list.surplus.id
           this.bj_list.id_3 = this.par_form.find_list.direct.id
+          this.isBigIndustry = this.par_form.find_list.isBigIndustry
         });
       },
       find_screen(){ //筛选
@@ -886,7 +1081,7 @@
     /*margin-bottom: 10px;*/
   }
   .table{
-    width: 160%;
+    width: 90%;
     margin: 0 auto;
     border:1px solid rgba(234,234,234,1)
   }
@@ -915,7 +1110,7 @@
 
   /*第三步骤的table宽度*/
   .three_table .table_tr .table_td{
-    width: calc(96% / 14);
+    width: calc(96% / 5);
     line-height: 50px;
     float: left;
   }

@@ -110,6 +110,11 @@
                     <el-input size="medium" v-model="ruleForm.one_14" placeholder=""></el-input>
                   </el-form-item>
                 </div>
+                <div class="list_con_input">
+                  <el-form-item label="用户代码" prop="one_15">
+                    <el-input size="medium" v-model="ruleForm.one_15" placeholder=""></el-input>
+                  </el-form-item>
+                </div>
               </el-form>
             </div>
           </div>
@@ -1195,6 +1200,7 @@
           one_12:"",
           one_13:"",
           one_14:"",
+          one_15:"",  //用户代码
 
         },
         rules: {  //第一步的验证
@@ -1858,6 +1864,7 @@
             contactNumber:this.ruleForm.one_13, //办公电话
             voltageLevel:this.ruleTwo.two_2, //电压等级
             totalUsePowerAmount:this.ruleTwo.two_6s, //总用电容量
+            customerCode:this.ruleForm.one_15, //用户代码
           },
         }
         this.add_create = JSON.stringify(this.add_create);
@@ -2032,6 +2039,9 @@
           }
           if(gd_info.contactAddress != "" && gd_info.contactAddress != undefined){
             this.ruleForm.one_14 = gd_info.contactAddress; //通讯地址
+          }
+          if(gd_info.customerCode != "" && gd_info.customerCode != undefined){
+            this.ruleForm.one_15 = gd_info.customerCode; //用户代码
           }
 
           if(gd_info.email != "" && gd_info.email != undefined){

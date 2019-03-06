@@ -3,7 +3,7 @@
     <div class="marterial">
       <div class="ma_title">
         <span></span>
-        <p>报价环节</p>
+        <p>报量环节</p>
       </div>
       <div class="ma_content">
         <div class="ma_screen">
@@ -107,6 +107,12 @@
                >
               </el-table-column>
               <el-table-column
+                prop="data_5s"
+                align="center"
+                label="用电类别"
+              >
+              </el-table-column>
+              <el-table-column
                 prop="data_6"
                 align="center"
                 label="客户签约状态"
@@ -124,7 +130,7 @@
                 min-width="100"
               >
                 <template slot-scope="scope">
-                  <el-button class="bj_btn" @click="handleClick(scope.row)" plain>报价</el-button>
+                  <el-button class="bj_btn" @click="handleClick(scope.row)" plain>报量</el-button>
                   <el-button @click="deleClick(scope.row)" plain>删除</el-button>
                 </template>
               </el-table-column>
@@ -165,10 +171,28 @@
                   </el-select>
                 </el-form-item>
                 <el-form-item label="客户名称"  prop="vue_2">
-                  <el-select style="width: 100%;"  v-model="ruleForm.vue_2" filterable  allow-create
-                             default-first-option remote clearable reserve-keyword placeholder="请输入关键词" :remote-method="remoteMethod" :loading="loading">
+                  <el-select style="width: 100%;" @change="find_blur"  v-model="ruleForm.vue_2" filterable  allow-create
+                             default-first-option remote clearable reserve-keyword placeholder="请输入关键词" :remote-method="remoteMethod" :loading="loading" >
                     <el-option
                       v-for="item in options4"
+                      :key="item.value"
+                      :label="item.label"
+                      :value="item.value">
+                    </el-option>
+                  </el-select>
+                </el-form-item>
+                <el-form-item label="用电类别"  prop="vue_3">
+                  <el-select  size="medium" v-model="ruleForm.vue_3"  v-if="this.select_disabled == true" disabled clearable placeholder="请选择">
+                    <el-option
+                      v-for="item in form_two_4"
+                      :key="item.value"
+                      :label="item.label"
+                      :value="item.value">
+                    </el-option>
+                  </el-select>
+                  <el-select  size="medium" v-model="ruleForm.vue_3"  v-if="this.select_disabled == false" clearable placeholder="请选择">
+                    <el-option
+                      v-for="item in form_two_4"
                       :key="item.value"
                       :label="item.label"
                       :value="item.value">
@@ -197,6 +221,7 @@
     data() {
       return {
         no_val:1,
+        select_disabled:false,
         linkAlert:false,
         form_1:[],
         form_2:[],
@@ -208,6 +233,9 @@
         ],
         form_4:[],
         form_select:[],
+        form_two_4:[],  //用电类别
+        form_two_body:[],  //用电类别
+
         finds:{
           find_1:0,
           find_2:"",
@@ -218,6 +246,7 @@
           vue_0:"",
           vue_1:"",
           vue_2:"",
+          vue_3:"",
         },
         rules:{
           vue_0:[
@@ -228,6 +257,9 @@
           ],
           vue_2:[
             { required: true, message: '请输入客户名称', trigger: 'blur' },
+          ],
+          vue_3:[
+            { required: true, message: '请选择用电类别', trigger: 'change' },
           ],
         },
 
@@ -333,6 +365,7 @@
                 data_3:data.industry, //客户类型
                 data_4: data.city,  //所在区域
                 data_5: data.mainPower, //主要电源
+                data_5s: data.usePowerType, //主要电源
                 data_6: data.signStatus, //签约状态
                 data_7: data.businessUserName  //业务员名称
               });
@@ -385,12 +418,41 @@
                   return item.label.toLowerCase()
                       .indexOf(query.toLowerCase()) > -1;
                 });
+
               });
 
             }, 200);
         } else {
           this.options4 = [];
         }
+      },
+      find_blur(){ //选择甲方名称后
+        if(this.ruleForm.vue_2 != ""){
+          var _index; //选中的值的下标
+          for(var i=0;i<this.states.length;i++){ //获取选中的值的下标
+            if(this.states[i]==this.ruleForm.vue_2){
+              _index = i;
+            }
+          }
+          var gd_info = this.gd_list[_index];
+          if(gd_info.usePowerType != undefined && gd_info.usePowerType != null && gd_info.usePowerType != "" ){
+            this.ruleForm.vue_3 = gd_info.usePowerType
+            this.select_disabled = true
+          }else {
+            this.ruleForm.vue_3 = ""
+            this.select_disabled = false
+          }
+        }else{
+          this.ruleForm.vue_3 = ""
+          this.select_disabled = false
+        }
+
+
+
+
+
+
+
       },
       add_bj(){
         this.$refs["ruleForm"].validate((valid) => {
@@ -488,6 +550,21 @@
             label:value.name
           });
         });
+      });
+
+      ajax_list.customerCodeService(this.par_form.area, res => {  //列表字典
+        this.$emit('login-success', res);
+      }, (res) => {
+        if(res.status == 200) {
+          this.form_two_body = res.body;
+          var _temp_two_4 = this.form_two_4;  //用电类别
+          $.map(this.form_two_body.usePowerType, function (value, key) {
+            _temp_two_4.push({
+              value: key,
+              label: value
+            });
+          });
+        }
       });
 
     }

@@ -3,14 +3,14 @@
     <div class="left_two">
       <div v-if="show_map(10) == 10" @click='aa' class="left_two_list" :class="{click_list:this.click_index == 1}">
         <div class="list_right">
-          <p>报价环节</p>
+          <p>报量环节</p>
         </div>
       </div>
-      <div v-if="show_map(11) == 11" @click='bb' class="left_two_list" :class="{click_list:this.click_index == 2}">
-        <div class="list_right list_right_one">
-          <p>客户合同价格统计</p>
-        </div>
-      </div>
+      <!--<div v-if="show_map(11) == 11" @click='bb' class="left_two_list" :class="{click_list:this.click_index == 2}">-->
+        <!--<div class="list_right list_right_one">-->
+          <!--<p>客户合同价格统计</p>-->
+        <!--</div>-->
+      <!--</div>-->
     </div>
     <div class="right_two">
       <router-view></router-view>
@@ -36,11 +36,11 @@
         this.click_index = 1;
         this.$router.push('/Offer/tache');
       },
-      bb(){
-        this.click_index = 2;
-        this.$router.push('/Offer/clientList');
-//        this.dl_css();
-      },
+//      bb(){
+//        this.click_index = 2;
+//        this.$router.push('/Offer/clientList');
+////        this.dl_css();
+//      },
       show_map(id){
         let obj = {};
         if( this.menuList != ""){
@@ -62,10 +62,11 @@
       if(this.show_map(10) == 10){
         this.click_index =1;
         this.$router.push('/Offer/tache');
-      }else if(this.show_map(10) != 10 && this.show_map(11) == 11){
-        this.click_index = 2;
-        this.$router.push('/Offer/clientList');
       }
+//      else if(this.show_map(10) != 10 && this.show_map(11) == 11){
+//        this.click_index = 2;
+//        this.$router.push('/Offer/clientList');
+//      }
     }
   }
 </script>

@@ -18,7 +18,7 @@
         <div class="top_de"><span>{{this.date_list.industry}}</span><span>{{this.date_list.province}}</span><span>创建人：{{this.date_list.createUserName}}</span><span>创建日期：{{ get_date(this.date_list.createAt)}}</span></div>
         <div class="top_btn">
           <el-button size="mini" @click="deta_edit" plain>编辑</el-button>
-          <el-button size="mini" @click="open2" plain>删除</el-button>
+          <el-button v-if="show_map(24) == 24" size="mini" @click="open2" plain>删除</el-button>
         </div>
         <div class="deta_div">
           <!--<div class="deta_div_title"><span>企业信息</span></div>-->
@@ -126,6 +126,7 @@
         data_dele:"",  //删除客户详情参数
 
         date_list:"", //客户详情数据
+        menuList:{}
     }
 
     },
@@ -172,10 +173,32 @@
 //            message: '已取消删除'
 //          });
         });
+      },
+      show_map(id){
+    let obj = {};
+    if( this.menuList != ""){
+      obj =  this.menuList.find((item)=>{
+        return item.id === id;
+      });
+
+
+      if(obj != undefined){
+
+        return obj.id
+      }else{
+        return ""
+
       }
+    }else {
+      return ""
+    }
+
+
+  },
     },
     //生命周期钩子函数，进入页面显示之前获取数据到store
     created() {
+      this.menuList = JSON.parse(localStorage.getItem('menuList'));
       this.one_id = this.$route.params.one
       this.one_type = this.$route.params.two
       this.data_form = "{ 'id':"+ this.one_id +"}"

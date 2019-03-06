@@ -79,6 +79,12 @@
               sum-text="汇总"
               style="width: 100%;text-align: center">
               <el-table-column
+                prop="data_0"
+                align="center"
+                label="用户代码"
+              >
+              </el-table-column>
+              <el-table-column
                 prop="data_1"
                 align="center"
                 label="客户名称"
@@ -324,6 +330,7 @@
             $.map( this.par_form.find_list.list,function(data){
               _temp_type.push({
                 data_1: data.customerName, //客户名称
+                data_0: data.customerCode, //用户代码
                 data_2: data.total,
                 data_3:data.month6,
                 data_4: data.month7,

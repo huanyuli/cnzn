@@ -50,9 +50,16 @@
               show-summary
               style="width: 100%;text-align: center">
               <el-table-column
+                prop="data_0"
+                align="center"
+                width="80"
+                label="用户代码"
+              >
+              </el-table-column>
+              <el-table-column
                 prop="data_1"
                 align="center"
-                width="120"
+                width="140"
                 label="客户名称"
               >
               </el-table-column>
@@ -487,6 +494,7 @@
                 data_id:data.id,
                 data_year:data.year,
                 data_month:data.month,
+                data_0: data.customerCode, //用户代码
                 data_1: data.customerName, //客户名称
                 data_2: data.contractPowerAmount, //当月合同直购电电量,
                 data_3:data.surplusPowerBase, //当月富余电基数

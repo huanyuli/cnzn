@@ -36,7 +36,7 @@
                 <span>合同管理</span></li>
               <li v-if="show_map(9) == 9 " @click='dl_st' :class="{click_icon:this.click_home == 4}">
                 <i class="cn_icon st_icon"></i>
-                <span>报价环节</span></li>
+                <span>报量环节</span></li>
               <li v-if="show_map(13) == 13 " @click='dl_es' :class="{click_icon:this.click_home == 5}">
                 <i class="cn_icon es_icon"></i>
                 <span>电量申报</span></li>
@@ -99,7 +99,7 @@
            }
 
           },
-          dl_st(){ //报价环节
+          dl_st(){ //报量环节
             if(this.click_home != 4){
               this.click_home = 4;
               this.$router.push('/Offer');
@@ -366,7 +366,7 @@
     background: url("../assets/aImg/es_selected.png") center no-repeat!important;
   }
 
-  /*报价环节图标*/
+  /*报量环节图标*/
   .st_icon{
     height: 21px!important;
     background: url("../assets/aImg/st.png") center no-repeat;
