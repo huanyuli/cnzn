@@ -712,6 +712,9 @@
           two_3:[
             { required: true, message: '请选择电压等级', trigger: 'change' },
           ],
+          two_4:[
+            { required: true, message: '请选择用电类别', trigger: 'change' },
+          ],
           two_11:[
             { required: true, message: '请输入所属供电公司', trigger: 'blur' },
           ],

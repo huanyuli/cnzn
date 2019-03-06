@@ -74,6 +74,12 @@
                   show-summary
                   style="width: 100%;text-align: center">
                   <el-table-column
+                    prop="data_0"
+                    align="center"
+                    label="用户代码"
+                  >
+                  </el-table-column>
+                  <el-table-column
                     prop="data_1"
                     align="center"
                     label="客户"
@@ -1008,6 +1014,7 @@
                   var _temp_type = this.tableData_1;
                   $.map( this.par_form.mn_find_list.list,function(data){
                     _temp_type.push({
+                      data_0: data.customerCode, //客户名称
                       data_1: data.customerName, //客户名称
                       data_2: data.contractPowerAmount, //月合同直购电量
                       data_3: data.surplusPowerBase, //当月富余电基数

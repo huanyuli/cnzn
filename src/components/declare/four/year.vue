@@ -21,6 +21,19 @@
                 </el-select>
               </div>
             </div>
+            <div v-if="this.no_find == 0" class="ma_ui_div">
+              <p>数据来源：</p>
+              <div class="input_ss">
+                <el-select style="width: 100%;" size="medium" v-model="finds.find_4" placeholder="">
+                  <el-option
+                    v-for="item in form_4"
+                    :key="item.value"
+                    :label="item.label"
+                    :value="item.value">
+                  </el-option>
+                </el-select>
+              </div>
+            </div>
             <div v-if="this.no_find == 2" class="ma_ui_div" style="padding-bottom: 10px">
               <el-button size="small" type="primary" @click="find_screen">查询</el-button>
               <el-button size="small" @click="empty_find">清空</el-button>
@@ -62,7 +75,7 @@
         </div>
         <div class="content_list year_list">
           <el-tabs v-model="activeName2" type="card" @tab-click="handleClick">
-            <el-tab-pane label="客户用电情况" name="first">
+            <el-tab-pane label="客户用电情况1" name="first">
               <p class="table_title_s">电量单位：千瓦时（kWh）</p>
               <div class="list_table">
                 <el-table
@@ -291,7 +304,54 @@
                     >
                     </el-table-column>
                   </el-table-column>
+                  <el-table-column
+                    align="center"
+                    label="富余电"
+                  >
 
+                    <el-table-column
+                      prop="data_29"
+                      width="120"
+                      align="center"
+                      label="6月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_30"
+                      width="120"
+                      align="center"
+                      label="7月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_31"
+                      width="120"
+                      align="center"
+                      label="8月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_32"
+                      width="120"
+                      align="center"
+                      label="9月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_33"
+                      width="120"
+                      align="center"
+                      label="10月"
+                    >
+                    </el-table-column>
+                    <el-table-column
+                      prop="data_34"
+                      width="120"
+                      align="center"
+                      label="数据来源"
+                    >
+                    </el-table-column>
+                  </el-table-column>
                 </el-table>
               </div>
             </el-tab-pane>
@@ -627,6 +687,16 @@
         tableData_1:[],
         tableData_2:[],
         form_1:[],
+        form_4:[
+          {
+            value: 'import',
+            label: '导入'
+          },
+          {
+            value: 'contract',
+            label: '合同'
+          },
+        ],
         par_form:{
           find_area:"",
           area:"",
@@ -648,7 +718,9 @@
         rules:{},
         finds:{
             find_1:0,
-          find_2:""
+          find_2:"",
+          find_4:"import",
+
         },
 
         ruleForm_1:{
@@ -788,7 +860,13 @@
             if(this.par_form.user_list.list.length != 0){
               this.tableData = []
               var _temp_type = this.tableData;  //客户用电情况
+              var _dataSourceType = ""
               $.map(this.par_form.user_list.list,function(data){
+                  if(data.dataSourceType == "import"){
+                    _dataSourceType ="导入"
+                  }else{
+                    _dataSourceType ="合同"
+                  }
                 _temp_type.push({
                   data_0: data.customerCode, //用户代码
                   data_1: data.customerName, //客户名称
@@ -819,6 +897,12 @@
                   data_26: data.waterAmount10,
                   data_27: data.waterAmount11,
                   data_28: data.waterAmount12,
+                  data_29: data.surplusAmount6,
+                  data_30: data.surplusAmount7,
+                  data_31: data.surplusAmount8,
+                  data_32: data.surplusAmount9,
+                  data_33: data.surplusAmount10,
+                  data_34: _dataSourceType,
                 });
               });
 
@@ -883,13 +967,13 @@
         }
       },
       default_list(year){ //默认查询列表
-        var _temp_data = "{'year':"+ year +"}"
+        var _temp_data = "{'year':"+ year +",'dataSourceType':'"+  this.finds.find_4+"}"
         this.find_list(_temp_data)
       },
       find_screen(){ //筛选
         var _temp_data = "{}"
         if(this.no_find  == 0){  //客户用电情况
-          _temp_data ="{'year':"+ this.finds.find_1 +",'customerName':'"+  this.value9 +"'}"
+          _temp_data ="{'year':"+ this.finds.find_1 +",'customerName':'"+  this.value9 +",'dataSourceType':'"+  this.finds.find_4 +"'}"
         }else if(this.no_find  == 1){ //已购电情况
           _temp_data ="{'year':"+ this.finds.find_1 +",'powerPlantName':'"+  this.finds.find_2 +"'}"
         }else if(this.no_find  == 2){ //用电缺口

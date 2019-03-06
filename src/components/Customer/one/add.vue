@@ -694,6 +694,9 @@
           one_16:[
             { validator: checkEmail, trigger: 'blur' }
           ],
+          two_4:[
+            { required: true, message: '请选择用电类别', trigger: 'blur' },
+          ],
         },
         ruleTwo:{
           two_1:[],

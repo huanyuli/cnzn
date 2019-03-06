@@ -105,14 +105,20 @@
                   >
                   </el-table-column>
                   <el-table-column
+                    prop="data_10s"
+                    align="center"
+                    label="富余电月度增量价格"
+                  >
+                  </el-table-column>
+                  <el-table-column
                     prop="data_10"
                     align="center"
-                    label="富余电价格"
+                    label="富余电年度交易价格"
                   >
                   </el-table-column>
                   <el-table-column
                     align="center"
-                    label="长协价格"
+                    label="长协年度交易价格"
                   >
                     <el-table-column
                       prop="data_4"
@@ -666,7 +672,8 @@
                 data_7: data.monthRich , //月度增量价格（丰）
                 data_8: data.monthRich , //月度增量价格（平）
                 data_9: data.monthRich , //月度增量价格（枯）
-                data_10: data.surplus , //月度增量价格（枯）
+                data_10: data.surplusYearPrice , //富余电年度交易价格
+                data_10s: data.surplusMonthPrice , //富余电月度增量价格
               });
               _temp_type1.push({
                 data_2: data.customerName, //客户名称
