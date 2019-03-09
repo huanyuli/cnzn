@@ -38,7 +38,7 @@
         </div>
         <div class="ma_btn">
           <el-button size="small" v-if="show_map(16) == 16" @click="add_alert" type="primary" >冻结数据</el-button>
-          <!--<el-button size="small" type="primary" >导出列表</el-button>-->
+          <el-button size="small" type="primary" @click="import_list" >导出列表</el-button>
         </div>
         <div v-if="this.no_val == 1" class="content_list">
           <p class="table_title">电量单位：千瓦时（kWh）</p>
@@ -417,6 +417,14 @@
           this.$refs["ruleForm"].resetFields();
         }
         this.linkAlert = true
+      },
+      import_list(){
+        var _temp_Export = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +"}"
+        ajax_list.customerMonthPlanExportService(_temp_Export, res => {  //导出
+          this.$emit('login-success', res);
+        }, (res) => {
+
+        });
       },
       show_map(id){
         let obj = {};

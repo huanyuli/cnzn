@@ -67,7 +67,7 @@
         <div class="ma_btn">
           <el-button size="small" @click="add_user" type="primary" >添加基数</el-button>
           <!--<el-button size="small" type="primary" >导入富余电</el-button>-->
-          <!--<el-button size="small" type="primary" >导出列表</el-button>-->
+          <el-button size="small" type="primary" @click="import_list">导出列表</el-button>
         </div>
         <div v-if="this.no_val == 1" class="content_list">
           <p class="table_title">电量单位：千瓦时（KWh）</p>
@@ -297,6 +297,14 @@
         }
         this.linkAlert = true
         this.ruleForm.vue_0 = this.finds.find_1
+      },
+      import_list(){
+        var _temp_Export = "{'year':'"+ this.finds.find_1 +"','customerName':'"+ this.finds.find_2 +"','provinceCode':'" + this.finds.find_3 +"','cityCode':'"+ this.finds.find_4 +"'}"
+        ajax_list.customerSurplusExportService(_temp_Export, res => {  //导出
+          this.$emit('login-success', res);
+        }, (res) => {
+
+        });
       },
       change_3(){ //地区
         this.par_form.ares_s ={

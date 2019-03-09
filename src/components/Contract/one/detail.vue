@@ -45,4289 +45,1359 @@
         </div>
         <div class="cont_frame_div">
           <div class="cont_frame">
-            <div class="Section0">
-              <p class="MsoNormal"
-                 style="margin-bottom:10.8500pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;"><b><span
-                style="font-family: 仿宋_GB2312; font-size: 16pt;">CH-2018-03</span></b><b><span
-                style="font-family: 宋体; font-size: 16pt;"> </span></b></p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:宋体;mso-fareast-font-family:仿宋_GB2312;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:宋体;mso-fareast-font-family:仿宋_GB2312;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:10.8500pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-              <span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:宋体;mso-bidi-font-family:宋体;font-size:22.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="小标宋">四川省售电公司与电力用户购售电合同</font></span><span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:宋体;mso-bidi-font-family:宋体;font-size:22.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:10.8500pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-              <span
-                style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:宋体;font-size:22.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="楷体_GB2312">（示范文本）</font></span><span
-                style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:宋体;font-size:22.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:72.0000pt;mso-char-indent-count:4.0000;mso-pagination:widow-orphan;line-height:18.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="黑体">国家能源局四川监管办公室</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-pagination:widow-orphan;text-align:center;line-height:18.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                face="黑体">制定</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:72.0000pt;mso-char-indent-count:4.0000;mso-pagination:widow-orphan;line-height:18.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="黑体">四川省工商行政管理局</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="margin-top:21.7500pt;margin-bottom:10.8500pt;mso-para-margin-top:1.0000gd;mso-para-margin-bottom:0.5000gd;mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <b><span style="font-family: 方正小标宋简体; font-size: 18pt;">  </span></b></p>
+            <div>
+              <p style="margin:0pt 0pt 10.9pt; text-align:justify"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">CH-2018-03</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 10.9pt; text-align:center"><span style="font-family:仿宋; font-size:22pt">四川省售电公司与电力用户购售电合同</span></p>
+              <p style="margin:0pt 0pt 10.9pt; text-align:center"><span style="font-family:仿宋; font-size:22pt">（示范文本）</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="line-height:18pt; margin:0pt; text-align:justify; text-indent:64pt"><span style="font-family:仿宋; font-size:18pt">国家能源局四川监管办公室</span></p>
+              <p style="line-height:18pt; margin:0pt; text-align:center"><span style="font-family:仿宋; font-size:18pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:18pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 制定</span><span style="font-family:仿宋; font-size:18pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:18pt; margin:0pt; text-align:justify; text-indent:64pt"><span style="font-family:仿宋; font-size:18pt">四川省工商行政管理局</span></p>
+              <p style="line-height:29pt; margin:21.75pt 0pt 10.9pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
             </div>
-            <span style="mso-spacerun:'yes';font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><br clear="all"
-                                                                                                               style="page-break-before:always;mso-break-type:section-break"></span>
-            <div class="Section1">
-              <p class="MsoNormal" align="center"
-                 style="text-indent:32.0000pt;mso-char-indent-count:2.0000;word-break:break-all;text-align:center;line-height:31.0000pt;mso-line-height-rule:exactly;">
-              <span style="mso-spacerun:'yes';font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="黑体">目</font> &nbsp;<font face="黑体">录</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-bidi-font-family:'Times New Roman';font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">说明</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第一章</font> &nbsp;<font face="仿宋_GB2312">定义和解释</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第二章</font> &nbsp;<font face="仿宋_GB2312">双方陈述</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第三章</font> &nbsp;<font face="仿宋_GB2312">双方的权利和义务</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第四章</font> &nbsp;<font face="仿宋_GB2312">交易电量、电价</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第五章</font> &nbsp;<font face="仿宋_GB2312">电能计量</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第六章</font> &nbsp;<font face="仿宋_GB2312">结算和支付</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第七章</font> &nbsp;<font face="仿宋_GB2312">合同变更</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第八章</font> &nbsp;<font face="仿宋_GB2312">合同违约和补偿</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第九章</font> &nbsp;<font face="仿宋_GB2312">合同解除</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第十章</font> &nbsp;<font face="仿宋_GB2312">不可抗力</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第十一章</font> &nbsp;<font face="仿宋_GB2312">争议的解决</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第十二章</font> &nbsp;<font face="仿宋_GB2312">适用法律</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第十三章</font> &nbsp;<font face="仿宋_GB2312">合同生效和期限</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第十四章</font> &nbsp;<font face="仿宋_GB2312">其他</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"
-                 style="mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <b><span style="font-family: 方正仿宋_GBK; font-size: 16pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <b><span style="font-family: 方正仿宋_GBK; font-size: 16pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <b><span style="font-family: 方正仿宋_GBK; font-size: 16pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <b><span style="font-family: 方正仿宋_GBK; font-size: 16pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <b><span style="font-family: 方正仿宋_GBK; font-size: 16pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:MicrosoftYaHei;font-size:22.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="小标宋">说</font> &nbsp;<font face="小标宋">明</font></span><span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:MicrosoftYaHei;font-size:22.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">一、为规范售电公司与电力用户购售电行为，根据国家有关法律、法规和四川省相关政策规则要求，国家能源局四川监管办公室、四川省工商行政管理局共同制定本合同示范文本，供符合四川省售电侧改革试点准入要求的售电公司与符合四川电力市场准入条件的电力用户之间订立购售电交易合同使用。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">二、合同双方当事人在合同订立、履行中，应当遵循平等、自愿、公平和诚实信用的原则，相互尊重，充分协商，严格履行。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">三、使用本合同示范文本的，不得修改相关内容。参照本合同示范文本订立合同的，不得使用本合同示范文本的名义或者编号。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">使用本合同示范文本又订立补充协议，补充协议与本合同示范文本的内容相抵触的，不得使用本合同示范文本的名义或者编号。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">四、本合同示范文本由通用条款和专用条款组成。通用条款是指不能或者不必协商的条款，专用条款是指当事人在订立合同时应当或者可以协商的选择性、填充性条款。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">选择性条款中在选项前标示有</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">“</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">□</span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">”</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">符号，选择时在该符号内划</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">“</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">√</span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">”</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">表示肯定或者划</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">“</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">×</span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">”</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">表示否定。选择性条款包含单项选择和多项选择。填充性条款中标示有下划线，双方将协商达成的一致意见填入，无意见的划</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">“</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">×</span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">”</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">、或者</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">“</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">－</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">”</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">表示删除该填充性条款。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">五、电力用户不得在合同有效期内同时与两家及以上售电公司签订本合同；电力用户与售电公司签订本合同后，在合同有效期内不得再与发电企业签订购售电合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">六、本合同仅处理与购售电有关的商务问题，所有关于电网、发电厂、电力用户运行的安全和技术问题纳入并网调度协议和市场化零售供用电合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">七、如国家法律、法规发生变化或者政府有关部门、监管机构出台有关规定、规则，合同双方应按照法律、法规、规定和规则予以调整和修改。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
+            <br style="clear:both; mso-break-type:section-break; page-break-before:always" />
+            <div>
+              <p style="line-height:31pt; margin:0pt; orphans:0; text-align:center; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:16pt">目&nbsp; 录</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">说明</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第一章&nbsp; 定义和解释</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第二章&nbsp; 双方陈述</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第三章&nbsp; 双方的权利和义务</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第四章&nbsp; 交易电量、电价</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第五章&nbsp; 电能计量</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第六章&nbsp; 结算和支付</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第七章&nbsp; 合同变更</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第八章&nbsp; 合同违约和补偿</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第九章&nbsp; 合同解除</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第十章&nbsp; 不可抗力</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第十一章&nbsp; 争议的解决</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第十二章&nbsp; 适用法律</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第十三章&nbsp; 合同生效和期限</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第十四章&nbsp; 其他</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:22pt">说&nbsp; 明</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">一、为规范售电公司与电力用户购售电行为，根据国家有关法律、法规和四川省相关政策规则要求，国家能源局四川监管办公室、四川省工商行政管理局共同制定本合同示范文本，供符合四川省售电侧改革试点准入要求的售电公司与符合四川电力市场准入条件的电力用户之间订立购售电交易合同使用。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">二、合同双方当事人在合同订立、履行中，应当遵循平等、自愿、公平和诚实信用的原则，相互尊重，充分协商，严格履行。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">三、使用本合同示范文本的，不得修改相关内容。参照本合同示范文本订立合同的，不得使用本合同示范文本的名义或者编号。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">使用本合同示范文本又订立补充协议，补充协议与本合同示范文本的内容相抵触的，不得使用本合同示范文本的名义或者编号。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">四、本合同示范文本由通用条款和专用条款组成。通用条款是指不能或者不必协商的条款，专用条款是指当事人在订立合同时应当或者可以协商的选择性、填充性条款。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">选择性条款中在选项前标示有</span><span style="font-family:仿宋; font-size:14pt">“</span><span style="font-family:仿宋; font-size:14pt">□</span><span style="font-family:仿宋; font-size:14pt">”</span><span style="font-family:仿宋; font-size:14pt">符号，选择时在该符号内划</span><span style="font-family:仿宋; font-size:14pt">“</span><span style="font-family:仿宋; font-size:14pt">√</span><span style="font-family:仿宋; font-size:14pt">”</span><span style="font-family:仿宋; font-size:14pt">表示肯定或者划</span><span style="font-family:仿宋; font-size:14pt">“</span><span style="font-family:仿宋; font-size:14pt">&times;</span><span style="font-family:仿宋; font-size:14pt">”</span><span style="font-family:仿宋; font-size:14pt">表示否定。选择性条款包含单项选择和多项选择。填充性条款中标示有下划线，双方将协商达成的一致意见填入，无意见的划</span><span style="font-family:仿宋; font-size:14pt">“</span><span style="font-family:仿宋; font-size:14pt">&times;</span><span style="font-family:仿宋; font-size:14pt">”</span><span style="font-family:仿宋; font-size:14pt">、或者</span><span style="font-family:仿宋; font-size:14pt">“</span><span style="font-family:仿宋; font-size:14pt">－</span><span style="font-family:仿宋; font-size:14pt">”</span><span style="font-family:仿宋; font-size:14pt">表示删除该填充性条款。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">五、电力用户不得在合同有效期内同时与两家及以上售电公司签订本合同；电力用户与售电公司签订本合同后，在合同有效期内不得再与发电企业签订购售电合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">六、本合同仅处理与购售电有关的商务问题，所有关于电网、发电厂、电力用户运行的安全和技术问题纳入并网调度协议和市场化零售供用电合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">七、如国家法律、法规发生变化或者政府有关部门、监管机构出台有关规定、规则，合同双方应按照法律、法规、规定和规则予以调整和修改。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
             </div>
-            <span
-              style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:0.0000pt;"><br
-              clear="all" style="page-break-before:always;mso-break-type:section-break"></span>
-            <div class="Section2" >
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-              <span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="小标宋">四川省售电公司与电力用户购售电合同</font></span><span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="right"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:right;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 16pt;"><font
-                  face="仿宋_GB2312">合同编号：</font> &nbsp;{{this.deta_list.contract.number}} &nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">甲方（电力用户）：</font> &nbsp;&nbsp;&nbsp;<font
-                  face="仿宋_GB2312">{{this.deta_list.contract.customerName}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">住所：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">{{this.deta_list.contract.residence}}</font></span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">法人代表</font>/<font face="仿宋_GB2312">授权代理人： &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.representative}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">税务登记号（统一社会信用代码）：</font> &nbsp;&nbsp;{{this.deta_list.contract.taxNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">开户名称：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">{{this.deta_list.contract.accountName}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">开户银行：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">{{this.deta_list.contract.accountBank}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">账号</font>: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.accountNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">联</font> <font face="仿宋_GB2312">系</font> <font face="仿宋_GB2312">人：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                  face="仿宋_GB2312">{{this.deta_list.customer.contact}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">电子邮箱：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.email}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">手</font> &nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">机：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.phone}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">办公电话：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.contactNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">通讯地址：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                  face="仿宋_GB2312">{{this.deta_list.contract.contactAddress}}</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">甲方为一家具有法人资格的企业，在</font> &nbsp;<font
-                  face="仿宋_GB2312">{{this.deta_list.customer.city}}</font> &nbsp;<font face="仿宋_GB2312">工商行政管理局登记注册。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;margin-top: 30px">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">乙方（售电公司）：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                  face="仿宋_GB2312">{{this.yi_list.name}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">住所：</font> &nbsp;&nbsp;&nbsp;&nbsp;<font
-                  face="仿宋_GB2312">{{this.yi_list.residence}}</font></span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">法人代表</font>/<font face="仿宋_GB2312">授权代理人： &nbsp;&nbsp;&nbsp;&nbsp;{{this.yi_list.representative}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">税务登记号（统一社会信用代码）：</font> {{this.yi_list.taxNumber}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">开户名称：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">{{this.yi_list.accountName}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">开户银行：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">{{this.yi_list.accountBank}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">账号</font>: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.yi_list.accountNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">联</font> <font face="仿宋_GB2312">系</font> <font face="仿宋_GB2312">人：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                  face="仿宋_GB2312">{{this.yi_list.contact}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">电子邮箱：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.yi_list.email}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">手</font> &nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">机：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.yi_list.phone}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">办公电话：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.yi_list.contactNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">通讯地址：</font> <font face="仿宋_GB2312">{{this.yi_list.contactAddress}}</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">乙方为一家具有法人资格的售电公司，已取得四川省电力市场交易资格，在</font> <font
-                  face="仿宋_GB2312">{{this.yi_list.city}}</font> <font face="仿宋_GB2312">工商行政管理局登记注册。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">鉴于：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">1.<font
-                  face="仿宋_GB2312">甲方在 </font><font face="Times New Roman">{{this.deta_list.customer.powerCompany}} </font><font face="仿宋_GB2312">拥有并经营管理一家用电电压等级为 </font><font
-                  face="Times New Roman">{{this.deta_list.customer.voltageLevel}} </font><font face="仿宋_GB2312">千伏</font><font
-                  face="Times New Roman"></font><font face="仿宋_GB2312">，总用电容量为 &nbsp;&nbsp;</font><font
-                  face="Times New Roman">{{this.deta_list.contract.totalUsePowerAmount}}</font><font face="仿宋_GB2312">千瓦（</font><font
-                  face="Times New Roman">kW</font><font face="仿宋_GB2312">）或变压器容量为 &nbsp;&nbsp;</font><font
-                  face="Times New Roman">{{this.deta_list.contract.transformerCapacity}} </font><font face="仿宋_GB2312">千伏安（</font><font
-                  face="Times New Roman">kVA</font><font
-                  face="仿宋_GB2312">）的用电企业，符合四川省电力市场准入条件且在四川电力交易中心有限公司（以下简称</font><font
-                  face="Times New Roman">“</font><font face="仿宋_GB2312">四川电力交易中心</font><font
-                  face="Times New Roman">”</font><font face="仿宋_GB2312">）完成市场主体注册。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">2.<font face="仿宋_GB2312">乙方在四川省拥有合法售电经营资格，符合国家发展改革委、国家能源局《售电公司准入与退出管理办法》准入条件，符合四川省政府主管部门对售电公司准入的相关要求，在四川电力交易中心完成公示、承诺、注册、备案程序，并通过政府相关部门、监管机构评估的售电公司，具备开展电力交易的购售电资格，在四川电力交易中心注册登记的资产总额为 </font><font
-                  face="Times New Roman">{{this.yi_list.totalAssets}} </font><font face="仿宋_GB2312">万元，可从事年售电量为 {{this.yi_list.salePowerAmount}} 亿千瓦时。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3</span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;">.</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">甲、乙双方通过四川电力交易中心及电网企业的输配电网络完成购售电交易，双方根据国家有关法律、法规，按照四川省相关政策规则要求，本着平等、自愿、公平和诚信的原则，经协商一致，签订本合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-bidi-font-family:仿宋;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第一章</font> &nbsp;<font face="黑体">定义和解释</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-bidi-font-family:仿宋;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1 <font
-                face="仿宋_GB2312">定义</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.1</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">合同电量：指经甲乙双方协商，由本合同约定的双边交易电量</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.2</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">合同成交电量：指</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">通过电力交易机构合规校核、</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">电力调度机构安全校核，用于结算的合同电量</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.3<font
-                face="仿宋_GB2312">交割电量：是指电力交易机构依据电力市场交易规则，为本合同出具的结算凭据中的结算电量。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;">&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.4 <font
-                face="仿宋_GB2312">偏差电量：是指实际交割电量与合同成交电量之差。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.5 <font
-                face="仿宋_GB2312">偏差率：偏差率</font><font face="Times New Roman">=</font><font face="仿宋_GB2312">（交割电量</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;">-</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">合同成交电量）</font>/<font face="仿宋_GB2312">合同成交电量</font><font
-                face="Times New Roman">×100%</font><font face="仿宋_GB2312">。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.6 <font
-                face="仿宋_GB2312">计量点：指在电网企业与甲乙双方签署的《市场化零售供用电合同》中约定的计量交易电量的电能计量装置关口表安装位置。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.7 <font
-                face="仿宋_GB2312">偏差考核费用：依据四川电力市场有关交易规则及年度指导意</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">见</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">进行偏差电量考核计算得到的偏差考核金额。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.8 <font
-                face="仿宋_GB2312">电网企业：是指拥有输电网、配电网运营权（包括地方电力公司、趸售区域供电公司），承担其供电营业区保底供电服务的企业。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.9 <font
-                face="仿宋_GB2312">紧急情况：指电力系统发生事故或发电、输配电、用电设备发生重大事故，电网频率或者电压超规定范围，输变电设备负载超过规定值，主干线路功率超过规定的稳定限额以及其他威胁电网安全运行，有可能破坏电网稳定，导致电网瓦解以至大面积停电等运行情况，并且该情况在结束后得到能源监管机构确认。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.10 <font
-                face="仿宋_GB2312">工作日：指除星期六、星期日及法定节假日以外的公历日。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.11 <font
-                face="仿宋_GB2312">不可抗力：指不能预见、不能避免并不能克服的客观情况。包括：火山爆发、龙卷风、海啸、暴风雨、泥石流、山体滑坡、水灾、火灾、超设计标准的地震、台风、雷电、雾闪等，以及核辐射、战争、瘟疫、骚乱等。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.2 <font
-                face="仿宋_GB2312">解释</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.2.1 <font
-                face="仿宋_GB2312">本合同中的标题仅为阅读方便，不应被视为本合同的组成部分，亦不应以任何方式影响对本合同的解释。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.2.2 <font
-                face="仿宋_GB2312">本合同附件与正文具有同等的法律效力。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.2.3 <font
-                face="仿宋_GB2312">本合同对任何一方的合法承继者或受让人具有约束力，但四川电力市场有关交易规则及年度指导意见另有规定以及当事人另有约定的除外。遇有本款约定的情形时，相关义务人应当依法履行必要的通知义务及完备的法律手续。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.2.4 <font
-                face="仿宋_GB2312">除上下文另有要求外，本合同所指的日、月、年均为公历日、月、年。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.2.5 <font
-                face="仿宋_GB2312">本合同中的</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;">“</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">包括</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;">”</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">一词指：包括但不限于。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第二章</font> &nbsp;<font face="黑体">双方陈述</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">甲、乙双方任何一方在此向对方陈述如下：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">2.1 <font
-                face="仿宋_GB2312">本方为一家依法设立并合法存续的企业，有权签署并有能力履行本合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">2.2 <font
-                face="仿宋_GB2312">本方签署和履行本合同所需的一切手续（包括办理必要的政府批准、取得营业执照和电力业务许可证等）均已办妥并合法有效。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">2.3 <font
-                face="仿宋_GB2312">在签署本合同时，任何法院、仲裁机构、行政机关或监管机构均未做出任何足以对本方履行本合同产生重大不利影响的判决、裁定、裁决或具体的行政行为。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">2.4 <font
-                face="仿宋_GB2312">本方为签署本合同所需的内部授权程序均已完成，签署本合同的是本方法定代表人或授权代理人，并且本合同生效后即对双方具有法律约束力。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">2.5 <font
-                face="仿宋_GB2312">本方签署的合同内容符合国家有关市场化交易的法律、法规以及政府有关部门、机构出台有关规定、规则等。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">2.6 <font
-                face="仿宋_GB2312">如国家法律、法规发生变化或者政府有关部门、机构出台有关规定、规则，合同双方同意按照法律、法规和规则予以调整和修改。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">2.7 <font
-                face="仿宋_GB2312">本合同签订后，甲方在合同期内不得与除乙方以外的其他售电公司以及发电企业签订购售电合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第三章</font> &nbsp;<font face="黑体">双方权利和义务</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.1 <font
-                face="仿宋_GB2312">甲方的权利包括：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.1.1 <font
-                face="仿宋_GB2312">与乙方协商制定用电计划和设备检修计划。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.1.2 <font
-                face="仿宋_GB2312">获得乙方履行本合同义务相关的信息、资料及查阅电网企业的关口信息数据。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.1.3 <font
-                face="仿宋_GB2312">本合同及附件约定的甲方的其他权利。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2 <font
-                face="仿宋_GB2312">甲方的义务包括：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2.1 <font
-                face="仿宋_GB2312">按照国家有关法规、规定和技术规范，运行、维护用电设施，合理控制用电。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2.2 <font
-                face="仿宋_GB2312">向乙方或四川电力交易中心提供电力交易容量、电量、负荷曲线及其他生产运行信息。根据实际用电需求，准确预测年度用电量以及交易月份用电量。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2.3 <font
-                face="仿宋_GB2312">发生紧急情况时，按照相关规定执行。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2.4 <font
-                face="仿宋_GB2312">按时缴纳电力交易电量相关费用，包括：市场交易电费、输配电费、政府性基金及附加、功率因数调整电费等。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;word-break:break-all;line-height:31.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2.5 <font
-                face="仿宋_GB2312">向乙方提供与履行本合同相关的其他信息。如实提供用户用电信息，配合乙方、电网企业及电力交易中心进行电量交易、电费结算、数据统计等工作。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2.6 <font
-                face="仿宋_GB2312">电力交易电量不得转供或变相转供。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">3.2.7 <font face="仿宋_GB2312">甲方无法履约的，应提前 </font><font
-                  face="Times New Roman">{{this.yi_list.column1}} </font><font
-                  face="仿宋_GB2312">天书面告知乙方、电网企业、四川电力交易中心以及其他相关方，并承担相应的违约责任，处理好相关事宜。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2.8 <font
-                face="仿宋_GB2312">本合同及附件约定的甲方其他义务。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.3 <font
-                face="仿宋_GB2312">乙方权利包括：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.3.1 <font
-                face="仿宋_GB2312">获得甲方履行本合同义务相关的信息、资料、数据。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.3.2 <font
-                face="仿宋_GB2312">按约定获取电力交易相关收益。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.3.3 <font
-                face="仿宋_GB2312">本合同及附件约定的乙方的其他权利。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.4 <font
-                face="仿宋_GB2312">乙方的义务包括：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.4.1 <font
-                face="仿宋_GB2312">按照国家有关法律、规定和技术规范，为甲方提供电力交易服务，参与电力市场交易并按规定结算。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.4.2 <font
-                face="仿宋_GB2312">发生紧急情况时，按照相关规定执行。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.4.3 <font
-                face="仿宋_GB2312">向甲方和电网企业提供与履行本合同相关的其他信息。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.4.4 <font
-                face="仿宋_GB2312">向甲方提供真实准确的有关电力交易的相关信息及资料，不得提供虚假的或误导性的信息。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.4.5 <font
-                face="仿宋_GB2312">根据国家有关法规支付电力交易相关费用。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.4.6</span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;">&nbsp;</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">本合同及附件约定的乙方的其他义务。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第四章</font> &nbsp;<font face="黑体">交易电量和电价</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="margin-left:7.0500pt;mso-para-margin-left:0.4400gd;text-indent:21.0000pt;mso-char-indent-count:1.5000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">4.1 <font face="仿宋_GB2312">交易周期：本合同交易周期自 </font><font
-                  face="Times New Roman">{{ get_time_year(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">年 </font><font
-                  face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">月 </font><font face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractStartTime) }} </font><font
-                  face="仿宋_GB2312">日至 </font><font face="Times New Roman">{{ get_time_year(this.deta_list.contract.contractEndTime) }} </font><font
-                  face="仿宋_GB2312">年 </font><font face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">月 </font><font
-                  face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">日。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">4.2 <font
-                face="仿宋_GB2312">交易电价</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">在交易周期内，甲乙双方对不同交易品种分别约定不同的交易价格，协议电量约定价格见附件</font>1<font face="仿宋_GB2312">。甲方协议电量需求以外的月度增量电量，根据甲乙双方自愿，可约定月度增量电量交易电价，约定价格见附件</font><font
-                face="Times New Roman">2</font><font face="仿宋_GB2312">。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">双方另有约定如下：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal div_span" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.powerAmountPricePromise}}&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">。</font></span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">4.3 <font
-                face="仿宋_GB2312">交易电量</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">4.3.1 <font
-                face="仿宋_GB2312">甲方同意向乙方购买交易周期内的全部用电量，甲乙双方约定的协议电量以附件</font><font face="Times New Roman">3</font><font
-                face="仿宋_GB2312">为准。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">4.3.2 <font
-                face="仿宋_GB2312">经甲乙双方协商一致，甲乙双方每月可调</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">整</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">年度交易合约电量后续月份分月电量计划，由任意一方在四川电力交易中心组织次月月度交易前</font>3<font face="仿宋_GB2312">个工作日，在交易平台提交电量计划调整申请，并须由双方在平台上进行确认。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;background:rgb(255,255,0);mso-highlight:rgb(255,255,0);"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">4.4 <font
-                face="仿宋_GB2312">偏差考核：在结算周期内，对甲方偏差率超过有关交易规则规定的免考核范围的，双方约定按以下方式对偏差考核费用进行分摊：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">。</font></span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第五章</font> &nbsp;<font face="黑体">电能计量</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">5.1 <font
-                face="仿宋_GB2312">电力交易涉及的电量计量点在甲乙双方与电网企业签订的《市场化零售供用电合同》中约定。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">5.2 <font
-                face="仿宋_GB2312">电力交易涉及的电能计量装置要求、电能计量装置校验要求和计量装置处理办法，按照甲乙双方与电网企业签订的《市场化零售供用电合同》约定执行。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="text-indent: 28pt; line-height: 29pt;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">5.3 <font face="仿宋_GB2312">电力交易结算电量以甲方计量点关口表计量的电量为结算依据，甲方与电网企业约定的抄表例日为每月</font><font
-                face="Times New Roman">{{this.deta_list.contract.meterReadingDay}}</font><font face="仿宋_GB2312"> &nbsp;日。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第六章</font> &nbsp;<font face="黑体">结算和支付</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-pagination:widow-orphan;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">6.1</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">购售电合同</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">的</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">结算按照四川相关电力市场交易规则及年度指导意见要求执行。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;mso-pagination:widow-orphan;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">6.2 <font
-                face="仿宋_GB2312">甲方按《市场化零售供用电合同》约定向电网企业缴纳用电电费。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">6.3 <font
-                face="仿宋_GB2312">乙方电费由电网企业根据四川电力交易中心出具的交易结算依据进行结算和支付。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">6.4 <font
-                face="仿宋_GB2312">存在异议的电量和电费不应影响无异议部分的电费结算和支付。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第七章</font> &nbsp;<font face="黑体">合同变更</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">7.1 <font
-                face="仿宋_GB2312">本合同的任何修改、补充或变更必须以书面的形式进行，双方法定代表人或授权代理人签字</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">并加盖双方公章或合同专用章</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">后方为有效，</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">但须在双方签字盖章后</font>3<font face="仿宋_GB2312">个工作日内提交四川电力交易中心</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">和能源监管机构</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">备案。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">7.2 <font
-                face="仿宋_GB2312">因国家法律、法规发生变化或者政府有关部门、监管机构出台有关规定、规则，导致双方不能正常履行合同约定时，双方应相应变更本合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第八章</font> &nbsp;<font face="黑体">合同违约和补偿</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;layout-grid-mode:char;line-height:30.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">8.1<font
-                face="仿宋_GB2312">双方合同一经签订，双方不能以市场电价波动、销户、增容、减容、暂停、改类为由拒绝履行。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">8.2<font
-                face="仿宋_GB2312">一方违反本合同约定条款视为违约，另一方有权要求违约方赔偿违约造成的经济损失。双方违约条款约定如下：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <div class="MsoNormal div_span" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp; {{this.deta_list.contract.defaultClausePromise}} &nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></div>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">8.3<font
-                face="仿宋_GB2312">违约的处理原则</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">8.3.1</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">违约方应承担支付违约金、继续履行合同和采取补救措施等责任。在支付违约金、继续履约或者采取补救措施后，仍给对方造成其他损失的，应当赔偿损失。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">8.3.2 <font
-                face="仿宋_GB2312">在本合同履行期限届满之前，因一方原因导致合同不能继续履行，另一方可在履行期限届满前解除合同并要求其承担相应的违约责任。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">8.3.3<font
-                face="仿宋_GB2312">一方违约后，另一方应当采取适当的措施防止损失的扩大。如果该方没有采取适当的措施致使损失扩大的，则其不得就扩大的损失要求违约方承担赔偿责任。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第九章</font> &nbsp;<font face="黑体">合同解除</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">9.1 <font
-                face="仿宋_GB2312">如任何一方发生下列事件，则另一方有权在发出解除通知后解除本合同：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">9.1.1 <font
-                face="仿宋_GB2312">一方被申请破产、清算或被吊销营业执照；</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">9.1.2 <font
-                face="仿宋_GB2312">一方被政府有关部门认定取消市场主体资格；</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">9.1.3 <font
-                face="仿宋_GB2312">一方与另一实体联合、合并或将其所有或大部分资产转移给另一实体，而该存续的企业不能合理地承担其在本合同项下的所有义务；</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">9.1.4<font
-                face="仿宋_GB2312">一方被行政机关、行政机关授权的单位、司法机关列入不良信用单位或信用等级较低不适于继续交易；</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">9.1.5<font
-                face="仿宋_GB2312">因本合同与国家相关条款、法律法规、电力交易规则相冲突的情况，但不致影响本合同继续履行及经过协商补充或变更合同可有效消除冲突的除外。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">9.2 </span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">甲、乙双方均不得擅自解除合同。如果因甲方原因导致合同解除，则甲方应赔偿乙方因此而遭受的损失；如果因乙方原因导致合同解除，则乙方应赔偿甲方因此而遭受的损失。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">9.3</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">&nbsp;<font
-                face="仿宋_GB2312">合同解除后应于</font>3<font face="仿宋_GB2312">个工作日内报四川电力交易中心</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">和能源监管机构</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">备案。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第十章</font> &nbsp;<font face="黑体">不可抗力</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">10.1 <font
-                face="仿宋_GB2312">若不可抗力的发生完全或部分地妨碍合同任一方履行本合同项下的任何义务，则该方可暂停履行其义务，但前提是：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">10.1.1 </span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">暂停履行的范围和时间不超过消除不可抗力影响的合理需要；</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">10.1.2 </span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">受不可抗力影响的一方应继续履行本合同项下未受不可抗力影响的其他义务，包括所有到期付款的义务；</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">10.1.3 </span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">一旦不可抗力结束，该方应尽快恢复履行本合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">10.2 <font
-                face="仿宋_GB2312">若任何一方因不可抗力而不能履行本合同，</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">则该方应尽快书面通知另一方，并在</font>3<font face="仿宋_GB2312">日内以书面方式正式通知另一方。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">该通知书应说明不可抗力的发生日期和预计持续的时间、事件性质、对该方履行本合同的影响及该方为减少不可抗力影响所采取的措施。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">受不可抗力影响的一方应在不可抗力发生之日（如遇通讯中断，则自通讯恢复之日）起</font> &nbsp;{{this.yi_list.column2}} &nbsp;<font
-                  face="仿宋_GB2312">日内向对方提供一份由不可抗力发生地公证机构出具的证明文件。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <div class="MsoNormal div_span"
-                   style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">10.3 <font face="仿宋_GB2312">受不可抗力影响的一方应采取合理的措施，以减少因不可抗力给合同其他方带来的损失。合同双方应及时协商制定并实施补救计划及合理的替代措施以减少或消除不可抗力的影响。如果受不可抗力影响的一方未能尽其努力采取合理措施减少不可抗力的影响，则该方应承担由此扩大的损失，双方可另行进行约定。若有约定，具体约定为 &nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.forceMajeurePromise}}&nbsp;&nbsp;&nbsp;&nbsp;。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </div>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">10.4 <font
-                face="仿宋_GB2312">如果发生不可抗力，双方首先应尽量调整交易和生产计划，尽可能使结算电量接近合同电量。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">10.5 <font
-                face="仿宋_GB2312">不可抗力造成的合同解除</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">如果任何不可抗力阻碍一方履行其义务持续超过</font> &nbsp;{{this.yi_list.column3}} &nbsp;&nbsp;<font
-                  face="仿宋_GB2312">日，双方应协商决定是否继续履行本合同的条件或解除本合同。如果自不可抗力发生后 </font><font
-                  face="Times New Roman">{{this.yi_list.column4}} &nbsp;</font><font face="仿宋_GB2312">日内，双方不能就继续履行合同的条件或解除本合同达成一致意见，任何一方有权书面通知另一方解除本合同，并报能源监管机构和政府相关部门备案。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第十一章</font> &nbsp;<font face="黑体">争议的解决</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">11.1 <font face="仿宋_GB2312">凡因执行本合同所发生的与本合同有关的一切争议，双方应协商解决，也可提请省级政府相关部门、能源监管机构调解。协商或调解不成的，按以下第 &nbsp;</font><font
-                  face="Times New Roman">{{this.yi_list.column5}}</font><font face="仿宋_GB2312"> &nbsp;种方式处理：</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">（</font>1<font face="仿宋_GB2312">）双方同意提请</font></span><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">仲裁委员会，请求按照其仲裁规则进行仲裁。仲裁裁决是终局的，对双方均具有法律约束力。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">（</font>2<font face="仿宋_GB2312">）任何一方依法提请</font></span><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">人民法院通过诉讼程序解决。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第十二章</font> &nbsp;<font face="黑体">适用法律</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">12.1 <font
-                face="仿宋_GB2312">本合同的订立、效力、解释、履行和争议的解决均适用中华人民共和国法律。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第十三章</font> &nbsp;<font face="黑体">合同生效和期限</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">13.1 <font
-                face="仿宋_GB2312">本合同的生效条件是：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">经双方法定代表人或授权代理人签字并加盖公章或合同专用章。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">13.2 <font face="仿宋_GB2312">本合同有效期：自 </font><font
-                  face="Times New Roman">{{ get_time_year(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">年 </font><font
-                  face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">月 </font><font face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractStartTime) }} </font><font
-                  face="仿宋_GB2312">日至 </font><font face="Times New Roman">{{ get_time_year(this.deta_list.contract.contractEndTime) }} </font><font
-                  face="仿宋_GB2312">年 </font><font face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">月 </font><font
-                  face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractEndTime) }}  </font><font face="仿宋_GB2312">日。</font></span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第十四章</font> &nbsp;<font face="黑体">其他</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">14.1 <font
-                face="仿宋_GB2312">保密</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">甲、乙双方均应保证其从另一方取得的所有无法自公开渠道获得的资料和文件（包括财务、技术等内容）予以保密。未经该资料和文件的原提供方同意，不得向任何第三方透露该资料和文件的全部或任何部分，但按照法律、法规规定可做出披露的情况除外。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">14.2 <font
-                face="仿宋_GB2312">合同全部</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">本合同及其附件构成双方就本合同标的达成的全部内容，取代所有双方在此之前就本合同标的所签订的协议和合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">14.3 <font
-                face="仿宋_GB2312">通知和送达</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">任何与本合同有关的通知、文件和合规的账单等均须以书面方式进行。通过挂号信、快递或当面送交的，经收件方签字确认即被认为送达；若以传真、电子邮件、</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">QQ<font
-                face="仿宋_GB2312">、微信等</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">方式发出并被接收，即视为送达。所有通知、文件和合规的账单等均在送达或接收后方能生效。一切通知、账单、资料或文件等应按照约定的联络信息发给对方，直至一方书面通知另一方变更联络信息为止。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">14.4 <font
-                face="仿宋_GB2312">不放弃权利</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">任何一方未通过书面形式声明放弃其在本合同项下的任何权利，则不应被视为其弃权。任何一方未行使其在本合同项下的任何权利，均不应被视为对任何上述权利的放弃或对今后任何上述权利的放弃。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">14.5 <font
-                face="仿宋_GB2312">本合同与电网企业与售电公司、电力用户之间签订的《市场化零售供用电合同》互为补充；当《市场化零售供用电合同》约定的内容与本合同不一致时，应按协商一致的原则，经合同签订方协商确定后执行，协商不成的按程序报省级政府相关部门、监管机构协调。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">14.6 <font
-                face="仿宋_GB2312">本合同中有关解除、争议解决和保密的条款在本合同解除后仍然有效。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">14.7 <font
-                face="仿宋_GB2312">未尽事宜，由双方协商签订补充协议，并报送能源监管机构和四川电力交易中心备案。补充协议与本合同具有同等法律效力。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">14.8 <font face="仿宋_GB2312">本合同正本一式 {{this.yi_list.column6}} 份，甲乙双方各执 {{this.yi_list.column7}} 份，交四川电力交易中心 {{this.yi_list.column8}} 份，交能源监管机构 {{this.yi_list.column9}} 份。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
+            <br style="clear:both; mso-break-type:section-break; page-break-before:always" />
+            <div>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:22pt">四川省售电公司与电力用户购售电合同</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:right"><span style="font-family:仿宋; font-size:16pt">合同编号：_____{{this.deta_list.contract.number}}________</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">甲方（电力用户）：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.customerName}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">住所：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.deta_list.contract.residence}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">法人代表/授权代理人：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.representative}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt 0pt 0pt 27.85pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">税务登记号（统一社会信用代码）：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.taxNumber}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">开户名称：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.accountName}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">开户银行：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.accountBank}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">账号:</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.accountNumber}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt"> </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">联 系 人：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.contact}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">电子邮箱：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.email}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">手&nbsp;&nbsp;&nbsp; 机：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.phone}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt"> </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">办公电话：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.contactNumber}}  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">通讯地址：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.contactAddress}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">甲方为一家具有法人资格的企业，在</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.city}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">工商行政管理局登记注册。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">乙方（售电公司）：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.name}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">住所：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; {{this.yi_list.residence}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">法人代表/授权代理人：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.representative}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">税务登记号（统一社会信用代码）：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.taxNumber}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">开户名称：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.accountName}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">开户银行：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.accountBank}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">账号:</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.accountNumber}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">联 系 人：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.contact}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">电子邮箱：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.email}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">手&nbsp;&nbsp;&nbsp; 机：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.phone}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">办公电话：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.contactNumber}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">通讯地址：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.contactAddress}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">乙方为一家具有法人资格的售电公司，已取得四川省电力市场交易资格，在</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.city}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">工商行政管理局登记注册。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">鉴于：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1</span><span style="font-family:仿宋; font-size:14pt">.</span><span style="font-family:仿宋; font-size:14pt">甲方在</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.powerCompany}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">拥有并经营管理一家用电电压等级为</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.voltageLevel}}&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">千伏（kV），总用电容量为</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.totalUsePowerAmount}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">千瓦（kW）或变压器容量为</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.transformerCapacity}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">千伏安（kVA）的用电企业</span><span style="font-family:仿宋; font-size:14pt">，符合四川省电力市场准入条件且在四川电力交易中心有限公司（以下简称</span><span style="font-family:仿宋; font-size:14pt">“</span><span style="font-family:仿宋; font-size:14pt">四川电力交易中心</span><span style="font-family:仿宋; font-size:14pt">”</span><span style="font-family:仿宋; font-size:14pt">）完成市场主体注册。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2</span><span style="font-family:仿宋; font-size:14pt">.</span><span style="font-family:仿宋; font-size:14pt">乙方在四川省拥有合法售电经营资格，符合国家发展改革委、国家能源局《售电公司准入与退出管理办法》准入条件，符合四川省政府主管部门对售电公司准入的相关要求，在四川电力交易中心完成公示、承诺、注册、备案程序，并通过政府相关部门、监管机构评估的售电公司，具备开展电力交易的购售电资格</span><span style="font-family:仿宋; font-size:14pt">，在四川电力交易中心注册登记的资产总额为</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.totalAssets}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt">万元，可从事年售电量为</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.salePowerAmount}}</span><span style="font-family:仿宋; font-size:14pt">亿千瓦时。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3</span><span style="font-family:仿宋; font-size:14pt">.</span><span style="font-family:仿宋; font-size:14pt">甲、乙双方通过四川电力交易中心及电网企业的输配电网络完成购售电交易，双方根据国家有关法律、法规，按照四川省相关政策规则要求，本着平等、自愿、公平和诚信的原则，经协商一致，签订本合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第一章&nbsp; 定义和解释</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1 定义</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.1</span><span style="font-family:仿宋; font-size:14pt">合同电量：指经甲乙双方协商，由本合同约定的双边交易电量</span><span style="font-family:仿宋; font-size:14pt">。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.2</span><span style="font-family:仿宋; font-size:14pt">合同成交电量：指</span><span style="font-family:仿宋; font-size:14pt">通过电力交易机构合规校核、</span><span style="font-family:仿宋; font-size:14pt">电力调度机构安全校核，用于结算的合同电量</span><span style="font-family:仿宋; font-size:14pt">。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.3交割电量：是指电力交易机构依据电力市场交易规则，为本合同出具的结算凭据中的结算电量。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">1.1.4 偏差电量：是指实际交割电量与合同成交电量之差。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.5 偏差率：偏差率=（交割电量</span><span style="font-family:仿宋; font-size:14pt">-</span><span style="font-family:仿宋; font-size:14pt">合同成交电量）/合同成交电量&times;100%。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.6 计量点：指在电网企业与甲乙双方签署的《市场化零售供用电合同》中约定的计量交易电量的电能计量装置关口表安装位置。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.7 偏差考核费用：依据四川电力市场有关交易规则及年度指导意</span><span style="font-family:仿宋; font-size:14pt">见</span><span style="font-family:仿宋; font-size:14pt">进行偏差电量考核计算得到的偏差考核金额。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.8 电网企业：是指拥有输电网、配电网运营权（包括地方电力公司、趸售区域供电公司），承担其供电营业区保底供电服务的企业。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.9 紧急情况：指电力系统发生事故或发电、输配电、用电设备发生重大事故，电网频率或者电压超规定范围，输变电设备负载超过规定值，主干线路功率超过规定的稳定限额以及其他威胁电网安全运行，有可能破坏电网稳定，导致电网瓦解以至大面积停电等运行情况，并且该情况在结束后得到能源监管机构确认。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.10 工作日：指除星期六、星期日及法定节假日以外的公历日。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.11 不可抗力：指不能预见、不能避免并不能克服的客观情况。包括：火山爆发、龙卷风、海啸、暴风雨、泥石流、山体滑坡、水灾、火灾、超设计标准的地震、台风、雷电、雾闪等，以及核辐射、战争、瘟疫、骚乱等。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.2 解释</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.2.1 本合同中的标题仅为阅读方便，不应被视为本合同的组成部分，亦不应以任何方式影响对本合同的解释。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.2.2 本合同附件与正文具有同等的法律效力。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.2.3 本合同对任何一方的合法承继者或受让人具有约束力，但四川电力市场有关交易规则及年度指导意见另有规定以及当事人另有约定的除外。遇有本款约定的情形时，相关义务人应当依法履行必要的通知义务及完备的法律手续。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.2.4 除上下文另有要求外，本合同所指的日、月、年均为公历日、月、年。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.2.5 本合同中的</span><span style="font-family:仿宋; font-size:14pt">“</span><span style="font-family:仿宋; font-size:14pt">包括</span><span style="font-family:仿宋; font-size:14pt">”</span><span style="font-family:仿宋; font-size:14pt">一词指：包括但不限于。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第二章&nbsp; 双方陈述</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">甲、乙双方任何一方在此向对方陈述如下：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2.1 本方为一家依法设立并合法存续的企业，有权签署并有能力履行本合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2.2 本方签署和履行本合同所需的一切手续（包括办理必要的政府批准、取得营业执照和电力业务许可证等）均已办妥并合法有效。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2.3 在签署本合同时，任何法院、仲裁机构、行政机关或监管机构均未做出任何足以对本方履行本合同产生重大不利影响的判决、裁定、裁决或具体的行政行为。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2.4 本方为签署本合同所需的内部授权程序均已完成，签署本合同的是本方法定代表人或授权代理人，并且本合同生效后即对双方具有法律约束力。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2.5 本方签署的合同内容符合国家有关市场化交易的法律、法规以及政府有关部门、机构出台有关规定、规则等。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2.6 如国家法律、法规发生变化或者政府有关部门、机构出台有关规定、规则，合同双方同意按照法律、法规和规则予以调整和修改。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2.7 本合同签订后，甲方在合同期内不得与除乙方以外的其他售电公司以及发电企业签订购售电合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第三章&nbsp; 双方权利和义务</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.1 甲方的权利包括：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.1.1 与乙方协商制定用电计划和设备检修计划。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.1.2 获得乙方履行本合同义务相关的信息、资料及查阅电网企业的关口信息数据。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.1.3 本合同及附件约定的甲方的其他权利。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2 甲方的义务包括：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.1 按照国家有关法规、规定和技术规范，运行、维护用电设施，合理控制用电。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.2 向乙方或四川电力交易中心提供电力交易容量、电量、负荷曲线及其他生产运行信息。根据实际用电需求，准确预测年度用电量以及交易月份用电量。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.3 发生紧急情况时，按照相关规定执行。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.4 按时缴纳电力交易电量相关费用，包括：市场交易电费、输配电费、政府性基金及附加、功率因数调整电费等。</span></p>
+              <p style="line-height:31pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.5 向乙方提供与履行本合同相关的其他信息。如实提供用户用电信息，配合乙方、电网企业及电力交易中心进行电量交易、电费结算、数据统计等工作。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.6 电力交易电量不得转供或变相转供。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.7 甲方无法履约的，应提前</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.column1}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt">天书面告知乙方、电网企业、四川电力交易中心以及其他相关方，并承担相应的违约责任，处理好相关事宜。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.8 本合同及附件约定的甲方其他义务。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.3 乙方权利包括：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.3.1 获得甲方履行本合同义务相关的信息、资料、数据。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.3.2 按约定获取电力交易相关收益。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.3.3 本合同及附件约定的乙方的其他权利。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.4 乙方的义务包括：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.4.1 按照国家有关法律、规定和技术规范，为甲方提供电力交易服务，参与电力市场交易并按规定结算。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.4.2 发生紧急情况时，按照相关规定执行。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.4.3 向甲方和电网企业提供与履行本合同相关的其他信息。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.4.4 向甲方提供真实准确的有关电力交易的相关信息及资料，不得提供虚假的或误导性的信息。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.4.5 根据国家有关法规支付电力交易相关费用。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.4.6</span><span style="font-family:仿宋; font-size:14pt"> </span><span style="font-family:仿宋; font-size:14pt">本合同及附件约定的乙方的其他义务。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第四章&nbsp; 交易电量和电价</span></p>
+              <p style="line-height:29pt; margin:0pt 0pt 0pt 7.05pt; orphans:0; text-align:justify; text-indent:24pt; widows:0"><span style="font-family:仿宋; font-size:14pt">4.1 </span><span style="font-family:仿宋; font-size:14pt">交易周期：本合同交易周期自</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_year(this.deta_list.contract.contractStartTime) }}  </span><span style="font-family:仿宋; font-size:14pt">年</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_Month(this.deta_list.contract.contractStartTime) }} </span><span style="font-family:仿宋; font-size:14pt">月</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{ get_time_r(this.deta_list.contract.contractStartTime) }}</span><span style="font-family:仿宋; font-size:14pt">日</span><span style="font-family:仿宋; font-size:14pt">至</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_year(this.deta_list.contract.contractEndTime) }}&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt 0pt 0pt 7.05pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">年</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_Month(this.deta_list.contract.contractEndTime) }} </span><span style="font-family:仿宋; font-size:14pt">月</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_r(this.deta_list.contract.contractEndTime) }}  </span><span style="font-family:仿宋; font-size:14pt">日</span><span style="font-family:仿宋; font-size:14pt">。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">4.2 交易电价</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">在交易周期内，甲乙双方对不同交易品种分别约定不同的交易价格，协议电量约定价格见附件。甲方协议电量需求以外的月度增量电量，根据甲乙双方自愿，可约定月度增量电量交易电价，约定价格见附件。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">双方另有约定如下：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.deta_list.contract.powerAmountPricePromise}}</span><span style="width:17pt; text-indent:0pt; font-family:'Lucida Console'; font-size:14pt; text-decoration:underline; display:inline-block">&nbsp;&nbsp;</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">4.3 交易电量</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">4.3.1 甲方同意向乙方购买交易周期内的全部用电量，甲乙双方约定的协议电量以附件为准。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">4.3.2 经甲乙双方协商一致，甲乙双方每月可调</span><span style="font-family:仿宋; font-size:14pt">整</span><span style="font-family:仿宋; font-size:14pt">年度交易合约电量后续月份分月电量计划，由任意一方在四川电力交易中心组织次月月度交易前3个工作日，在交易平台提交电量计划调整申请，并须由双方在平台上进行确认。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">4.4 偏差考核：在结算周期内，对甲方偏差率超过有关交易规则规定的免考核范围的，双方约定按以下方式对偏差考核费用进行分摊：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第五章&nbsp; 电能计量</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">5.1 电力交易涉及的电量计量点在甲乙双方与电网企业签订的《市场化零售供用电合同》中约定。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">5.2 电力交易涉及的电能计量装置要求、电能计量装置校验要求和计量装置处理办法，按照甲乙双方与电网企业签订的《市场化零售供用电合同》约定执行。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">5.3 电力交易结算电量以甲方计量点关口表计量的电量为结算依据，甲方与电网企业约定的抄表例日为每月</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;{{this.deta_list.contract.meterReadingDay}}&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">日。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; text-indent:21pt; widows:0"><span style="font-family:仿宋; font-size:14pt">第六章&nbsp; 结算和支付</span></p>
+              <p style="line-height:29pt; margin:0pt; text-align:justify; text-indent:32pt"><span style="font-family:仿宋; font-size:14pt">6.1</span><span style="font-family:仿宋; font-size:14pt">购售电合同</span><span style="font-family:仿宋; font-size:14pt">的</span><span style="font-family:仿宋; font-size:14pt">结算按照四川相关电力市场交易规则及年度指导意见要求执行。</span></p>
+              <p style="line-height:29pt; margin:0pt; text-align:justify; text-indent:32pt"><span style="font-family:仿宋; font-size:14pt">6.2 甲方按《市场化零售供用电合同》约定向电网企业缴纳用电电费。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">6.3 乙方电费由电网企业根据四川电力交易中心出具的交易结算依据进行结算和支付。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">6.4 存在异议的电量和电费不应影响无异议部分的电费结算和支付。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第七章&nbsp; 合同变更</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">7.1 本合同的任何修改、补充或变更必须以书面的形式进行，双方法定代表人或授权代理人签字</span><span style="font-family:仿宋; font-size:14pt">并加盖双方公章或合同专用章</span><span style="font-family:仿宋; font-size:14pt">后方为有效，</span><span style="font-family:仿宋; font-size:14pt">但须在双方签字盖章后3个工作日内提交四川电力交易中心</span><span style="font-family:仿宋; font-size:14pt">和能源监管机构</span><span style="font-family:仿宋; font-size:14pt">备案。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">7.2 因国家法律、法规发生变化或者政府有关部门、监管机构出台有关规定、规则，导致双方不能正常履行合同约定时，双方应相应变更本合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第八章&nbsp; 合同违约和补偿</span></p>
+              <p style="line-height:30pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">8.1双方合同一经签订，双方不能以市场电价波动、销户、增容、减容、暂停、改类为由拒绝履行。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">8.2一方违反本合同约定条款视为违约，另一方有权要求违约方赔偿违约造成的经济损失。双方违约条款约定如下：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.deta_list.contract.defaultClausePromise}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">8.3违约的处理原则</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">8.3.1</span><span style="font-family:仿宋; font-size:14pt">违约方应承担支付违约金、继续履行合同和采取补救措施等责任。在支付违约金、继续履约或者采取补救措施后，仍给对方造成其他损失的，应当赔偿损失。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">8.3.2 在本合同履行期限届满之前，因一方原因导致合同不能继续履行，另一方可在履行期限届满前解除合同并要求其承担相应的违约责任。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">8.3.3一方违约后，另一方应当采取适当的措施防止损失的扩大。如果该方没有采取适当的措施致使损失扩大的，则其不得就扩大的损失要求违约方承担赔偿责任。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第九章&nbsp; 合同解除</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.1 如任何一方发生下列事件，则另一方有权在发出解除通知后解除本合同：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.1.1 一方被申请破产、清算或被吊销营业执照；</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.1.2 一方被政府有关部门认定取消市场主体资格；</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.1.3 一方与另一实体联合、合并或将其所有或大部分资产转移给另一实体，而该存续的企业不能合理地承担其在本合同项下的所有义务；</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.1.4一方被行政机关、行政机关授权的单位、司法机关列入不良信用单位或信用等级较低不适于继续交易；</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.1.5因本合同与国家相关条款、法律法规、电力交易规则相冲突的情况，但不致影响本合同继续履行及经过协商补充或变更合同可有效消除冲突的除外。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.2 </span><span style="font-family:仿宋; font-size:14pt">甲、乙双方均不得擅自解除合同。如果因甲方原因导致合同解除，则甲方应赔偿乙方因此而遭受的损失；如果因乙方原因导致合同解除，则乙方应赔偿甲方因此而遭受的损失。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.3</span><span style="font-family:仿宋; font-size:14pt"> 合同解除后应于3个工作日内报四川电力交易中心</span><span style="font-family:仿宋; font-size:14pt">和能源监管机构</span><span style="font-family:仿宋; font-size:14pt">备案。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第十章&nbsp; 不可抗力</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.1 若不可抗力的发生完全或部分地妨碍合同任一方履行本合同项下的任何义务，则该方可暂停履行其义务，但前提是：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.1.1 </span><span style="font-family:仿宋; font-size:14pt">暂停履行的范围和时间不超过消除不可抗力影响的合理需要；</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.1.2 </span><span style="font-family:仿宋; font-size:14pt">受不可抗力影响的一方应继续履行本合同项下未受不可抗力影响的其他义务，包括所有到期付款的义务；</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.1.3 </span><span style="font-family:仿宋; font-size:14pt">一旦不可抗力结束，该方应尽快恢复履行本合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.2 若任何一方因不可抗力而不能履行本合同，</span><span style="font-family:仿宋; font-size:14pt">则该方应尽快书面通知另一方，并在3日内以书面方式正式通知另一方。</span><span style="font-family:仿宋; font-size:14pt">该通知书应说明不可抗力的发生日期和预计持续的时间、事件性质、对该方履行本合同的影响及该方为减少不可抗力影响所采取的措施。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">受不可抗力影响的一方应在不可抗力发生之日（如遇通讯中断，则自通讯恢复之日）起</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{this.yi_list.column2}} </span><span style="font-family:仿宋; font-size:14pt">日内向对方提供一份由不可抗力发生地公证机构出具的证明文件。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.3 受不可抗力影响的一方应采取合理的措施，以减少因不可抗力给合同其他方带来的损失。合同双方应及时协商制定并实施补救计划及合理的替代措施以减少或消除不可抗力的影响。如果受不可抗力影响的一方未能尽其努力采取合理措施减少不可抗力的影响，则该方应承担由此扩大的损失</span><span style="font-family:仿宋; font-size:14pt">，双方可另行进行约定。若有约定，具体约定为</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{this.deta_list.contract.forceMajeurePromise}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.4 如果发生不可抗力，双方首先应尽量调整交易和生产计划，尽可能使结算电量接近合同电量。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.5 不可抗力造成的合同解除</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">如果任何不可抗力阻碍一方履行其义务持续超过</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; {{this.yi_list.column3}}&nbsp; </span><span style="font-family:仿宋; font-size:14pt">日，双方应协商决定是否继续履行本合同的条件或解除本合同。如果自不可抗力发生后</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; {{this.yi_list.column4}}&nbsp; </span><span style="font-family:仿宋; font-size:14pt">日</span><span style="font-family:仿宋; font-size:14pt">内，双方不能就继续履行合同的条件或解除本合同达成一致意见，任何一方有权书面通知另一方解除本合同，并报能源监管机构和政府相关部门备案。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第十一章&nbsp; 争议的解决</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">11.1 </span><span style="font-family:仿宋; font-size:14pt">凡因执行本合同所发生的与本合同有关的一切争议，双方应协商解决，也可提请省级政府相关部门、能源监管机构调解。协商或调解不成的，</span><span style="font-family:仿宋; font-size:14pt">按以下第</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; {{this.yi_list.column5}}&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">种方式处理：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">（1）双方同意提请仲裁委员会，请求按照其仲裁规则进行仲裁。仲裁裁决是终局的，对双方均具有法律约束力。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">（2）任何一方依法提请人民法院通过诉讼程序解决。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第十二章&nbsp; 适用法律</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">12.1 本合同的订立、效力、解释、履行和争议的解决均适用中华人民共和国法律。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第十三章&nbsp; 合同生效和期限</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">13.1 本合同的生效条件是：</span><span style="font-family:仿宋; font-size:14pt">经双方法定代表人或授权代理人签字并加盖公章或合同专用章。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">13.2 本合同有效期：</span><span style="font-family:仿宋; font-size:14pt">自</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_year(this.deta_list.contract.contractStartTime) }} </span><span style="font-family:仿宋; font-size:14pt">年</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_Month(this.deta_list.contract.contractStartTime) }}  </span><span style="font-family:仿宋; font-size:14pt">月</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_r(this.deta_list.contract.contractStartTime) }} </span><span style="font-family:仿宋; font-size:14pt">日起</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_year(this.deta_list.contract.contractEndTime) }} </span><span style="font-family:仿宋; font-size:14pt">年</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp; {{ get_time_Month(this.deta_list.contract.contractEndTime) }}</span><span style="font-family:仿宋; font-size:14pt">月</span><span style="color:#ffffff; font-family:仿宋; font-size:14pt; text-decoration:underline">`</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{ get_time_r(this.deta_list.contract.contractEndTime) }}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt">日止。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第十四章&nbsp; 其他</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.1 保密</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">甲、乙双方均应保证其从另一方取得的所有无法自公开渠道获得的资料和文件（包括财务、技术等内容）予以保密。未经该资料和文件的原提供方同意，不得向任何第三方透露该资料和文件的全部或任何部分，但按照法律、法规规定可做出披露的情况除外。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.2 合同全部</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">本合同及其附件构成双方就本合同标的达成的全部内容，取代所有双方在此之前就本合同标的所签订的协议和合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.3 通知和送达</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">任何与本合同有关的通知、文件和合规的账单等均须以书面方式进行。通过挂号信、快递或当面送交的，经收件方签字确认即被认为送达；若以传真、电子邮件、</span><span style="font-family:仿宋; font-size:14pt">QQ、微信等</span><span style="font-family:仿宋; font-size:14pt">方式发出并被接收，即视为送达。所有通知、文件和合规的账单等均在送达或接收后方能生效。一切通知、账单、资料或文件等应按照约定的联络信息发给对方，直至一方书面通知另一方变更联络信息为止。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.4 不放弃权利</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">任何一方未通过书面形式声明放弃其在本合同项下的任何权利，则不应被视为其弃权。任何一方未行使其在本合同项下的任何权利，均不应被视为对任何上述权利的放弃或对今后任何上述权利的放弃。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.5 本合同与电网企业与售电公司、电力用户之间签订的《市场化零售供用电合同》互为补充；当《市场化零售供用电合同》约定的内容与本合同不一致时，应按协商一致的原则，经合同签订方协商确定后执行，协商不成的按程序报省级政府相关部门、监管机构协调。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.6 本合同中有关解除、争议解决和保密的条款在本合同解除后仍然有效。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.7 未尽事宜，由双方协商签订补充协议，并报送能源监管机构和四川电力交易中心备案。补充协议与本合同具有同等法律效力。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.8 </span><span style="font-family:仿宋; font-size:14pt">本合同正本一式</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; {{this.yi_list.column6}}&nbsp; </span><span style="font-family:仿宋; font-size:14pt">份，甲乙双方各执</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{this.yi_list.column7}} </span><span style="font-family:仿宋; font-size:14pt">份，交四川电力交易中心</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;{{this.yi_list.column8}}&nbsp; </span><span style="font-family:仿宋; font-size:14pt">份，交</span><span style="font-family:仿宋; font-size:14pt">能源监管机构</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; {{this.yi_list.column9}}&nbsp; </span><span style="font-family:仿宋; font-size:14pt">份。</span></p>
             </div>
-            <span
-              style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"><br
-              clear="all" style="page-break-before:always;mso-break-type:section-break"></span>
-            <div class="Section3">
-              <p class="MsoNormal" align="center"
-                 style="text-align:center;line-height:35.0000pt;mso-line-height-rule:exactly;"><span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="小标宋">签</font> &nbsp;<font face="小标宋">字</font> &nbsp;<font face="小标宋">页</font></span><span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" ><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><u style="text-decoration: none;"><span style="font-family: 仿宋_GB2312; font-size: 14pt;line-height: 40pt;"><font face="仿宋_GB2312">甲方：{{this.deta_list.contract.customerName}}</font> </span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">法定代表人</font>(或授权代理人)：</span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">单位签章：</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">签字日期：</font></span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">年</font></span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">月</font></span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">日</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;margin-bottom: 30pt"> <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt; margin-top: 100px" ><u style="text-decoration: none;"><span style="font-family: 仿宋_GB2312; font-size: 14pt;"><font face="仿宋_GB2312">乙方：{{this.yi_list.name}}</font> </span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">法定代表人</font>(或授权代理人)：</span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">单位签章：</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">签字日期：</font></span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">年</font></span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">月</font></span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">日</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:仿宋;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:仿宋;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
+            <br style="clear:both; mso-break-type:section-break; page-break-before:always" />
+            <div>
+              <p style="line-height:35pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:22pt">签&nbsp; 字&nbsp; 页</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">甲方：</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">法定代表人(或授权代理人)：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">单位签章：</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">签字日期：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">年</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">月</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">日</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">乙方：四川川能智网实业有限公司</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">法定代表人(或授权代理人)：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">单位签章：</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">签字日期：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">年</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">月</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">日</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
             </div>
-            <span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><br
-              clear="all" style="page-break-before:always;mso-break-type:section-break"></span>
-            <div class="Section4" >
-              <p class="MsoNormal" style="word-break: break-all; line-height: 28pt;"><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="黑体">附件</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;">1</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;font-size:24.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;"><b><span
-                style="font-family: 方正小标宋简体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;"><span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="小标宋">甲乙双方协议电量交易价格表</font></span><span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><b><span
-                style="font-family: &quot;Times New Roman&quot;; color: rgb(255, 0, 0); font-size: 18pt;">  </span></b>
-              </p>
-              <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">甲方：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                face="仿宋_GB2312">{{this.deta_list.contract.customerName}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                face="仿宋_GB2312">（电力用户名称）</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.usePowerNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                face="仿宋_GB2312">（用电户号）</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">乙方：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                face="仿宋_GB2312">{{this.yi_list.name}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">（售电公司名称）</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 29pt;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">交易周期：</font> &nbsp;{{ get_time_year(this.deta_list.contract.contractStartTime) }} <font
-                face="仿宋_GB2312">年 </font><font face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">月 </font><font
-                face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">日至 </font><font
-                face="Times New Roman">{{ get_time_year(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">年 </font><font face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractEndTime) }} </font><font
-                face="仿宋_GB2312">月 </font><font face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractEndTime) }}  </font><font
-                face="仿宋_GB2312">日。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="right"
-                 style="text-align:right;line-height:29.0000pt;mso-line-height-rule:exactly;"><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:11.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="right" style="layout-grid-mode:char;word-break:break-all;text-align:right;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;<font
-                face="仿宋_GB2312">单位：元</font>/<font face="仿宋_GB2312">兆瓦时</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <div align="center">
-                <table class="MsoNormalTable" border="1" cellspacing="0" style="width: 414.8pt; border: none;">
+            <br style="clear:both; mso-break-type:section-break; page-break-before:always" />
+            <div>
+              <p style="margin:0pt"><span style="font-family:黑体; font-size:16pt">附件</span></p>
+              <p style="margin:15.6pt 0pt 7.8pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正小标宋简体; font-size:18pt; font-weight:bold">2019年四川电力零售市场年度交易电量</span></p>
+              <p style="margin:15.6pt 0pt 7.8pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正小标宋简体; font-size:18pt; font-weight:bold">与电价明细表</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:14pt">交易品种名称：</span><span style="font-family:方正仿宋_GBK; font-size:14pt; text-decoration:underline"> 常规直购交易&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:right; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">单位：兆瓦时、元/兆瓦时</span></p>
+              <div style="text-align:center">
+                <table cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin:0 auto">
                   <tbody>
-                  <tr style="height:64.7500pt;">
-                    <td width="106" valign="center"
-                        style="width:63.6000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal" align="right"
-                         style="layout-grid-mode:char;word-break:break-all;text-align:right;line-height:13.0000pt;mso-line-height-rule:exactly;">
-                      <span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">交易</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                      <p class="MsoNormal" align="center"
-                         style="layout-grid-mode:char;word-break:break-all;text-align:center;line-height:13.0000pt;mso-line-height-rule:exactly;">
-                      <span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;&nbsp;品种</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                      <p class="MsoNormal"><span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">月份</span><b><span
-                        style="font-family: &quot;Times New Roman&quot;; font-size: 12pt;"> </span></b></p>
-                    </td>
-                    <td width="177" valign="center"
-                        style="width:106.2500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal" align="center"
-                         style="layout-grid-mode:char;word-break:break-all;text-align:center;"><span
-                        style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">常规直接交易（水电电量交易价）</span><span
-                        style="font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
-                    <td width="197" valign="center"
-                        style="width:118.6500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal" align="center"
-                         style="layout-grid-mode:char;word-break:break-all;text-align:center;"><span
-                        style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">长期战略协议直接交易（水电电量交易价格）</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
-                    <td width="105" valign="center"
-                        style="width:63.1500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal" align="center"
-                         style="layout-grid-mode:char;word-break:break-all;text-align:center;"><span
-                        style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">自备替代直接交易</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
-                    <td width="105" valign="center"
-                        style="width:63.1500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal" align="center"
-                         style="layout-grid-mode:char;word-break:break-all;text-align:center;"><span
-                        style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">电能替代直接交易</span><span
-                        style="font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
+                  <tr>
+                    <td rowspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">月份</span></p></td>
+                    <td rowspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">年度交易电量</span></p></td>
+                    <td colspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">其中：水电电量部分</span></p></td>
+                    <td colspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">其中：火电/新能源电量部分</span></p></td>
+                    <td rowspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">月度水电增量交易价格</span></p></td>
                   </tr>
-                  <tr v-for='(item,index) in this.deta_list.list3'>
-                    <td width="106" valign="top"
-                        style="width:63.6000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal"><span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.month}}<font
-                        face="仿宋_GB2312">月</font></span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
-                    <td width="177" valign="top"
-                        style="width:106.2500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal"><span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.conventionalPrice}}</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
-                    <td width="197" valign="top"
-                        style="width:118.6500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal"><span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.longPrice}}</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
-                    <td width="105" valign="top"
-                        style="width:63.1500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal"><span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.selfPrice}}</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
-                    <td width="105" valign="top"
-                        style="width:63.1500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal"><span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.electricEnergyPrice}}</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易电量</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易电价</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易电量</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易价格</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">1月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[0].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[0].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[0].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[0].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[0].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">2月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[1].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[1].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[1].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[1].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[1].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">3月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[2].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[2].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[2].waterPowerPrice}}</span> </p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[2].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[2].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">4月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[3].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[3].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[3].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[3].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[3].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">5月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[4].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[4].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[4].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[4].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[4].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">6月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[5].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[5].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[5].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[5].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[5].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">7月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[6].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[6].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[6].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[6].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[6].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">8月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[7].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[7].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[7].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[7].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[7].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">9月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[8].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[8].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[8].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[8].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[8].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">10月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[9].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[9].waterPowerAmount}};</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[9].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[9].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[9].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">11月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[10].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[10].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[10].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[10].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[10].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">12月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[11].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[11].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[11].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[11].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[11].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">合计</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">{{parseFloat(this.deta_list.table1[0].yearAmount) + parseFloat(this.deta_list.table1[1].yearAmount)+ parseFloat(this.deta_list.table1[2].yearAmount)+ parseFloat(this.deta_list.table1[3].yearAmount)+ parseFloat(this.deta_list.table1[4].yearAmount)+ parseFloat(this.deta_list.table1[5].yearAmount)+ parseFloat(this.deta_list.table1[6].yearAmount)+ parseFloat(this.deta_list.table1[7].yearAmount)+ parseFloat(this.deta_list.table1[8].yearAmount)+ parseFloat(this.deta_list.table1[9].yearAmount)+ parseFloat(this.deta_list.table1[10].yearAmount)+ parseFloat(this.deta_list.table1[11].yearAmount)}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">{{parseFloat(this.deta_list.table1[0].waterPowerAmount) + parseFloat(this.deta_list.table1[1].waterPowerAmount)+ parseFloat(this.deta_list.table1[2].waterPowerAmount)+ parseFloat(this.deta_list.table1[3].waterPowerAmount)+ parseFloat(this.deta_list.table1[4].waterPowerAmount)+ parseFloat(this.deta_list.table1[5].waterPowerAmount)+ parseFloat(this.deta_list.table1[6].waterPowerAmount)+ parseFloat(this.deta_list.table1[7].waterPowerAmount)+ parseFloat(this.deta_list.table1[8].waterPowerAmount)+ parseFloat(this.deta_list.table1[9].waterPowerAmount)+ parseFloat(this.deta_list.table1[10].waterPowerAmount)+ parseFloat(this.deta_list.table1[11].waterPowerAmount)}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">{{parseFloat(this.deta_list.table1[0].hotPowerAmount) + parseFloat(this.deta_list.table1[1].hotPowerAmount)+ parseFloat(this.deta_list.table1[2].hotPowerAmount)+ parseFloat(this.deta_list.table1[3].hotPowerAmount)+ parseFloat(this.deta_list.table1[4].hotPowerAmount)+ parseFloat(this.deta_list.table1[5].hotPowerAmount)+ parseFloat(this.deta_list.table1[6].hotPowerAmount)+ parseFloat(this.deta_list.table1[7].hotPowerAmount)+ parseFloat(this.deta_list.table1[8].hotPowerAmount)+ parseFloat(this.deta_list.table1[9].hotPowerAmount)+ parseFloat(this.deta_list.table1[10].hotPowerAmount)+ parseFloat(this.deta_list.table1[11].hotPowerAmount)}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr style="height:0pt">
+                    <td style="width:36pt; border:none"></td>
+                    <td style="width:60.25pt; border:none"></td>
+                    <td style="width:66.05pt; border:none"></td>
+                    <td style="width:66.05pt; border:none"></td>
+                    <td style="width:66.05pt; border:none"></td>
+                    <td style="width:65.9pt; border:none"></td>
+                    <td style="width:65.8pt; border:none"></td>
                   </tr>
                   </tbody>
                 </table>
               </div>
-              <p class="MsoNormal" style="word-break: break-all;"><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:9.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">备注：本表在年度交易开始前提交四川电力交易中心，价格最多精确到小数点后一位。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:9.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="margin-top: 7.8pt; margin-bottom: 7.8pt; word-break: break-all; line-height: 29pt;"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-            </div>
-            <span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><br
-              clear="all" style="page-break-before:always;mso-break-type:section-break"></span>
-            <p class="MsoNormal"
-               style="margin-top: 7.8pt; margin-bottom: 7.8pt; word-break: break-all; line-height: 29pt;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="黑体">附件</font></span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;">2</span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;font-size:24.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" align="center"
-               style="text-align:center;line-height:28.0000pt;mso-line-height-rule:exactly;"><b><span
-              style="font-family: 方正小标宋简体; font-size: 18pt;">  </span></b></p>
-            <p class="MsoNormal" align="center"
-               style="text-align:center;line-height:28.0000pt;mso-line-height-rule:exactly;"><span
-              style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="小标宋">甲乙双方月度增量电量交易价格表</font></span><span
-              style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" style="line-height:28.0000pt;mso-line-height-rule:exactly;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:18.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">甲方：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">{{this.deta_list.contract.customerName}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">（电力用户名称）</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.usePowerNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">（用电户号）</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">乙方：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">{{this.yi_list.name}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">（售电公司名称）</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="line-height: 29pt;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">交易周期：</font> &nbsp;{{ get_time_year(this.deta_list.contract.contractStartTime) }} <font
-              face="仿宋_GB2312">年 </font><font face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">月 </font><font
-              face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">日至 </font><font
-              face="Times New Roman">{{ get_time_year(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">年 </font><font
-              face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">月 </font><font
-              face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractEndTime) }}  </font><font face="仿宋_GB2312">日。</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" align="right" style="layout-grid-mode:char;word-break:break-all;text-align:right;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" align="right" style="layout-grid-mode:char;text-align:right;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="仿宋_GB2312">单位：元</font>/<font face="仿宋_GB2312">兆瓦时</font></span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <div align="center">
-              <table class="MsoNormalTable" border="1" cellspacing="0" style="width: 414.8pt; border: none;">
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <table cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin-left:0pt">
                 <tbody>
                 <tr>
-                  <td width="219" valign="center"
-                      style="width:131.7000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="right" style="layout-grid-mode:char;text-align:right;"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">交易品种</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                    <p class="MsoNormal" style="text-indent: 18pt;"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">月份</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="235" valign="center"
-                      style="width:141.5500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="center" style="layout-grid-mode:char;text-align:center;"><span
-                      style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">协议外月度电量交易价</span><span
-                      style="font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="235" valign="center"
-                      style="width:141.5500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="center" style="layout-grid-mode:char;text-align:center;"><span
-                      style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">月度富余电量交易价</span><span
-                      style="font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                </tr>
-                <tr v-for='(item,index) in this.deta_list.list4'>
-                  <td width="219" valign="top"
-                      style="width:131.7000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.month}}<font
-                      face="仿宋_GB2312">月</font></span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="235" valign="top"
-                      style="width:141.5500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.monthPowerPrice}}</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="235" valign="top"
-                      style="width:141.5500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.monthSurplusPowerPrice}}</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
+                  <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top"><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">甲方（用电方）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">名称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">户号：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易简称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易代码：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">法人代表签字：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:15.6pt 0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">（盖公章）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">年</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">月</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">日</span></p></td>
+                  <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top"><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">乙方（代理方）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">&nbsp;</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">名称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">四川川能智网实业有限公司&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易简称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp; 川能智网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易代码：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">800018</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">法人代表签字：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:15.6pt 0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">（盖公章）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">年</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">月</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">日</span></p></td>
                 </tr>
                 </tbody>
               </table>
-            </div>
-            <p class="MsoNormal" style="word-break: break-all;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:9.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="仿宋_GB2312">备注：本表在年度交易开始前提交四川电力交易中心，价格最多精确到小数点后一位。</font></span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:9.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal"
-               style="margin-top:7.8000pt;margin-bottom:7.8000pt;mso-para-margin-top:0.5000gd;mso-para-margin-bottom:0.5000gd;mso-outline-level:1;line-height:29.0000pt;mso-line-height-rule:exactly;">
-            <span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" align="center"
-               style="margin-top:7.8000pt;margin-bottom:7.8000pt;mso-para-margin-top:0.5000gd;mso-para-margin-bottom:0.5000gd;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <b><span style="font-family: 方正小标宋简体; font-size: 18pt;">  </span></b></p>
-            <p class="MsoNormal" style="margin-top: 7.8pt; margin-bottom: 7.8pt; line-height: 29pt;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="margin-top: 7.8pt; margin-bottom: 7.8pt; line-height: 29pt;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="margin-top: 7.8pt; margin-bottom: 7.8pt; line-height: 29pt;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="margin-top: 7.8pt; margin-bottom: 7.8pt; line-height: 29pt;"><span
-              style="mso-spacerun:'yes';font-family:黑体;mso-ascii-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:16.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="margin-top: 7.8pt; margin-bottom: 7.8pt; line-height: 29pt;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="margin-top: 7.8pt; margin-bottom: 7.8pt; line-height: 29pt;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="黑体">附件</font></span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;">3</span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" align="center"
-               style="text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;"><b><span
-              style="font-family: 方正小标宋简体; font-size: 18pt;">  </span></b></p>
-            <p class="MsoNormal" align="center"
-               style="text-align:center;line-height:28.0000pt;mso-line-height-rule:exactly;"><span
-              style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="小标宋">甲乙双方协议电量表</font></span><span
-              style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" align="center"
-               style="text-align:center;line-height:28.0000pt;mso-line-height-rule:exactly;"><b><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 18pt;">  </span></b></p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">甲方：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">{{this.deta_list.contract.customerName}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">（电力用户名称）</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.usePowerNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">（用电户号）</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">乙方：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">{{this.yi_list.name}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">（售电公司名称）</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="line-height: 29pt;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">交易周期：</font> &nbsp;{{ get_time_year(this.deta_list.contract.contractStartTime) }} <font
-              face="仿宋_GB2312">年 </font><font face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">月 </font><font
-              face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">日至 </font><font
-              face="Times New Roman">{{ get_time_year(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">年 </font><font
-              face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">月 </font><font
-              face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractEndTime) }}  </font><font face="仿宋_GB2312">日。</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" align="right" style="layout-grid-mode:char;word-break:break-all;text-align:right;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" align="right" style="layout-grid-mode:char;text-align:right;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="仿宋_GB2312">单位：兆瓦时</font></span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <div align="center">
-              <table class="MsoNormalTable" border="1" cellspacing="0" style="width: 414.8pt; border: none;">
+              <p style="margin:0pt"><br style="page-break-before:always; clear:both" /><span style="font-family:黑体; font-size:16pt">附件</span></p>
+              <p style="margin:15.6pt 0pt 7.8pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正小标宋简体; font-size:18pt; font-weight:bold">2019年四川电力零售市场年度交易电量</span></p>
+              <p style="margin:15.6pt 0pt 7.8pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正小标宋简体; font-size:18pt; font-weight:bold">与电价明细表</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:14pt">交易品种名称：</span><span style="font-family:方正仿宋_GBK; font-size:14pt; text-decoration:underline"> 富余电量交易&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:right; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">单位：兆瓦时、元/兆瓦时</span></p>
+              <div style="text-align:center">
+                <table cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin:0 auto">
+                  <tbody>
+                  <tr>
+                    <td rowspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">月份</span></p></td>
+                    <td rowspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">年度交易电量</span></p></td>
+                    <td colspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">其中：水电电量部分</span></p></td>
+                    <td colspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">其中：火电/新能源电量部分</span></p></td>
+                    <td rowspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">月度水电增量交易价格</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易电量</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易电价</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易电量</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易价格</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">1月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">2月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">3月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">4月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">5月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">6月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[5].yearAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[5].waterPowerAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[5].waterPowerPrice2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[5].monthWaterPowerIncPrice2}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">7月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[6].yearAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[6].waterPowerAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[6].waterPowerPrice2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[6].monthWaterPowerIncPrice2}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">8月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[7].yearAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[7].waterPowerAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[7].waterPowerPrice2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[7].monthWaterPowerIncPrice2}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">9月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[8].yearAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[8].waterPowerAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[8].waterPowerPrice2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[8].monthWaterPowerIncPrice2}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">10月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[9].yearAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[9].waterPowerAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[9].waterPowerPrice2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[5].monthWaterPowerIncPrice2}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">11月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">12月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">合计</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">{{parseFloat(this.deta_list.table2[5].yearAmount2) + parseFloat(this.deta_list.table2[6].yearAmount2)+ parseFloat(this.deta_list.table2[7].yearAmount2)+ parseFloat(this.deta_list.table2[8].yearAmount2) + parseFloat(this.deta_list.table2[9].yearAmount2)}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">{{parseFloat(this.deta_list.table2[5].waterPowerAmount2) + parseFloat(this.deta_list.table2[6].waterPowerAmount2)+ parseFloat(this.deta_list.table2[7].waterPowerAmount2)+ parseFloat(this.deta_list.table2[8].waterPowerAmount2) + parseFloat(this.deta_list.table2[9].waterPowerAmount2)}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr style="height:0pt">
+                    <td style="width:36pt; border:none"></td>
+                    <td style="width:60.25pt; border:none"></td>
+                    <td style="width:66.05pt; border:none"></td>
+                    <td style="width:66.05pt; border:none"></td>
+                    <td style="width:66.05pt; border:none"></td>
+                    <td style="width:65.9pt; border:none"></td>
+                    <td style="width:65.8pt; border:none"></td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <table cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin-left:0pt">
                 <tbody>
                 <tr>
-                  <td width="131" valign="center"
-                      style="width:79.1000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="right"
-                       style="layout-grid-mode:char;word-break:break-all;text-align:right;line-height:16.0000pt;mso-line-height-rule:exactly;">
-                    <span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;</span><span
-                      style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;</span><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">交易 </span><span
-                      style="font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">&nbsp;</span><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">品种</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">月份</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="91" valign="center"
-                      style="width:54.8500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="center" style="layout-grid-mode:char;text-align:center;"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">交易总量</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="center"
-                      style="width:70.2500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="center" style="layout-grid-mode:char;text-align:center;"><span
-                      style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">常规直接交易电量</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="center"
-                      style="width:70.2000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="center"
-                       style="layout-grid-mode:char;word-break:break-all;text-align:center;"><span
-                      style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">长期战略协议直接交易电量</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="center"
-                      style="width:70.2000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="center"
-                       style="layout-grid-mode:char;word-break:break-all;text-align:center;"><span
-                      style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">自备替代直接交易</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="center"
-                      style="width:70.2000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="center" style="layout-grid-mode:char;text-align:center;"><span
-                      style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">电能替代直接交易</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                </tr>
-                <tr v-for='(item,index) in this.deta_list.list5'>
-                  <td width="131" valign="top"
-                      style="width:79.1000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.month}}<font
-                      face="仿宋_GB2312">月</font></span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="91" valign="top"
-                      style="width:54.8500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.totalAmount}}</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="top"
-                      style="width:70.2500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.conventionalAmount}}</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="top"
-                      style="width:70.2000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.longAmount}}</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="top"
-                      style="width:70.2000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.selfAmount}}</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="top"
-                      style="width:70.2000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.electricEnergyAmount}}</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
+                  <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top"><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">甲方（用电方）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">名称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">户号：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易简称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易代码：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">法人代表签字：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:15.6pt 0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">（盖公章）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">年</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">月</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">日</span></p></td>
+                  <td style="padding-left:5.4pt; padding-right:5.4pt; vertical-align:top"><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">乙方（代理方）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">&nbsp;</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">名称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">四川川能智网实业有限公司&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易简称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp; 川能智网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易代码：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">800018</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">法人代表签字：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:15.6pt 0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">（盖公章）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">年</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">月</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">日</span></p></td>
                 </tr>
                 </tbody>
               </table>
+              <p style="margin:0pt 0pt 7.8pt; text-align:justify"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
             </div>
-            <p class="MsoNormal" style="word-break: break-all;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:9.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="仿宋_GB2312">备注：本表在年度交易前提交四川电力交易中心，电量最多精确到小数点后三位。</font></span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:9.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal"
-               style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;"><b><span
-              style="font-family: 宋体; color: rgb(255, 0, 0); font-size: 16pt;">  </span></b></p>
-            <p class="MsoNormal"
-               style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;"><b><span
-              style="font-family: 宋体; font-size: 16pt;">  </span></b></p>
-            <p class="MsoNormal"
-               style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;"><b><span
-              style="font-family: 宋体; font-size: 16pt;">  </span></b></p>
+
+
 
           </div>
         </div>
         <div style="display: none" class="cont_frame_div">
           <div id="printTest" class="cont_frame">
-            <div class="Section0">
-              <p class="MsoNormal"
-                 style="margin-bottom:10.8500pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;"><b><span
-                style="font-family: 仿宋_GB2312; font-size: 16pt;">CH-2018-03</span></b><b><span
-                style="font-family: 宋体; font-size: 16pt;"> </span></b></p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:宋体;mso-fareast-font-family:仿宋_GB2312;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:宋体;mso-fareast-font-family:仿宋_GB2312;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:10.8500pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-              <span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:宋体;mso-bidi-font-family:宋体;font-size:22.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="小标宋">四川省售电公司与电力用户购售电合同</font></span><span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:宋体;mso-bidi-font-family:宋体;font-size:22.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:10.8500pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-              <span
-                style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:宋体;font-size:22.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="楷体_GB2312">（示范文本）</font></span><span
-                style="mso-spacerun:'yes';font-family:楷体_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:宋体;font-size:22.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="margin-bottom: 750px"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:72.0000pt;mso-char-indent-count:4.0000;mso-pagination:widow-orphan;line-height:18.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="黑体">国家能源局四川监管办公室</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-pagination:widow-orphan;text-align:center;line-height:18.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                face="黑体">制定</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:72.0000pt;mso-char-indent-count:4.0000;mso-pagination:widow-orphan;line-height:18.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="黑体">四川省工商行政管理局</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:18.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="margin-top:21.7500pt;margin-bottom:10.8500pt;mso-para-margin-top:1.0000gd;mso-para-margin-bottom:0.5000gd;mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <b><span style="font-family: 方正小标宋简体; font-size: 18pt;">  </span></b></p>
+            <div>
+              <p style="margin:0pt 0pt 10.9pt; text-align:justify"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">CH-2018-03</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 10.9pt; text-align:center"><span style="font-family:仿宋; font-size:22pt">四川省售电公司与电力用户购售电合同</span></p>
+              <p style="margin:0pt 0pt 10.9pt; text-align:center"><span style="font-family:仿宋; font-size:22pt">（示范文本）</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:22pt">&nbsp;</span></p>
+              <p style="line-height:18pt; margin:0pt; text-align:justify; text-indent:64pt"><span style="font-family:仿宋; font-size:18pt">国家能源局四川监管办公室</span></p>
+              <p style="line-height:18pt; margin:0pt; text-align:center"><span style="font-family:仿宋; font-size:18pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:18pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 制定</span><span style="font-family:仿宋; font-size:18pt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:18pt; margin:0pt; text-align:justify; text-indent:64pt"><span style="font-family:仿宋; font-size:18pt">四川省工商行政管理局</span></p>
+              <p style="line-height:29pt; margin:21.75pt 0pt 10.9pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
             </div>
-            <span style="mso-spacerun:'yes';font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><br clear="all"
-                                                                                                               style="page-break-before:always;mso-break-type:section-break"></span>
-            <div class="Section1">
-              <p class="MsoNormal" align="center"
-                 style="text-indent:32.0000pt;mso-char-indent-count:2.0000;word-break:break-all;text-align:center;line-height:31.0000pt;mso-line-height-rule:exactly;">
-              <span style="mso-spacerun:'yes';font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="黑体">目</font> &nbsp;<font face="黑体">录</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-bidi-font-family:'Times New Roman';font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">说明</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第一章</font> &nbsp;<font face="仿宋_GB2312">定义和解释</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第二章</font> &nbsp;<font face="仿宋_GB2312">双方陈述</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第三章</font> &nbsp;<font face="仿宋_GB2312">双方的权利和义务</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第四章</font> &nbsp;<font face="仿宋_GB2312">交易电量、电价</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第五章</font> &nbsp;<font face="仿宋_GB2312">电能计量</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第六章</font> &nbsp;<font face="仿宋_GB2312">结算和支付</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第七章</font> &nbsp;<font face="仿宋_GB2312">合同变更</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第八章</font> &nbsp;<font face="仿宋_GB2312">合同违约和补偿</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第九章</font> &nbsp;<font face="仿宋_GB2312">合同解除</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第十章</font> &nbsp;<font face="仿宋_GB2312">不可抗力</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第十一章</font> &nbsp;<font face="仿宋_GB2312">争议的解决</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第十二章</font> &nbsp;<font face="仿宋_GB2312">适用法律</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第十三章</font> &nbsp;<font face="仿宋_GB2312">合同生效和期限</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">第十四章</font> &nbsp;<font face="仿宋_GB2312">其他</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:仿宋;mso-bidi-font-family:黑体;font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"
-                 style="mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <b><span style="font-family: 方正仿宋_GBK; font-size: 16pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <b><span style="font-family: 方正仿宋_GBK; font-size: 16pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <b><span style="font-family: 方正仿宋_GBK; font-size: 16pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <b><span style="font-family: 方正仿宋_GBK; font-size: 16pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <b><span style="font-family: 方正仿宋_GBK; font-size: 16pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:MicrosoftYaHei;font-size:22.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="小标宋">说</font> &nbsp;<font face="小标宋">明</font></span><span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:MicrosoftYaHei;font-size:22.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">一、为规范售电公司与电力用户购售电行为，根据国家有关法律、法规和四川省相关政策规则要求，国家能源局四川监管办公室、四川省工商行政管理局共同制定本合同示范文本，供符合四川省售电侧改革试点准入要求的售电公司与符合四川电力市场准入条件的电力用户之间订立购售电交易合同使用。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">二、合同双方当事人在合同订立、履行中，应当遵循平等、自愿、公平和诚实信用的原则，相互尊重，充分协商，严格履行。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">三、使用本合同示范文本的，不得修改相关内容。参照本合同示范文本订立合同的，不得使用本合同示范文本的名义或者编号。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">使用本合同示范文本又订立补充协议，补充协议与本合同示范文本的内容相抵触的，不得使用本合同示范文本的名义或者编号。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">四、本合同示范文本由通用条款和专用条款组成。通用条款是指不能或者不必协商的条款，专用条款是指当事人在订立合同时应当或者可以协商的选择性、填充性条款。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">选择性条款中在选项前标示有</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">“</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">□</span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">”</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">符号，选择时在该符号内划</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">“</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">√</span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">”</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">表示肯定或者划</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">“</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">×</span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">”</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">表示否定。选择性条款包含单项选择和多项选择。填充性条款中标示有下划线，双方将协商达成的一致意见填入，无意见的划</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">“</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">×</span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">”</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">、或者</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">“</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">－</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">”</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">表示删除该填充性条款。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">五、电力用户不得在合同有效期内同时与两家及以上售电公司签订本合同；电力用户与售电公司签订本合同后，在合同有效期内不得再与发电企业签订购售电合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">六、本合同仅处理与购售电有关的商务问题，所有关于电网、发电厂、电力用户运行的安全和技术问题纳入并网调度协议和市场化零售供用电合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">七、如国家法律、法规发生变化或者政府有关部门、监管机构出台有关规定、规则，合同双方应按照法律、法规、规定和规则予以调整和修改。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-                <b><span style="font-family: 宋体; font-size: 18pt;">  </span></b></p>
+            <br style="clear:both; mso-break-type:section-break; page-break-before:always" />
+            <div>
+              <p style="line-height:31pt; margin:0pt; orphans:0; text-align:center; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:16pt">目&nbsp; 录</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">说明</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第一章&nbsp; 定义和解释</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第二章&nbsp; 双方陈述</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第三章&nbsp; 双方的权利和义务</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第四章&nbsp; 交易电量、电价</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第五章&nbsp; 电能计量</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第六章&nbsp; 结算和支付</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第七章&nbsp; 合同变更</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第八章&nbsp; 合同违约和补偿</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第九章&nbsp; 合同解除</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第十章&nbsp; 不可抗力</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第十一章&nbsp; 争议的解决</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第十二章&nbsp; 适用法律</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第十三章&nbsp; 合同生效和期限</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">第十四章&nbsp; 其他</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
+
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:22pt">说&nbsp; 明</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">一、为规范售电公司与电力用户购售电行为，根据国家有关法律、法规和四川省相关政策规则要求，国家能源局四川监管办公室、四川省工商行政管理局共同制定本合同示范文本，供符合四川省售电侧改革试点准入要求的售电公司与符合四川电力市场准入条件的电力用户之间订立购售电交易合同使用。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">二、合同双方当事人在合同订立、履行中，应当遵循平等、自愿、公平和诚实信用的原则，相互尊重，充分协商，严格履行。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">三、使用本合同示范文本的，不得修改相关内容。参照本合同示范文本订立合同的，不得使用本合同示范文本的名义或者编号。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">使用本合同示范文本又订立补充协议，补充协议与本合同示范文本的内容相抵触的，不得使用本合同示范文本的名义或者编号。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">四、本合同示范文本由通用条款和专用条款组成。通用条款是指不能或者不必协商的条款，专用条款是指当事人在订立合同时应当或者可以协商的选择性、填充性条款。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">选择性条款中在选项前标示有</span><span style="font-family:仿宋; font-size:14pt">“</span><span style="font-family:仿宋; font-size:14pt">□</span><span style="font-family:仿宋; font-size:14pt">”</span><span style="font-family:仿宋; font-size:14pt">符号，选择时在该符号内划</span><span style="font-family:仿宋; font-size:14pt">“</span><span style="font-family:仿宋; font-size:14pt">√</span><span style="font-family:仿宋; font-size:14pt">”</span><span style="font-family:仿宋; font-size:14pt">表示肯定或者划</span><span style="font-family:仿宋; font-size:14pt">“</span><span style="font-family:仿宋; font-size:14pt">&times;</span><span style="font-family:仿宋; font-size:14pt">”</span><span style="font-family:仿宋; font-size:14pt">表示否定。选择性条款包含单项选择和多项选择。填充性条款中标示有下划线，双方将协商达成的一致意见填入，无意见的划</span><span style="font-family:仿宋; font-size:14pt">“</span><span style="font-family:仿宋; font-size:14pt">&times;</span><span style="font-family:仿宋; font-size:14pt">”</span><span style="font-family:仿宋; font-size:14pt">、或者</span><span style="font-family:仿宋; font-size:14pt">“</span><span style="font-family:仿宋; font-size:14pt">－</span><span style="font-family:仿宋; font-size:14pt">”</span><span style="font-family:仿宋; font-size:14pt">表示删除该填充性条款。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">五、电力用户不得在合同有效期内同时与两家及以上售电公司签订本合同；电力用户与售电公司签订本合同后，在合同有效期内不得再与发电企业签订购售电合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">六、本合同仅处理与购售电有关的商务问题，所有关于电网、发电厂、电力用户运行的安全和技术问题纳入并网调度协议和市场化零售供用电合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">七、如国家法律、法规发生变化或者政府有关部门、监管机构出台有关规定、规则，合同双方应按照法律、法规、规定和规则予以调整和修改。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
             </div>
-            <span
-              style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:0.0000pt;"><br
-              clear="all" style="page-break-before:always;mso-break-type:section-break"></span>
-            <div class="Section2" style="margin-top: 500px">
-              <p class="MsoNormal" align="center"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:center;">
-              <span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="小标宋">四川省售电公司与电力用户购售电合同</font></span><span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="right"
-                 style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;text-align:right;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 16pt;"><font
-                  face="仿宋_GB2312">合同编号：</font> &nbsp;{{this.deta_list.contract.number}} &nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">甲方（电力用户）：</font> &nbsp;&nbsp;&nbsp;<font
-                  face="仿宋_GB2312">{{this.deta_list.contract.customerName}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">住所：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">{{this.deta_list.contract.residence}}</font></span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">法人代表</font>/<font face="仿宋_GB2312">授权代理人： &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.representative}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">税务登记号（统一社会信用代码）：</font> &nbsp;&nbsp;{{this.deta_list.contract.taxNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">开户名称：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">{{this.deta_list.contract.accountName}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">开户银行：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">{{this.deta_list.contract.accountBank}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">账号</font>: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.accountNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">联</font> <font face="仿宋_GB2312">系</font> <font face="仿宋_GB2312">人：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                  face="仿宋_GB2312">{{this.deta_list.customer.contact}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">电子邮箱：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.email}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">手</font> &nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">机：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.phone}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">办公电话：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.contactNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">通讯地址：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                  face="仿宋_GB2312">{{this.deta_list.contract.contactAddress}}</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">甲方为一家具有法人资格的企业，在</font> &nbsp;<font
-                  face="仿宋_GB2312">{{this.deta_list.customer.city}}</font> &nbsp;<font face="仿宋_GB2312">工商行政管理局登记注册。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">乙方（售电公司）：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                  face="仿宋_GB2312">{{this.yi_list.name}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">住所：</font> &nbsp;&nbsp;&nbsp;&nbsp;<font
-                  face="仿宋_GB2312">{{this.yi_list.residence}}</font></span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">法人代表</font>/<font face="仿宋_GB2312">授权代理人： &nbsp;&nbsp;&nbsp;&nbsp;{{this.yi_list.representative}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">税务登记号（统一社会信用代码）：</font> {{this.yi_list.taxNumber}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">开户名称：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">{{this.yi_list.accountName}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">开户银行：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">{{this.yi_list.accountBank}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">账号</font>: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.yi_list.accountNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">联</font> <font face="仿宋_GB2312">系</font> <font face="仿宋_GB2312">人：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                  face="仿宋_GB2312">{{this.yi_list.contact}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">电子邮箱：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.yi_list.email}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">手</font> &nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">机：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.yi_list.phone}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">办公电话：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.yi_list.contactNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font
-                  face="仿宋_GB2312">通讯地址：</font> <font face="仿宋_GB2312">{{this.yi_list.contactAddress}}</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">乙方为一家具有法人资格的售电公司，已取得四川省电力市场交易资格，在</font> <font
-                  face="仿宋_GB2312">{{this.yi_list.city}}</font> <font face="仿宋_GB2312">工商行政管理局登记注册。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">鉴于：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">1.<font
-                  face="仿宋_GB2312">甲方在 </font><font face="Times New Roman">{{this.deta_list.customer.powerCompany}} </font><font face="仿宋_GB2312">拥有并经营管理一家用电电压等级为 </font><font
-                  face="Times New Roman">{{this.deta_list.customer.voltageLevel}} </font><font face="仿宋_GB2312">千伏（</font><font
-                  face="Times New Roman">kV</font><font face="仿宋_GB2312">），总用电容量为 &nbsp;&nbsp;</font><font
-                  face="Times New Roman">{{this.deta_list.contract.totalUsePowerAmount}}</font><font face="仿宋_GB2312">千瓦（</font><font
-                  face="Times New Roman">kW</font><font face="仿宋_GB2312">）或变压器容量为 &nbsp;&nbsp;</font><font
-                  face="Times New Roman">{{this.deta_list.contract.transformerCapacity}} </font><font face="仿宋_GB2312">千伏安（</font><font
-                  face="Times New Roman">kVA</font><font
-                  face="仿宋_GB2312">）的用电企业，符合四川省电力市场准入条件且在四川电力交易中心有限公司（以下简称</font><font
-                  face="Times New Roman">“</font><font face="仿宋_GB2312">四川电力交易中心</font><font
-                  face="Times New Roman">”</font><font face="仿宋_GB2312">）完成市场主体注册。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">2.<font face="仿宋_GB2312">乙方在四川省拥有合法售电经营资格，符合国家发展改革委、国家能源局《售电公司准入与退出管理办法》准入条件，符合四川省政府主管部门对售电公司准入的相关要求，在四川电力交易中心完成公示、承诺、注册、备案程序，并通过政府相关部门、监管机构评估的售电公司，具备开展电力交易的购售电资格，在四川电力交易中心注册登记的资产总额为 </font><font
-                  face="Times New Roman">{{this.yi_list.totalAssets}} </font><font face="仿宋_GB2312">万元，可从事年售电量为 {{this.yi_list.salePowerAmount}} 亿千瓦时。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3</span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;">.</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">甲、乙双方通过四川电力交易中心及电网企业的输配电网络完成购售电交易，双方根据国家有关法律、法规，按照四川省相关政策规则要求，本着平等、自愿、公平和诚信的原则，经协商一致，签订本合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-bidi-font-family:仿宋;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第一章</font> &nbsp;<font face="黑体">定义和解释</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-bidi-font-family:仿宋;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1 <font
-                face="仿宋_GB2312">定义</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.1</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">合同电量：指经甲乙双方协商，由本合同约定的双边交易电量</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.2</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">合同成交电量：指</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">通过电力交易机构合规校核、</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">电力调度机构安全校核，用于结算的合同电量</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.3<font
-                face="仿宋_GB2312">交割电量：是指电力交易机构依据电力市场交易规则，为本合同出具的结算凭据中的结算电量。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;">&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.4 <font
-                face="仿宋_GB2312">偏差电量：是指实际交割电量与合同成交电量之差。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.5 <font
-                face="仿宋_GB2312">偏差率：偏差率</font><font face="Times New Roman">=</font><font face="仿宋_GB2312">（交割电量</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;">-</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">合同成交电量）</font>/<font face="仿宋_GB2312">合同成交电量</font><font
-                face="Times New Roman">×100%</font><font face="仿宋_GB2312">。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.6 <font
-                face="仿宋_GB2312">计量点：指在电网企业与甲乙双方签署的《市场化零售供用电合同》中约定的计量交易电量的电能计量装置关口表安装位置。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.7 <font
-                face="仿宋_GB2312">偏差考核费用：依据四川电力市场有关交易规则及年度指导意</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">见</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">进行偏差电量考核计算得到的偏差考核金额。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.8 <font
-                face="仿宋_GB2312">电网企业：是指拥有输电网、配电网运营权（包括地方电力公司、趸售区域供电公司），承担其供电营业区保底供电服务的企业。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.9 <font
-                face="仿宋_GB2312">紧急情况：指电力系统发生事故或发电、输配电、用电设备发生重大事故，电网频率或者电压超规定范围，输变电设备负载超过规定值，主干线路功率超过规定的稳定限额以及其他威胁电网安全运行，有可能破坏电网稳定，导致电网瓦解以至大面积停电等运行情况，并且该情况在结束后得到能源监管机构确认。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.10 <font
-                face="仿宋_GB2312">工作日：指除星期六、星期日及法定节假日以外的公历日。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.1.11 <font
-                face="仿宋_GB2312">不可抗力：指不能预见、不能避免并不能克服的客观情况。包括：火山爆发、龙卷风、海啸、暴风雨、泥石流、山体滑坡、水灾、火灾、超设计标准的地震、台风、雷电、雾闪等，以及核辐射、战争、瘟疫、骚乱等。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.2 <font
-                face="仿宋_GB2312">解释</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.2.1 <font
-                face="仿宋_GB2312">本合同中的标题仅为阅读方便，不应被视为本合同的组成部分，亦不应以任何方式影响对本合同的解释。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.2.2 <font
-                face="仿宋_GB2312">本合同附件与正文具有同等的法律效力。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.2.3 <font
-                face="仿宋_GB2312">本合同对任何一方的合法承继者或受让人具有约束力，但四川电力市场有关交易规则及年度指导意见另有规定以及当事人另有约定的除外。遇有本款约定的情形时，相关义务人应当依法履行必要的通知义务及完备的法律手续。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.2.4 <font
-                face="仿宋_GB2312">除上下文另有要求外，本合同所指的日、月、年均为公历日、月、年。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">1.2.5 <font
-                face="仿宋_GB2312">本合同中的</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;">“</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">包括</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;">”</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">一词指：包括但不限于。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第二章</font> &nbsp;<font face="黑体">双方陈述</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">甲、乙双方任何一方在此向对方陈述如下：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">2.1 <font
-                face="仿宋_GB2312">本方为一家依法设立并合法存续的企业，有权签署并有能力履行本合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">2.2 <font
-                face="仿宋_GB2312">本方签署和履行本合同所需的一切手续（包括办理必要的政府批准、取得营业执照和电力业务许可证等）均已办妥并合法有效。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">2.3 <font
-                face="仿宋_GB2312">在签署本合同时，任何法院、仲裁机构、行政机关或监管机构均未做出任何足以对本方履行本合同产生重大不利影响的判决、裁定、裁决或具体的行政行为。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">2.4 <font
-                face="仿宋_GB2312">本方为签署本合同所需的内部授权程序均已完成，签署本合同的是本方法定代表人或授权代理人，并且本合同生效后即对双方具有法律约束力。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">2.5 <font
-                face="仿宋_GB2312">本方签署的合同内容符合国家有关市场化交易的法律、法规以及政府有关部门、机构出台有关规定、规则等。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">2.6 <font
-                face="仿宋_GB2312">如国家法律、法规发生变化或者政府有关部门、机构出台有关规定、规则，合同双方同意按照法律、法规和规则予以调整和修改。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">2.7 <font
-                face="仿宋_GB2312">本合同签订后，甲方在合同期内不得与除乙方以外的其他售电公司以及发电企业签订购售电合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第三章</font> &nbsp;<font face="黑体">双方权利和义务</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.1 <font
-                face="仿宋_GB2312">甲方的权利包括：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.1.1 <font
-                face="仿宋_GB2312">与乙方协商制定用电计划和设备检修计划。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.1.2 <font
-                face="仿宋_GB2312">获得乙方履行本合同义务相关的信息、资料及查阅电网企业的关口信息数据。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.1.3 <font
-                face="仿宋_GB2312">本合同及附件约定的甲方的其他权利。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2 <font
-                face="仿宋_GB2312">甲方的义务包括：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2.1 <font
-                face="仿宋_GB2312">按照国家有关法规、规定和技术规范，运行、维护用电设施，合理控制用电。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2.2 <font
-                face="仿宋_GB2312">向乙方或四川电力交易中心提供电力交易容量、电量、负荷曲线及其他生产运行信息。根据实际用电需求，准确预测年度用电量以及交易月份用电量。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2.3 <font
-                face="仿宋_GB2312">发生紧急情况时，按照相关规定执行。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2.4 <font
-                face="仿宋_GB2312">按时缴纳电力交易电量相关费用，包括：市场交易电费、输配电费、政府性基金及附加、功率因数调整电费等。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;layout-grid-mode:char;word-break:break-all;line-height:31.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2.5 <font
-                face="仿宋_GB2312">向乙方提供与履行本合同相关的其他信息。如实提供用户用电信息，配合乙方、电网企业及电力交易中心进行电量交易、电费结算、数据统计等工作。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2.6 <font
-                face="仿宋_GB2312">电力交易电量不得转供或变相转供。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">3.2.7 <font face="仿宋_GB2312">甲方无法履约的，应提前 </font><font
-                  face="Times New Roman">{{this.yi_list.column1}} </font><font
-                  face="仿宋_GB2312">天书面告知乙方、电网企业、四川电力交易中心以及其他相关方，并承担相应的违约责任，处理好相关事宜。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.2.8 <font
-                face="仿宋_GB2312">本合同及附件约定的甲方其他义务。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.3 <font
-                face="仿宋_GB2312">乙方权利包括：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.3.1 <font
-                face="仿宋_GB2312">获得甲方履行本合同义务相关的信息、资料、数据。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.3.2 <font
-                face="仿宋_GB2312">按约定获取电力交易相关收益。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.3.3 <font
-                face="仿宋_GB2312">本合同及附件约定的乙方的其他权利。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.4 <font
-                face="仿宋_GB2312">乙方的义务包括：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.4.1 <font
-                face="仿宋_GB2312">按照国家有关法律、规定和技术规范，为甲方提供电力交易服务，参与电力市场交易并按规定结算。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.4.2 <font
-                face="仿宋_GB2312">发生紧急情况时，按照相关规定执行。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.4.3 <font
-                face="仿宋_GB2312">向甲方和电网企业提供与履行本合同相关的其他信息。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.4.4 <font
-                face="仿宋_GB2312">向甲方提供真实准确的有关电力交易的相关信息及资料，不得提供虚假的或误导性的信息。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.4.5 <font
-                face="仿宋_GB2312">根据国家有关法规支付电力交易相关费用。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">3.4.6</span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;">&nbsp;</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">本合同及附件约定的乙方的其他义务。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第四章</font> &nbsp;<font face="黑体">交易电量和电价</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="margin-left:7.0500pt;mso-para-margin-left:0.4400gd;text-indent:21.0000pt;mso-char-indent-count:1.5000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">4.1 <font face="仿宋_GB2312">交易周期：本合同交易周期自 </font><font
-                  face="Times New Roman">{{ get_time_year(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">年 </font><font
-                  face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">月 </font><font face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractStartTime) }} </font><font
-                  face="仿宋_GB2312">日至 </font><font face="Times New Roman">{{ get_time_year(this.deta_list.contract.contractEndTime) }} </font><font
-                  face="仿宋_GB2312">年 </font><font face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">月 </font><font
-                  face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">日。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">4.2 <font
-                face="仿宋_GB2312">交易电价</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">在交易周期内，甲乙双方对不同交易品种分别约定不同的交易价格，协议电量约定价格见附件</font>1<font face="仿宋_GB2312">。甲方协议电量需求以外的月度增量电量，根据甲乙双方自愿，可约定月度增量电量交易电价，约定价格见附件</font><font
-                face="Times New Roman">2</font><font face="仿宋_GB2312">。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">双方另有约定如下：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal div_span" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.powerAmountPricePromise}}&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">。</font></span></u></p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">4.3 <font
-                face="仿宋_GB2312">交易电量</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">4.3.1 <font
-                face="仿宋_GB2312">甲方同意向乙方购买交易周期内的全部用电量，甲乙双方约定的协议电量以附件</font><font face="Times New Roman">3</font><font
-                face="仿宋_GB2312">为准。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">4.3.2 <font
-                face="仿宋_GB2312">经甲乙双方协商一致，甲乙双方每月可调</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">整</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">年度交易合约电量后续月份分月电量计划，由任意一方在四川电力交易中心组织次月月度交易前</font>3<font face="仿宋_GB2312">个工作日，在交易平台提交电量计划调整申请，并须由双方在平台上进行确认。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;background:rgb(255,255,0);mso-highlight:rgb(255,255,0);"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">4.4 <font
-                face="仿宋_GB2312">偏差考核：在结算周期内，对甲方偏差率超过有关交易规则规定的免考核范围的，双方约定按以下方式对偏差考核费用进行分摊：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">。</font></span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第五章</font> &nbsp;<font face="黑体">电能计量</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">5.1 <font
-                face="仿宋_GB2312">电力交易涉及的电量计量点在甲乙双方与电网企业签订的《市场化零售供用电合同》中约定。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">5.2 <font
-                face="仿宋_GB2312">电力交易涉及的电能计量装置要求、电能计量装置校验要求和计量装置处理办法，按照甲乙双方与电网企业签订的《市场化零售供用电合同》约定执行。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="text-indent: 28pt; line-height: 29pt;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">5.3 <font face="仿宋_GB2312">电力交易结算电量以甲方计量点关口表计量的电量为结算依据，甲方与电网企业约定的抄表例日为每月 每月</font><font
-                face="Times New Roman">{{this.deta_list.contract.meterReadingDay}}</font><font face="仿宋_GB2312"> &nbsp;日。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第六章</font> &nbsp;<font face="黑体">结算和支付</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-pagination:widow-orphan;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">6.1</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">购售电合同</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">的</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">结算按照四川相关电力市场交易规则及年度指导意见要求执行。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;mso-pagination:widow-orphan;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">6.2 <font
-                face="仿宋_GB2312">甲方按《市场化零售供用电合同》约定向电网企业缴纳用电电费。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">6.3 <font
-                face="仿宋_GB2312">乙方电费由电网企业根据四川电力交易中心出具的交易结算依据进行结算和支付。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">6.4 <font
-                face="仿宋_GB2312">存在异议的电量和电费不应影响无异议部分的电费结算和支付。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第七章</font> &nbsp;<font face="黑体">合同变更</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">7.1 <font
-                face="仿宋_GB2312">本合同的任何修改、补充或变更必须以书面的形式进行，双方法定代表人或授权代理人签字</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">并加盖双方公章或合同专用章</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">后方为有效，</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">但须在双方签字盖章后</font>3<font face="仿宋_GB2312">个工作日内提交四川电力交易中心</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">和能源监管机构</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">备案。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">7.2 <font
-                face="仿宋_GB2312">因国家法律、法规发生变化或者政府有关部门、监管机构出台有关规定、规则，导致双方不能正常履行合同约定时，双方应相应变更本合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第八章</font> &nbsp;<font face="黑体">合同违约和补偿</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;layout-grid-mode:char;line-height:30.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">8.1<font
-                face="仿宋_GB2312">双方合同一经签订，双方不能以市场电价波动、销户、增容、减容、暂停、改类为由拒绝履行。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">8.2<font
-                face="仿宋_GB2312">一方违反本合同约定条款视为违约，另一方有权要求违约方赔偿违约造成的经济损失。双方违约条款约定如下：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <div class="MsoNormal div_span" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp; {{this.deta_list.contract.defaultClausePromise}} &nbsp;&nbsp;&nbsp;&nbsp;</span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></div>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">8.3<font
-                face="仿宋_GB2312">违约的处理原则</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">8.3.1</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">违约方应承担支付违约金、继续履行合同和采取补救措施等责任。在支付违约金、继续履约或者采取补救措施后，仍给对方造成其他损失的，应当赔偿损失。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">8.3.2 <font
-                face="仿宋_GB2312">在本合同履行期限届满之前，因一方原因导致合同不能继续履行，另一方可在履行期限届满前解除合同并要求其承担相应的违约责任。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">8.3.3<font
-                face="仿宋_GB2312">一方违约后，另一方应当采取适当的措施防止损失的扩大。如果该方没有采取适当的措施致使损失扩大的，则其不得就扩大的损失要求违约方承担赔偿责任。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第九章</font> &nbsp;<font face="黑体">合同解除</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">9.1 <font
-                face="仿宋_GB2312">如任何一方发生下列事件，则另一方有权在发出解除通知后解除本合同：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">9.1.1 <font
-                face="仿宋_GB2312">一方被申请破产、清算或被吊销营业执照；</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">9.1.2 <font
-                face="仿宋_GB2312">一方被政府有关部门认定取消市场主体资格；</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">9.1.3 <font
-                face="仿宋_GB2312">一方与另一实体联合、合并或将其所有或大部分资产转移给另一实体，而该存续的企业不能合理地承担其在本合同项下的所有义务；</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">9.1.4<font
-                face="仿宋_GB2312">一方被行政机关、行政机关授权的单位、司法机关列入不良信用单位或信用等级较低不适于继续交易；</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">9.1.5<font
-                face="仿宋_GB2312">因本合同与国家相关条款、法律法规、电力交易规则相冲突的情况，但不致影响本合同继续履行及经过协商补充或变更合同可有效消除冲突的除外。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">9.2 </span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">甲、乙双方均不得擅自解除合同。如果因甲方原因导致合同解除，则甲方应赔偿乙方因此而遭受的损失；如果因乙方原因导致合同解除，则乙方应赔偿甲方因此而遭受的损失。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">9.3</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">&nbsp;<font
-                face="仿宋_GB2312">合同解除后应于</font>3<font face="仿宋_GB2312">个工作日内报四川电力交易中心</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">和能源监管机构</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">备案。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第十章</font> &nbsp;<font face="黑体">不可抗力</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">10.1 <font
-                face="仿宋_GB2312">若不可抗力的发生完全或部分地妨碍合同任一方履行本合同项下的任何义务，则该方可暂停履行其义务，但前提是：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">10.1.1 </span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">暂停履行的范围和时间不超过消除不可抗力影响的合理需要；</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">10.1.2 </span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">受不可抗力影响的一方应继续履行本合同项下未受不可抗力影响的其他义务，包括所有到期付款的义务；</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">10.1.3 </span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">一旦不可抗力结束，该方应尽快恢复履行本合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">10.2 <font
-                face="仿宋_GB2312">若任何一方因不可抗力而不能履行本合同，</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">则该方应尽快书面通知另一方，并在</font>3<font face="仿宋_GB2312">日内以书面方式正式通知另一方。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">该通知书应说明不可抗力的发生日期和预计持续的时间、事件性质、对该方履行本合同的影响及该方为减少不可抗力影响所采取的措施。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">受不可抗力影响的一方应在不可抗力发生之日（如遇通讯中断，则自通讯恢复之日）起</font> &nbsp;{{this.yi_list.column2}} &nbsp;<font
-                  face="仿宋_GB2312">日内向对方提供一份由不可抗力发生地公证机构出具的证明文件。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <div class="MsoNormal div_span"
-                   style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">10.3 <font face="仿宋_GB2312">受不可抗力影响的一方应采取合理的措施，以减少因不可抗力给合同其他方带来的损失。合同双方应及时协商制定并实施补救计划及合理的替代措施以减少或消除不可抗力的影响。如果受不可抗力影响的一方未能尽其努力采取合理措施减少不可抗力的影响，则该方应承担由此扩大的损失，双方可另行进行约定。若有约定，具体约定为 &nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.forceMajeurePromise}}&nbsp;&nbsp;&nbsp;&nbsp;。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </div>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">10.4 <font
-                face="仿宋_GB2312">如果发生不可抗力，双方首先应尽量调整交易和生产计划，尽可能使结算电量接近合同电量。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">10.5 <font
-                face="仿宋_GB2312">不可抗力造成的合同解除</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">如果任何不可抗力阻碍一方履行其义务持续超过</font> &nbsp;{{this.yi_list.column3}} &nbsp;&nbsp;<font
-                  face="仿宋_GB2312">日，双方应协商决定是否继续履行本合同的条件或解除本合同。如果自不可抗力发生后 </font><font
-                  face="Times New Roman">{{this.yi_list.column3}} &nbsp;</font><font face="仿宋_GB2312">日内，双方不能就继续履行合同的条件或解除本合同达成一致意见，任何一方有权书面通知另一方解除本合同，并报能源监管机构和政府相关部门备案。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第十一章</font> &nbsp;<font face="黑体">争议的解决</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">11.1 <font face="仿宋_GB2312">凡因执行本合同所发生的与本合同有关的一切争议，双方应协商解决，也可提请省级政府相关部门、能源监管机构调解。协商或调解不成的，按以下第 &nbsp;</font><font
-                  face="Times New Roman">{{this.yi_list.column5}}</font><font face="仿宋_GB2312"> &nbsp;种方式处理：</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">（</font>1<font face="仿宋_GB2312">）双方同意提请</font></span><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">仲裁委员会，请求按照其仲裁规则进行仲裁。仲裁裁决是终局的，对双方均具有法律约束力。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">（</font>2<font face="仿宋_GB2312">）任何一方依法提请</font></span><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">人民法院通过诉讼程序解决。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第十二章</font> &nbsp;<font face="黑体">适用法律</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;text-autospace:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">12.1 <font
-                face="仿宋_GB2312">本合同的订立、效力、解释、履行和争议的解决均适用中华人民共和国法律。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第十三章</font> &nbsp;<font face="黑体">合同生效和期限</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">13.1 <font
-                face="仿宋_GB2312">本合同的生效条件是：</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">经双方法定代表人或授权代理人签字并加盖公章或合同专用章。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">13.2 <font face="仿宋_GB2312">本合同有效期：自 </font><font
-                  face="Times New Roman">{{ get_time_year(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">年 </font><font
-                  face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">月 </font><font face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractStartTime) }} </font><font
-                  face="仿宋_GB2312">日至 </font><font face="Times New Roman">{{ get_time_year(this.deta_list.contract.contractEndTime) }} </font><font
-                  face="仿宋_GB2312">年 </font><font face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">月 </font><font
-                  face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractEndTime) }}  </font><font face="仿宋_GB2312">日。</font></span></u><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"> </span></u></p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="mso-layout-grid-align:none;text-autospace:none;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="黑体">第十四章</font> &nbsp;<font face="黑体">其他</font></span><span
-                style="mso-spacerun:'yes';font-family:黑体;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">14.1 <font
-                face="仿宋_GB2312">保密</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">甲、乙双方均应保证其从另一方取得的所有无法自公开渠道获得的资料和文件（包括财务、技术等内容）予以保密。未经该资料和文件的原提供方同意，不得向任何第三方透露该资料和文件的全部或任何部分，但按照法律、法规规定可做出披露的情况除外。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">14.2 <font
-                face="仿宋_GB2312">合同全部</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"><font
-                face="仿宋_GB2312">本合同及其附件构成双方就本合同标的达成的全部内容，取代所有双方在此之前就本合同标的所签订的协议和合同。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">14.3 <font
-                face="仿宋_GB2312">通知和送达</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">任何与本合同有关的通知、文件和合规的账单等均须以书面方式进行。通过挂号信、快递或当面送交的，经收件方签字确认即被认为送达；若以传真、电子邮件、</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">QQ<font
-                face="仿宋_GB2312">、微信等</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">方式发出并被接收，即视为送达。所有通知、文件和合规的账单等均在送达或接收后方能生效。一切通知、账单、资料或文件等应按照约定的联络信息发给对方，直至一方书面通知另一方变更联络信息为止。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">14.4 <font
-                face="仿宋_GB2312">不放弃权利</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">任何一方未通过书面形式声明放弃其在本合同项下的任何权利，则不应被视为其弃权。任何一方未行使其在本合同项下的任何权利，均不应被视为对任何上述权利的放弃或对今后任何上述权利的放弃。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">14.5 <font
-                face="仿宋_GB2312">本合同与电网企业与售电公司、电力用户之间签订的《市场化零售供用电合同》互为补充；当《市场化零售供用电合同》约定的内容与本合同不一致时，应按协商一致的原则，经合同签订方协商确定后执行，协商不成的按程序报省级政府相关部门、监管机构协调。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">14.6 <font
-                face="仿宋_GB2312">本合同中有关解除、争议解决和保密的条款在本合同解除后仍然有效。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;">14.7 <font
-                face="仿宋_GB2312">未尽事宜，由双方协商签订补充协议，并报送能源监管机构和四川电力交易中心备案。补充协议与本合同具有同等法律效力。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="text-indent:28.0000pt;mso-char-indent-count:2.0000;mso-layout-grid-align:none;line-height:29.0000pt;mso-line-height-rule:exactly;">
-                <u><span style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">14.8 <font face="仿宋_GB2312">本合同正本一式 {{this.yi_list.column6}} 份，甲乙双方各执 {{this.yi_list.column7}} 份，交四川电力交易中心 {{this.yi_list.column8}} 份，交能源监管机构 {{this.yi_list.column9}} 份。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
+            <br style="clear:both; mso-break-type:section-break; page-break-before:always" />
+            <div>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:22pt">四川省售电公司与电力用户购售电合同</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:right"><span style="font-family:仿宋; font-size:16pt">合同编号：_____{{this.deta_list.contract.number}}________</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">甲方（电力用户）：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.customerName}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">住所：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.deta_list.contract.residence}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">法人代表/授权代理人：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.representative}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt 0pt 0pt 27.85pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">税务登记号（统一社会信用代码）：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.taxNumber}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">开户名称：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.accountName}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">开户银行：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.accountBank}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">账号:</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.accountNumber}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt"> </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">联 系 人：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.contact}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">电子邮箱：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.email}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">手&nbsp;&nbsp;&nbsp; 机：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.phone}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt"> </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">办公电话：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.contactNumber}}  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">通讯地址：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.contactAddress}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">甲方为一家具有法人资格的企业，在</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.city}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">工商行政管理局登记注册。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">乙方（售电公司）：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.name}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">住所：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; {{this.yi_list.residence}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">法人代表/授权代理人：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.representative}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">税务登记号（统一社会信用代码）：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.taxNumber}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">开户名称：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.accountName}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">开户银行：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.accountBank}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">账号:</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.accountNumber}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">联 系 人：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.contact}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">电子邮箱：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.email}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">手&nbsp;&nbsp;&nbsp; 机：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.phone}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">办公电话：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.contactNumber}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">通讯地址：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.contactAddress}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">乙方为一家具有法人资格的售电公司，已取得四川省电力市场交易资格，在</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.city}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">工商行政管理局登记注册。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">鉴于：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1</span><span style="font-family:仿宋; font-size:14pt">.</span><span style="font-family:仿宋; font-size:14pt">甲方在</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.powerCompany}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">拥有并经营管理一家用电电压等级为</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.voltageLevel}}&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">千伏（kV），总用电容量为</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.totalUsePowerAmount}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">千瓦（kW）或变压器容量为</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.contract.transformerCapacity}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">千伏安（kVA）的用电企业</span><span style="font-family:仿宋; font-size:14pt">，符合四川省电力市场准入条件且在四川电力交易中心有限公司（以下简称</span><span style="font-family:仿宋; font-size:14pt">“</span><span style="font-family:仿宋; font-size:14pt">四川电力交易中心</span><span style="font-family:仿宋; font-size:14pt">”</span><span style="font-family:仿宋; font-size:14pt">）完成市场主体注册。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2</span><span style="font-family:仿宋; font-size:14pt">.</span><span style="font-family:仿宋; font-size:14pt">乙方在四川省拥有合法售电经营资格，符合国家发展改革委、国家能源局《售电公司准入与退出管理办法》准入条件，符合四川省政府主管部门对售电公司准入的相关要求，在四川电力交易中心完成公示、承诺、注册、备案程序，并通过政府相关部门、监管机构评估的售电公司，具备开展电力交易的购售电资格</span><span style="font-family:仿宋; font-size:14pt">，在四川电力交易中心注册登记的资产总额为</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.totalAssets}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt">万元，可从事年售电量为</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.salePowerAmount}}</span><span style="font-family:仿宋; font-size:14pt">亿千瓦时。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3</span><span style="font-family:仿宋; font-size:14pt">.</span><span style="font-family:仿宋; font-size:14pt">甲、乙双方通过四川电力交易中心及电网企业的输配电网络完成购售电交易，双方根据国家有关法律、法规，按照四川省相关政策规则要求，本着平等、自愿、公平和诚信的原则，经协商一致，签订本合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第一章&nbsp; 定义和解释</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1 定义</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.1</span><span style="font-family:仿宋; font-size:14pt">合同电量：指经甲乙双方协商，由本合同约定的双边交易电量</span><span style="font-family:仿宋; font-size:14pt">。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.2</span><span style="font-family:仿宋; font-size:14pt">合同成交电量：指</span><span style="font-family:仿宋; font-size:14pt">通过电力交易机构合规校核、</span><span style="font-family:仿宋; font-size:14pt">电力调度机构安全校核，用于结算的合同电量</span><span style="font-family:仿宋; font-size:14pt">。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.3交割电量：是指电力交易机构依据电力市场交易规则，为本合同出具的结算凭据中的结算电量。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">1.1.4 偏差电量：是指实际交割电量与合同成交电量之差。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.5 偏差率：偏差率=（交割电量</span><span style="font-family:仿宋; font-size:14pt">-</span><span style="font-family:仿宋; font-size:14pt">合同成交电量）/合同成交电量&times;100%。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.6 计量点：指在电网企业与甲乙双方签署的《市场化零售供用电合同》中约定的计量交易电量的电能计量装置关口表安装位置。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.7 偏差考核费用：依据四川电力市场有关交易规则及年度指导意</span><span style="font-family:仿宋; font-size:14pt">见</span><span style="font-family:仿宋; font-size:14pt">进行偏差电量考核计算得到的偏差考核金额。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.8 电网企业：是指拥有输电网、配电网运营权（包括地方电力公司、趸售区域供电公司），承担其供电营业区保底供电服务的企业。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.9 紧急情况：指电力系统发生事故或发电、输配电、用电设备发生重大事故，电网频率或者电压超规定范围，输变电设备负载超过规定值，主干线路功率超过规定的稳定限额以及其他威胁电网安全运行，有可能破坏电网稳定，导致电网瓦解以至大面积停电等运行情况，并且该情况在结束后得到能源监管机构确认。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.10 工作日：指除星期六、星期日及法定节假日以外的公历日。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.1.11 不可抗力：指不能预见、不能避免并不能克服的客观情况。包括：火山爆发、龙卷风、海啸、暴风雨、泥石流、山体滑坡、水灾、火灾、超设计标准的地震、台风、雷电、雾闪等，以及核辐射、战争、瘟疫、骚乱等。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.2 解释</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.2.1 本合同中的标题仅为阅读方便，不应被视为本合同的组成部分，亦不应以任何方式影响对本合同的解释。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.2.2 本合同附件与正文具有同等的法律效力。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.2.3 本合同对任何一方的合法承继者或受让人具有约束力，但四川电力市场有关交易规则及年度指导意见另有规定以及当事人另有约定的除外。遇有本款约定的情形时，相关义务人应当依法履行必要的通知义务及完备的法律手续。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.2.4 除上下文另有要求外，本合同所指的日、月、年均为公历日、月、年。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">1.2.5 本合同中的</span><span style="font-family:仿宋; font-size:14pt">“</span><span style="font-family:仿宋; font-size:14pt">包括</span><span style="font-family:仿宋; font-size:14pt">”</span><span style="font-family:仿宋; font-size:14pt">一词指：包括但不限于。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第二章&nbsp; 双方陈述</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">甲、乙双方任何一方在此向对方陈述如下：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2.1 本方为一家依法设立并合法存续的企业，有权签署并有能力履行本合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2.2 本方签署和履行本合同所需的一切手续（包括办理必要的政府批准、取得营业执照和电力业务许可证等）均已办妥并合法有效。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2.3 在签署本合同时，任何法院、仲裁机构、行政机关或监管机构均未做出任何足以对本方履行本合同产生重大不利影响的判决、裁定、裁决或具体的行政行为。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2.4 本方为签署本合同所需的内部授权程序均已完成，签署本合同的是本方法定代表人或授权代理人，并且本合同生效后即对双方具有法律约束力。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2.5 本方签署的合同内容符合国家有关市场化交易的法律、法规以及政府有关部门、机构出台有关规定、规则等。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2.6 如国家法律、法规发生变化或者政府有关部门、机构出台有关规定、规则，合同双方同意按照法律、法规和规则予以调整和修改。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">2.7 本合同签订后，甲方在合同期内不得与除乙方以外的其他售电公司以及发电企业签订购售电合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第三章&nbsp; 双方权利和义务</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.1 甲方的权利包括：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.1.1 与乙方协商制定用电计划和设备检修计划。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.1.2 获得乙方履行本合同义务相关的信息、资料及查阅电网企业的关口信息数据。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.1.3 本合同及附件约定的甲方的其他权利。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2 甲方的义务包括：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.1 按照国家有关法规、规定和技术规范，运行、维护用电设施，合理控制用电。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.2 向乙方或四川电力交易中心提供电力交易容量、电量、负荷曲线及其他生产运行信息。根据实际用电需求，准确预测年度用电量以及交易月份用电量。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.3 发生紧急情况时，按照相关规定执行。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.4 按时缴纳电力交易电量相关费用，包括：市场交易电费、输配电费、政府性基金及附加、功率因数调整电费等。</span></p>
+              <p style="line-height:31pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.5 向乙方提供与履行本合同相关的其他信息。如实提供用户用电信息，配合乙方、电网企业及电力交易中心进行电量交易、电费结算、数据统计等工作。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.6 电力交易电量不得转供或变相转供。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.7 甲方无法履约的，应提前</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.yi_list.column1}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt">天书面告知乙方、电网企业、四川电力交易中心以及其他相关方，并承担相应的违约责任，处理好相关事宜。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.2.8 本合同及附件约定的甲方其他义务。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.3 乙方权利包括：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.3.1 获得甲方履行本合同义务相关的信息、资料、数据。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.3.2 按约定获取电力交易相关收益。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.3.3 本合同及附件约定的乙方的其他权利。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.4 乙方的义务包括：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.4.1 按照国家有关法律、规定和技术规范，为甲方提供电力交易服务，参与电力市场交易并按规定结算。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.4.2 发生紧急情况时，按照相关规定执行。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.4.3 向甲方和电网企业提供与履行本合同相关的其他信息。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.4.4 向甲方提供真实准确的有关电力交易的相关信息及资料，不得提供虚假的或误导性的信息。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.4.5 根据国家有关法规支付电力交易相关费用。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">3.4.6</span><span style="font-family:仿宋; font-size:14pt"> </span><span style="font-family:仿宋; font-size:14pt">本合同及附件约定的乙方的其他义务。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第四章&nbsp; 交易电量和电价</span></p>
+              <p style="line-height:29pt; margin:0pt 0pt 0pt 7.05pt; orphans:0; text-align:justify; text-indent:24pt; widows:0"><span style="font-family:仿宋; font-size:14pt">4.1 </span><span style="font-family:仿宋; font-size:14pt">交易周期：本合同交易周期自</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_year(this.deta_list.contract.contractStartTime) }}  </span><span style="font-family:仿宋; font-size:14pt">年</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_Month(this.deta_list.contract.contractStartTime) }} </span><span style="font-family:仿宋; font-size:14pt">月</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{ get_time_r(this.deta_list.contract.contractStartTime) }}</span><span style="font-family:仿宋; font-size:14pt">日</span><span style="font-family:仿宋; font-size:14pt">至</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_year(this.deta_list.contract.contractEndTime) }}&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt 0pt 0pt 7.05pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">年</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_Month(this.deta_list.contract.contractEndTime) }} </span><span style="font-family:仿宋; font-size:14pt">月</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_r(this.deta_list.contract.contractEndTime) }}  </span><span style="font-family:仿宋; font-size:14pt">日</span><span style="font-family:仿宋; font-size:14pt">。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">4.2 交易电价</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">在交易周期内，甲乙双方对不同交易品种分别约定不同的交易价格，协议电量约定价格见附件。甲方协议电量需求以外的月度增量电量，根据甲乙双方自愿，可约定月度增量电量交易电价，约定价格见附件。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">双方另有约定如下：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.deta_list.contract.powerAmountPricePromise}}</span><span style="width:17pt; text-indent:0pt; font-family:'Lucida Console'; font-size:14pt; text-decoration:underline; display:inline-block">&nbsp;&nbsp;</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">4.3 交易电量</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">4.3.1 甲方同意向乙方购买交易周期内的全部用电量，甲乙双方约定的协议电量以附件为准。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">4.3.2 经甲乙双方协商一致，甲乙双方每月可调</span><span style="font-family:仿宋; font-size:14pt">整</span><span style="font-family:仿宋; font-size:14pt">年度交易合约电量后续月份分月电量计划，由任意一方在四川电力交易中心组织次月月度交易前3个工作日，在交易平台提交电量计划调整申请，并须由双方在平台上进行确认。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">4.4 偏差考核：在结算周期内，对甲方偏差率超过有关交易规则规定的免考核范围的，双方约定按以下方式对偏差考核费用进行分摊：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第五章&nbsp; 电能计量</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">5.1 电力交易涉及的电量计量点在甲乙双方与电网企业签订的《市场化零售供用电合同》中约定。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">5.2 电力交易涉及的电能计量装置要求、电能计量装置校验要求和计量装置处理办法，按照甲乙双方与电网企业签订的《市场化零售供用电合同》约定执行。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">5.3 电力交易结算电量以甲方计量点关口表计量的电量为结算依据，甲方与电网企业约定的抄表例日为每月</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;{{this.deta_list.contract.meterReadingDay}}&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">日。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; text-indent:21pt; widows:0"><span style="font-family:仿宋; font-size:14pt">第六章&nbsp; 结算和支付</span></p>
+              <p style="line-height:29pt; margin:0pt; text-align:justify; text-indent:32pt"><span style="font-family:仿宋; font-size:14pt">6.1</span><span style="font-family:仿宋; font-size:14pt">购售电合同</span><span style="font-family:仿宋; font-size:14pt">的</span><span style="font-family:仿宋; font-size:14pt">结算按照四川相关电力市场交易规则及年度指导意见要求执行。</span></p>
+              <p style="line-height:29pt; margin:0pt; text-align:justify; text-indent:32pt"><span style="font-family:仿宋; font-size:14pt">6.2 甲方按《市场化零售供用电合同》约定向电网企业缴纳用电电费。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">6.3 乙方电费由电网企业根据四川电力交易中心出具的交易结算依据进行结算和支付。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">6.4 存在异议的电量和电费不应影响无异议部分的电费结算和支付。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第七章&nbsp; 合同变更</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">7.1 本合同的任何修改、补充或变更必须以书面的形式进行，双方法定代表人或授权代理人签字</span><span style="font-family:仿宋; font-size:14pt">并加盖双方公章或合同专用章</span><span style="font-family:仿宋; font-size:14pt">后方为有效，</span><span style="font-family:仿宋; font-size:14pt">但须在双方签字盖章后3个工作日内提交四川电力交易中心</span><span style="font-family:仿宋; font-size:14pt">和能源监管机构</span><span style="font-family:仿宋; font-size:14pt">备案。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">7.2 因国家法律、法规发生变化或者政府有关部门、监管机构出台有关规定、规则，导致双方不能正常履行合同约定时，双方应相应变更本合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第八章&nbsp; 合同违约和补偿</span></p>
+              <p style="line-height:30pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">8.1双方合同一经签订，双方不能以市场电价波动、销户、增容、减容、暂停、改类为由拒绝履行。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">8.2一方违反本合同约定条款视为违约，另一方有权要求违约方赔偿违约造成的经济损失。双方违约条款约定如下：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{this.deta_list.contract.defaultClausePromise}}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">8.3违约的处理原则</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">8.3.1</span><span style="font-family:仿宋; font-size:14pt">违约方应承担支付违约金、继续履行合同和采取补救措施等责任。在支付违约金、继续履约或者采取补救措施后，仍给对方造成其他损失的，应当赔偿损失。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">8.3.2 在本合同履行期限届满之前，因一方原因导致合同不能继续履行，另一方可在履行期限届满前解除合同并要求其承担相应的违约责任。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">8.3.3一方违约后，另一方应当采取适当的措施防止损失的扩大。如果该方没有采取适当的措施致使损失扩大的，则其不得就扩大的损失要求违约方承担赔偿责任。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第九章&nbsp; 合同解除</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.1 如任何一方发生下列事件，则另一方有权在发出解除通知后解除本合同：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.1.1 一方被申请破产、清算或被吊销营业执照；</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.1.2 一方被政府有关部门认定取消市场主体资格；</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.1.3 一方与另一实体联合、合并或将其所有或大部分资产转移给另一实体，而该存续的企业不能合理地承担其在本合同项下的所有义务；</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.1.4一方被行政机关、行政机关授权的单位、司法机关列入不良信用单位或信用等级较低不适于继续交易；</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.1.5因本合同与国家相关条款、法律法规、电力交易规则相冲突的情况，但不致影响本合同继续履行及经过协商补充或变更合同可有效消除冲突的除外。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.2 </span><span style="font-family:仿宋; font-size:14pt">甲、乙双方均不得擅自解除合同。如果因甲方原因导致合同解除，则甲方应赔偿乙方因此而遭受的损失；如果因乙方原因导致合同解除，则乙方应赔偿甲方因此而遭受的损失。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">9.3</span><span style="font-family:仿宋; font-size:14pt"> 合同解除后应于3个工作日内报四川电力交易中心</span><span style="font-family:仿宋; font-size:14pt">和能源监管机构</span><span style="font-family:仿宋; font-size:14pt">备案。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第十章&nbsp; 不可抗力</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.1 若不可抗力的发生完全或部分地妨碍合同任一方履行本合同项下的任何义务，则该方可暂停履行其义务，但前提是：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.1.1 </span><span style="font-family:仿宋; font-size:14pt">暂停履行的范围和时间不超过消除不可抗力影响的合理需要；</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.1.2 </span><span style="font-family:仿宋; font-size:14pt">受不可抗力影响的一方应继续履行本合同项下未受不可抗力影响的其他义务，包括所有到期付款的义务；</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.1.3 </span><span style="font-family:仿宋; font-size:14pt">一旦不可抗力结束，该方应尽快恢复履行本合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.2 若任何一方因不可抗力而不能履行本合同，</span><span style="font-family:仿宋; font-size:14pt">则该方应尽快书面通知另一方，并在3日内以书面方式正式通知另一方。</span><span style="font-family:仿宋; font-size:14pt">该通知书应说明不可抗力的发生日期和预计持续的时间、事件性质、对该方履行本合同的影响及该方为减少不可抗力影响所采取的措施。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">受不可抗力影响的一方应在不可抗力发生之日（如遇通讯中断，则自通讯恢复之日）起</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{this.yi_list.column2}} </span><span style="font-family:仿宋; font-size:14pt">日内向对方提供一份由不可抗力发生地公证机构出具的证明文件。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.3 受不可抗力影响的一方应采取合理的措施，以减少因不可抗力给合同其他方带来的损失。合同双方应及时协商制定并实施补救计划及合理的替代措施以减少或消除不可抗力的影响。如果受不可抗力影响的一方未能尽其努力采取合理措施减少不可抗力的影响，则该方应承担由此扩大的损失</span><span style="font-family:仿宋; font-size:14pt">，双方可另行进行约定。若有约定，具体约定为</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{this.deta_list.contract.forceMajeurePromise}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.4 如果发生不可抗力，双方首先应尽量调整交易和生产计划，尽可能使结算电量接近合同电量。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">10.5 不可抗力造成的合同解除</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">如果任何不可抗力阻碍一方履行其义务持续超过</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; {{this.yi_list.column3}}&nbsp; </span><span style="font-family:仿宋; font-size:14pt">日，双方应协商决定是否继续履行本合同的条件或解除本合同。如果自不可抗力发生后</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; {{this.yi_list.column4}}&nbsp; </span><span style="font-family:仿宋; font-size:14pt">日</span><span style="font-family:仿宋; font-size:14pt">内，双方不能就继续履行合同的条件或解除本合同达成一致意见，任何一方有权书面通知另一方解除本合同，并报能源监管机构和政府相关部门备案。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第十一章&nbsp; 争议的解决</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">11.1 </span><span style="font-family:仿宋; font-size:14pt">凡因执行本合同所发生的与本合同有关的一切争议，双方应协商解决，也可提请省级政府相关部门、能源监管机构调解。协商或调解不成的，</span><span style="font-family:仿宋; font-size:14pt">按以下第</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; {{this.yi_list.column5}}&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">种方式处理：</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">（1）双方同意提请仲裁委员会，请求按照其仲裁规则进行仲裁。仲裁裁决是终局的，对双方均具有法律约束力。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">（2）任何一方依法提请人民法院通过诉讼程序解决。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第十二章&nbsp; 适用法律</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">12.1 本合同的订立、效力、解释、履行和争议的解决均适用中华人民共和国法律。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第十三章&nbsp; 合同生效和期限</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">13.1 本合同的生效条件是：</span><span style="font-family:仿宋; font-size:14pt">经双方法定代表人或授权代理人签字并加盖公章或合同专用章。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">13.2 本合同有效期：</span><span style="font-family:仿宋; font-size:14pt">自</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_year(this.deta_list.contract.contractStartTime) }} </span><span style="font-family:仿宋; font-size:14pt">年</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_Month(this.deta_list.contract.contractStartTime) }}  </span><span style="font-family:仿宋; font-size:14pt">月</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_r(this.deta_list.contract.contractStartTime) }} </span><span style="font-family:仿宋; font-size:14pt">日起</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{ get_time_year(this.deta_list.contract.contractEndTime) }} </span><span style="font-family:仿宋; font-size:14pt">年</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp; {{ get_time_Month(this.deta_list.contract.contractEndTime) }}</span><span style="font-family:仿宋; font-size:14pt">月</span><span style="color:#ffffff; font-family:仿宋; font-size:14pt; text-decoration:underline">`</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">{{ get_time_r(this.deta_list.contract.contractEndTime) }}</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> </span><span style="font-family:仿宋; font-size:14pt">日止。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:14pt">第十四章&nbsp; 其他</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.1 保密</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">甲、乙双方均应保证其从另一方取得的所有无法自公开渠道获得的资料和文件（包括财务、技术等内容）予以保密。未经该资料和文件的原提供方同意，不得向任何第三方透露该资料和文件的全部或任何部分，但按照法律、法规规定可做出披露的情况除外。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.2 合同全部</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">本合同及其附件构成双方就本合同标的达成的全部内容，取代所有双方在此之前就本合同标的所签订的协议和合同。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.3 通知和送达</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">任何与本合同有关的通知、文件和合规的账单等均须以书面方式进行。通过挂号信、快递或当面送交的，经收件方签字确认即被认为送达；若以传真、电子邮件、</span><span style="font-family:仿宋; font-size:14pt">QQ、微信等</span><span style="font-family:仿宋; font-size:14pt">方式发出并被接收，即视为送达。所有通知、文件和合规的账单等均在送达或接收后方能生效。一切通知、账单、资料或文件等应按照约定的联络信息发给对方，直至一方书面通知另一方变更联络信息为止。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.4 不放弃权利</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">任何一方未通过书面形式声明放弃其在本合同项下的任何权利，则不应被视为其弃权。任何一方未行使其在本合同项下的任何权利，均不应被视为对任何上述权利的放弃或对今后任何上述权利的放弃。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.5 本合同与电网企业与售电公司、电力用户之间签订的《市场化零售供用电合同》互为补充；当《市场化零售供用电合同》约定的内容与本合同不一致时，应按协商一致的原则，经合同签订方协商确定后执行，协商不成的按程序报省级政府相关部门、监管机构协调。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.6 本合同中有关解除、争议解决和保密的条款在本合同解除后仍然有效。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.7 未尽事宜，由双方协商签订补充协议，并报送能源监管机构和四川电力交易中心备案。补充协议与本合同具有同等法律效力。</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; text-indent:32pt; widows:0"><span style="font-family:仿宋; font-size:14pt">14.8 </span><span style="font-family:仿宋; font-size:14pt">本合同正本一式</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; {{this.yi_list.column6}}&nbsp; </span><span style="font-family:仿宋; font-size:14pt">份，甲乙双方各执</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline"> {{this.yi_list.column7}} </span><span style="font-family:仿宋; font-size:14pt">份，交四川电力交易中心</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;{{this.yi_list.column8}}&nbsp; </span><span style="font-family:仿宋; font-size:14pt">份，交</span><span style="font-family:仿宋; font-size:14pt">能源监管机构</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp; {{this.yi_list.column9}}&nbsp; </span><span style="font-family:仿宋; font-size:14pt">份。</span></p>
             </div>
-            <span
-              style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"><br
-              clear="all" style="page-break-before:always;mso-break-type:section-break"></span>
-            <div class="Section3" style="margin-top: 500px">
-              <p class="MsoNormal" align="center"
-                 style="text-align:center;line-height:35.0000pt;mso-line-height-rule:exactly;"><span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="小标宋">签</font> &nbsp;<font face="小标宋">字</font> &nbsp;<font face="小标宋">页</font></span><span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="margin-top: 100px"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><u style="text-decoration: none;"><span style="font-family: 仿宋_GB2312; font-size: 14pt;line-height: 40pt;"><font face="仿宋_GB2312">甲方：{{this.deta_list.contract.customerName}}</font> </span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">法定代表人</font>(或授权代理人)：</span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">单位签章：</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">签字日期：</font></span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">年</font></span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">月</font></span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">日</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;margin-bottom: 30pt"> <span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt; margin-top: 100px" ><u style="text-decoration: none;"><span style="font-family: 仿宋_GB2312; font-size: 14pt;"><font face="仿宋_GB2312">乙方：{{this.yi_list.name}}</font> </span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">法定代表人</font>(或授权代理人)：</span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">单位签章：</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">签字日期：</font></span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">年</font></span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">月</font></span><u><span style="font-family: 仿宋_GB2312; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;</span></u><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">日</font></span><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:仿宋;font-size:14.0000pt;mso-font-kerning:0.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 40pt;"><span
-                style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:仿宋;font-size:14.0000pt;mso-font-kerning:0.0000pt;">  </span>
-              </p>
+            <br style="clear:both; mso-break-type:section-break; page-break-before:always" />
+            <div>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 7.8pt; text-align:center"><span style="font-family:仿宋; font-size:18pt; font-weight:bold">&nbsp;</span></p>
+              <p style="line-height:35pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:仿宋; font-size:22pt">签&nbsp; 字&nbsp; 页</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">甲方：</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">法定代表人(或授权代理人)：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">单位签章：</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">签字日期：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">年</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">月</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">日</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">乙方：四川川能智网实业有限公司</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">法定代表人(或授权代理人)：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">单位签章：</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">签字日期：</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">年</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">月</span><span style="font-family:仿宋; font-size:14pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:仿宋; font-size:14pt">日</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; widows:0"><span style="font-family:仿宋; font-size:14pt">&nbsp;</span></p>
+
             </div>
-            <span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><br
-              clear="all" style="page-break-before:always;mso-break-type:section-break"></span>
-            <div class="Section4" style="margin-top: 400px">
-              <p class="MsoNormal" style="word-break: break-all; line-height: 28pt;"><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="黑体">附件</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;">1</span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;font-size:24.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="center"
-                 style="text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;"><b><span
-                style="font-family: 方正小标宋简体; font-size: 18pt;">  </span></b></p>
-              <p class="MsoNormal" align="center"
-                 style="text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;"><span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="小标宋">甲乙双方协议电量交易价格表</font></span><span
-                style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><b><span
-                style="font-family: &quot;Times New Roman&quot;; color: rgb(255, 0, 0); font-size: 18pt;">  </span></b>
-              </p>
-              <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">甲方：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                face="仿宋_GB2312">{{this.deta_list.contract.customerName}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                face="仿宋_GB2312">（电力用户名称）</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.usePowerNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                face="仿宋_GB2312">（用电户号）</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">乙方：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-                face="仿宋_GB2312">{{this.yi_list.name}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font face="仿宋_GB2312">（售电公司名称）</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" style="line-height: 29pt;"><u><span
-                style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">交易周期：</font> &nbsp;{{ get_time_year(this.deta_list.contract.contractStartTime) }} <font
-                face="仿宋_GB2312">年 </font><font face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">月 </font><font
-                face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">日至 </font><font
-                face="Times New Roman">{{ get_time_year(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">年 </font><font face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractEndTime) }} </font><font
-                face="仿宋_GB2312">月 </font><font face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractEndTime) }}  </font><font
-                face="仿宋_GB2312">日。</font></span></u><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal" align="right"
-                 style="text-align:right;line-height:29.0000pt;mso-line-height-rule:exactly;"><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:11.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-              <p class="MsoNormal" align="right" style="layout-grid-mode:char;word-break:break-all;text-align:right;">
-              <span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;<font
-                face="仿宋_GB2312">单位：元</font>/<font face="仿宋_GB2312">兆瓦时</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <div align="center">
-                <table class="MsoNormalTable" border="1" cellspacing="0" style="width: 414.8pt; border: none;">
+            <br style="clear:both; mso-break-type:section-break; page-break-before:always" />
+            <div >
+              <p style="margin:0pt"><span style="font-family:黑体; font-size:16pt">附件</span></p>
+              <p style="margin:15.6pt 0pt 7.8pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正小标宋简体; font-size:18pt; font-weight:bold">2019年四川电力零售市场年度交易电量</span></p>
+              <p style="margin:15.6pt 0pt 7.8pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正小标宋简体; font-size:18pt; font-weight:bold">与电价明细表</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:14pt">交易品种名称：</span><span style="font-family:方正仿宋_GBK; font-size:14pt; text-decoration:underline"> 常规直购交易&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:right; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">单位：兆瓦时、元/兆瓦时</span></p>
+              <div style="text-align:center">
+                <table cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin:0 auto">
                   <tbody>
-                  <tr style="height:64.7500pt;">
-                    <td width="106" valign="center"
-                        style="width:63.6000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal" align="right"
-                         style="layout-grid-mode:char;word-break:break-all;text-align:right;line-height:13.0000pt;mso-line-height-rule:exactly;">
-                      <span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">交易</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                      <p class="MsoNormal" align="center"
-                         style="layout-grid-mode:char;word-break:break-all;text-align:center;line-height:13.0000pt;mso-line-height-rule:exactly;">
-                      <span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;&nbsp;品种</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                      <p class="MsoNormal"><span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">月份</span><b><span
-                        style="font-family: &quot;Times New Roman&quot;; font-size: 12pt;"> </span></b></p>
-                    </td>
-                    <td width="177" valign="center"
-                        style="width:106.2500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal" align="center"
-                         style="layout-grid-mode:char;word-break:break-all;text-align:center;"><span
-                        style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">常规直接交易（水电电量交易价）</span><span
-                        style="font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
-                    <td width="197" valign="center"
-                        style="width:118.6500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal" align="center"
-                         style="layout-grid-mode:char;word-break:break-all;text-align:center;"><span
-                        style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">长期战略协议直接交易（水电电量交易价格）</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
-                    <td width="105" valign="center"
-                        style="width:63.1500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal" align="center"
-                         style="layout-grid-mode:char;word-break:break-all;text-align:center;"><span
-                        style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">自备替代直接交易</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
-                    <td width="105" valign="center"
-                        style="width:63.1500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal" align="center"
-                         style="layout-grid-mode:char;word-break:break-all;text-align:center;"><span
-                        style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">电能替代直接交易</span><span
-                        style="font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
+                  <tr>
+                    <td rowspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">月份</span></p></td>
+                    <td rowspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">年度交易电量</span></p></td>
+                    <td colspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">其中：水电电量部分</span></p></td>
+                    <td colspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">其中：火电/新能源电量部分</span></p></td>
+                    <td rowspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">月度水电增量交易价格</span></p></td>
                   </tr>
-                  <tr v-for='(item,index) in this.deta_list.list3'>
-                    <td width="106" valign="top"
-                        style="width:63.6000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal"><span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.month}}<font
-                        face="仿宋_GB2312">月</font></span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
-                    <td width="177" valign="top"
-                        style="width:106.2500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal"><span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.conventionalPrice}}</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
-                    <td width="197" valign="top"
-                        style="width:118.6500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal"><span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.longPrice}}</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
-                    <td width="105" valign="top"
-                        style="width:63.1500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal"><span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.selfPrice}}</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
-                    <td width="105" valign="top"
-                        style="width:63.1500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                      <p class="MsoNormal"><span
-                        style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.electricEnergyPrice}}</span><span
-                        style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                      </p>
-                    </td>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易电量</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易电价</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易电量</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易价格</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">1月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[0].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[0].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[0].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[0].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[0].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">2月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[1].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[1].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[1].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[1].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[1].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">3月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[2].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[2].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[2].waterPowerPrice}}</span> </p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[2].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[2].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">4月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[3].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[3].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[3].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[3].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[3].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">5月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[4].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[4].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[4].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[4].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[4].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">6月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[5].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[5].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[5].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[5].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[5].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">7月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[6].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[6].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[6].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[6].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[6].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">8月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[7].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[7].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[7].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[7].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[7].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">9月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[8].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[8].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[8].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[8].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[8].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">10月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[9].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[9].waterPowerAmount}};</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[9].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[9].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[9].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">11月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[10].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[10].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[10].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[10].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[10].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">12月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[11].yearAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[11].waterPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[11].waterPowerPrice}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[11].hotPowerAmount}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table1[11].monthWaterPowerIncPrice}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">合计</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">{{parseFloat(this.deta_list.table1[0].yearAmount) + parseFloat(this.deta_list.table1[1].yearAmount)+ parseFloat(this.deta_list.table1[2].yearAmount)+ parseFloat(this.deta_list.table1[3].yearAmount)+ parseFloat(this.deta_list.table1[4].yearAmount)+ parseFloat(this.deta_list.table1[5].yearAmount)+ parseFloat(this.deta_list.table1[6].yearAmount)+ parseFloat(this.deta_list.table1[7].yearAmount)+ parseFloat(this.deta_list.table1[8].yearAmount)+ parseFloat(this.deta_list.table1[9].yearAmount)+ parseFloat(this.deta_list.table1[10].yearAmount)+ parseFloat(this.deta_list.table1[11].yearAmount)}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">{{parseFloat(this.deta_list.table1[0].waterPowerAmount) + parseFloat(this.deta_list.table1[1].waterPowerAmount)+ parseFloat(this.deta_list.table1[2].waterPowerAmount)+ parseFloat(this.deta_list.table1[3].waterPowerAmount)+ parseFloat(this.deta_list.table1[4].waterPowerAmount)+ parseFloat(this.deta_list.table1[5].waterPowerAmount)+ parseFloat(this.deta_list.table1[6].waterPowerAmount)+ parseFloat(this.deta_list.table1[7].waterPowerAmount)+ parseFloat(this.deta_list.table1[8].waterPowerAmount)+ parseFloat(this.deta_list.table1[9].waterPowerAmount)+ parseFloat(this.deta_list.table1[10].waterPowerAmount)+ parseFloat(this.deta_list.table1[11].waterPowerAmount)}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">{{parseFloat(this.deta_list.table1[0].hotPowerAmount) + parseFloat(this.deta_list.table1[1].hotPowerAmount)+ parseFloat(this.deta_list.table1[2].hotPowerAmount)+ parseFloat(this.deta_list.table1[3].hotPowerAmount)+ parseFloat(this.deta_list.table1[4].hotPowerAmount)+ parseFloat(this.deta_list.table1[5].hotPowerAmount)+ parseFloat(this.deta_list.table1[6].hotPowerAmount)+ parseFloat(this.deta_list.table1[7].hotPowerAmount)+ parseFloat(this.deta_list.table1[8].hotPowerAmount)+ parseFloat(this.deta_list.table1[9].hotPowerAmount)+ parseFloat(this.deta_list.table1[10].hotPowerAmount)+ parseFloat(this.deta_list.table1[11].hotPowerAmount)}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr style="height:0pt">
+                    <td style="width:36pt; border:none"></td>
+                    <td style="width:60.25pt; border:none"></td>
+                    <td style="width:66.05pt; border:none"></td>
+                    <td style="width:66.05pt; border:none"></td>
+                    <td style="width:66.05pt; border:none"></td>
+                    <td style="width:65.9pt; border:none"></td>
+                    <td style="width:65.8pt; border:none"></td>
                   </tr>
                   </tbody>
                 </table>
               </div>
-              <p class="MsoNormal" style="word-break: break-all;"><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:9.0000pt;mso-font-kerning:1.0000pt;"><font
-                face="仿宋_GB2312">备注：本表在年度交易开始前提交四川电力交易中心，价格最多精确到小数点后一位。</font></span><span
-                style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:9.0000pt;mso-font-kerning:1.0000pt;"> </span>
-              </p>
-              <p class="MsoNormal"
-                 style="margin-top: 7.8pt; margin-bottom: 7.8pt; word-break: break-all; line-height: 29pt;"><span
-                style="mso-spacerun:'yes';font-family:方正仿宋_GBK;mso-hansi-font-family:宋体;mso-bidi-font-family:'Times New Roman';font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-              </p>
-            </div>
-            <span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><br
-              clear="all" style="page-break-before:always;mso-break-type:section-break"></span>
-            <p class="MsoNormal"
-               style="margin-top: 600px; margin-bottom: 7.8pt; word-break: break-all; line-height: 29pt;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="黑体">附件</font></span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;">2</span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;font-size:24.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" align="center"
-               style="text-align:center;line-height:28.0000pt;mso-line-height-rule:exactly;"><b><span
-              style="font-family: 方正小标宋简体; font-size: 18pt;">  </span></b></p>
-            <p class="MsoNormal" align="center"
-               style="text-align:center;line-height:28.0000pt;mso-line-height-rule:exactly;"><span
-              style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="小标宋">甲乙双方月度增量电量交易价格表</font></span><span
-              style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" style="line-height:28.0000pt;mso-line-height-rule:exactly;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:18.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">甲方：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">{{this.deta_list.contract.customerName}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">（电力用户名称）</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.usePowerNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">（用电户号）</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">乙方：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">{{this.yi_list.name}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">（售电公司名称）</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="line-height: 29pt;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">交易周期：</font> &nbsp;{{ get_time_year(this.deta_list.contract.contractStartTime) }} <font
-              face="仿宋_GB2312">年 </font><font face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">月 </font><font
-              face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">日至 </font><font
-              face="Times New Roman">{{ get_time_year(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">年 </font><font
-              face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">月 </font><font
-              face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractEndTime) }}  </font><font face="仿宋_GB2312">日。</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" align="right" style="layout-grid-mode:char;word-break:break-all;text-align:right;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" align="right" style="layout-grid-mode:char;text-align:right;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="仿宋_GB2312">单位：元</font>/<font face="仿宋_GB2312">兆瓦时</font></span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <div align="center">
-              <table class="MsoNormalTable" border="1" cellspacing="0" style="width: 414.8pt; border: none;">
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <table cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin-left:0pt">
                 <tbody>
                 <tr>
-                  <td width="219" valign="center"
-                      style="width:131.7000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="right" style="layout-grid-mode:char;text-align:right;"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">交易品种</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                    <p class="MsoNormal" style="text-indent: 18pt;"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">月份</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="235" valign="center"
-                      style="width:141.5500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="center" style="layout-grid-mode:char;text-align:center;"><span
-                      style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">协议外月度电量交易价</span><span
-                      style="font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="235" valign="center"
-                      style="width:141.5500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="center" style="layout-grid-mode:char;text-align:center;"><span
-                      style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">月度富余电量交易价</span><span
-                      style="font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                </tr>
-                <tr v-for='(item,index) in this.deta_list.list4'>
-                  <td width="219" valign="top"
-                      style="width:131.7000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.month}}<font
-                      face="仿宋_GB2312">月</font></span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="235" valign="top"
-                      style="width:141.5500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.monthPowerPrice}}</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="235" valign="top"
-                      style="width:141.5500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.monthSurplusPowerPrice}}</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
+                  <td style="width:50%;  padding-left:5.4pt; padding-right:5.4pt; vertical-align:top"><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">甲方（用电方）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">名称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">户号：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易简称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易代码：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">法人代表签字：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:15.6pt 0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">（盖公章）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">年</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">月</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">日</span></p></td>
+                  <td style="width:50%; padding-left:5.4pt; padding-right:5.4pt; vertical-align:top"><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">乙方（代理方）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">&nbsp;</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">名称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">四川川能智网实业有限公司&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易简称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp; 川能智网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易代码：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">800018</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">法人代表签字：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:15.6pt 0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">（盖公章）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">年</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">月</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">日</span></p></td>
                 </tr>
                 </tbody>
               </table>
-            </div>
-            <p class="MsoNormal" style="word-break: break-all;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:9.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="仿宋_GB2312">备注：本表在年度交易开始前提交四川电力交易中心，价格最多精确到小数点后一位。</font></span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:9.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal"
-               style="margin-top:7.8000pt;margin-bottom:7.8000pt;mso-para-margin-top:0.5000gd;mso-para-margin-bottom:0.5000gd;mso-outline-level:1;line-height:29.0000pt;mso-line-height-rule:exactly;">
-            <span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" align="center"
-               style="margin-top:7.8000pt;margin-bottom:7.8000pt;mso-para-margin-top:0.5000gd;mso-para-margin-bottom:0.5000gd;text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;">
-              <b><span style="font-family: 方正小标宋简体; font-size: 18pt;">  </span></b></p>
-            <p class="MsoNormal" style="margin-top: 7.8pt; margin-bottom: 7.8pt; line-height: 29pt;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="margin-top: 7.8pt; margin-bottom: 7.8pt; line-height: 29pt;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="margin-top: 7.8pt; margin-bottom: 7.8pt; line-height: 29pt;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="margin-top: 7.8pt; margin-bottom: 7.8pt; line-height: 29pt;"><span
-              style="mso-spacerun:'yes';font-family:黑体;mso-ascii-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:16.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="margin-top: 7.8pt; margin-bottom: 7.8pt; line-height: 29pt;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="margin-top: 600px; margin-bottom: 7.8pt; line-height: 29pt;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;mso-hansi-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="黑体">附件</font></span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;">3</span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:黑体;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" align="center"
-               style="text-align:center;line-height:29.0000pt;mso-line-height-rule:exactly;"><b><span
-              style="font-family: 方正小标宋简体; font-size: 18pt;">  </span></b></p>
-            <p class="MsoNormal" align="center"
-               style="text-align:center;line-height:28.0000pt;mso-line-height-rule:exactly;"><span
-              style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="小标宋">甲乙双方协议电量表</font></span><span
-              style="mso-spacerun:'yes';font-family:小标宋;mso-hansi-font-family:仿宋;mso-bidi-font-family:'Times New Roman';font-size:22.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" align="center"
-               style="text-align:center;line-height:28.0000pt;mso-line-height-rule:exactly;"><b><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 18pt;">  </span></b></p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">甲方：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">{{this.deta_list.contract.customerName}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">（电力用户名称）</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{this.deta_list.customer.usePowerNumber}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">（用电户号）</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">乙方：</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">{{this.yi_list.name}}</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
-              face="仿宋_GB2312">（售电公司名称）</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" style="line-height:29.0000pt;mso-line-height-rule:exactly;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" style="line-height: 29pt;"><u><span
-              style="font-family: &quot;Times New Roman&quot;; font-size: 14pt;"><font face="仿宋_GB2312">交易周期：</font> &nbsp;{{ get_time_year(this.deta_list.contract.contractStartTime) }} <font
-              face="仿宋_GB2312">年 </font><font face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">月 </font><font
-              face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractStartTime) }} </font><font face="仿宋_GB2312">日至 </font><font
-              face="Times New Roman">{{ get_time_year(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">年 </font><font
-              face="Times New Roman">{{ get_time_Month(this.deta_list.contract.contractEndTime) }} </font><font face="仿宋_GB2312">月 </font><font
-              face="Times New Roman">{{ get_time_r(this.deta_list.contract.contractEndTime) }}  </font><font face="仿宋_GB2312">日。</font></span></u><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:14.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal" align="right" style="layout-grid-mode:char;word-break:break-all;text-align:right;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">  </span>
-            </p>
-            <p class="MsoNormal" align="right" style="layout-grid-mode:char;text-align:right;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="仿宋_GB2312">单位：兆瓦时</font></span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <div align="center">
-              <table class="MsoNormalTable" border="1" cellspacing="0" style="width: 414.8pt; border: none;">
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt"><br style="page-break-before:always; clear:both" /><span style="font-family:黑体; font-size:16pt">附件</span></p>
+              <p style="margin:15.6pt 0pt 7.8pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正小标宋简体; font-size:18pt; font-weight:bold">2019年四川电力零售市场年度交易电量</span></p>
+              <p style="margin:15.6pt 0pt 7.8pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正小标宋简体; font-size:18pt; font-weight:bold">与电价明细表</span></p>
+              <p style="line-height:29pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:14pt">交易品种名称：</span><span style="font-family:方正仿宋_GBK; font-size:14pt; text-decoration:underline"> 富余电量交易&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+              <p style="margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">&nbsp;</span></p>
+              <p style="margin:0pt; orphans:0; text-align:right; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">单位：兆瓦时、元/兆瓦时</span></p>
+              <div style="text-align:center">
+                <table cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin:0 auto">
+                  <tbody>
+                  <tr>
+                    <td rowspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">月份</span></p></td>
+                    <td rowspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">年度交易电量</span></p></td>
+                    <td colspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">其中：水电电量部分</span></p></td>
+                    <td colspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">其中：火电/新能源电量部分</span></p></td>
+                    <td rowspan="2" style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">月度水电增量交易价格</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易电量</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易电价</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易电量</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">交易价格</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">1月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">2月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">3月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">4月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">5月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">6月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[5].yearAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[5].waterPowerAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[5].waterPowerPrice2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[5].monthWaterPowerIncPrice2}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">7月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[6].yearAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[6].waterPowerAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[6].waterPowerPrice2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[6].monthWaterPowerIncPrice2}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">8月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[7].yearAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[7].waterPowerAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[7].waterPowerPrice2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[7].monthWaterPowerIncPrice2}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">9月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[8].yearAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[8].waterPowerAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[8].waterPowerPrice2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[8].monthWaterPowerIncPrice2}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">10月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[9].yearAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[9].waterPowerAmount2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[9].waterPowerPrice2}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">{{this.deta_list.table2[5].monthWaterPowerIncPrice2}}</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">11月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt">12月</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">合计</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">{{parseFloat(this.deta_list.table2[5].yearAmount2) + parseFloat(this.deta_list.table2[6].yearAmount2)+ parseFloat(this.deta_list.table2[7].yearAmount2)+ parseFloat(this.deta_list.table2[8].yearAmount2) + parseFloat(this.deta_list.table2[9].yearAmount2)}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">{{parseFloat(this.deta_list.table2[5].waterPowerAmount2) + parseFloat(this.deta_list.table2[6].waterPowerAmount2)+ parseFloat(this.deta_list.table2[7].waterPowerAmount2)+ parseFloat(this.deta_list.table2[8].waterPowerAmount2) + parseFloat(this.deta_list.table2[9].waterPowerAmount2)}}</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:middle"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                    <td style="border-bottom-color:#000000; border-bottom-style:solid; border-bottom-width:0.75pt; border-left-color:#000000; border-left-style:solid; border-left-width:0.75pt; border-right-color:#000000; border-right-style:solid; border-right-width:0.75pt; border-top-color:#000000; border-top-style:solid; border-top-width:0.75pt; padding-left:5.03pt; padding-right:5.03pt; vertical-align:top"><p style="margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:10pt; font-weight:bold">——</span></p></td>
+                  </tr>
+                  <tr style="height:0pt">
+                    <td style="width:36pt; border:none"></td>
+                    <td style="width:60.25pt; border:none"></td>
+                    <td style="width:66.05pt; border:none"></td>
+                    <td style="width:66.05pt; border:none"></td>
+                    <td style="width:66.05pt; border:none"></td>
+                    <td style="width:65.9pt; border:none"></td>
+                    <td style="width:65.8pt; border:none"></td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <p style="margin:0pt 0pt 4.7pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:9pt">&nbsp;</span></p>
+              <table cellspacing="0" cellpadding="0" style="border-collapse:collapse; margin-left:0pt">
                 <tbody>
                 <tr>
-                  <td width="131" valign="center"
-                      style="width:79.1000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="right"
-                       style="layout-grid-mode:char;word-break:break-all;text-align:right;line-height:16.0000pt;mso-line-height-rule:exactly;">
-                    <span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;</span><span
-                      style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">&nbsp;&nbsp;&nbsp;</span><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">交易 </span><span
-                      style="font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">&nbsp;</span><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">品种</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">月份</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="91" valign="center"
-                      style="width:54.8500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="center" style="layout-grid-mode:char;text-align:center;"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;">交易总量</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="center"
-                      style="width:70.2500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="center" style="layout-grid-mode:char;text-align:center;"><span
-                      style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">常规直接交易电量</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="center"
-                      style="width:70.2000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="center"
-                       style="layout-grid-mode:char;word-break:break-all;text-align:center;"><span
-                      style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">长期战略协议直接交易电量</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="center"
-                      style="width:70.2000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="center"
-                       style="layout-grid-mode:char;word-break:break-all;text-align:center;"><span
-                      style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">自备替代直接交易</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="center"
-                      style="width:70.2000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:1.0000pt solid windowtext;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal" align="center" style="layout-grid-mode:char;text-align:center;"><span
-                      style="mso-spacerun:'yes';font-family:仿宋_GB2312;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman';font-size:12.0000pt;mso-font-kerning:1.0000pt;">电能替代直接交易</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:12.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                </tr>
-                <tr v-for='(item,index) in this.deta_list.list5'>
-                  <td width="131" valign="top"
-                      style="width:79.1000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:1.0000pt solid windowtext;mso-border-left-alt:0.5000pt solid windowtext;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.month}}<font
-                      face="仿宋_GB2312">月</font></span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="91" valign="top"
-                      style="width:54.8500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.totalAmount}}</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="top"
-                      style="width:70.2500pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.conventionalAmount}}</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="top"
-                      style="width:70.2000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.longAmount}}</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="top"
-                      style="width:70.2000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.selfAmount}}</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
-                  <td width="117" valign="top"
-                      style="width:70.2000pt;padding:0.0000pt 5.4000pt 0.0000pt 5.4000pt ;border-left:none;mso-border-left-alt:none;border-right:1.0000pt solid windowtext;mso-border-right-alt:0.5000pt solid windowtext;border-top:none;mso-border-top-alt:0.5000pt solid windowtext;border-bottom:1.0000pt solid windowtext;mso-border-bottom-alt:0.5000pt solid windowtext;">
-                    <p class="MsoNormal"><span
-                      style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;">{{item.electricEnergyAmount}}</span><span
-                      style="font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:16.0000pt;mso-font-kerning:1.0000pt;"> </span>
-                    </p>
-                  </td>
+                  <td style="width:60%; padding-left:5.4pt; padding-right:5.4pt; vertical-align:top"><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">甲方（用电方）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">名称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">户号：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易简称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易代码：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">法人代表签字：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:15.6pt 0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">（盖公章）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">年</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">月</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">日</span></p></td>
+                  <td style="width:60%; padding-left:5.4pt; padding-right:5.4pt; vertical-align:top"><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">乙方（代理方）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">&nbsp;</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">名称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">四川川能智网实业有限公司&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易简称：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp; 川能智网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">交易代码：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">800018</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">法人代表签字：</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p><p style="line-height:20pt; margin:15.6pt 0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt">（盖公章）</span></p><p style="line-height:20pt; margin:0pt; orphans:0; text-align:center; widows:0"><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">年</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">月</span><span style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline">&nbsp;&nbsp;&nbsp; </span><span style="font-family:方正仿宋_GBK; font-size:12pt">日</span></p></td>
                 </tr>
                 </tbody>
               </table>
+              <p style="margin:0pt 0pt 7.8pt; text-align:justify"><span style="font-family:仿宋; font-size:16pt; font-weight:bold">&nbsp;</span></p>
             </div>
-            <p class="MsoNormal" style="word-break: break-all;"><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:9.0000pt;mso-font-kerning:1.0000pt;"><font
-              face="仿宋_GB2312">备注：本表在年度交易前提交四川电力交易中心，电量最多精确到小数点后三位。</font></span><span
-              style="mso-spacerun:'yes';font-family:'Times New Roman';mso-fareast-font-family:仿宋_GB2312;font-size:9.0000pt;mso-font-kerning:1.0000pt;"> </span>
-            </p>
-            <p class="MsoNormal"
-               style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;"><b><span
-              style="font-family: 宋体; color: rgb(255, 0, 0); font-size: 16pt;">  </span></b></p>
-            <p class="MsoNormal"
-               style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;"><b><span
-              style="font-family: 宋体; font-size: 16pt;">  </span></b></p>
-            <p class="MsoNormal"
-               style="margin-bottom:7.8000pt;mso-para-margin-bottom:0.5000gd;mso-pagination:widow-orphan;"><b><span
-              style="font-family: 宋体; font-size: 16pt;">  </span></b></p>
+
 
 
           </div>
@@ -4400,7 +1470,7 @@
       },
       download_deta(){
         window.open(this.HOST + "api/contractDownload?version=1.0&data=%7B%27id%27:"+ this.one.id +"%7D")
-
+//        window.open(this.dow_url)
 //        this.fromdata = "{'id':" + this.one.id + "}"
 //        add_ajax.contractDownload(this.fromdata, res => {  //
 //          this.$emit('login-success', res);

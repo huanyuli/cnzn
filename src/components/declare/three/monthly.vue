@@ -958,7 +958,7 @@
 //
 //      },
       handleClick(tab) {
-        console.log(tab.index, tab.label);
+       // console.log(tab.index, tab.label);
       },
       remoteMethod(query) { //客户名称远程搜索选择
         if (query !== '') {

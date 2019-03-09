@@ -11,7 +11,7 @@
       return {
         lTime: new Date().getTime(), // 最后一次点击的时间
 //        ctTime: new Date().getTime(), //当前时间
-        tOut: 15 * 60 * 1000,   //超时时间15min
+        tOut: 30 * 60 * 1000,   //超时时间30min
         token_s:""
       }
     },

@@ -124,4 +124,17 @@ export default {
     withAxios.requestData('POST', 3,'/api/customerCodeService', params, success_callback, fail_callback);
   },
 
+  /**
+   *  /api/customerQuotedExportService 客户报价导出
+   */
+  customerQuotedExportService(params, success_callback, fail_callback) {
+    withAxios.requestExportService('POST', 3,'/api/customerQuotedExportService', params, success_callback, fail_callback);
+  },
+
+  /**
+   *  /api/customerContractQuotedExportService 客户合同价格统计导出
+   */
+  customerContractQuotedExportService(params, success_callback, fail_callback) {
+    withAxios.requestExportService('POST', 3,'/api/customerContractQuotedExportService', params, success_callback, fail_callback);
+  },
 }

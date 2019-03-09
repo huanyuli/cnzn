@@ -67,7 +67,7 @@
         <div class="ma_btn">
           <el-button size="small" @click="add_user" type="primary" >添加客户</el-button>
           <el-button  v-if="show_map(12) == 12" @click="set_hd" size="small" type="primary" >设置火电价格</el-button>
-          <!--<el-button size="small" type="primary" >导出列表</el-button>-->
+          <el-button v-if="this.no_find == 0" size="small" type="primary" @click="import_list">导出列表</el-button>
         </div>
 
         <div class="content_list">
@@ -499,6 +499,7 @@
     data() {
       return {
         no_val:1,
+        no_find:0,
         linkAlert:false,
         linkAlerts:false,
         load_add:false,
@@ -726,7 +727,8 @@
         this.finds.find_4 = ""
       },
       handleClick(tab) {
-        console.log(tab.index, tab.label);
+        this.no_find = tab.index
+       // console.log(tab.index, tab.label);
       },
       remoteMethod(query) { //客户名称远程搜索选择
         if (query !== '') {
@@ -892,6 +894,15 @@
         this.linkAlert = true
         var date=new Date;
         this.ruleForm.vue_0 = date.getFullYear()
+      },
+      import_list(){
+        var _temp_Export = "{'year':'"+ this.finds.find_1 +"','customerName':'"+ this.finds.find_2 +"','provinceCode':'" + this.finds.find_3 +"','cityCode':'"+ this.finds.find_4 +"'}"
+console.log(_temp_Export)
+        ajax_list.customerContractQuotedExportService(_temp_Export, res => {  //导出
+          this.$emit('login-success', res);
+        }, (res) => {
+
+        });
       },
     },
 //生命周期钩子函数，进入页面显示之前获取数据到store

@@ -19,15 +19,15 @@
                   <div class="ico ico_true">3</div>
                   <div class="ico_border"></div>
                   <div class="ico ico_true">4</div>
-                  <div class="ico_border"></div>
-                  <div class="ico ico_true">5</div>
+                  <!--<div class="ico_border"></div>-->
+                  <!--<div class="ico ico_true">5</div>-->
                 </div>
                 <div class="text_div ">
                   <span>填写甲方基础信息</span>
                   <span class="ico_text_true">填写甲方其它信息</span>
-                  <span class="ico_text_true">填写全年协议电量交易价格表</span>
-                  <span class="ico_text_true">填写协议外月度与富余电量交易价格表</span>
-                  <span class="ico_text_true">填写全年协议电量表</span>
+                  <span class="ico_text_true">常规直购交易</span>
+                  <span class="ico_text_true">富余电量交易 </span>
+                  <!--<span class="ico_text_true">填写全年协议电量表</span>-->
                 </div>
               </div>
             </div>
@@ -129,15 +129,15 @@
                 <div class="ico ico_true">3</div>
                 <div class="ico_border"></div>
                 <div class="ico ico_true">4</div>
-                <div class="ico_border"></div>
-                <div class="ico ico_true">5</div>
+                <!--<div class="ico_border"></div>-->
+                <!--<div class="ico ico_true">5</div>-->
               </div>
               <div class="text_div ">
                 <span>填写甲方基础信息</span>
                 <span>填写甲方其它信息</span>
-                <span class="ico_text_true">填写全年协议电量交易价格表</span>
-                <span class="ico_text_true">填写协议外月度与富余电量交易价格表</span>
-                <span class="ico_text_true">填写全年协议电量表</span>
+                <span class="ico_text_true">常规直购交易</span>
+                <span class="ico_text_true">富余电量交易 </span>
+                <!--<span class="ico_text_true">填写全年协议电量表</span>-->
               </div>
             </div>
           </div>
@@ -240,15 +240,15 @@
                 <div class="ico">3</div>
                 <div class="ico_border"></div>
                 <div class="ico ico_true">4</div>
-                <div class="ico_border"></div>
-                <div class="ico ico_true">5</div>
+                <!--<div class="ico_border"></div>-->
+                <!--<div class="ico ico_true">5</div>-->
               </div>
               <div class="text_div ">
                 <span>填写甲方基础信息</span>
                 <span>填写甲方其它信息</span>
-                <span>填写全年协议电量交易价格表</span>
-                <span class="ico_text_true">填写协议外月度与富余电量交易价格表</span>
-                <span class="ico_text_true">填写全年协议电量表</span>
+                <span>常规直购交易</span>
+                <span class="ico_text_true">富余电量交易 </span>
+                <!--<span class="ico_text_true">填写全年协议电量表</span>-->
               </div>
             </div>
           </div>
@@ -256,25 +256,29 @@
             <div class="table_hint">单位：元/兆瓦时</div>
             <div class="table three_table list_table">
               <div class="table_tr table_title">
-                <div class="table_td"><div class="table_td_w">时间</div></div>
-                <div class="table_td"><div class="table_td_w two_p">
-                  <p>常规直接交</p>
-                  <p>（水电电量交易价格）</p>
-                </div></div>
-                <div class="table_td">
+                <div class="table_td"><div class="table_td_w">月份</div></div>
+                <div class="table_td"><div class="table_td_w">年度交易电量</div></div>
+                <div class="table_td_2">
                   <div class="table_td_w two_p">
-                    <p><span>*</span>长期战略协议直接交易</p>
-                    <p>（水电电量交易价格）</p>
+                    <p>其中：水电电量部分</p>
+                  </div>
+                  <div class="table_td_ws">
+                    <p>交易电量</p>
+                    <p>交易电价</p>
+                  </div>
+                </div>
+                <div class="table_td_2">
+                  <div class="table_td_w two_p">
+                    <p>其中：火电/新能源电量部分</p>
+                  </div>
+                  <div class="table_td_ws">
+                    <p>交易电量</p>
+                    <p>交易价格</p>
                   </div>
                 </div>
                 <div class="table_td">
                   <div class="table_td_w">
-                    <p><span>*</span>自备替代直接交易</p>
-                  </div>
-                </div>
-                <div class="table_td">
-                  <div class="table_td_w">
-                    <p><span>*</span>电能替代直接交易</p>
+                    <p>月度水电增量交易价格</p>
                   </div>
                 </div>
               </div>
@@ -301,17 +305,23 @@
                       <el-input type="number"  v-model.number="ruleThree.three_1_4"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="three_1_6">
+                      <el-input type="number"  v-model.number="ruleThree.three_1_6"></el-input>
+                    </el-form-item>
+                  </div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">2月</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="three_1_1">
-                      <el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>
+                    <el-form-item label=""  prop="three_2_1">
+                      <el-input type="number" v-model.number="ruleThree.three_2_1"></el-input>
                     </el-form-item>
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
                     <el-form-item label=""  prop="three_2_2">
-                      <el-input type="number" v-model="ruleThree.three_2_2"></el-input>
+                      <el-input type="number" v-model.number="ruleThree.three_2_2"></el-input>
                     </el-form-item>
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
@@ -324,12 +334,18 @@
                       <el-input  type="number"  v-model.number="ruleThree.three_2_4"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="three_2_6">
+                      <el-input type="number"  v-model.number="ruleThree.three_2_6"></el-input>
+                    </el-form-item>
+                  </div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">3月</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="three_1_1">
-                      <el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>
+                    <el-form-item label=""  prop="three_3_1">
+                      <el-input type="number" v-model.number="ruleThree.three_3_1"></el-input>
                     </el-form-item>
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
@@ -347,12 +363,18 @@
                       <el-input type="number" v-model.number="ruleThree.three_3_4"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="three_3_6">
+                      <el-input type="number"  v-model.number="ruleThree.three_3_6"></el-input>
+                    </el-form-item>
+                  </div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">4月</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="three_1_1">
-                      <el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>
+                    <el-form-item label=""  prop="three_4_1">
+                      <el-input type="number" v-model.number="ruleThree.three_4_1"></el-input>
                     </el-form-item>
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
@@ -370,12 +392,18 @@
                       <el-input type="number" v-model.number="ruleThree.three_4_4"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="three_4_6">
+                      <el-input type="number"  v-model.number="ruleThree.three_4_6"></el-input>
+                    </el-form-item>
+                  </div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">5月</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="three_1_1">
-                      <el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>
+                    <el-form-item label=""  prop="three_5_1">
+                      <el-input type="number" v-model.number="ruleThree.three_5_1"></el-input>
                     </el-form-item>
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
@@ -393,12 +421,18 @@
                       <el-input type="number" v-model.number="ruleThree.three_5_4"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="three_5_6">
+                      <el-input type="number"  v-model.number="ruleThree.three_5_6"></el-input>
+                    </el-form-item>
+                  </div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">6月</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="three_1_1">
-                      <el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>
+                    <el-form-item label=""  prop="three_6_1">
+                      <el-input type="number" v-model.number="ruleThree.three_6_1"></el-input>
                     </el-form-item>
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
@@ -416,12 +450,18 @@
                       <el-input type="number" v-model.number="ruleThree.three_6_4"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="three_6_6">
+                      <el-input type="number"  v-model.number="ruleThree.three_6_6"></el-input>
+                    </el-form-item>
+                  </div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">7月</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="three_1_1">
-                      <el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>
+                    <el-form-item label=""  prop="three_7_1">
+                      <el-input type="number" v-model.number="ruleThree.three_7_1"></el-input>
                     </el-form-item>
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
@@ -439,12 +479,18 @@
                       <el-input type="number" v-model.number="ruleThree.three_7_4"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="three_7_6">
+                      <el-input type="number"  v-model.number="ruleThree.three_7_6"></el-input>
+                    </el-form-item>
+                  </div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">8月</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="three_1_1">
-                      <el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>
+                    <el-form-item label=""  prop="three_8_1">
+                      <el-input type="number" v-model.number="ruleThree.three_8_1"></el-input>
                     </el-form-item>
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
@@ -462,12 +508,18 @@
                       <el-input type="number" v-model.number="ruleThree.three_8_4"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="three_8_6">
+                      <el-input type="number"  v-model.number="ruleThree.three_8_6"></el-input>
+                    </el-form-item>
+                  </div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">9月</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="three_1_1">
-                      <el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>
+                    <el-form-item label=""  prop="three_9_1">
+                      <el-input type="number" v-model.number="ruleThree.three_9_1"></el-input>
                     </el-form-item>
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
@@ -485,12 +537,18 @@
                       <el-input type="number" v-model.number="ruleThree.three_9_4"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="three_9_6">
+                      <el-input type="number"  v-model.number="ruleThree.three_9_6"></el-input>
+                    </el-form-item>
+                  </div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">10月</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="three_1_1">
-                      <el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>
+                    <el-form-item label=""  prop="three_10_1">
+                      <el-input type="number" v-model.number="ruleThree.three_10_1"></el-input>
                     </el-form-item>
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
@@ -508,12 +566,18 @@
                       <el-input type="number" v-model.number="ruleThree.three_10_4"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="three_10_6">
+                      <el-input type="number"  v-model.number="ruleThree.three_10_6"></el-input>
+                    </el-form-item>
+                  </div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">11月</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="three_1_1">
-                      <el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>
+                    <el-form-item label=""  prop="three_11_1">
+                      <el-input type="number" v-model.number="ruleThree.three_11_1"></el-input>
                     </el-form-item>
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
@@ -531,12 +595,18 @@
                       <el-input type="number" v-model.number="ruleThree.three_11_4"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="three_11_6">
+                      <el-input type="number"  v-model.number="ruleThree.three_11_6"></el-input>
+                    </el-form-item>
+                  </div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">12月</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="three_1_1">
-                      <el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>
+                    <el-form-item label=""  prop="three_12_1">
+                      <el-input type="number" v-model.number="ruleThree.three_12_1"></el-input>
                     </el-form-item>
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
@@ -554,6 +624,29 @@
                       <el-input type="number" v-model.number="ruleThree.three_12_4"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="three_12_6">
+                      <el-input type="number"  v-model.number="ruleThree.three_12_6"></el-input>
+                    </el-form-item>
+                  </div></div>
+                </div>
+                <div class="table_tr">
+                  <div class="table_td"><div class="table_td_w">合计</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    {{this.ruleThree.three_1_1 + this.ruleThree.three_2_1 + this.ruleThree.three_3_1 + this.ruleThree.three_4_1 + this.ruleThree.three_5_1 + this.ruleThree.three_6_1 + this.ruleThree.three_7_1 + this.ruleThree.three_8_1 + this.ruleThree.three_9_1 + this.ruleThree.three_10_1 + this.ruleThree.three_11_1 + this.ruleThree.three_12_1}}
+                  </div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    {{this.ruleThree.three_1_2 + this.ruleThree.three_2_2 + this.ruleThree.three_3_2 + this.ruleThree.three_4_2 + this.ruleThree.three_5_2 + this.ruleThree.three_6_2
+                  + this.ruleThree.three_7_2 + this.ruleThree.three_8_2 + this.ruleThree.three_9_2 + this.ruleThree.three_10_2 + this.ruleThree.three_11_2 + this.ruleThree.three_12_2}}
+                  </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    {{this.ruleThree.three_1_4 + this.ruleThree.three_2_4 + this.ruleThree.three_3_4 + this.ruleThree.three_4_4 + this.ruleThree.three_5_4 + this.ruleThree.three_6_4
+                  + this.ruleThree.three_7_4 + this.ruleThree.three_8_4 + this.ruleThree.three_9_4 + this.ruleThree.three_10_4 + this.ruleThree.three_11_4 + this.ruleThree.three_12_4}}
+                  </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
                 </div>
               </el-form>
             </div>
@@ -569,102 +662,95 @@
                 <div class="ico_border"></div>
                 <div class="ico">3</div>
                 <div class="ico_border"></div>
-                <div class="ico">4</div>
-                <div class="ico_border"></div>
-                <div class="ico ico_true">5</div>
+                <div class="ico ico_true">4</div>
+                <!--<div class="ico_border"></div>-->
+                <!--<div class="ico ico_true">5</div>-->
               </div>
               <div class="text_div ">
                 <span>填写甲方基础信息</span>
                 <span>填写甲方其它信息</span>
-                <span>填写全年协议电量交易价格表</span>
-                <span>填写协议外月度与富余电量交易价格表</span>
-                <span class="ico_text_true">填写全年协议电量表</span>
+                <span>常规直购交易</span>
+                <span class="ico_text_true">富余电量交易 </span>
+                <!--<span class="ico_text_true">填写全年协议电量表</span>-->
               </div>
             </div>
           </div>
           <div class="list_con" >
             <div class="table_hint">单位：元/兆瓦时</div>
-            <div class="table four_table list_table">
+            <div class="table three_table list_table">
               <div class="table_tr table_title">
                 <div class="table_td"><div class="table_td_w">月份</div></div>
-                <div class="table_td"><div class="table_td_w two_p">
-                  <p>协议外月度电量交易价</p>
-                  <p>（水电电量交易价格）</p>
-                </div></div>
+                <div class="table_td"><div class="table_td_w">年度交易电量</div></div>
+                <div class="table_td_2">
+                  <div class="table_td_w two_p">
+                    <p>其中：水电电量部分</p>
+                  </div>
+                  <div class="table_td_ws">
+                    <p>交易电量</p>
+                    <p>交易电价</p>
+                  </div>
+                </div>
+                <div class="table_td_2">
+                  <div class="table_td_w two_p">
+                    <p>其中：火电/新能源电量部分</p>
+                  </div>
+                  <div class="table_td_ws">
+                    <p>交易电量</p>
+                    <p>交易价格</p>
+                  </div>
+                </div>
                 <div class="table_td">
                   <div class="table_td_w">
-                    <p><span>*</span>月度富余电量交易价</p>
+                    <p>月度水电增量交易价格</p>
                   </div>
                 </div>
               </div>
               <el-form :model="ruleFour" :rules="rules_four" ref="ruleFour" label-width="0px" class="demo-ruleForm">
-
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">1月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="four_1_1">
-                      <el-input type="number" v-model.number="ruleFour.four_1_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="four_1_2">
-                      <el-input type="number" v-model.number="ruleFour.four_1_2"></el-input>
-                    </el-form-item>
-                  </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/ </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">2月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="four_2_1">
-                      <el-input type="number" v-model.number="ruleFour.four_2_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="four_2_2">
-                      <el-input type="number" v-model.number="ruleFour.four_2_2"></el-input>
-                    </el-form-item>
-                  </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/ </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">3月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="four_3_1">
-                      <el-input type="number" v-model.number="ruleFour.four_3_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="four_3_2">
-                      <el-input type="number" v-model.number="ruleFour.four_3_2"></el-input>
-                    </el-form-item>
-                  </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/ </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">4月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="four_4_1">
-                      <el-input type="number" v-model.number="ruleFour.four_4_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="four_4_2">
-                      <el-input type="number" v-model.number="ruleFour.four_4_2"></el-input>
-                    </el-form-item>
-                  </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/ </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">5月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="four_5_1">
-                      <el-input type="number" v-model.number="ruleFour.four_5_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="four_5_2">
-                      <el-input type="number" v-model.number="ruleFour.four_5_2"></el-input>
-                    </el-form-item>
-                  </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/ </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
                 </div>
-
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">6月</div></div>
                   <div class="table_td"><div class="table_td_w">
@@ -675,6 +761,18 @@
                   <div class="table_td"><div class="table_td_w">
                     <el-form-item label=""  prop="four_6_2">
                       <el-input type="number" v-model.number="ruleFour.four_6_2"></el-input>
+                    </el-form-item>
+                  </div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="four_6_3">
+                      <el-input type="number" v-model.number="ruleFour.four_6_3"></el-input>
+                    </el-form-item>
+                  </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="four_6_6">
+                      <el-input type="number"  v-model.number="ruleFour.four_6_6"></el-input>
                     </el-form-item>
                   </div></div>
                 </div>
@@ -690,6 +788,18 @@
                       <el-input type="number" v-model.number="ruleFour.four_7_2"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="four_7_3">
+                      <el-input type="number" v-model.number="ruleFour.four_7_3"></el-input>
+                    </el-form-item>
+                  </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="four_7_6">
+                      <el-input type="number"  v-model.number="ruleFour.four_7_6"></el-input>
+                    </el-form-item>
+                  </div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">8月</div></div>
@@ -701,6 +811,18 @@
                   <div class="table_td"><div class="table_td_w">
                     <el-form-item label=""  prop="four_8_2">
                       <el-input type="number" v-model.number="ruleFour.four_8_2"></el-input>
+                    </el-form-item>
+                  </div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="four_8_3">
+                      <el-input type="number" v-model.number="ruleFour.four_8_3"></el-input>
+                    </el-form-item>
+                  </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="four_8_6">
+                      <el-input type="number"  v-model.number="ruleFour.four_8_6"></el-input>
                     </el-form-item>
                   </div></div>
                 </div>
@@ -716,6 +838,18 @@
                       <el-input type="number" v-model.number="ruleFour.four_9_2"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="four_9_3">
+                      <el-input type="number" v-model.number="ruleFour.four_9_3"></el-input>
+                    </el-form-item>
+                  </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="four_9_6">
+                      <el-input type="number"  v-model.number="ruleFour.four_9_6"></el-input>
+                    </el-form-item>
+                  </div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">10月</div></div>
@@ -729,439 +863,988 @@
                       <el-input type="number" v-model.number="ruleFour.four_10_2"></el-input>
                     </el-form-item>
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="four_10_3">
+                      <el-input type="number" v-model.number="ruleFour.four_10_3"></el-input>
+                    </el-form-item>
+                  </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">
+                    <el-form-item label=""  prop="four_10_6">
+                      <el-input type="number"  v-model.number="ruleFour.four_10_6"></el-input>
+                    </el-form-item>
+                  </div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">11月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="four_11_1">
-                      <el-input type="number" v-model.number="ruleFour.four_11_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="four_11_2">
-                      <el-input type="number" v-model.number="ruleFour.four_11_2"></el-input>
-                    </el-form-item>
-                  </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/ </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
                 </div>
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">12月</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/ </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                </div>
+                <div class="table_tr">
+                  <div class="table_td"><div class="table_td_w">合计</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="four_12_1">
-                      <el-input type="number" v-model.number="ruleFour.four_12_1"></el-input>
-                    </el-form-item>
+                    {{this.ruleFour.four_6_1 + this.ruleFour.four_7_1 + this.ruleFour.four_8_1 + this.ruleFour.four_9_1 + this.ruleFour.four_10_1}}
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="four_12_2">
-                      <el-input type="number" v-model.number="ruleFour.four_12_2"></el-input>
-                    </el-form-item>
+                    {{this.ruleFour.four_6_2
+                  + this.ruleFour.four_7_2 + this.ruleFour.four_8_2 + this.ruleFour.four_9_2 + this.ruleFour.four_10_2}}
                   </div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
+                  <div class="table_td"><div class="table_td_w">/</div></div>
                 </div>
               </el-form>
             </div>
           </div>
         </div>
-        <div v-else-if="this.istype == 5" class="list_module">
-          <div class="list_module_title">
-            <div class="title_ico_div">
-              <div class="ico_div">
-                <div style="margin-left: 20px" class="ico">1</div>
-                <div class="ico_border"></div>
-                <div class="ico">2</div>
-                <div class="ico_border"></div>
-                <div class="ico">3</div>
-                <div class="ico_border"></div>
-                <div class="ico">4</div>
-                <div class="ico_border"></div>
-                <div class="ico ">5</div>
-              </div>
-              <div class="text_div ">
-                <span>填写甲方基础信息</span>
-                <span>填写甲方其它信息</span>
-                <span>填写全年协议电量交易价格表</span>
-                <span class="">填写协议外月度与富余电量交易价格表</span>
-                <span class="">填写全年协议电量表</span>
-              </div>
-            </div>
-          </div>
-          <div class="list_con" >
-            <div class="table_hint">单位：兆瓦时</div>
-            <div class="table five_table list_table">
-              <div class="table_tr table_title">
-                <div class="table_td"><div class="table_td_w">时间</div></div>
-                <div class="table_td"><div class="table_td_w">
-                  <p><span>*</span>交易总量</p>
-                </div></div>
-                <div class="table_td">
-                  <div class="table_td_w">
-                    <p><span>*</span>常规直接交易电量</p>
-                  </div>
-                </div>
-                <div class="table_td">
-                  <div class="table_td_w">
-                    <p><span>*</span>长期战略协议直接交易电量</p>
-                  </div>
-                </div>
-                <div class="table_td">
-                  <div class="table_td_w">
-                    <p><span>*</span>自备替代直接交易</p>
-                  </div>
-                </div>
-                <div class="table_td">
-                  <div class="table_td_w">
-                    <p><span>*</span>电能替代直接交易</p>
-                  </div>
-                </div>
-              </div>
-              <el-form :model="ruleFive" :rules="rules_five" ref="ruleFive" label-width="0px" class="demo-ruleForm">
-                <div class="table_tr">
-                  <div class="table_td"><div class="table_td_w">1月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_1_1">
-                      <el-input type="number" v-model.number="ruleFive.five_1_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_1_2">
-                      <el-input type="number" v-model.number="ruleFive.five_1_2"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_1_3">
-                      <el-input type="number" v-model.number="ruleFive.five_1_3"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_1_4">
-                      <el-input type="number" v-model.number="ruleFive.five_1_4"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_1_5">
-                      <el-input type="number" v-model.number="ruleFive.five_1_5"></el-input>
-                    </el-form-item>
-                  </div></div>
-                </div>
-                <div class="table_tr">
-                  <div class="table_td"><div class="table_td_w">2月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_2_1">
-                      <el-input type="number" v-model.number="ruleFive.five_2_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_2_2">
-                      <el-input type="number" v-model.number="ruleFive.five_2_2"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_2_3">
-                      <el-input type="number" v-model.number="ruleFive.five_2_3"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_2_4">
-                      <el-input type="number" v-model.number="ruleFive.five_2_4"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_2_5">
-                      <el-input type="number" v-model.number="ruleFive.five_2_5"></el-input>
-                    </el-form-item>
-                  </div></div>
-                </div>
-                <div class="table_tr">
-                  <div class="table_td"><div class="table_td_w">3月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_3_1">
-                      <el-input type="number" v-model.number="ruleFive.five_3_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_3_2">
-                      <el-input type="number" v-model.number="ruleFive.five_3_2"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_3_3">
-                      <el-input type="number" v-model.number="ruleFive.five_3_3"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_3_4">
-                      <el-input type="number" v-model.number="ruleFive.five_3_4"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_3_5">
-                      <el-input type="number" v-model.number="ruleFive.five_3_5"></el-input>
-                    </el-form-item>
-                  </div></div>
-                </div>
-                <div class="table_tr">
-                  <div class="table_td"><div class="table_td_w">4月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_4_1">
-                      <el-input type="number" v-model.number="ruleFive.five_4_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_4_2">
-                      <el-input type="number" v-model.number="ruleFive.five_4_2"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_4_3">
-                      <el-input type="number" v-model.number="ruleFive.five_4_3"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_4_4">
-                      <el-input type="number" v-model.number="ruleFive.five_4_4"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_4_5">
-                      <el-input type="number" v-model.number="ruleFive.five_4_5"></el-input>
-                    </el-form-item>
-                  </div></div>
-                </div>
-                <div class="table_tr">
-                  <div class="table_td"><div class="table_td_w">5月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_5_1">
-                      <el-input type="number" v-model.number="ruleFive.five_5_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_5_2">
-                      <el-input type="number" v-model.number="ruleFive.five_5_2"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_5_3">
-                      <el-input type="number" v-model.number="ruleFive.five_5_3"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_5_4">
-                      <el-input type="number" v-model.number="ruleFive.five_5_4"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_5_5">
-                      <el-input type="number" v-model.number="ruleFive.five_5_5"></el-input>
-                    </el-form-item>
-                  </div></div>
-                </div>
-                <div class="table_tr">
-                  <div class="table_td"><div class="table_td_w">6月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_6_1">
-                      <el-input type="number" v-model.number="ruleFive.five_6_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_6_2">
-                      <el-input type="number" v-model.number="ruleFive.five_6_2"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_6_3">
-                      <el-input type="number" v-model.number="ruleFive.five_6_3"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_6_4">
-                      <el-input type="number" v-model.number="ruleFive.five_6_4"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_6_5">
-                      <el-input type="number" v-model.number="ruleFive.five_6_5"></el-input>
-                    </el-form-item>
-                  </div></div>
-                </div>
-                <div class="table_tr">
-                  <div class="table_td"><div class="table_td_w">7月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_7_1">
-                      <el-input type="number" v-model.number="ruleFive.five_7_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_7_2">
-                      <el-input type="number" v-model.number="ruleFive.five_7_2"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_7_3">
-                      <el-input type="number" v-model.number="ruleFive.five_7_3"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_7_4">
-                      <el-input type="number" v-model.number="ruleFive.five_7_4"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_7_5">
-                      <el-input type="number" v-model.number="ruleFive.five_7_5"></el-input>
-                    </el-form-item>
-                  </div></div>
-                </div>
-                <div class="table_tr">
-                  <div class="table_td"><div class="table_td_w">8月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_8_1">
-                      <el-input type="number" v-model.number="ruleFive.five_8_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_8_2">
-                      <el-input type="number" v-model.number="ruleFive.five_8_2"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_8_3">
-                      <el-input type="number" v-model.number="ruleFive.five_8_3"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_8_4">
-                      <el-input type="number" v-model.number="ruleFive.five_8_4"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_8_5">
-                      <el-input type="number" v-model.number="ruleFive.five_8_5"></el-input>
-                    </el-form-item>
-                  </div></div>
-                </div>
-                <div class="table_tr">
-                  <div class="table_td"><div class="table_td_w">9月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_9_1">
-                      <el-input type="number" v-model.number="ruleFive.five_9_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_9_2">
-                      <el-input type="number" v-model.number="ruleFive.five_9_2"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_9_3">
-                      <el-input type="number" v-model.number="ruleFive.five_9_3"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_9_4">
-                      <el-input type="number" v-model.number="ruleFive.five_9_4"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_9_5">
-                      <el-input type="number" v-model.number="ruleFive.five_9_5"></el-input>
-                    </el-form-item>
-                  </div></div>
-                </div>
-                <div class="table_tr">
-                  <div class="table_td"><div class="table_td_w">10月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_10_1">
-                      <el-input type="number" v-model.number="ruleFive.five_10_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_10_2">
-                      <el-input type="number" v-model.number="ruleFive.five_10_2"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_10_3">
-                      <el-input type="number" v-model.number="ruleFive.five_10_3"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_10_4">
-                      <el-input type="number" v-model.number="ruleFive.five_10_4"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_10_5">
-                      <el-input type="number" v-model.number="ruleFive.five_10_5"></el-input>
-                    </el-form-item>
-                  </div></div>
-                </div>
-                <div class="table_tr">
-                  <div class="table_td"><div class="table_td_w">11月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_11_1">
-                      <el-input type="number" v-model.number="ruleFive.five_11_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_11_2">
-                      <el-input type="number" v-model.number="ruleFive.five_11_2"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_11_3">
-                      <el-input type="number" v-model.number="ruleFive.five_11_3"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_11_4">
-                      <el-input type="number" v-model.number="ruleFive.five_11_4"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_11_5">
-                      <el-input type="number" v-model.number="ruleFive.five_11_5"></el-input>
-                    </el-form-item>
-                  </div></div>
-                </div>
-                <div class="table_tr">
-                  <div class="table_td"><div class="table_td_w">12月</div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_12_1">
-                      <el-input type="number" v-model.number="ruleFive.five_12_1"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_12_2">
-                      <el-input type="number" v-model.number="ruleFive.five_12_2"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_12_3">
-                      <el-input type="number" v-model.number="ruleFive.five_12_3"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_12_4">
-                      <el-input type="number" v-model.number="ruleFive.five_12_4"></el-input>
-                    </el-form-item>
-                  </div></div>
-                  <div class="table_td"><div class="table_td_w">
-                    <el-form-item label=""  prop="five_12_5">
-                      <el-input type="number" v-model.number="ruleFive.five_12_5"></el-input>
-                    </el-form-item>
-                  </div></div>
-                </div>
-              </el-form>
+        <!--<div v-else-if="this.istype == 3" class="list_module">-->
+          <!--<div class="list_module_title">-->
+            <!--<div class="title_ico_div">-->
+              <!--<div class="ico_div">-->
+                <!--<div style="margin-left: 20px" class="ico">1</div>-->
+                <!--<div class="ico_border"></div>-->
+                <!--<div class="ico">2</div>-->
+                <!--<div class="ico_border"></div>-->
+                <!--<div class="ico">3</div>-->
+                <!--<div class="ico_border"></div>-->
+                <!--<div class="ico ico_true">4</div>-->
+                <!--<div class="ico_border"></div>-->
+                <!--<div class="ico ico_true">5</div>-->
+              <!--</div>-->
+              <!--<div class="text_div ">-->
+                <!--<span>填写甲方基础信息</span>-->
+                <!--<span>填写甲方其它信息</span>-->
+                <!--<span>常规直购交易</span>-->
+                <!--<span class="ico_text_true">富余电量交易 </span>-->
+                <!--<span class="ico_text_true">填写全年协议电量表</span>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--<div class="list_con" >-->
+            <!--<div class="table_hint">单位：元/兆瓦时</div>-->
+            <!--<div class="table three_table list_table">-->
+              <!--<div class="table_tr table_title">-->
+                <!--<div class="table_td"><div class="table_td_w">时间</div></div>-->
+                <!--<div class="table_td"><div class="table_td_w two_p">-->
+                  <!--<p>常规直接交</p>-->
+                  <!--<p>（水电电量交易价格）</p>-->
+                <!--</div></div>-->
+                <!--<div class="table_td">-->
+                  <!--<div class="table_td_w two_p">-->
+                    <!--<p><span>*</span>长期战略协议直接交易</p>-->
+                    <!--<p>（水电电量交易价格）</p>-->
+                  <!--</div>-->
+                <!--</div>-->
+                <!--<div class="table_td">-->
+                  <!--<div class="table_td_w">-->
+                    <!--<p><span>*</span>自备替代直接交易</p>-->
+                  <!--</div>-->
+                <!--</div>-->
+                <!--<div class="table_td">-->
+                  <!--<div class="table_td_w">-->
+                    <!--<p><span>*</span>电能替代直接交易</p>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<el-form :model="ruleThree" :rules="rules_three" ref="ruleThree" label-width="0px" class="demo-ruleForm">-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">1月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_1">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_2">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_1_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_3">-->
+                      <!--<el-input type="number"  v-model.number="ruleThree.three_1_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_4">-->
+                      <!--<el-input type="number"  v-model.number="ruleThree.three_1_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">2月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_1">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_2_2">-->
+                      <!--<el-input type="number" v-model="ruleThree.three_2_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_2_3">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_2_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_2_4">-->
+                      <!--<el-input  type="number"  v-model.number="ruleThree.three_2_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">3月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_1">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_3_2">-->
+                      <!--<el-input type="number"  v-model.number="ruleThree.three_3_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_3_3">-->
+                      <!--<el-input  type="number" v-model.number="ruleThree.three_3_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_3_4">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_3_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">4月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_1">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_4_2">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_4_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_4_3">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_4_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_4_4">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_4_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">5月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_1">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_5_2">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_5_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_5_3">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_5_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_5_4">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_5_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">6月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_1">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_6_2">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_6_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_6_3">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_6_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_6_4">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_6_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">7月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_1">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_7_2">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_7_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_7_3">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_7_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_7_4">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_7_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">8月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_1">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_8_2">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_8_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_8_3">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_8_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_8_4">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_8_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">9月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_1">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_9_2">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_9_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_9_3">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_9_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_9_4">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_9_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">10月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_1">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_10_2">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_10_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_10_3">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_10_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_10_4">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_10_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">11月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_1">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_11_2">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_11_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_11_3">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_11_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_11_4">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_11_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">12月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_1_1">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_1_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_12_2">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_12_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_12_3">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_12_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="three_12_4">-->
+                      <!--<el-input type="number" v-model.number="ruleThree.three_12_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+              <!--</el-form>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--<div v-else-if="this.istype == 4" class="list_module">-->
+          <!--<div class="list_module_title">-->
+            <!--<div class="title_ico_div">-->
+              <!--<div class="ico_div">-->
+                <!--<div style="margin-left: 20px" class="ico">1</div>-->
+                <!--<div class="ico_border"></div>-->
+                <!--<div class="ico">2</div>-->
+                <!--<div class="ico_border"></div>-->
+                <!--<div class="ico">3</div>-->
+                <!--<div class="ico_border"></div>-->
+                <!--<div class="ico">4</div>-->
+                <!--&lt;!&ndash;<div class="ico_border"></div>&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="ico ico_true">5</div>&ndash;&gt;-->
+              <!--</div>-->
+              <!--<div class="text_div ">-->
+                <!--<span>填写甲方基础信息</span>-->
+                <!--<span>填写甲方其它信息</span>-->
+                <!--<span>常规直购交易</span>-->
+                <!--<span>富余电量交易 </span>-->
+                <!--&lt;!&ndash;<span class="ico_text_true">填写全年协议电量表</span>&ndash;&gt;-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--<div class="list_con" >-->
+            <!--<div class="table_hint">单位：元/兆瓦时</div>-->
+            <!--<div class="table four_table list_table">-->
+              <!--<div class="table_tr table_title">-->
+                <!--<div class="table_td"><div class="table_td_w">月份</div></div>-->
+                <!--<div class="table_td"><div class="table_td_w two_p">-->
+                  <!--<p>协议外月度电量交易价</p>-->
+                  <!--<p>（水电电量交易价格）</p>-->
+                <!--</div></div>-->
+                <!--<div class="table_td">-->
+                  <!--<div class="table_td_w">-->
+                    <!--<p><span>*</span>月度富余电量交易价</p>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<el-form :model="ruleFour" :rules="rules_four" ref="ruleFour" label-width="0px" class="demo-ruleForm">-->
 
-            </div>
-          </div>
-        </div>
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">1月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_1_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_1_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_1_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_1_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">2月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_2_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_2_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_2_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_2_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">3月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_3_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_3_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_3_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_3_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">4月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_4_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_4_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_4_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_4_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">5月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_5_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_5_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_5_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_5_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">6月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_6_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_6_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_6_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_6_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">7月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_7_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_7_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_7_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_7_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">8月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_8_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_8_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_8_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_8_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">9月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_9_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_9_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_9_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_9_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">10月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_10_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_10_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_10_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_10_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">11月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_11_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_11_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_11_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_11_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">12月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_12_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_12_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="four_12_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFour.four_12_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+              <!--</el-form>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--<div v-else-if="this.istype == 5" class="list_module">-->
+          <!--<div class="list_module_title">-->
+            <!--<div class="title_ico_div">-->
+              <!--<div class="ico_div">-->
+                <!--<div style="margin-left: 20px" class="ico">1</div>-->
+                <!--<div class="ico_border"></div>-->
+                <!--<div class="ico">2</div>-->
+                <!--<div class="ico_border"></div>-->
+                <!--<div class="ico">3</div>-->
+                <!--<div class="ico_border"></div>-->
+                <!--<div class="ico">4</div>-->
+                <!--&lt;!&ndash;<div class="ico_border"></div>&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="ico ">5</div>&ndash;&gt;-->
+              <!--</div>-->
+              <!--<div class="text_div ">-->
+                <!--<span>填写甲方基础信息</span>-->
+                <!--<span>填写甲方其它信息</span>-->
+                <!--<span>常规直购交易</span>-->
+                <!--<span class="">富余电量交易 </span>-->
+                <!--&lt;!&ndash;<span class="">填写全年协议电量表</span>&ndash;&gt;-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--<div class="list_con" >-->
+            <!--<div class="table_hint">单位：兆瓦时</div>-->
+            <!--<div class="table five_table list_table">-->
+              <!--<div class="table_tr table_title">-->
+                <!--<div class="table_td"><div class="table_td_w">时间</div></div>-->
+                <!--<div class="table_td"><div class="table_td_w">-->
+                  <!--<p><span>*</span>交易总量</p>-->
+                <!--</div></div>-->
+                <!--<div class="table_td">-->
+                  <!--<div class="table_td_w">-->
+                    <!--<p><span>*</span>常规直接交易电量</p>-->
+                  <!--</div>-->
+                <!--</div>-->
+                <!--<div class="table_td">-->
+                  <!--<div class="table_td_w">-->
+                    <!--<p><span>*</span>长期战略协议直接交易电量</p>-->
+                  <!--</div>-->
+                <!--</div>-->
+                <!--<div class="table_td">-->
+                  <!--<div class="table_td_w">-->
+                    <!--<p><span>*</span>自备替代直接交易</p>-->
+                  <!--</div>-->
+                <!--</div>-->
+                <!--<div class="table_td">-->
+                  <!--<div class="table_td_w">-->
+                    <!--<p><span>*</span>电能替代直接交易</p>-->
+                  <!--</div>-->
+                <!--</div>-->
+              <!--</div>-->
+              <!--<el-form :model="ruleFive" :rules="rules_five" ref="ruleFive" label-width="0px" class="demo-ruleForm">-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">1月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_1_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_1_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_1_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_1_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_1_3">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_1_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_1_4">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_1_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_1_5">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_1_5"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">2月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_2_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_2_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_2_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_2_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_2_3">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_2_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_2_4">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_2_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_2_5">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_2_5"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">3月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_3_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_3_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_3_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_3_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_3_3">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_3_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_3_4">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_3_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_3_5">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_3_5"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">4月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_4_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_4_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_4_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_4_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_4_3">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_4_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_4_4">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_4_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_4_5">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_4_5"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">5月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_5_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_5_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_5_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_5_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_5_3">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_5_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_5_4">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_5_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_5_5">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_5_5"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">6月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_6_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_6_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_6_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_6_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_6_3">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_6_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_6_4">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_6_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_6_5">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_6_5"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">7月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_7_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_7_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_7_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_7_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_7_3">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_7_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_7_4">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_7_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_7_5">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_7_5"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">8月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_8_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_8_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_8_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_8_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_8_3">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_8_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_8_4">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_8_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_8_5">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_8_5"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">9月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_9_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_9_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_9_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_9_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_9_3">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_9_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_9_4">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_9_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_9_5">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_9_5"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">10月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_10_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_10_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_10_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_10_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_10_3">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_10_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_10_4">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_10_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_10_5">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_10_5"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">11月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_11_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_11_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_11_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_11_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_11_3">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_11_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_11_4">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_11_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_11_5">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_11_5"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+                <!--<div class="table_tr">-->
+                  <!--<div class="table_td"><div class="table_td_w">12月</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_12_1">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_12_1"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_12_2">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_12_2"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_12_3">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_12_3"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_12_4">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_12_4"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                  <!--<div class="table_td"><div class="table_td_w">-->
+                    <!--<el-form-item label=""  prop="five_12_5">-->
+                      <!--<el-input type="number" v-model.number="ruleFive.five_12_5"></el-input>-->
+                    <!--</el-form-item>-->
+                  <!--</div></div>-->
+                <!--</div>-->
+              <!--</el-form>-->
+
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
 
         <div class="list_module" style="width:90%; ">
           <div class="list_module_btn">
             <el-button @click="add_cancel" size="small" plain>取消</el-button>
-            <el-button v-if="this.istype != 1" @click="add_one" size="small" plain>上一步</el-button>
-            <el-button v-if="this.istype != 5" class="btn_aff" type="primary" size="small" @click="add_two">下一步</el-button>
-            <el-button v-if="this.istype == 5" class="btn_aff" type="primary" size="small" :loading="this.load_save"   @click="add_save">保存</el-button>
-            <el-button v-if="this.istype == 5" class="btn_aff" type="primary" size="small" :loading="this.load_subit"  @click="add_affirm">提交</el-button>
+            <el-button v-if="this.istype != 4" @click="add_one" size="small" plain>上一步</el-button>
+            <el-button v-if="this.istype != 4" class="btn_aff" type="primary" size="small" @click="add_two">下一步</el-button>
+            <el-button v-if="this.istype == 4" class="btn_aff" type="primary" size="small" :loading="this.load_save"   @click="add_save">保存</el-button>
+            <el-button v-if="this.istype == 4" class="btn_aff" type="primary" size="small" :loading="this.load_subit"  @click="add_affirm">提交</el-button>
           </div>
         </div>
       </div>
@@ -1352,420 +2035,520 @@
           three_12_2:"",
           three_12_3:"",
           three_12_4:"",
+
+          three_1_5:"",
+          three_2_5:"",
+          three_3_5:"",
+          three_4_5:"",
+          three_5_5:"",
+          three_6_5:"",
+          three_7_5:"",
+          three_8_5:"",
+          three_9_5:"",
+          three_10_5:"",
+          three_11_5:"",
+          three_12_5:"",
+
+          three_1_6:"",
+          three_2_6:"",
+          three_3_6:"",
+          three_4_6:"",
+          three_5_6:"",
+          three_6_6:"",
+          three_7_6:"",
+          three_8_6:"",
+          three_9_6:"",
+          three_10_6:"",
+          three_11_6:"",
+          three_12_6:"",
         },
         rules_three:{
-          three_1_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_1_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_1_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_2_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_2_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_2_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_3_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_3_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_3_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_4_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_4_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_4_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_5_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_5_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_5_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_6_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_6_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_6_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_7_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_7_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_7_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_8_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_8_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_8_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_9_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_9_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_9_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_10_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_10_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_10_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_11_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_11_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_11_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_12_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_12_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          three_12_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
+//          three_1_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_1_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_1_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_2_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_2_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_2_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_3_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_3_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_3_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_4_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_4_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_4_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_5_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_5_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_5_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_6_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_6_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_6_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_7_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_7_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_7_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_8_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_8_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_8_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_9_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_9_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_9_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_10_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_10_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_10_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_11_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_11_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_11_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_12_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_12_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          three_12_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
         },
         ruleFour:{
           four_1_1:"",
+          four_1_2:"",
+          four_1_3:"",
+          four_1_4:"",
           four_2_1:"",
+          four_2_2:"",
+          four_2_3:"",
+          four_2_4:"",
           four_3_1:"",
+          four_3_2:"",
+          four_3_3:"",
+          four_3_4:"",
           four_4_1:"",
+          four_4_2:"",
+          four_4_3:"",
+          four_4_4:"",
           four_5_1:"",
+          four_5_2:"",
+          four_5_3:"",
+          four_5_4:"",
           four_6_1:"",
           four_6_2:"",
+          four_6_3:"",
+          four_6_4:"",
           four_7_1:"",
           four_7_2:"",
+          four_7_3:"",
+          four_7_4:"",
           four_8_1:"",
           four_8_2:"",
+          four_8_3:"",
+          four_8_4:"",
           four_9_1:"",
           four_9_2:"",
+          four_9_3:"",
+          four_9_4:"",
           four_10_1:"",
           four_10_2:"",
+          four_10_3:"",
+          four_10_4:"",
           four_11_1:"",
           four_11_2:"",
+          four_11_3:"",
+          four_11_4:"",
           four_12_1:"",
           four_12_2:"",
+          four_12_3:"",
+          four_12_4:"",
+          four_1_5:"",
+          four_2_5:"",
+          four_3_5:"",
+          four_4_5:"",
+          four_5_5:"",
+          four_6_5:"",
+          four_7_5:"",
+          four_8_5:"",
+          four_9_5:"",
+          four_10_5:"",
+          four_11_5:"",
+          four_12_5:"",
+          four_1_6:"",
+          four_2_6:"",
+          four_3_6:"",
+          four_4_6:"",
+          four_5_6:"",
+          four_6_6:"",
+          four_7_6:"",
+          four_8_6:"",
+          four_9_6:"",
+          four_10_6:"",
+          four_11_6:"",
+          four_12_6:"",
         },
+//        ruleFour:{
+//          four_1_1:"",
+//          four_2_1:"",
+//          four_3_1:"",
+//          four_4_1:"",
+//          four_5_1:"",
+//          four_6_1:"",
+//          four_6_2:"",
+//          four_7_1:"",
+//          four_7_2:"",
+//          four_8_1:"",
+//          four_8_2:"",
+//          four_9_1:"",
+//          four_9_2:"",
+//          four_10_1:"",
+//          four_10_2:"",
+//          four_11_1:"",
+//          four_11_2:"",
+//          four_12_1:"",
+//          four_12_2:"",
+//        },
         rules_four:{
-          four_1_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          four_2_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          four_3_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          four_4_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          four_5_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          four_6_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          four_7_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          four_8_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          four_9_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          four_10_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          four_11_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          four_12_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
+//          four_1_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          four_2_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          four_3_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          four_4_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          four_5_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          four_6_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          four_7_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          four_8_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          four_9_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          four_10_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          four_11_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          four_12_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
         },
-        ruleFive:{
-          five_1_1:"",
-          five_1_2:"",
-          five_1_3:"",
-          five_1_4:"",
-          five_1_5:"",
-          five_2_1:"",
-          five_2_2:"",
-          five_2_3:"",
-          five_2_4:"",
-          five_2_5:"",
-          five_3_1:"",
-          five_3_2:"",
-          five_3_3:"",
-          five_3_4:"",
-          five_3_5:"",
-          five_4_1:"",
-          five_4_2:"",
-          five_4_3:"",
-          five_4_4:"",
-          five_4_5:"",
-          five_5_1:"",
-          five_5_2:"",
-          five_5_3:"",
-          five_5_4:"",
-          five_5_5:"",
-          five_6_1:"",
-          five_6_2:"",
-          five_6_3:"",
-          five_6_4:"",
-          five_6_5:"",
-          five_7_1:"",
-          five_7_2:"",
-          five_7_3:"",
-          five_7_4:"",
-          five_7_5:"",
-          five_8_1:"",
-          five_8_2:"",
-          five_8_3:"",
-          five_8_4:"",
-          five_8_5:"",
-          five_9_1:"",
-          five_9_2:"",
-          five_9_3:"",
-          five_9_4:"",
-          five_9_5:"",
-          five_10_1:"",
-          five_10_2:"",
-          five_10_3:"",
-          five_10_4:"",
-          five_10_5:"",
-          five_11_1:"",
-          five_11_2:"",
-          five_11_3:"",
-          five_11_4:"",
-          five_11_5:"",
-          five_12_1:"",
-          five_12_2:"",
-          five_12_3:"",
-          five_12_4:"",
-          five_12_5:"",
-        },
-        rules_five:{
-          five_1_1:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_1_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_1_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_1_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_1_5:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_2_1:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_2_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_2_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_2_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_2_5:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_3_1:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_3_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_3_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_3_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_3_5:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_4_1:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_4_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_4_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_4_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_4_5:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_5_1:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_5_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_5_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_5_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_5_5:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_6_1:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_6_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_6_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_6_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_6_5:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_7_1:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_7_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_7_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_7_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_7_5:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_8_1:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_8_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_8_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_8_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_8_5:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_9_1:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_9_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_9_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_9_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_9_5:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_10_1:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_10_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_10_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_10_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_10_5:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_11_1:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_11_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_11_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_11_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_11_5:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_12_1:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_12_2:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_12_3:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_12_4:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-          five_12_5:[
-            { required: true, message: '不可为空', trigger: 'blur' },
-          ],
-        },
+//        ruleFive:{
+//          five_1_1:"",
+//          five_1_2:"",
+//          five_1_3:"",
+//          five_1_4:"",
+//          five_1_5:"",
+//          five_2_1:"",
+//          five_2_2:"",
+//          five_2_3:"",
+//          five_2_4:"",
+//          five_2_5:"",
+//          five_3_1:"",
+//          five_3_2:"",
+//          five_3_3:"",
+//          five_3_4:"",
+//          five_3_5:"",
+//          five_4_1:"",
+//          five_4_2:"",
+//          five_4_3:"",
+//          five_4_4:"",
+//          five_4_5:"",
+//          five_5_1:"",
+//          five_5_2:"",
+//          five_5_3:"",
+//          five_5_4:"",
+//          five_5_5:"",
+//          five_6_1:"",
+//          five_6_2:"",
+//          five_6_3:"",
+//          five_6_4:"",
+//          five_6_5:"",
+//          five_7_1:"",
+//          five_7_2:"",
+//          five_7_3:"",
+//          five_7_4:"",
+//          five_7_5:"",
+//          five_8_1:"",
+//          five_8_2:"",
+//          five_8_3:"",
+//          five_8_4:"",
+//          five_8_5:"",
+//          five_9_1:"",
+//          five_9_2:"",
+//          five_9_3:"",
+//          five_9_4:"",
+//          five_9_5:"",
+//          five_10_1:"",
+//          five_10_2:"",
+//          five_10_3:"",
+//          five_10_4:"",
+//          five_10_5:"",
+//          five_11_1:"",
+//          five_11_2:"",
+//          five_11_3:"",
+//          five_11_4:"",
+//          five_11_5:"",
+//          five_12_1:"",
+//          five_12_2:"",
+//          five_12_3:"",
+//          five_12_4:"",
+//          five_12_5:"",
+//        },
+//        rules_five:{
+//          five_1_1:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_1_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_1_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_1_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_1_5:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_2_1:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_2_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_2_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_2_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_2_5:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_3_1:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_3_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_3_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_3_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_3_5:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_4_1:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_4_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_4_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_4_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_4_5:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_5_1:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_5_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_5_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_5_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_5_5:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_6_1:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_6_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_6_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_6_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_6_5:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_7_1:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_7_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_7_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_7_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_7_5:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_8_1:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_8_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_8_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_8_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_8_5:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_9_1:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_9_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_9_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_9_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_9_5:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_10_1:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_10_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_10_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_10_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_10_5:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_11_1:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_11_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_11_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_11_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_11_5:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_12_1:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_12_2:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_12_3:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_12_4:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//          five_12_5:[
+//            { required: true, message: '不可为空', trigger: 'blur' },
+//          ],
+//        },
         Service_con:{},
         yn_3:[],
       }
@@ -1783,10 +2566,10 @@
         this.$router.go(-1);
       },
       add_affirm(){ //提交按钮
-        this.submitForm('ruleFive',5,"submit");
+        this.submitForm('ruleFour',4,"submit");
       },
       add_save(){  //保存
-        this.submitForm('ruleFive',5,"save");
+        this.submitForm('ruleFour',4,"save");
       },
       add_cont(type_name){
         var _templist = {
@@ -1796,35 +2579,40 @@
         };
         this.add_list.list3 = _templist.temp_3;
         this.add_list.list4 = _templist.temp_4;
-        this.add_list.list5 = _templist.temp_5;
+//        this.add_list.list5 = _templist.temp_5;
         for (var i = 0; i < 12; i++) {
           var _temp3 = {
             month:(i + 1), //月份
-            conventionalPrice:this.ruleThree.three_1_1, //常规直接交易价格（元/千瓦时）
-            longPrice:this.ruleThree['three_'+ (i + 1) +'_2'], //长期战略协议直接交易价格（元/千瓦时）
-            selfPrice:this.ruleThree['three_'+ (i + 1) +'_3'], //自备替代直接交易价格（元/千瓦时）
-            electricEnergyPrice:this.ruleThree['three_'+ (i + 1) +'_4'], //电能替代直接交易价格（元/千瓦时）
+            yearAmount:this.ruleThree['three_'+ (i + 1) +'_1'], //年度交易电量
+            waterPowerAmount:this.ruleThree['three_'+ (i + 1) +'_2'], //水电-交易电量
+            waterPowerPrice:this.ruleThree['three_'+ (i + 1) +'_3'], //水电-交易电价
+            hotPowerAmount:this.ruleThree['three_'+ (i + 1) +'_4'], //火电-交易电量
+            hotPowerPrice:this.ruleThree['three_'+ (i + 1) +'_5'], //火电-交易电价
+            monthWaterPowerIncPrice:this.ruleThree['three_'+ (i + 1) +'_6'], //月度水电增量交易价格
           }
 
 
           var _temp4 = {
             month:(i + 1),  //月份
-            monthPowerPrice:this.ruleFour['four_'+ (i + 1) +'_1'],  //协议外月度电量交易价
-            monthSurplusPowerPrice:this.ruleFour['four_'+ (i + 1) +'_2'],  //月度富余电量交易价
+            yearAmount2:this.ruleFour['four_'+ (i + 1) +'_1'], //年度交易电量
+            waterPowerAmount2:this.ruleFour['four_'+ (i + 1) +'_2'], //水电-交易电量
+            waterPowerPrice2:this.ruleFour['four_'+ (i + 1) +'_3'], //水电-交易电价
+            hotPowerAmount2:this.ruleFour['four_'+ (i + 1) +'_4'], //火电-交易电量
+            hotPowerPrice2:this.ruleFour['four_'+ (i + 1) +'_5'], //火电-交易电价
+            monthWaterPowerIncPrice2:this.ruleFour['four_'+ (i + 1) +'_6'], //月度水电增量交易价格
           }
 
-
-          var _temp5 = {
-            month:(i + 1),  //月份
-            totalAmount:this.ruleFive['five_'+ (i + 1) +'_1'], //交易总量（元/兆瓦时）
-            conventionalAmount:this.ruleFive['five_'+ (i + 1) +'_2'], //常规直接交易电量（元/兆瓦时）
-            longAmount:this.ruleFive['five_'+ (i + 1) +'_3'], //长期战略协议直接交易电量（元/兆瓦时）
-            selfAmount:this.ruleFive['five_'+ (i + 1) +'_4'], //自备替代直接交易电量（元/兆瓦时）
-            electricEnergyAmount:this.ruleFive['five_'+ (i + 1) +'_5'], //电能替代直接交易电量（元/兆瓦时）
-          }
+//          var _temp5 = {
+//            month:(i + 1),  //月份
+//            totalAmount:this.ruleFive['five_'+ (i + 1) +'_1'], //交易总量（元/兆瓦时）
+//            conventionalAmount:this.ruleFive['five_'+ (i + 1) +'_2'], //常规直接交易电量（元/兆瓦时）
+//            longAmount:this.ruleFive['five_'+ (i + 1) +'_3'], //长期战略协议直接交易电量（元/兆瓦时）
+//            selfAmount:this.ruleFive['five_'+ (i + 1) +'_4'], //自备替代直接交易电量（元/兆瓦时）
+//            electricEnergyAmount:this.ruleFive['five_'+ (i + 1) +'_5'], //电能替代直接交易电量（元/兆瓦时）
+//          }
           _templist.temp_3.push(_temp3)
           _templist.temp_4.push(_temp4)
-          _templist.temp_5.push(_temp5)
+//          _templist.temp_5.push(_temp5)
         }
         //提交参数
         this.add_create = {
@@ -1851,9 +2639,11 @@
 
           contractStartTime:(this.get_times(this.ruleTwo.two_5s[0]) / 1000), // 合同开始时间
           contractEndTime:(this.get_times(this.ruleTwo.two_5s[1]) / 1000), // 合同结束时间
-          list3:this.add_list.list3,
-          list4:this.add_list.list4,
-          list5:this.add_list.list5,
+//          list3:this.add_list.list3,
+//          list4:this.add_list.list4,
+//          list5:this.add_list.list5,
+          table1:this.add_list.list3,
+          table2:this.add_list.list4,
           customer:{
             id:this.customerId,  //客户id
             address:this.ruleForm.one_3, //所在地
@@ -1867,6 +2657,7 @@
             customerCode:this.ruleForm.one_15, //用户代码
           },
         }
+        console.log(this.add_create)
         this.add_create = JSON.stringify(this.add_create);
         add_ajax.contractCreateService(this.add_create, res => {  //创建
           this.$emit('login-success', res);
@@ -1926,15 +2717,24 @@
               this.resetForm('ruleThree')
               this.istype = 4
             }else if(type == 4){
-              this.resetForm('ruleFour')
-              this.istype = 5
-            }else if(type == 5){ //提交
-              if(action == "submit"){
+//              this.resetForm('ruleFour')
+//              this.istype = 5
+
+              if(action == "submit"){ //提交
                 this.load_subit = true
               }else if(action == "save"){
                 this.load_save = true
               }
               this.add_cont(action)
+
+
+            }else if(type == 5){ //提交
+//              if(action == "submit"){
+//                this.load_subit = true
+//              }else if(action == "save"){
+//                this.load_save = true
+//              }
+//              this.add_cont(action)
             }
             return true;
           } else {
@@ -2176,7 +2976,8 @@
     /*border-bottom: 1px solid rgba(240,241,242,1);*/
   }
   .title_ico_div{
-    width: 860px;
+    /*!*width: 860px;*!  五个步骤的宽度*/
+    width: 690px;
     /*width: 300px;*/
     margin:0 auto;
     padding-top: 10px;
@@ -2209,10 +3010,12 @@
     margin-left: -16px;
   }
   .text_div span:nth-child(2){
-    margin-right: 68px;
+    /*margin-right: 68px;*/
+    margin-right: 115px;
   }
   .text_div span:nth-child(3){
-    margin-right: 15px;
+    /*margin-right: 15px;*/
+    margin-right: 115px;
   }
   .text_div span:nth-child(4){
     margin-right: 35px;
@@ -2372,16 +3175,25 @@
 
 /*第三步骤的table宽度*/
   .three_table .table_tr .table_td{
-    width: calc(90% / 4);
+    width: calc(100% / 7);
     line-height: 50px;
     float: left;
   }
+
+ .three_table .table_tr .table_td_2{
+   width: calc((100% / 7) * 2);
+   line-height: 50px;
+   float: left;
+ }
   .three_table  .table_tr .table_td:nth-child(1){
     width: calc(10%);
   }
   .three_table .table_title .table_td .table_td_w{
-    width: 76%;
+    width: 80%;
   }
+ .three_table .table_title .table_td_2 .table_td_w{
+   width: 76%;
+ }
   .three_table  .table_td .table_td_w{
     width: 70%;
     margin: 0 auto;
@@ -2391,7 +3203,32 @@
     text-align: center;
     color:rgba(96,96,96,1);
   }
+ .three_table  .table_td_2 .table_td_w{
+   width: 70%;
+   margin: 0 auto;
+   height: 25px;
+   font-size:12px;
+   font-weight:400;
+   text-align: center;
+   color:rgba(96,96,96,1);
+ }
 
+
+ .three_table  .table_td_2 .table_td_ws{
+   width: 100%;
+   margin: 0 auto;
+   height: 25px;
+   font-size:12px;
+   font-weight:400;
+   text-align: center;
+   color:rgba(96,96,96,1);
+ }
+ .three_table  .table_td_2 .table_td_ws p{
+   width: 50%;
+   height: 25px;
+   line-height: 25px;
+   float: left;
+ }
   /*第四步骤的table宽度*/
   .four_table .table_tr .table_td{
     width: calc(80% / 2);

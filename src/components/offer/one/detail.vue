@@ -127,7 +127,7 @@
                     <div class="table_td"><div class="table_td_w">丰</div></div>
                     <div class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="one_6">
-                        <el-input type="number" @change="changes('one_6',ruleThree.one_6)" v-model.number ="ruleThree.one_6"></el-input>
+                        <el-input type="number" @change="change_s('one_6',ruleThree.one_6,'6')" v-model.number ="ruleThree.one_6"></el-input>
                       </el-form-item>
                     </div></div>
                     <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w">/</div></div>
@@ -143,7 +143,7 @@
                     <div class="table_td"><div class="table_td_w">丰</div></div>
                     <div class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="one_7">
-                        <el-input type="number" @change="changes('one_7',ruleThree.one_7)" v-model.number ="ruleThree.one_7"></el-input>
+                        <el-input type="number" @change="change_s('one_7',ruleThree.one_7,'7')" v-model.number ="ruleThree.one_7"></el-input>
                       </el-form-item>
                     </div></div>
                     <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w">/</div></div>
@@ -159,7 +159,7 @@
                     <div class="table_td"><div class="table_td_w">丰</div></div>
                     <div class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="one_8">
-                        <el-input type="number" @change="changes('one_8',ruleThree.one_8)" v-model.number ="ruleThree.one_8"></el-input>
+                        <el-input type="number" @change="change_s('one_8',ruleThree.one_8,'8')" v-model.number ="ruleThree.one_8"></el-input>
                       </el-form-item>
                     </div></div>
                     <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w">/</div></div>
@@ -175,7 +175,7 @@
                     <div class="table_td"><div class="table_td_w">丰</div></div>
                     <div class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="one_9">
-                        <el-input type="number" @change="changes('one_9',ruleThree.one_9)" v-model.number ="ruleThree.one_9"></el-input>
+                        <el-input type="number" @change="change_s('one_9',ruleThree.one_9,'9')" v-model.number ="ruleThree.one_9"></el-input>
                       </el-form-item>
                     </div></div>
                     <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w">/</div></div>
@@ -191,7 +191,7 @@
                     <div class="table_td"><div class="table_td_w">丰</div></div>
                     <div class="table_td"><div class="table_td_w">
                       <el-form-item label=""  prop="one_10">
-                        <el-input type="number" @change="changes('one_10',ruleThree.one_10)" v-model.number ="ruleThree.one_10"></el-input>
+                        <el-input type="number" @change="change_s('one_10',ruleThree.one_10,'10')" v-model.number ="ruleThree.one_10"></el-input>
                       </el-form-item>
                     </div></div>
                     <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w">/</div></div>
@@ -425,6 +425,7 @@
           find_4:"",
         },
         isBigIndustry:false,
+        surplusAvg:0,  //平均数
         par:{
           id:"",
           name:"", //业务员
@@ -519,6 +520,7 @@
             plan:{},  //计划用电
             surplus:{}, //富裕电
           },
+
         },
 
         bj_list:{
@@ -536,11 +538,21 @@
 
     },
     methods: {
-      changes(name,item){  //name 指input的位置，item 指input的内容
-     //   console.log(isNaN(item))
+      changes(name,item){  //name 指input的位置，item 指input的内容    (判断输入的值是否为数字或空)
+        //console.log(name,item)
         if(isNaN(item) || item == ""){
           item = 0;
           this.ruleThree[name] = 0
+        }
+      },
+      change_s(name,item,names){  //name 指input的位置，item 指input的内容
+      //  console.log(isNaN(item))
+        if(isNaN(item) || item == ""){
+          item = 0;
+          this.ruleThree[name] = 0
+        }else {  //(计划用电量-富余电前三年的平均数，且大于等于1万度才显示，否则为空)
+          console.log(item - this.surplusAvg)
+          this.ruleThree["two_" + names ] = item - this.surplusAvg
         }
       },
       find_list(data){ //查询列表
@@ -571,6 +583,7 @@
           this.bj_list.id_2 = this.par_form.find_list.surplus.id
           this.bj_list.id_3 = this.par_form.find_list.direct.id
           this.isBigIndustry = this.par_form.find_list.isBigIndustry
+          this.surplusAvg = this.par_form.find_list.surplusAvg
         });
       },
       find_screen(){ //筛选

@@ -109,5 +109,12 @@ export default {
       }
     }); // 发送请求
 
-  }
+  },
+  requestExportService(httpMethod,urlType,path, params, success_callback, fail_callback) {
+    let selfId = localStorage.getItem('adminSelfId') || '';
+
+    var _temp =process.env.API_ROOT + path +"?version=1.0&selfId= "+ selfId +"&data="+ params
+    console.log(encodeURI(_temp))
+    window.open(encodeURI(_temp))
+  },
 }

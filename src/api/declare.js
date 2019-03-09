@@ -125,11 +125,26 @@ customerMonthPlanListService(params, success_callback, fail_callback) {
 
 
 
+  /**
+   * /api/customerSurplusExportService 富余电基数导出
+   */
+  customerSurplusExportService(params, success_callback, fail_callback) {
+    withAxios.requestExportService('POST', 3,'/api/customerSurplusExportService', params, success_callback, fail_callback);
+  },
 
+  /**
+   * /api/customerMonthPlanExportService 每月计划用电量导出
+   */
+  customerMonthPlanExportService(params, success_callback, fail_callback) {
+    withAxios.requestExportService('POST', 3,'/api/customerMonthPlanExportService', params, success_callback, fail_callback);
+  },
 
-
-
-
+  /**
+   *  /api/customerContractQuotedExportService 客户合同价格统计导出
+   */
+  customerContractQuotedExportService(params, success_callback, fail_callback) {
+    withAxios.requestExportService('POST', 3,'/api/customerContractQuotedExportService', params, success_callback, fail_callback);
+  },
 
 
 }

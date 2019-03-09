@@ -75,7 +75,7 @@
         </div>
         <div class="content_list year_list">
           <el-tabs v-model="activeName2" type="card" @tab-click="handleClick">
-            <el-tab-pane label="客户用电情况1" name="first">
+            <el-tab-pane label="客户用电情况" name="first">
               <p class="table_title_s">电量单位：千瓦时（kWh）</p>
               <div class="list_table">
                 <el-table
@@ -967,13 +967,13 @@
         }
       },
       default_list(year){ //默认查询列表
-        var _temp_data = "{'year':"+ year +",'dataSourceType':'"+  this.finds.find_4+"}"
+        var _temp_data = "{'year':"+ year +",'dataSourceType':'"+  this.finds.find_4+"'}"
         this.find_list(_temp_data)
       },
       find_screen(){ //筛选
         var _temp_data = "{}"
         if(this.no_find  == 0){  //客户用电情况
-          _temp_data ="{'year':"+ this.finds.find_1 +",'customerName':'"+  this.value9 +",'dataSourceType':'"+  this.finds.find_4 +"'}"
+          _temp_data ="{'year':"+ this.finds.find_1 +",'customerName':'"+  this.value9 +"' ,'dataSourceType':'"+  this.finds.find_4 +"'}"
         }else if(this.no_find  == 1){ //已购电情况
           _temp_data ="{'year':"+ this.finds.find_1 +",'powerPlantName':'"+  this.finds.find_2 +"'}"
         }else if(this.no_find  == 2){ //用电缺口
