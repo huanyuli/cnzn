@@ -66,10 +66,11 @@
         </div>
         <div class="ma_btn">
           <el-button size="small" @click="add_user" type="primary" >添加基数</el-button>
-          <!--<el-button size="small" type="primary" >导入富余电</el-button>-->
+          <el-button size="small" type="primary" @click="dialogTableVisible = true" >导入富余电</el-button>
           <el-button size="small" type="primary" @click="import_list">导出列表</el-button>
+          <!--<el-button size="small" type="primary" @click="import_list_m">下载导入模板</el-button>-->
         </div>
-        <div v-if="this.no_val == 1" class="content_list">
+        <div v-if="this.no_val == 1" class="content_list page_height">
           <p class="table_title">电量单位：千瓦时（KWh）</p>
           <div class="list_table">
             <el-table
@@ -128,6 +129,16 @@
               </el-table-column>
             </el-table>
           </div>
+        </div>
+        <div v-if="this.no_val == 1 && this.count > this.limit" style="text-align: center;margin-top: 20px;padding-bottom: 20px">
+          <el-pagination
+            background
+            :page-size="this.limit"
+            :current-page="this.page"
+            @current-change="current_change"
+            layout="prev, pager, next"
+            :total="this.count">
+          </el-pagination>
         </div>
         <div v-if="this.no_val == 0" class="cont_div">
           <img src="../../../assets/aImg/notAvailable.png" alt="">
@@ -194,7 +205,97 @@
         </div>
       </el-dialog>
     </div>
-
+    <div class="add_list">
+      <el-dialog title="导入数据"  :visible.sync="dialogTableVisible">
+        <div class='add_div'>
+          <div class='add_div_one'>
+            <div class='one_con'>
+              <div class="one_con_img">
+                <div  class="one_img"></div>
+              </div>
+              <div class="one_con_img">
+                <div class="two_img"></div>
+              </div>
+              <div class="one_con_ss">-------------------------</div>
+            </div>
+          </div>
+          <div class='add_div_two' slot="footer" >
+            <div class='cont_btn' >
+              <el-upload
+                class="upload-demo"
+                :action="this.url_action"
+                :on-success="handleSuccess"
+                name="file"
+                :show-file-list="this.show_file_list"
+                :data="this.url_data"
+              >
+                <el-button size="small" type="primary" >导入数据</el-button></el-upload>
+            </div>
+            <div class='wi_btn'> <el-button size="small" @click="import_list_m"><i class="el-icon-download"></i>下载导入模板</el-button></div>
+          </div>
+        </div>
+      </el-dialog>
+      <el-dialog title="导入数据"    :visible.sync="d_success">
+        <div class='add_div'>
+          <div class='add_div_one'>
+            <div class='one_con'>
+              <div class="one_con_three">
+                <div  class="three_img"></div>
+                <p>导入成功</p>
+                <span>共导入{{this.d_list_index}}个客户资料</span>
+              </div>
+            </div>
+          </div>
+          <div class='add_div_two' slot="footer" >
+            <div class='cont_btn' >
+              <el-upload
+                class="upload-demo"
+                :action="this.url_action"
+                :on-success="handleSuccess"
+                name="file"
+                :show-file-list="this.show_file_list"
+                :data="this.url_data"
+                multiple
+              >
+                <el-button size="small" type="primary" >继续导入</el-button></el-upload>
+            </div>
+            <div class='wi_btn'> <el-button size="small" @click="d_close('s')">关闭</el-button></div>
+          </div>
+        </div>
+      </el-dialog>
+      <el-dialog title="导入数据"    :visible.sync="d_error">
+        <div class='add_div'>
+          <div class='add_div_one'>
+            <div class='one_con'>
+              <div class="one_con_three">
+                <div  class="four_img"></div>
+                <p>导入失败</p>
+                <span>共导入{{this.d_list_index + d_fail_index}}个客户资料，其中{{this.d_fail_index}}个导入失败</span>
+              </div>
+            </div>
+          </div>
+          <div class='add_div_two' slot="footer" >
+            <div class="add_su_btn">
+              <el-upload
+                class="upload-demo"
+                :action="this.url_action"
+                :on-success="handleSuccess"
+                name="file"
+                :show-file-list="this.show_file_list"
+                :data="this.url_data"
+                multiple
+              >
+                <el-button size="small" type="primary" >重新导入</el-button></el-upload>
+              <el-button size="small" @click="d_close('e')">关闭</el-button>
+            </div>
+          </div>
+          <div class="add_error_list">
+            <p>导入失败信息：</p>
+            <div v-for='(item,index) in this.d_failList'> <i class="el-icon-warning" style="color: red"></i>  {{item.customerName}}  <span>{{item.errorMsg}} </span> </div>
+          </div>
+        </div>
+      </el-dialog>
+    </div>
   </div>
 </template>
 
@@ -205,6 +306,18 @@
   export default {
     data() {
       return {
+        url_action:"",
+        url_data:{},
+        d_success:false,
+        d_error:false,
+        show_file_list:false,
+        dialogTableVisible:false,
+        d_list_index:0,   //导入成功条数
+        d_fail_index:0,   //导入失败条数
+        d_failList:{},   //导入失败列表
+        count:0,
+        limit:10,  //每页显示条目个数
+        page:1,  //当前页
         no_val:1,
         linkAlert:false,
         form_1:[],
@@ -290,7 +403,47 @@
 
     },
     methods: {
+      handleSuccess(response, file, fileList){
 
+        if(response.status == 200){
+          if( response.body.failSize != 0){ //有错误消息
+            this.dialogTableVisible = false
+           this.d_success = false
+            this.d_error = true
+            this.d_failList = response.body.failList
+            this.d_list_index = response.body.successSize
+            this.d_fail_index = response.body.failSize
+          }else{
+            this.dialogTableVisible = false
+            this.d_error = false
+            this.d_success = true
+            this.d_list_index = response.body.successSize
+          }
+          var _temp_data = "{}"
+          if(this.no_find  == 0){  //客户用电情况
+            _temp_data ="{'year':"+ this.finds.find_1 +",'customerName':'"+  this.value9 +"' ,'dataSourceType':'"+  this.finds.find_4 +"'}"
+          }else if(this.no_find  == 1){ //已购电情况
+            _temp_data ="{'year':"+ this.finds.find_1 +",'powerPlantName':'"+  this.finds.find_2 +"'}"
+          }else if(this.no_find  == 2){ //用电缺口
+            _temp_data ="{'year':"+ this.finds.find_1 +"}"
+          }
+          this.find_list(_temp_data)
+        }
+
+      },
+      d_close(a){
+        if(a == "s"){
+          this.d_success = false
+        }else if(a == "e"){
+          this.d_error = false
+        }
+
+      },
+      current_change(val){
+        this.page = val
+        this.par_form.find_area = "{'year':'"+ this.finds.find_1 +"','customerName':'"+ this.finds.find_2 +"','provinceCode':'" + this.finds.find_3 +"','cityCode':'"+ this.finds.find_4 +"','page':'"+ this.page +"','limit':'"+ this.limit +"'}"
+        this.find_list(this.par_form.find_area)
+      },
       add_user(){
         if (this.$refs["ruleForm"]!==undefined) {
           this.$refs["ruleForm"].resetFields();
@@ -301,6 +454,14 @@
       import_list(){
         var _temp_Export = "{'year':'"+ this.finds.find_1 +"','customerName':'"+ this.finds.find_2 +"','provinceCode':'" + this.finds.find_3 +"','cityCode':'"+ this.finds.find_4 +"'}"
         ajax_list.customerSurplusExportService(_temp_Export, res => {  //导出
+          this.$emit('login-success', res);
+        }, (res) => {
+
+        });
+      },
+      import_list_m(){ //富余电基数导入模板
+        var _temp_Export = "{'templateName':'customer-surplus.xls'}"
+        ajax_list.templateDownloadService(_temp_Export, res => {  //导出
           this.$emit('login-success', res);
         }, (res) => {
 
@@ -332,6 +493,7 @@
           this.$emit('login-success', res);
         }, (res) => {
           this.par_form.find_list = res.body
+          this.count = res.body.count
           this.tableData = []
           var _temp_type = this.tableData;
           if(this.par_form.find_list.list.length != 0){
@@ -352,7 +514,8 @@
         });
       },
       find_screen(){ //筛选
-        this.par_form.find_area = "{'year':'"+ this.finds.find_1 +"','customerName':'"+ this.finds.find_2 +"','provinceCode':'" + this.finds.find_3 +"','cityCode':'"+ this.finds.find_4 +"'}"
+        this.page = 1
+        this.par_form.find_area = "{'year':'"+ this.finds.find_1 +"','customerName':'"+ this.finds.find_2 +"','provinceCode':'" + this.finds.find_3 +"','cityCode':'"+ this.finds.find_4 +"','page':'"+ this.page +"','limit':'"+ this.limit +"'}"
         this.find_list(this.par_form.find_area)
       },
       empty_find(){ //清空
@@ -360,6 +523,11 @@
         this.finds.find_2 = ""
         this.finds.find_3 = ""
         this.finds.find_4 = ""
+        this.page = 1
+        var date=new Date;
+        this.finds.find_1 = date.getFullYear()
+        this.par_form.find_area = "{'year':'"+ this.finds.find_1 +"','customerName':'"+ this.finds.find_2 +"','provinceCode':'" + this.finds.find_3 +"','cityCode':'"+ this.finds.find_4 +"','page':'"+ this.page +"','limit':'"+ this.limit +"'}"
+        this.find_list(this.par_form.find_area)
       },
       handleClick(obj){
 //          console.log(obj)
@@ -456,7 +624,7 @@
                   message: '添加成功',
                   type: 'success'
                 });
-                this.par_form.find_area = "{'year':"+ this.finds.find_1 + "}"
+                this.par_form.find_area = "{'year':"+ this.finds.find_1 + ",'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
                 this.find_list(this.par_form.find_area)
               }
             });
@@ -485,7 +653,7 @@
                 message: '删除成功',
                 type: 'success'
               });
-              this.par_form.find_area = "{'year':"+ this.finds.find_1 +"}"
+              this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
               this.find_list(this.par_form.find_area)
             }
           });
@@ -499,9 +667,15 @@
     },
 //生命周期钩子函数，进入页面显示之前获取数据到store
     created () {
+      var selfId = localStorage.getItem('adminSelfId') || '';
+      this.url_action = this.HOST + "/apiFile/customerSurplusImportService"
+      this.url_data = {
+        "version":"1.0",
+        "data":"{}"
+      }
       var date=new Date;
       this.finds.find_1 = date.getFullYear()
-      this.par_form.find_area = "{'year':"+ this.finds.find_1 +"}"
+      this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
       this.find_list(this.par_form.find_area)
       this.par_form.area = "{}"
       ajax_list.areaListService(this.par_form.area, res => {  //列表区域字典
@@ -634,6 +808,9 @@
     min-height: calc(100vh - 352px);
     background-color: white;
   }
+  .page_height{
+    min-height: calc(100vh - 500px)!important;
+  }
   .list_table{
     width: 96%;
     margin:0px auto;
@@ -712,12 +889,12 @@
     background: url("../../../assets/aImg/one_con2s.png") center no-repeat;
   }
   .add_div_two{
-    width: 250px;
+    width: 280px;
     margin: 30px auto;
     overflow: auto;
   }
   .cont_btn{
-    width: 100px;
+    width: 120px;
     float: left;
 
   }
@@ -742,7 +919,169 @@
   }
 
   /*** 弹窗结束 **/
+  .upload-demo{
+    display: inline-block;
+  }
+  /*** 导入弹窗 ***/
 
+  .add_list .add_div{
+    background-color: white;
+  }
+  .add_list .add_div_one{
+    width: 100%;
+    height: 250px;
+    background:rgba(73,138,243,1);
+  }
+  .add_list .add_div_one .one_title{
+    margin-left: 28px;
+    padding-top: 20px;
+    font-size:16px;
+    font-weight:bold;
+    color:rgba(254,254,254,1);
+  }
+  .add_list .add_div_one .one_title i{
+    float: right;
+    margin-right: 28px;
+    font-size: 18px;
+    margin-top: 2px;
+  }
+  .add_list .one_con{
+    width: 70%;
+    margin: 0px auto;
+  }
+
+  .add_list .one_con_img{
+    width: 50%;
+    float: left;
+    margin-top:10px;
+  }
+  .add_list  .one_con_ss{
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: -65px;
+    left: 5%;
+    color: white;
+  }
+  .add_list .one_con_three{
+    width: 50%;
+    margin:0 auto;
+  }
+  .add_list .one_con_img p{
+    margin-top: 30px;
+    font-size:18px;
+    font-weight:400;
+    text-align: center;
+    color:rgba(254,254,254,1);
+  }
+  .add_list .one_con_three p{
+    margin-top:0px;
+    font-size:18px;
+    font-weight:400;
+    text-align: center;
+    color:rgba(254,254,254,1);
+  }
+  .add_list .one_con_three span{
+    margin: 0px auto;
+    display: block;
+    font-size:14px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    text-align: center;
+  }
+  .add_list .one_con_img div{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .add_list .one_con_three div{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .add_list .one_con .one_img{
+    background: url("../../../assets/aImg/icon_wenjian.png") center no-repeat;
+  }
+
+  .add_list .two_img{
+    background: url("../../../assets/aImg/icon_diannao.png") center no-repeat;
+  }
+  .add_list .one_con .three_img{
+    background: url("../../../assets/aImg/import_suss.png") center no-repeat;
+  }
+  .add_list .one_con .four_img{
+    background: url("../../../assets/aImg/import_error.png") center no-repeat;
+  }
+  .add_list .add_div_two{
+    margin: 25px auto;
+    padding-bottom: 20px;
+  }
+  .add_list .add_su_btn{
+    width: 280px;
+    margin: 0 auto;
+  }
+  .add_list .add_su_btn button{
+    width: 100px;
+  }
+  .add_list .cont_btn{
+    width: 120px;
+    margin: 0px auto;
+  }
+  .add_list .cont_btn button{
+    width: 100%;
+    font-size:14px;
+    margin-bottom: 10px;
+    color:rgba(255,255,255,1);
+    background:rgba(93,179,247,1);
+  }
+  .add_list  .wi_btn{
+    width: 136px;
+    margin: 0px auto;
+  }
+  .add_list .wi_btn button{
+    width: 100%;
+    font-size:14px;
+    margin-bottom: 10px;
+    color:rgba(150,150,150,1);
+    background:#fff;
+  }
+
+  .add_list .add_error_list{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-top: 2px solid rgba(235,235,235,1);
+  }
+  .add_list .add_error_list p{
+    font-size:16px;
+    font-weight:bold;
+    color:rgba(134,134,134,1);
+    line-height:20px;
+    margin-bottom: 10px;
+  }
+  .add_list .add_error_list div{
+    margin-bottom: 25px;
+    line-height: 25px;
+    font-size:14px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+  }
+  .add_list .add_error_list div i{
+    margin-right: 5px;
+  }
+  .add_list .add_error_list div span{
+    display: inline-block;
+    font-size:12px;
+    line-height: 25px;
+    font-weight:400;
+    color:rgba(242,46,46,1);
+    margin-left: 12px;
+  }
+  /***弹窗结束**/
   .add_enough .set_left{
     width: 48%;
     float: left;

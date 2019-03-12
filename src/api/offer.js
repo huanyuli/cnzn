@@ -137,4 +137,10 @@ export default {
   customerContractQuotedExportService(params, success_callback, fail_callback) {
     withAxios.requestExportService('POST', 3,'/api/customerContractQuotedExportService', params, success_callback, fail_callback);
   },
+  /**
+   * /api/templateDownloadService 下载导入模板
+   */
+  templateDownloadService(params, success_callback, fail_callback) {
+    withAxios.requestExportService('POST', 3,'/api/templateDownloadService', params, success_callback, fail_callback);
+  },
 }

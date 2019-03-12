@@ -61,7 +61,7 @@
         </div>
         <div class="ma_btn">
           <el-button v-if="show_map(18) == 18"  size="small" @click="add_alert" type="primary" >模拟冻结</el-button>
-          <!--<el-button size="small" type="primary" >导出列表</el-button>-->
+          <el-button size="small" type="primary" @click="import_list">导出列表</el-button>
         </div>
         <div class="content_list">
           <el-tabs v-model="activeName2" type="card" @tab-click="handleClick">
@@ -768,6 +768,20 @@
         }
         this.linkAlert = true
       },
+      import_list(){
+//        var _temp_Export = "{'year':"+ this.finds.find_3 +",'month':"+ this.finds.find_4 +"}"
+        var _temp_Export = {
+            "year":this.finds.find_3,
+          "month": this.finds.find_4
+        }
+        _temp_Export = JSON.stringify(_temp_Export)
+        console.log(_temp_Export)
+        ajax_list.poolMonthCustomerExportService(_temp_Export, res => {  //导出
+          this.$emit('login-success', res);
+        }, (res) => {
+
+        });
+      },
       changes(name,item){  //name 指input的位置，item 指input的内容
       //  console.log(isNaN(item))
           if(isNaN(item) || item == ""){
@@ -776,7 +790,7 @@
           }
       },
       mn_changes(name,item){  //name 指input的位置，item 指input的内容
-        console.log(isNaN(item))
+       // console.log(isNaN(item))
         if(isNaN(item) || item == ""){
           item = 0;
           this.ruleTwo[name] = 0

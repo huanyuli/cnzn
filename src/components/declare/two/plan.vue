@@ -40,11 +40,140 @@
           <el-button size="small" v-if="show_map(16) == 16" @click="add_alert" type="primary" >冻结数据</el-button>
           <el-button size="small" type="primary" @click="import_list" >导出列表</el-button>
         </div>
-        <div v-if="this.no_val == 1" class="content_list">
+        <div v-if="this.no_val == 1" class="content_list page_height">
           <p class="table_title">电量单位：千瓦时（kWh）</p>
-          <div class="list_table">
+          <div v-if="this.no_fy == 0" class="list_table">
             <el-table
               :data="tableData"
+              key="0"
+              stripe
+              :summary-method="getSummaries"
+              show-summary
+              style="width: 100%;text-align: center"
+            >
+              <el-table-column
+                prop="data_0"
+                align="center"
+                width="80"
+                label="用户代码"
+              >
+              </el-table-column>
+              <el-table-column
+                prop="data_1"
+                align="center"
+                width="130"
+                label="客户名称"
+              >
+              </el-table-column>
+              <el-table-column
+                prop="data_2"
+                align="center"
+                label="当月合同直购电"
+              >
+              </el-table-column>
+              <el-table-column
+                align="center"
+                label="预计当月用电量"
+              >
+                <el-table-column
+                  prop="data_4"
+                  align="center"
+
+                  label="第一次">
+                  <template slot-scope="scope"  >
+                    <el-input v-if="scope.row.data_lock_1 == 'lock' || scope.row.data_14s != null" :class="{input_color:scope.row.data_Source_1 == 'COPY'}"  :disabled="true"  v-model.number="scope.row.data_4" placeholder=""></el-input>
+                    <el-input v-else :class="{input_color:scope.row.data_Source_1 == 'COPY'}"  v-model.number="scope.row.data_4" placeholder=""></el-input>
+                  </template>
+                </el-table-column>
+              </el-table-column>
+              <el-table-column
+                align="center"
+                label="预计当月用电量"
+              >
+                <el-table-column
+                  prop="data_6"
+                  align="center"
+
+                  label="第二次">
+                  <template slot-scope="scope">
+                    <el-input v-if="scope.row.data_lock_2 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_6" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_6" placeholder=""></el-input>
+                  </template>
+                </el-table-column>
+              </el-table-column>
+              <el-table-column
+                align="center"
+                label="预计当月用电量"
+              >
+                <el-table-column
+                  prop="data_8"
+                  align="center"
+
+                  label="第三次">
+                  <template slot-scope="scope">
+                    <el-input v-if="scope.row.data_lock_3 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_8" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_8" placeholder=""></el-input>
+                  </template>
+                </el-table-column>
+              </el-table-column>
+              <el-table-column
+                align="center"
+                label="预计当月用电量"
+              >
+                <el-table-column
+                  prop="data_10"
+                  align="center"
+
+                  label="第四次">
+                  <template slot-scope="scope">
+                    <el-input v-if="scope.row.data_lock_4 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_10" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_10" placeholder=""></el-input>
+                  </template>
+                </el-table-column>
+              </el-table-column>
+              <el-table-column
+                align="center"
+                label="预计当月用电量"
+              >
+                <el-table-column
+                  prop="data_12"
+                  align="center"
+
+                  label="第五次">
+                  <template slot-scope="scope">
+                    <el-input v-if="scope.row.data_lock_5 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_12" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_12" placeholder=""></el-input>
+                  </template>
+                </el-table-column>
+              </el-table-column>
+              <el-table-column
+                prop="data_14"
+                align="center"
+
+                label="实际用电量"
+              >
+                <template slot-scope="scope">
+                  <el-input v-if="scope.row.data_14s != null" v-model.number="scope.row.data_14" :disabled="true" placeholder=""></el-input>
+                  <el-input v-else @change="input_change(scope.$index,scope.row.data_14)"  v-model.number="scope.row.data_14" placeholder=""></el-input>
+                </template>
+              </el-table-column>
+              <el-table-column
+                prop="data_16"
+
+                align="center"
+                label="备注"
+              >
+                <template slot-scope="scope">
+                  <el-input v-if="scope.row.data_14s != null" :disabled="true" v-model="scope.row.data_16" placeholder=""></el-input>
+                  <el-input v-else v-model="scope.row.data_16" placeholder=""></el-input>
+                </template>
+              </el-table-column>
+            </el-table>
+          </div>
+          <div v-if="this.no_fy == 1" class="list_table">
+            <el-table
+              :data="tableData"
+              key="1"
               stripe
               :summary-method="getSummaries"
               show-summary
@@ -87,8 +216,8 @@
                   width="120"
                   label="第一次">
                   <template slot-scope="scope"  >
-                    <el-input v-if="scope.row.data_lock_1 == 'lock'" :class="{input_color:scope.row.data_Source_1 == 'COPY'}"  :disabled="true"  v-model.number="scope.row.data_4" placeholder=""></el-input>
-                    <el-input v-if="scope.row.data_lock_1 != 'lock'" :class="{input_color:scope.row.data_Source_1 == 'COPY'}"  v-model.number="scope.row.data_4" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_1 == 'lock' || scope.row.data_14s != null" :class="{input_color:scope.row.data_Source_1 == 'COPY'}"  :disabled="true"  v-model.number="scope.row.data_4" placeholder=""></el-input>
+                    <el-input v-else="" :class="{input_color:scope.row.data_Source_1 == 'COPY'}"  v-model.number="scope.row.data_4" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -102,8 +231,8 @@
                   prop="data_5"
                   label="第一次">
                   <template slot-scope="scope">
-                    <el-input v-if="scope.row.data_lock_1 == 'lock'"  :class="{input_color:scope.row.data_Source_1 == 'COPY'}" v-model.number="scope.row.data_5" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-if="scope.row.data_lock_1 != 'lock'" :class="{input_color:scope.row.data_Source_1 == 'COPY'}" v-model.number="scope.row.data_5" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_1 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_1 == 'COPY'}" v-model.number="scope.row.data_5" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else="" :class="{input_color:scope.row.data_Source_1 == 'COPY'}" v-model.number="scope.row.data_5" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -117,8 +246,8 @@
                   width="120"
                   label="第二次">
                   <template slot-scope="scope">
-                    <el-input v-if="scope.row.data_lock_2 == 'lock'"  :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_6" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-if="scope.row.data_lock_2 != 'lock'" :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_6" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_2 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_6" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else="" :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_6" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -132,8 +261,8 @@
                   width="120"
                   label="第二次">
                   <template slot-scope="scope">
-                    <el-input v-if="scope.row.data_lock_2 == 'lock'"  :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_7" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-if="scope.row.data_lock_2 != 'lock'" :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_7" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_2 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_7" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else="" :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_7" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -147,8 +276,8 @@
                   width="120"
                   label="第三次">
                   <template slot-scope="scope">
-                    <el-input v-if="scope.row.data_lock_3 == 'lock'"  :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_8" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-if="scope.row.data_lock_3 != 'lock'" :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_8" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_3 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_8" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else="" :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_8" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -162,8 +291,8 @@
                   prop="data_9"
                   label="第三次">
                   <template slot-scope="scope">
-                    <el-input v-if="scope.row.data_lock_3 == 'lock'"  :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_9" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-if="scope.row.data_lock_3 != 'lock'" :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_9" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_3 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_9" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else="" :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_9" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -177,8 +306,8 @@
                   align="center"
                   label="第四次">
                   <template slot-scope="scope">
-                    <el-input v-if="scope.row.data_lock_4 == 'lock'"  :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_10" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-if="scope.row.data_lock_4 != 'lock'" :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_10" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_4 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_10" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else="" :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_10" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -192,8 +321,8 @@
                   width="120"
                   label="第四次">
                   <template slot-scope="scope">
-                    <el-input v-if="scope.row.data_lock_4 == 'lock'"  :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_11" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-if="scope.row.data_lock_4 != 'lock'" :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_11" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_4 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_11" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else="" :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_11" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -207,8 +336,8 @@
                   width="120"
                   label="第五次">
                   <template slot-scope="scope">
-                    <el-input v-if="scope.row.data_lock_5 == 'lock'"  :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_12" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-if="scope.row.data_lock_5 != 'lock'" :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_12" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_5 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_12" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else="" :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_12" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -222,8 +351,8 @@
                   prop="data_13"
                   label="第五次">
                   <template slot-scope="scope">
-                    <el-input v-if="scope.row.data_lock_5 == 'lock'"  :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_13" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-if="scope.row.data_lock_5 != 'lock'" :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_13" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_5 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_13" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else="" :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_13" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -235,7 +364,8 @@
                 label="实际用电量"
               >
                 <template slot-scope="scope">
-                  <el-input v-model.number="scope.row.data_14" placeholder=""></el-input>
+                  <el-input v-if=" scope.row.data_14s != null" :disabled="true" v-model.number="scope.row.data_14" placeholder=""></el-input>
+                  <el-input v-else="" @change="input_change"  v-model.number="scope.row.data_14" placeholder=""></el-input>
                 </template>
               </el-table-column>
               <el-table-column
@@ -245,7 +375,8 @@
                 label="其中富余电"
               >
                 <template slot-scope="scope">
-                  <el-input v-model.number="scope.row.data_15" placeholder=""></el-input>
+                  <el-input v-if=" scope.row.data_14s != null" :disabled="true" v-model.number="scope.row.data_15" placeholder=""></el-input>
+                  <el-input v-else="" v-model.number="scope.row.data_15" placeholder=""></el-input>
                 </template>
               </el-table-column>
               <el-table-column
@@ -255,14 +386,26 @@
                 label="备注"
               >
                 <template slot-scope="scope">
-                  <el-input v-model="scope.row.data_16" placeholder=""></el-input>
+                  <el-input v-if=" scope.row.data_14 != null" :disabled="true" v-model="scope.row.data_16" placeholder=""></el-input>
+                  <el-input v-else="" v-model="scope.row.data_16" placeholder=""></el-input>
                 </template>
               </el-table-column>
             </el-table>
           </div>
+
           <div class="ma_btn_S">
             <el-button style="float: right;margin-right:30px" @click="submits" size="small" type="primary" >保 存</el-button>
           </div>
+        </div>
+        <div v-if="this.no_val == 1 && this.count > this.limit" style="text-align: center;margin-top: 20px;padding-bottom: 20px">
+          <el-pagination
+            background
+            :page-size="this.limit"
+            :current-page="this.page"
+            @current-change="current_change"
+            layout="prev, pager, next"
+            :total="this.count">
+          </el-pagination>
         </div>
         <div v-if="this.no_val == 0" class="cont_div">
           <img src="../../../assets/aImg/notAvailable.png" alt="">
@@ -308,10 +451,14 @@
     data() {
       return {
         no_val:1,
+        no_fy:0,
         linkAlert:false,
         form_1:[],
         menuList:[],
-
+        count:0,
+        limit:10,  //每页显示条目个数
+        page:1,  //当前页
+        no_sj:[], //是否输入实际用电量
         //月份
         form_2:[
           {
@@ -412,6 +559,18 @@
 
     },
     methods: {
+      input_change(index,value){  //判断当前输入的实际用电量下标和值 （true为有数据，false为没有输入数据）
+         if(value != ""){
+           this.no_sj[index] = true
+         }else{
+           this.no_sj[index] = false
+         }
+      },
+      current_change(val){
+        this.page = val
+        this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'page':'"+ this.page +"','limit':'"+ this.limit +"','month':"+ this.finds.find_2 +"}"
+        this.find_list(this.par_form.find_area)
+      },
       add_alert(){
         if (this.$refs["ruleForm"]!==undefined) {
           this.$refs["ruleForm"].resetFields();
@@ -479,7 +638,7 @@
         }, (res) => {
           if(res.status == 200){
             this.linkAlert = false
-            this.par_form.find_area = "{'year':"+ this.tableData[0].data_year +",'month':"+ this.tableData[0].data_month +"}"
+            this.par_form.find_area = "{'year':"+ this.tableData[0].data_year +",'month':"+ this.tableData[0].data_month +",'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
             this.find_list(this.par_form.find_area)
             this.$message({
               message: '保存成功',
@@ -490,12 +649,21 @@
         });
       },
       find_list(data){ //查询列表
+
         ajax_list.customerMonthPlanListService(data, res => {  //name
           this.$emit('login-success', res);
         }, (res) => {
             this.find_lists = res.body
           this.tableData = []
+          this.no_sj = []
+          this.count = this.find_lists.count
           if(this.find_lists.list  != [] && this.find_lists.list != "" && this.find_lists.list != null){
+                var _month = this.find_lists.list[0].month
+              if(_month == 6 || _month == 7 || _month == 8 || _month == 9 || _month == 10){
+                this.no_fy = 1
+              }else{
+                this.no_fy = 0
+              }
             var _temp_type = this.tableData;
             $.map( this.find_lists.list,function(data){
               _temp_type.push({
@@ -532,6 +700,7 @@
                 data_13: data.surplusPower5,
 
                 data_14: data.actualUsePowerAmount, //实际用电量
+                data_14s: data.actualUsePowerAmount, //实际用电量
                 data_15: data.actualSurplusPower, //实际其中富余电
                 data_16: data.remark, //备注
 
@@ -539,56 +708,120 @@
             });
             this.finds.find_1 = this.tableData[0].data_year
             this.finds.find_2 = this.tableData[0].data_month
+
           }
 
         });
       },
       find_screen(){ //筛选
-        this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +"}"
+        this.page = 1
+        this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +",'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
         this.find_list(this.par_form.find_area)
       },
       submits(){
-
-          var _temp_table = {
-              list:[]
-          }
-        $.map( this.tableData,function(data){
-          _temp_table.list.push({
-            id:data.data_id,
-            usePowerAmount1:data.data_4,
-            surplusPower1:data.data_5,
-            usePowerAmount2:data.data_6,
-            surplusPower2:data.data_7,
-            usePowerAmount3:data.data_8,
-            surplusPower3:data.data_9,
-            usePowerAmount4:data.data_10,
-            surplusPower4:data.data_11,
-            usePowerAmount5:data.data_12,
-            surplusPower5:data.data_13,
-            actualUsePowerAmount:data.data_14,
-            actualSurplusPower:data.data_15,
-            remark:data.data_16,
-          });
+          var _temp_no_sj = false  //循环判断所有数据的实际用电量是否被输入（有一个数据为true，则 _temp_no_sj 为true ）
+        $.map(this.no_sj,function(value){
+         if(value){
+           _temp_no_sj = true
+         }
         });
-     //   console.log(_temp_table)
-        _temp_table = JSON.stringify(_temp_table);
+          if(_temp_no_sj){  //已输入实际用电量，提示是否保存
+            this.$confirm('已输入实际用电量，是否确认保存?' +
+              '保存后，该客户的本月所有数据不可修改', '提示', {
+              confirmButtonText: '确定',
+              cancelButtonText: '取消',
+              type: 'warning'
+            }).then(() => {
+              var _temp_table = {
+                list:[]
+              }
+              $.map(this.tableData,function(data){
+                _temp_table.list.push({
+                  id:data.data_id,
+                  usePowerAmount1:data.data_4,
+                  surplusPower1:data.data_5,
+                  usePowerAmount2:data.data_6,
+                  surplusPower2:data.data_7,
+                  usePowerAmount3:data.data_8,
+                  surplusPower3:data.data_9,
+                  usePowerAmount4:data.data_10,
+                  surplusPower4:data.data_11,
+                  usePowerAmount5:data.data_12,
+                  surplusPower5:data.data_13,
+                  actualUsePowerAmount:data.data_14,
+                  actualSurplusPower:data.data_15,
+                  remark:data.data_16,
+                });
+              });
+              //   console.log(_temp_table)
+              _temp_table = JSON.stringify(_temp_table);
 
-        ajax_list.customerMonthPlanSaveService(_temp_table, res => {  //保存
-          this.$emit('login-success', res);
-        }, (res) => {
-          if(res.status == 200){
-            this.$message({
-              message: '保存成功',
-              type: 'success'
+              ajax_list.customerMonthPlanSaveService(_temp_table, res => {  //保存
+                this.$emit('login-success', res);
+              }, (res) => {
+                if(res.status == 200){
+                  this.$message({
+                    message: '保存成功',
+                    type: 'success'
+                  });
+                }
+              });
+
+              this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +",'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
+              this.find_list(this.par_form.find_area)
+            }).catch(() => {
+
             });
+          }else{ //没有输入实际用电量，直接保存
+
+            var _temp_table = {
+              list:[]
+            }
+            $.map( this.tableData,function(data){
+              _temp_table.list.push({
+                id:data.data_id,
+                usePowerAmount1:data.data_4,
+                surplusPower1:data.data_5,
+                usePowerAmount2:data.data_6,
+                surplusPower2:data.data_7,
+                usePowerAmount3:data.data_8,
+                surplusPower3:data.data_9,
+                usePowerAmount4:data.data_10,
+                surplusPower4:data.data_11,
+                usePowerAmount5:data.data_12,
+                surplusPower5:data.data_13,
+                actualUsePowerAmount:data.data_14,
+                actualSurplusPower:data.data_15,
+                remark:data.data_16,
+              });
+            });
+            //   console.log(_temp_table)
+            _temp_table = JSON.stringify(_temp_table);
+
+            ajax_list.customerMonthPlanSaveService(_temp_table, res => {  //保存
+              this.$emit('login-success', res);
+            }, (res) => {
+              if(res.status == 200){
+                this.$message({
+                  message: '保存成功',
+                  type: 'success'
+                });
+              }
+            });
+
+            this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +",'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
+            this.find_list(this.par_form.find_area)
           }
-        });
+
+
+
       },
       empty_find(){ //清空
+        this.page = 1
         var date=new Date;
         this.finds.find_1 = date.getFullYear()
         this.finds.find_2 = date.getMonth() + 1
-        this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +"}"
+        this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +",'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
         this.find_list(this.par_form.find_area)
       },
     },
@@ -598,7 +831,7 @@
       var date=new Date;
       this.finds.find_1 = date.getFullYear()
       this.finds.find_2 = date.getMonth() + 1
-      this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +"}"
+      this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +",'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
       this.find_list(this.par_form.find_area)
       this.par_form.area = "{}"
       ajax_list.constatsService(this.par_form.area, res => {  //年份
@@ -717,6 +950,9 @@
     margin: 0 auto;
     min-height: calc(100vh - 352px);
     background-color: white;
+  }
+  .page_height{
+    min-height: calc(100vh - 500px)!important;
   }
   .table_title{
     padding: 0px;

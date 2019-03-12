@@ -31,6 +31,11 @@
                   </el-select>
                 </el-form-item>
               </div>
+            <div class="list_con_input">
+              <el-form-item label="用户代码" prop="one_15">
+                <el-input size="medium" v-model="ruleForm.one_15" placeholder=""></el-input>
+              </el-form-item>
+            </div>
               <div class="list_con_input">
                 <el-form-item label="企业所在地" prop="one_3">
                   <el-input size="medium" v-model="ruleForm.one_3" placeholder=""></el-input>
@@ -91,6 +96,7 @@
                   <el-input size="medium" v-model="ruleForm.one_14" placeholder=""></el-input>
                 </el-form-item>
               </div>
+
           </div>
         </div>
         <div  class="list_module">
@@ -190,7 +196,7 @@
               <p>常规直购交易 </p>
             </div>
             <div class="list_con" >
-              <div class="table_hint">单位：元/兆瓦时</div>
+              <div class="table_hint">单位：兆瓦时、元/兆瓦时</div>
               <div class="table three_table list_table">
                 <div class="table_tr table_title">
                   <div class="table_td"><div class="table_td_w">月份</div></div>
@@ -594,7 +600,7 @@
               <p>富余电量交易 </p>
             </div>
             <div class="list_con" >
-              <div class="table_hint">单位：元/兆瓦时</div>
+              <div class="table_hint">单位：兆瓦时、元/兆瓦时</div>
               <div class="table three_table list_table">
                 <div class="table_tr table_title">
                   <div class="table_td"><div class="table_td_w">月份</div></div>
@@ -1740,6 +1746,7 @@
           one_12:"",
           one_13:"",
           one_14:"",
+          one_15:"",
 
           two_1:"",
           two_2:"",
@@ -2039,7 +2046,9 @@
           one_14:[
             { required: true, message: '请输入通讯地址', trigger: 'blur' },
           ],
-
+          one_15:[
+            { required: true, message: '请输入账号', trigger: 'blur' },
+          ],
           two_1:[
             { required: true, message: '请输入企业地址', trigger: 'blur' },
           ],
@@ -2612,6 +2621,7 @@
                 contactNumber:this.ruleForm.one_13, //办公电话
                 voltageLevel:this.ruleForm.two_2, //电压等级
                 totalUsePowerAmount:this.ruleForm.two_6s, //总用电容量
+                customerCode:this.ruleForm.one_15, //用户代码
               },
             }
          //   console.log( this.add_create )
@@ -2708,7 +2718,9 @@
         if(gd_info.contactAddress != "" && gd_info.contactAddress != undefined){
           this.ruleForm.one_14 = gd_info.contactAddress; //通讯地址
         }
-
+        if(gd_info.customerCode != "" && gd_info.customerCode != undefined){
+          this.ruleForm.one_15 = gd_info.customerCode; //用户代码
+        }
         if(gd_info.Email != "" && gd_info.Email != undefined){
           this.ruleForm.one_11 = gd_info.Email; //电子邮箱
         }
@@ -2772,6 +2784,7 @@
           this.ruleForm.one_8 = this.c_backfill.contract.accountBank; //甲方开户银行
           this.ruleForm.one_9 = this.c_backfill.contract.accountNumber; //甲方开户账号
           this.ruleForm.one_14 = this.c_backfill.contract.contactAddress; //甲方通讯地址
+          this.ruleForm.one_15 = this.c_backfill.customer.customerCode; //用户代码
           this.ruleForm.two_1 = this.c_backfill.contract.companyAddress; //甲方企业地址
           this.ruleForm.two_3 = this.c_backfill.contract.totalUsePowerAmount; //甲方企业地址
           this.ruleForm.two_4 = this.c_backfill.contract.transformerCapacity; //变压器容量

@@ -132,6 +132,7 @@ customerMonthPlanListService(params, success_callback, fail_callback) {
     withAxios.requestExportService('POST', 3,'/api/customerSurplusExportService', params, success_callback, fail_callback);
   },
 
+
   /**
    * /api/customerMonthPlanExportService 每月计划用电量导出
    */
@@ -145,6 +146,50 @@ customerMonthPlanListService(params, success_callback, fail_callback) {
   customerContractQuotedExportService(params, success_callback, fail_callback) {
     withAxios.requestExportService('POST', 3,'/api/customerContractQuotedExportService', params, success_callback, fail_callback);
   },
+
+  /**
+   *  /api/poolMonthCustomerExportService 电量池月度交易导出
+   */
+  poolMonthCustomerExportService(params, success_callback, fail_callback) {
+    withAxios.requestExportService('POST', 3,'/api/poolMonthCustomerExportService', params, success_callback, fail_callback);
+  },
+
+  /**
+   *  /api/poolYearCustomerUsePowerExportService 电量池年度交易-客户用电情况导出
+   */
+  poolYearCustomerUsePowerExportService(params, success_callback, fail_callback) {
+    withAxios.requestExportService('POST', 3,'/api/poolYearCustomerUsePowerExportService', params, success_callback, fail_callback);
+  },
+  /**
+   *  /api/poolYearPurchasedPowerExportService 电量池年度交易-已购电情况导出
+   */
+  poolYearPurchasedPowerExportService(params, success_callback, fail_callback) {
+    withAxios.requestExportService('POST', 3,'/api/poolYearPurchasedPowerExportService', params, success_callback, fail_callback);
+  },
+
+  /**
+   *  /api/poolYearCustomerUsePowerGapExportService 电量池年度交易-客户用电缺口导出
+   */
+  poolYearCustomerUsePowerGapExportService(params, success_callback, fail_callback) {
+    withAxios.requestExportService('POST', 3,'/api/poolYearCustomerUsePowerGapExportService', params, success_callback, fail_callback);
+  },
+
+  /**
+   * /api/templateDownloadService 下载导入模板
+   */
+  templateDownloadService(params, success_callback, fail_callback) {
+    withAxios.requestExportService('POST', 3,'/api/templateDownloadService', params, success_callback, fail_callback);
+  },
+
+
+  /**
+   * /api/powerPoolYearTransactionImportService 电量池年度交易-客户用电情况导入
+   */
+  powerPoolYearTransactionImportService(params, success_callback, fail_callback) {
+    withAxios.requestFormData('POST', 3,'/api/powerPoolYearTransactionImportService', params, success_callback, fail_callback);
+  },
+
+
 
 
 }

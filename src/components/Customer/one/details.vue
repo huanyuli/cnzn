@@ -30,6 +30,7 @@
             <div class="deta_con_p">
               <div><label>所属客户经理:</label><p>{{this.date_list.businessName}}</p></div>
               <div><label>企业名称:</label><p>{{this.date_list.name}}</p></div>
+              <div><label>用户代码:</label><p>{{this.date_list.customerCode}}</p></div>
               <div><label>曾用名:</label><p>{{this.date_list.otherName}}</p></div>
               <div><label>企业简称:</label><p>{{this.date_list.companySimpleName}}</p></div>
               <div><label>用电单元名称:</label><p>{{this.date_list.powerUnit}}</p></div>

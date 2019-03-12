@@ -64,8 +64,11 @@
                     <div class="table_td"><div class="table_td_w"><span>*</span>总电量</div></div>
                     <div class="table_td"><div class="table_td_w">/</div></div>
                     <div class="table_td"><div class="table_td_w table_td_color">{{ruleThree.one_1 + ruleThree.one_2 + ruleThree.one_3 + ruleThree.one_4 + ruleThree.one_5 + ruleThree.one_6 + ruleThree.one_7 + ruleThree.one_8 + ruleThree.one_9 + ruleThree.one_10 + ruleThree.one_11 + ruleThree.one_12}}</div></div>
-                    <div class="table_td"><div class="table_td_w table_td_color" >{{ruleThree.two_6 + ruleThree.two_7 + ruleThree.two_8 + ruleThree.two_9 + ruleThree.two_10}}</div></div>
-                    <div class="table_td"><div class="table_td_w table_td_color">{{ruleThree.one_1 + ruleThree.one_2 + ruleThree.one_3 + ruleThree.one_4 + ruleThree.one_5 + ( ruleThree.one_6 - ruleThree.two_6 ) + ( this.ruleThree.one_7 - this.ruleThree.two_7 ) + ( this.ruleThree.one_8 - this.ruleThree.two_8 ) + ( this.ruleThree.one_9 - this.ruleThree.two_9 ) + ( this.ruleThree.one_10 - this.ruleThree.two_10 ) + ruleThree.one_11 + ruleThree.one_12}}</div></div>
+                    <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w table_td_color" ></div></div>
+                    <div class="table_td" v-else=""><div class="table_td_w table_td_color" >{{ruleThree.two_6 + ruleThree.two_7 + ruleThree.two_8 + ruleThree.two_9 + ruleThree.two_10}}</div></div>
+                    <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w table_td_color">{{ruleThree.one_1 + ruleThree.one_2 + ruleThree.one_3 + ruleThree.one_4 + ruleThree.one_5 + ( ruleThree.one_6 ) + ( this.ruleThree.one_7) + ( this.ruleThree.one_8 ) + ( this.ruleThree.one_9 ) + ( this.ruleThree.one_10 ) + ruleThree.one_11 + ruleThree.one_12}}</div></div>
+                    <div class="table_td" v-else=""><div class="table_td_w table_td_color">{{ruleThree.one_1 + ruleThree.one_2 + ruleThree.one_3 + ruleThree.one_4 + ruleThree.one_5 + ( ruleThree.one_6 - ruleThree.two_6 ) + ( this.ruleThree.one_7 - this.ruleThree.two_7 ) + ( this.ruleThree.one_8 - this.ruleThree.two_8 ) + ( this.ruleThree.one_9 - this.ruleThree.two_9 ) + ( this.ruleThree.one_10 - this.ruleThree.two_10 ) + ruleThree.one_11 + ruleThree.one_12}}</div></div>
+
                   </div>
                   <div class="table_tr ">
                     <div class="table_td"><div class="table_td_w">1月</div></div>
@@ -136,7 +139,8 @@
                         <el-input type="number" @change="changes('two_6',ruleThree.two_6)" v-model.number="ruleThree.two_6"></el-input>
                       </el-form-item>
                     </div></div>
-                    <div class="table_td"><div class="table_td_w">{{this.ruleThree.one_6 - this.ruleThree.two_6}}</div></div>
+                    <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w">{{this.ruleThree.one_6}}</div></div>
+                    <div class="table_td" v-else=""><div class="table_td_w">{{this.ruleThree.one_6 - this.ruleThree.two_6}}</div></div>
                   </div>
                   <div class="table_tr ">
                     <div class="table_td"><div class="table_td_w">7月</div></div>
@@ -552,7 +556,12 @@
           this.ruleThree[name] = 0
         }else {  //(计划用电量-富余电前三年的平均数，且大于等于1万度才显示，否则为空)
           console.log(item - this.surplusAvg)
-          this.ruleThree["two_" + names ] = item - this.surplusAvg
+          if((item - this.surplusAvg) >= 10000){
+            this.ruleThree["two_" + names ] = item - this.surplusAvg
+          }else{
+            this.ruleThree["two_" + names ] = 0
+          }
+
         }
       },
       find_list(data){ //查询列表

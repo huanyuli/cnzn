@@ -38,15 +38,21 @@
                 </el-form-item>
               </div>
               <div class="list_con_input">
+                <el-form-item label="曾用名" prop="add_2">
+                  <el-input v-model="ruleForm.add_2"></el-input>
+                </el-form-item>
+              </div>
+              <div class="list_con_input">
                 <el-form-item label="企业名称"  prop="one_1">
                   <el-input v-model="ruleForm.one_1"></el-input>
                 </el-form-item>
               </div>
               <div class="list_con_input">
-                <el-form-item label="曾用名" prop="add_2">
-                  <el-input v-model="ruleForm.add_2"></el-input>
+                <el-form-item label="用户代码" prop="add_14">
+                  <el-input v-model="ruleForm.add_14"></el-input>
                 </el-form-item>
               </div>
+
               <div class="list_con_input">
                 <el-form-item label="企业简称" prop="add_3">
                   <el-input v-model="ruleForm.add_3"></el-input>
@@ -231,11 +237,7 @@
                   <el-input size="medium" v-model="ruleForm.add_7" placeholder=""></el-input>
                 </el-form-item>
               </div>
-              <div class="list_con_input">
-                <el-form-item label="用户代码" prop="add_14">
-                  <el-input v-model="ruleForm.add_14"></el-input>
-                </el-form-item>
-              </div>
+
 
               <div class="list_tile list_margin_top">联系方式</div>
 
@@ -696,6 +698,9 @@
           ],
           two_4:[
             { required: true, message: '请选择用电类别', trigger: 'blur' },
+          ],
+          add_14: [
+            { required: true, message: '请输入用户代码', trigger: 'blur' }
           ],
         },
         ruleTwo:{

@@ -74,10 +74,17 @@ export default {
     withAxios.requestData('POST', 3,'/api/areaListService', params, success_callback, fail_callback);
   },
 
+
   /**
    * /api/userListService 用户列表
    */
   userListService(params, success_callback, fail_callback) {
     withAxios.requestData('POST', 3,'/api/userListService', params, success_callback, fail_callback);
+  },
+  /**
+   * /api/templateDownloadService 下载导入模板
+   */
+  templateDownloadService(params, success_callback, fail_callback) {
+    withAxios.requestExportService('POST', 3,'/api/templateDownloadService', params, success_callback, fail_callback);
   },
 }

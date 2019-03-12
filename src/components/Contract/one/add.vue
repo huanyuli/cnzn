@@ -51,6 +51,11 @@
                   </el-form-item>
                 </div>
                 <div class="list_con_input">
+                  <el-form-item label="用户代码" prop="one_15">
+                    <el-input size="medium" v-model="ruleForm.one_15" placeholder=""></el-input>
+                  </el-form-item>
+                </div>
+                <div class="list_con_input">
                   <el-form-item label="企业所在地" prop="one_3">
                     <el-input size="medium" v-model="ruleForm.one_3" placeholder=""></el-input>
                   </el-form-item>
@@ -110,11 +115,7 @@
                     <el-input size="medium" v-model="ruleForm.one_14" placeholder=""></el-input>
                   </el-form-item>
                 </div>
-                <div class="list_con_input">
-                  <el-form-item label="用户代码" prop="one_15">
-                    <el-input size="medium" v-model="ruleForm.one_15" placeholder=""></el-input>
-                  </el-form-item>
-                </div>
+
               </el-form>
             </div>
           </div>
@@ -253,7 +254,7 @@
             </div>
           </div>
           <div class="list_con" >
-            <div class="table_hint">单位：元/兆瓦时</div>
+            <div class="table_hint">单位：兆瓦时、元/兆瓦时</div>
             <div class="table three_table list_table">
               <div class="table_tr table_title">
                 <div class="table_td"><div class="table_td_w">月份</div></div>
@@ -676,7 +677,7 @@
             </div>
           </div>
           <div class="list_con" >
-            <div class="table_hint">单位：元/兆瓦时</div>
+            <div class="table_hint">单位：兆瓦时、元/兆瓦时</div>
             <div class="table three_table list_table">
               <div class="table_tr table_title">
                 <div class="table_td"><div class="table_td_w">月份</div></div>
@@ -1932,6 +1933,9 @@
           ],
           one_14:[
             { required: true, message: '请输入通讯地址', trigger: 'blur' },
+          ],
+          one_15:[
+            { required: true, message: '请输入账号', trigger: 'blur' },
           ],
 
         },

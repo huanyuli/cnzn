@@ -32,7 +32,8 @@
         </div>
         <div class="div_row">
           <div class="btn">
-            <el-button @click="add_bj"  native-type="submit" style="width: 100%" @keyup.enter.native="onSubmit"  type='primary'>登  录</el-button>
+            <el-button @click="add_bj" style="width: 100%"  type='primary'>登  录</el-button>
+            <!--<el-button @click="add_bj"  native-type="submit" style="width: 100%" @keyup.enter.native="onSubmit"  type='primary'>登  录</el-button>-->
           </div>
         </div>
 

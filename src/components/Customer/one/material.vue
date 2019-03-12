@@ -99,7 +99,7 @@
         </div>
         <div class="ma_btn">
           <el-button size="small" type="primary" @click="add_contract">创建客户</el-button>
-          <!--<el-button size="small" type="primary">导入客户</el-button>-->
+          <el-button size="small" type="primary" @click="dialogTableVisible_s = true">导入客户</el-button>
         </div>
         <div v-if="this.no_val == 1" class="content_list">
           <div   v-for='(item,index) in this.list_con.list'  @click="list_daterial(item.id,item.signStatus)" class="content_list_div">
@@ -136,6 +136,98 @@
 
 
     <!--<router-view></router-view>-->
+    <div class="add_list">
+      <el-dialog title="导入数据"  :visible.sync="dialogTableVisible_s">
+        <div class='add_div'>
+          <div class='add_div_one'>
+            <div class='one_con'>
+              <div class="one_con_img">
+                <div  class="one_img"></div>
+              </div>
+              <div class="one_con_img">
+                <div class="two_img"></div>
+              </div>
+              <div class="one_con_ss">-------------------------</div>
+            </div>
+          </div>
+          <div class='add_div_two' slot="footer" >
+            <div class='cont_btn' >
+              <el-upload
+                class="upload-demo"
+                :action="this.url_action"
+                :on-success="handleSuccess"
+                name="file"
+                :show-file-list="this.show_file_list"
+                :data="this.url_data"
+              >
+                <el-button size="small" type="primary" >导入数据</el-button></el-upload>
+            </div>
+            <div class='wi_btn'> <el-button size="small" @click="import_list_m"><i class="el-icon-download"></i>下载导入模板</el-button></div>
+          </div>
+        </div>
+      </el-dialog>
+      <el-dialog title="导入数据"   :visible.sync="d_success">
+        <div class='add_div'>
+          <div class='add_div_one'>
+            <div class='one_con'>
+              <div class="one_con_three">
+                <div  class="three_img"></div>
+                <p>导入成功</p>
+                <span>共导入{{this.d_list_index}}个客户资料</span>
+              </div>
+            </div>
+          </div>
+          <div class='add_div_two' slot="footer" >
+            <div class='cont_btn' >
+              <el-upload
+                class="upload-demo"
+                :action="this.url_action"
+                :on-success="handleSuccess"
+                name="file"
+                :show-file-list="this.show_file_list"
+                :data="this.url_data"
+                multiple
+              >
+                <el-button size="small" type="primary" >继续导入</el-button></el-upload>
+            </div>
+            <div class='wi_btn'> <el-button size="small" @click="d_close('s')">关闭</el-button></div>
+          </div>
+        </div>
+      </el-dialog>
+      <el-dialog title="导入数据"  :visible.sync="d_error">
+        <div class='add_div'>
+          <div class='add_div_one'>
+            <div class='one_con'>
+              <div class="one_con_three">
+                <div  class="four_img"></div>
+                <p>导入失败</p>
+                <span>共导入{{this.d_list_index + d_fail_index}}个客户资料，其中{{this.d_fail_index}}个导入失败</span>
+              </div>
+            </div>
+          </div>
+          <div class='add_div_two' slot="footer" >
+            <div class="add_su_btn">
+              <el-upload
+                class="upload-demo"
+                :action="this.url_action"
+                :on-success="handleSuccess"
+                name="file"
+                :show-file-list="this.show_file_list"
+                :data="this.url_data"
+                multiple
+              >
+                <el-button size="small" type="primary" >重新导入</el-button></el-upload>
+              <el-button size="small" @click="d_close('e')">关闭</el-button>
+            </div>
+          </div>
+          <div class="add_error_list">
+            <p>导入失败信息：</p>
+            <div v-for='(item,index) in this.d_failList'> <i class="el-icon-warning" style="color: red"></i>  {{item.name}}  <span>{{item.errorMsg}} </span> </div>
+          </div>
+        </div>
+      </el-dialog>
+    </div>
+
   </div>
 </template>
 
@@ -146,6 +238,15 @@
   export default {
     data() {
       return {
+        url_action:"",
+        url_data:{},
+        d_success:false,
+        d_error:false,
+        show_file_list:false,
+        dialogTableVisible_s:false,
+        d_list_index:0,   //导入成功条数
+        d_fail_index:0,   //导入失败条数
+        d_failList:{},   //导入失败列表
         no_val:1,
         limit:12,
         page:1,
@@ -181,8 +282,8 @@
         name_list:"",  //购电方参数
 
         contract_Status:"",//客户状态选中的值
-        contract_Type:"",//所在区域选中的值
-        contract_Types:"",//所在区域选中的代码
+        contract_Type:"510000000000",//所在区域选中的值
+        contract_Types:"四川省",//所在区域选中的代码
         contract_city:"",//所在区域选中的值
 
         time_value:"",  //所属行业选中值
@@ -208,6 +309,37 @@
 
     },
     methods: {
+      handleSuccess(response, file, fileList){
+
+        if(response.status == 200){
+          if( response.body.failSize != 0){ //有错误消息
+            this.dialogTableVisible_s = false
+            this.d_success = false
+            this.d_error = true
+            this.d_failList = response.body.failList
+            this.d_list_index = response.body.successSize
+            this.d_fail_index = response.body.failSize
+          }else{
+            this.dialogTableVisible_s = false
+            this.d_error = false
+            this.d_success = true
+            this.d_list_index = response.body.successSize
+          }
+          this.page = 1
+          this.formData = "{'page':'"+ this.page +"','limit':'"+ this.limit +"','signStatus': '"+ this.contract_Status +"','provinceCode':'"+ this.contract_Type +"','cityCode':'"+ this.contract_city +"','name':'"+ this.value9 +"','businessId':'"+ this.value9_s +"','industry':'"+ this.time_value +"'}",
+            //  console.log(this.formData)
+            this.list_find(this.formData,2)
+        }
+
+      },
+      d_close(a){
+        if(a == "s"){
+          this.d_success = false
+        }else if(a == "e"){
+          this.d_error = false
+        }
+
+      },
       change_2(val){  //点击省份获取市数据
 
         let obj = {};
@@ -286,10 +418,33 @@
           this.value9 = "",
           this.value9_s = "",
           this.time_value = "",
-          this.contract_Type = ""
+          this.contract_Type = "510000000000"
+          this.contract_city = ""
         this.page = 1
         this.formData  = "{'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
         this.list_find(this.formData,2)
+
+
+        //默认获取市级下拉列表
+        this.form_code_q ={
+          code:this.contract_Type,
+          areaLevel:"province"
+        }
+        this.form_code_q = JSON.stringify(this.form_code_q);
+        ajax_list.areaListService(this.form_code_q, res => {  //列表字典
+          this.$emit('login-success', res);
+        }, (res) => {
+          var form_select_q = res.body;
+          this.select_contractCity = []
+          this.contract_city = ""
+          var _temp_one_4 = this.select_contractCity;   //所在行政区域
+          $.map(form_select_q,function(value){
+            _temp_one_4.push({
+              value:value.code,
+              label:value.name
+            });
+          });
+        });
       },
       remoteMethod(query) { //客户名称远程搜索选择
         if (query !== '') {
@@ -358,9 +513,23 @@
           this.options4_s = [];
         }
       },
+      import_list_m(){
+        var _temp_Export = "{'templateName':'customer-import.xls'}"
+        ajax_list.templateDownloadService(_temp_Export, res => {  //导出
+          this.$emit('login-success', res);
+        }, (res) => {
+
+        });
+      },
     },
 //生命周期钩子函数，进入页面显示之前获取数据到store
     created () {
+      var selfId = localStorage.getItem('adminSelfId') || '';
+      this.url_action = this.HOST + "/apiFile/customerImportService"
+      this.url_data = {
+        "version":"1.0",
+        "data":"{}"
+      }
       this.formData  = "{'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
       this.list_find(this.formData,1);
       ajax_list.customerListCodeService(this.Service, res => {  //列表字典
@@ -395,12 +564,47 @@
           var obj = {};
           obj.value = this.Service_con.provinces[i].province_code;
           obj.label = this.Service_con.provinces[i].province_name;
-
           _temp_type.push(obj);
         }
 
       });
 
+      //获取省级下拉列表
+      this.form_code_s ="{}"
+      ajax_list.areaListService(this.form_code_s, res => {  //列表区域字典
+        this.$emit('login-success', res);
+      }, (res) => {
+        this.form_select_s = res.body;
+//          form_one_3:[], //所在区域
+        var _temp_one_3 = this.select_contractType;   //所在区域
+        $.map(this.form_select_s,function(value){
+          _temp_one_3.push({
+            value:value.code,
+            label:value.name
+          });
+        });
+        //默认获取市级下拉列表
+        this.form_code_q ={
+          code:this.contract_Type,
+          areaLevel:"province"
+        }
+        this.form_code_q = JSON.stringify(this.form_code_q);
+        ajax_list.areaListService(this.form_code_q, res => {  //列表字典
+          this.$emit('login-success', res);
+        }, (res) => {
+          var form_select_q = res.body;
+          this.select_contractCity = []
+          this.contract_city = ""
+          var _temp_one_4 = this.select_contractCity;   //所在行政区域
+          $.map(form_select_q,function(value){
+            _temp_one_4.push({
+              value:value.code,
+              label:value.name
+            });
+          });
+        });
+
+      });
     }
   }
 </script>
@@ -666,7 +870,7 @@
     margin: 25px auto;
   }
   .cont_btn{
-    width: 100px;
+    width: 120px;
     margin: 10px auto;
   }
   .cont_btn button{
@@ -686,6 +890,168 @@
     margin-bottom: 10px;
     color:rgba(150,150,150,1);
     background:#fff;
+  }
+  /***弹窗结束**/
+  .upload-demo{
+    display: inline-block;
+  }
+  /*** 导入弹窗 ***/
+
+  .add_list .add_div{
+    background-color: white;
+  }
+  .add_list .add_div_one{
+    width: 100%;
+    height: 250px;
+    background:rgba(73,138,243,1);
+  }
+  .add_list .add_div_one .one_title{
+    margin-left: 28px;
+    padding-top: 20px;
+    font-size:16px;
+    font-weight:bold;
+    color:rgba(254,254,254,1);
+  }
+  .add_list .add_div_one .one_title i{
+    float: right;
+    margin-right: 28px;
+    font-size: 18px;
+    margin-top: 2px;
+  }
+  .add_list .one_con{
+    width: 70%;
+    margin: 0px auto;
+  }
+
+  .add_list .one_con_img{
+    width: 50%;
+    float: left;
+    margin-top:10px;
+  }
+  .add_list  .one_con_ss{
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    top: -65px;
+    left: 5%;
+    color: white;
+  }
+  .add_list .one_con_three{
+    width: 50%;
+    margin:0 auto;
+  }
+  .add_list .one_con_img p{
+    margin-top: 30px;
+    font-size:18px;
+    font-weight:400;
+    text-align: center;
+    color:rgba(254,254,254,1);
+  }
+  .add_list .one_con_three p{
+    margin-top:0px;
+    font-size:18px;
+    font-weight:400;
+    text-align: center;
+    color:rgba(254,254,254,1);
+  }
+  .add_list .one_con_three span{
+    margin: 0px auto;
+    display: block;
+    font-size:14px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    text-align: center;
+  }
+  .add_list .one_con_img div{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .add_list .one_con_three div{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .add_list .one_con .one_img{
+    background: url("../../../assets/aImg/icon_wenjian.png") center no-repeat;
+  }
+
+  .add_list .two_img{
+    background: url("../../../assets/aImg/icon_diannao.png") center no-repeat;
+  }
+  .add_list .one_con .three_img{
+    background: url("../../../assets/aImg/import_suss.png") center no-repeat;
+  }
+  .add_list .one_con .four_img{
+    background: url("../../../assets/aImg/import_error.png") center no-repeat;
+  }
+  .add_list .add_div_two{
+    margin: 25px auto;
+  }
+  .add_list .add_su_btn{
+    width: 280px;
+    margin: 0 auto;
+  }
+  .add_list .add_su_btn button{
+    width: 100px;
+  }
+  .add_list .cont_btn{
+    width: 120px;
+    margin: 10px auto;
+  }
+  .add_list .cont_btn button{
+    width: 100%;
+    font-size:14px;
+    margin-bottom: 10px;
+    color:rgba(255,255,255,1);
+    background:rgba(93,179,247,1);
+  }
+  .add_list  .wi_btn{
+    width: 136px;
+    margin: 0px auto;
+  }
+  .add_list .wi_btn button{
+    width: 100%;
+    font-size:14px;
+    margin-bottom: 10px;
+    color:rgba(150,150,150,1);
+    background:#fff;
+  }
+
+  .add_list .add_error_list{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-top: 2px solid rgba(235,235,235,1);
+  }
+  .add_list .add_error_list p{
+    font-size:16px;
+    font-weight:bold;
+    color:rgba(134,134,134,1);
+    line-height:20px;
+    margin-bottom: 10px;
+  }
+  .add_list .add_error_list div{
+    margin-bottom: 25px;
+    line-height: 25px;
+    font-size:14px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+  }
+  .add_list .add_error_list div i{
+    margin-right: 5px;
+  }
+  .add_list .add_error_list div span{
+    display: inline-block;
+    font-size:12px;
+    line-height: 25px;
+    font-weight:400;
+    color:rgba(242,46,46,1);
+    margin-left: 12px;
   }
   /***弹窗结束**/
 </style>
