@@ -1234,7 +1234,7 @@
     float: left;
     margin-left: 30px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
   .ma_ui_div p{

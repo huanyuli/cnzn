@@ -663,7 +663,7 @@
                 <div class="ico_border"></div>
                 <div class="ico">3</div>
                 <div class="ico_border"></div>
-                <div class="ico ico_true">4</div>
+                <div class="ico">4</div>
                 <!--<div class="ico_border"></div>-->
                 <!--<div class="ico ico_true">5</div>-->
               </div>
@@ -671,7 +671,7 @@
                 <span>填写甲方基础信息</span>
                 <span>填写甲方其它信息</span>
                 <span>常规直购交易</span>
-                <span class="ico_text_true">富余电量交易 </span>
+                <span>富余电量交易 </span>
                 <!--<span class="ico_text_true">填写全年协议电量表</span>-->
               </div>
             </div>

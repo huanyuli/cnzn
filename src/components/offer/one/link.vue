@@ -677,9 +677,12 @@
 //生命周期钩子函数，进入页面显示之前获取数据到store
     created () {
       var selfId = localStorage.getItem('adminSelfId') || '';
+      var token = localStorage.getItem('adminToken') || '';
       this.url_action = this.HOST + "/apiFile/quotedImportService"
       this.url_data = {
         "version":"1.0",
+        "token":token,
+        "selfId":selfId,
         "data":"{}"
       }
       var date=new Date;
@@ -811,6 +814,7 @@
     float: left;
     margin-left: 30px;
     margin-top: 10px;
+    margin-bottom: 5px;
   }
 
   .ma_ui_div p{

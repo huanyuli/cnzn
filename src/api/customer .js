@@ -34,6 +34,16 @@ export default {
     withAxios.requestData('POST', 3,'/api/customerNameExistsService', params, success_callback, fail_callback);
   },
 
+
+/**
+ *  /api/customerExistsService 查询客户名称和客户代码是否存在
+ */
+customerExistsService (params, success_callback, fail_callback) {
+  withAxios.requestData('POST', 3,'/api/customerExistsService', params, success_callback, fail_callback);
+},
+
+
+
   /**
    *  /api/customerListCodeService 客户列表字典
    */

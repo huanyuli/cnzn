@@ -132,6 +132,7 @@
                //  console.log(localStorage.getItem('userInfo'))
                window.localStorage.clear()
                 this.$router.push('/login');
+
               //  console.log(localStorage.getItem('userInfo'))
 //                this.$message('click on item ' + command);
               }

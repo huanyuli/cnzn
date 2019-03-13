@@ -1063,15 +1063,16 @@
         });
       },
       add_two(){  //下一步
-        var _temp_name = "{'customerName':'"+ this.ruleForm.one_1 +"'}"
-        add_ajax.customerNameExistsService(_temp_name, res => {  //判断用户名是否重复
+//        var _temp_name = "{'customerName':'"+ this.ruleForm.one_1 +"','customerCode':'"+ this.ruleForm.add_14 +"'}"
+        var _temp_name = "{'customerCode':'"+ this.ruleForm.add_14 +"'}"
+        add_ajax.customerExistsService(_temp_name, res => {  //判断用户名是否重复
           this.$emit('login-success', res);
         }, (res) => {
-          if(res.body){
+          if(!res.body.exists){
             this.submitForm('ruleForm');
           }else{
             this.$message({
-              message: '用户名重复，请重新输入',
+              message: '用户代码重复，请重新输入',
               type: 'warning'
             });
           }

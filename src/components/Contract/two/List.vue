@@ -56,14 +56,20 @@
                 <!--<el-input v-model="cont_name"></el-input>-->
               <!--</div>-->
             <!--</div>-->
-          </div>
-          <div class="div_row" style="margin-top: 10px">
+
             <div class="ma_ui_div" style="padding-bottom: 10px">
               <el-button size="small" type="primary" @click="find_list">筛选</el-button>
               <el-button size="small" @click="empty_find">清空</el-button>
             </div>
 
           </div>
+          <!--<div class="div_row" style="margin-top: 10px">-->
+            <!--<div class="ma_ui_div" style="padding-bottom: 10px">-->
+              <!--<el-button size="small" type="primary" @click="find_list">筛选</el-button>-->
+              <!--<el-button size="small" @click="empty_find">清空</el-button>-->
+            <!--</div>-->
+
+          <!--</div>-->
 
         </div>
         <div class="ma_btn">
@@ -486,7 +492,7 @@
   }
   .ma_screen{
     width: 100%;
-    height:150px;
+    height:110px;
     padding-top: 20px;
     border-bottom:1px solid rgba(229,229,229,1);
   }
@@ -506,6 +512,7 @@
     float: left;
     margin-left: 30px;
     margin-top: 10px;
+    margin-bottom: 5px;
   }
 
   .ma_ui_div p{

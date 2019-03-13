@@ -15,6 +15,7 @@ import Print from 'vue-print-nb'
 // import qs from 'qs'
 import App from './App'
 import bus from './utils/bus.vue'
+// import CPdf from './utils/CPdf.vue'
 import '../static/ueditor/ueditor.config.js'
 import '../static/ueditor/ueditor.all.min.js'
 import '../static/ueditor/lang/zh-cn/zh-cn.js'
@@ -22,6 +23,7 @@ import '../static/ueditor/ueditor.parse.min.js'
 
 Vue.prototype.HOST = process.env.API_ROOT;
 Vue.prototype.bus = bus;
+
 Vue.use(VueRouter);
 Vue.use(ElementUI);
 Vue.use(Print); //注册
@@ -38,6 +40,12 @@ new Vue({
   template: '<App/>',
   components: { App }
 });
+
+// // 注册
+// Vue.component('c-pdf', {
+//   template: '<c-pdf>A custom component!</c-pdf>'
+// })
+
 
 // router.beforeEach((to, from, next) => {
 //   if (to.matched.some(record => record.meta.requireAuth)){ // 判断该路由是否需要登录权限

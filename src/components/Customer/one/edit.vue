@@ -603,6 +603,7 @@
       return {
         istype:2,
         load_subit:false,
+        is_add_14:"",  //判断用户代码是否被改过
         add_Type:"",
         add_create:{}, //提交按钮所有参数
         con_id:'',
@@ -877,7 +878,28 @@
         this.ruleForm.add_one_4_s = obj.label
       },
       add_affirm(){ //提交按钮
-        this.submitForm('ruleForm');
+
+
+        if(this.is_add_14 != this.ruleForm.add_14){
+          var _temp_name = "{'customerCode':'"+ this.ruleForm.add_14 +"'}"
+//        var _temp_name = "{'customerName':'"+ this.ruleForm.one_1 +"','customerCode':'"+ this.ruleForm.add_14 +"'}"
+          add_ajax.customerExistsService(_temp_name, res => {  //判断用户名是否重复
+            this.$emit('login-success', res);
+          }, (res) => {
+            if(!res.body.exists){
+              this.submitForm('ruleForm');
+            }else{
+              this.$message({
+                message: '用户代码重复，请重新输入',
+                type: 'warning'
+              });
+            }
+          });
+        }else{
+          this.submitForm('ruleForm');
+        }
+
+
       },
       get_times(str){ //转换时间戳
 //        console.log(str)
@@ -1416,6 +1438,7 @@
         }
         if(this.form_list.customerCode != null && this.form_list.customerCode != ""){
           this.ruleForm.add_14 = this.form_list.customerCode
+          this.is_add_14 = this.form_list.customerCode
         }
         if(this.form_list.socialCreditCode != null && this.form_list.socialCreditCode != ""){
           this.ruleForm.add_two_1 = this.form_list.socialCreditCode

@@ -79,6 +79,12 @@ export default new Router({
                     component: resolve => require(['@/components/Contract/one/detail'],resolve),
 
                   },
+                  {   //售电合同 --》合同详情
+                    path: 'showPdf/:one',
+                    name:"showPdf",
+                    component: resolve => require(['@/components/Contract/one/showPdf'],resolve),
+
+                  },
                   {   //售电合同 --》创建合同
                     path: 'add',
                     component: resolve => require(['@/components/Contract/one/add'],resolve),
@@ -185,7 +191,7 @@ export default new Router({
         },
         {
             path: '/login',
-            component: resolve => require(['@/components/login'],resolve)
+            component: resolve => require(['@/components/login/index'],resolve)
         }
     ]
 })

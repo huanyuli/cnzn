@@ -38,12 +38,13 @@ export default {
       method: httpMethod,
       baseURL: process.env.API_ROOT,
       headers: {
-        'token': token,
+       // 'token': token,
         // 'version': '1.0'
       },
       [key]:{
         'version': '1.0',
          'selfId':selfId,
+        'token': token,
         data:params
       }
     }).then(function (res) {
@@ -112,7 +113,6 @@ export default {
   },
   requestExportService(httpMethod,urlType,path, params, success_callback, fail_callback) {
     let selfId = localStorage.getItem('adminSelfId') || '';
-
     var _temp =process.env.API_ROOT + path +"?version=1.0&selfId= "+ selfId +"&data="+ params
     console.log(encodeURI(_temp))
     window.open(encodeURI(_temp))

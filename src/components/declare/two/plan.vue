@@ -73,13 +73,12 @@
               </el-table-column>
               <el-table-column
                 align="center"
-                label="预计当月用电量"
+                label="第一次"
               >
                 <el-table-column
                   prop="data_4"
                   align="center"
-
-                  label="第一次">
+                  label="预计当月用电量">
                   <template slot-scope="scope"  >
                     <el-input v-if="scope.row.data_lock_1 == 'lock' || scope.row.data_14s != null" :class="{input_color:scope.row.data_Source_1 == 'COPY'}"  :disabled="true"  v-model.number="scope.row.data_4" placeholder=""></el-input>
                     <el-input v-else :class="{input_color:scope.row.data_Source_1 == 'COPY'}"  v-model.number="scope.row.data_4" placeholder=""></el-input>
@@ -88,13 +87,13 @@
               </el-table-column>
               <el-table-column
                 align="center"
-                label="预计当月用电量"
+                label="第二次"
               >
                 <el-table-column
                   prop="data_6"
                   align="center"
 
-                  label="第二次">
+                  label="预计当月用电量">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_2 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_6" :disabled="true"  placeholder=""></el-input>
                     <el-input v-else :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_6" placeholder=""></el-input>
@@ -103,13 +102,13 @@
               </el-table-column>
               <el-table-column
                 align="center"
-                label="预计当月用电量"
+                label="第三次"
               >
                 <el-table-column
                   prop="data_8"
                   align="center"
 
-                  label="第三次">
+                  label="预计当月用电量">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_3 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_8" :disabled="true"  placeholder=""></el-input>
                     <el-input v-else :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_8" placeholder=""></el-input>
@@ -118,13 +117,13 @@
               </el-table-column>
               <el-table-column
                 align="center"
-                label="预计当月用电量"
+                label="第四次"
               >
                 <el-table-column
                   prop="data_10"
                   align="center"
 
-                  label="第四次">
+                  label="预计当月用电量">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_4 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_10" :disabled="true"  placeholder=""></el-input>
                     <el-input v-else :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_10" placeholder=""></el-input>
@@ -133,13 +132,12 @@
               </el-table-column>
               <el-table-column
                 align="center"
-                label="预计当月用电量"
+                label="第五次"
               >
                 <el-table-column
                   prop="data_12"
                   align="center"
-
-                  label="第五次">
+                  label="预计当月用电量">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_5 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_12" :disabled="true"  placeholder=""></el-input>
                     <el-input v-else :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_12" placeholder=""></el-input>
@@ -208,28 +206,23 @@
               </el-table-column>
               <el-table-column
                 align="center"
-                label="预计当月用电量"
+                label="第一次"
               >
                 <el-table-column
                   prop="data_4"
                   align="center"
                   width="120"
-                  label="第一次">
+                  label="预计当月用电量">
                   <template slot-scope="scope"  >
                     <el-input v-if="scope.row.data_lock_1 == 'lock' || scope.row.data_14s != null" :class="{input_color:scope.row.data_Source_1 == 'COPY'}"  :disabled="true"  v-model.number="scope.row.data_4" placeholder=""></el-input>
                     <el-input v-else="" :class="{input_color:scope.row.data_Source_1 == 'COPY'}"  v-model.number="scope.row.data_4" placeholder=""></el-input>
                   </template>
                 </el-table-column>
-              </el-table-column>
-              <el-table-column
-                align="center"
-                label="其中富余电"
-              >
                 <el-table-column
                   align="center"
                   width="120"
                   prop="data_5"
-                  label="第一次">
+                  label="其中富余电">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_1 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_1 == 'COPY'}" v-model.number="scope.row.data_5" :disabled="true"  placeholder=""></el-input>
                     <el-input v-else="" :class="{input_color:scope.row.data_Source_1 == 'COPY'}" v-model.number="scope.row.data_5" placeholder=""></el-input>
@@ -238,58 +231,49 @@
               </el-table-column>
               <el-table-column
                 align="center"
-                label="预计当月用电量"
+                label="第二次"
               >
                 <el-table-column
                   prop="data_6"
                   align="center"
                   width="120"
-                  label="第二次">
+                  label="预计当月用电量">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_2 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_6" :disabled="true"  placeholder=""></el-input>
                     <el-input v-else="" :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_6" placeholder=""></el-input>
                   </template>
                 </el-table-column>
-              </el-table-column>
-              <el-table-column
-                align="center"
-                label="其中富余电"
-              >
                 <el-table-column
                   prop="data_7"
                   align="center"
                   width="120"
-                  label="第二次">
+                  label="其中富余电">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_2 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_7" :disabled="true"  placeholder=""></el-input>
                     <el-input v-else="" :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_7" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
+
               <el-table-column
                 align="center"
-                label="预计当月用电量"
+                label="第三次"
               >
                 <el-table-column
                   prop="data_8"
                   align="center"
                   width="120"
-                  label="第三次">
+                  label="预计当月用电量">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_3 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_8" :disabled="true"  placeholder=""></el-input>
                     <el-input v-else="" :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_8" placeholder=""></el-input>
                   </template>
                 </el-table-column>
-              </el-table-column>
-              <el-table-column
-                align="center"
-                label="其中富余电"
-              >
                 <el-table-column
                   align="center"
                   width="120"
                   prop="data_9"
-                  label="第三次">
+                  label="其中富余电">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_3 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_9" :disabled="true"  placeholder=""></el-input>
                     <el-input v-else="" :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_9" placeholder=""></el-input>
@@ -298,28 +282,23 @@
               </el-table-column>
               <el-table-column
                 align="center"
-                label="预计当月用电量"
+                label="第四次"
               >
                 <el-table-column
                   width="120"
                   prop="data_10"
                   align="center"
-                  label="第四次">
+                  label="预计当月用电量">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_4 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_10" :disabled="true"  placeholder=""></el-input>
                     <el-input v-else="" :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_10" placeholder=""></el-input>
                   </template>
                 </el-table-column>
-              </el-table-column>
-              <el-table-column
-                align="center"
-                label="其中富余电"
-              >
                 <el-table-column
                   prop="data_11"
                   align="center"
                   width="120"
-                  label="第四次">
+                  label="其中富余电">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_4 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_11" :disabled="true"  placeholder=""></el-input>
                     <el-input v-else="" :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_11" placeholder=""></el-input>
@@ -328,35 +307,29 @@
               </el-table-column>
               <el-table-column
                 align="center"
-                label="预计当月用电量"
+                label="第五次"
               >
                 <el-table-column
                   prop="data_12"
                   align="center"
                   width="120"
-                  label="第五次">
+                  label="预计当月用电量">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_5 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_12" :disabled="true"  placeholder=""></el-input>
                     <el-input v-else="" :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_12" placeholder=""></el-input>
                   </template>
                 </el-table-column>
-              </el-table-column>
-              <el-table-column
-                align="center"
-                label="其中富余电"
-              >
                 <el-table-column
                   align="center"
                   width="120"
                   prop="data_13"
-                  label="第五次">
+                  label="其中富余电">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_5 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_13" :disabled="true"  placeholder=""></el-input>
                     <el-input v-else="" :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_13" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
-
               <el-table-column
                 prop="data_14"
                 align="center"
@@ -918,6 +891,7 @@
     float: left;
     margin-left: 30px;
     margin-top: 10px;
+    margin-bottom: 5px;
   }
 
   .ma_ui_div p{
