@@ -80,7 +80,7 @@ export default new Router({
 
                   },
                   {   //售电合同 --》合同详情
-                    path: 'showPdf/:one',
+                    path: 'showPdf/:two/:one',
                     name:"showPdf",
                     component: resolve => require(['@/components/Contract/one/showPdf'],resolve),
 

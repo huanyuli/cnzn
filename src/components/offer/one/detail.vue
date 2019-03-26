@@ -24,7 +24,7 @@
             <div class="ma_ui_div">
               <p>年份：</p>
               <div class="input_ss">
-                <el-select style="width: 100%;"  size="medium" v-model="finds.find_1" placeholder="请选择">
+                <el-select style="width: 100%;"  @change="find_screen"  size="medium" v-model="finds.find_1" placeholder="请选择">
                   <el-option
                     v-for="item in form_1"
                     :key="item.value"
@@ -63,11 +63,11 @@
                   <div class="table_tr ">
                     <div class="table_td"><div class="table_td_w"><span>*</span>总电量</div></div>
                     <div class="table_td"><div class="table_td_w">/</div></div>
-                    <div class="table_td"><div class="table_td_w table_td_color">{{ruleThree.one_1 + ruleThree.one_2 + ruleThree.one_3 + ruleThree.one_4 + ruleThree.one_5 + ruleThree.one_6 + ruleThree.one_7 + ruleThree.one_8 + ruleThree.one_9 + ruleThree.one_10 + ruleThree.one_11 + ruleThree.one_12}}</div></div>
+                    <div class="table_td"><div class="table_td_w table_td_color">{{division_num(add_num(ruleThree.one_1) + add_num(ruleThree.one_2) + add_num(ruleThree.one_3) + add_num(ruleThree.one_4) + add_num(ruleThree.one_5) + add_num(ruleThree.one_6) + add_num(ruleThree.one_7) + add_num(ruleThree.one_8) + add_num(ruleThree.one_9) + add_num(ruleThree.one_10) + add_num(ruleThree.one_11) + add_num(ruleThree.one_12))}}</div></div>
                     <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w table_td_color" ></div></div>
-                    <div class="table_td" v-else=""><div class="table_td_w table_td_color" >{{ruleThree.two_6 + ruleThree.two_7 + ruleThree.two_8 + ruleThree.two_9 + ruleThree.two_10}}</div></div>
-                    <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w table_td_color">{{ruleThree.one_1 + ruleThree.one_2 + ruleThree.one_3 + ruleThree.one_4 + ruleThree.one_5 + ( ruleThree.one_6 ) + ( this.ruleThree.one_7) + ( this.ruleThree.one_8 ) + ( this.ruleThree.one_9 ) + ( this.ruleThree.one_10 ) + ruleThree.one_11 + ruleThree.one_12}}</div></div>
-                    <div class="table_td" v-else=""><div class="table_td_w table_td_color">{{ruleThree.one_1 + ruleThree.one_2 + ruleThree.one_3 + ruleThree.one_4 + ruleThree.one_5 + ( ruleThree.one_6 - ruleThree.two_6 ) + ( this.ruleThree.one_7 - this.ruleThree.two_7 ) + ( this.ruleThree.one_8 - this.ruleThree.two_8 ) + ( this.ruleThree.one_9 - this.ruleThree.two_9 ) + ( this.ruleThree.one_10 - this.ruleThree.two_10 ) + ruleThree.one_11 + ruleThree.one_12}}</div></div>
+                    <div class="table_td" v-else=""><div class="table_td_w table_td_color" >{{division_num(add_num(ruleThree.two_6) + add_num(ruleThree.two_7) + add_num(ruleThree.two_8) + add_num(ruleThree.two_9) + add_num(ruleThree.two_10))}}</div></div>
+                    <div class="table_td" v-if="this.isBigIndustry == true"><div class="table_td_w table_td_color">{{division_num(add_num(ruleThree.one_1) + add_num(ruleThree.one_2) + add_num(ruleThree.one_3) + add_num(ruleThree.one_4) + add_num(ruleThree.one_5) + add_num( ruleThree.one_6 ) + add_num( this.ruleThree.one_7) + add_num( this.ruleThree.one_8 ) + add_num( this.ruleThree.one_9 ) + add_num( this.ruleThree.one_10 ) + add_num(ruleThree.one_11) + add_num(ruleThree.one_12))}}</div></div>
+                    <div class="table_td" v-else=""><div class="table_td_w table_td_color">{{division_num(add_num(ruleThree.one_1) + add_num(ruleThree.one_2) + add_num(ruleThree.one_3) + add_num(ruleThree.one_4) + add_num(ruleThree.one_5) + ( add_num(ruleThree.one_6) - add_num(ruleThree.two_6) ) + ( add_num(this.ruleThree.one_7) - add_num(this.ruleThree.two_7) ) + ( add_num(this.ruleThree.one_8 - this.ruleThree.two_8) ) + ( add_num(this.ruleThree.one_9) - add_num(this.ruleThree.two_9) ) + ( add_num(this.ruleThree.one_10) - add_num(this.ruleThree.two_10) ) + add_num(ruleThree.one_11) + add_num(ruleThree.one_12))}}</div></div>
 
                   </div>
                   <div class="table_tr ">
@@ -554,14 +554,12 @@
         if(isNaN(item) || item == ""){
           item = 0;
           this.ruleThree[name] = 0
-        }else {  //(计划用电量-富余电前三年的平均数，且大于等于1万度才显示，否则为空)
-          console.log(item - this.surplusAvg)
+        }else {  //(计划用电量-富余电前三年的平均数，且大于等于1万度(1万千瓦时)才显示，否则为空)
           if((item - this.surplusAvg) >= 10000){
             this.ruleThree["two_" + names ] = item - this.surplusAvg
           }else{
             this.ruleThree["two_" + names ] = 0
           }
-
         }
       },
       find_list(data){ //查询列表
@@ -660,8 +658,8 @@
         });
       },
       submits(){ //提交
-
-        if(this.ruleThree.one_1 != "" && this.ruleThree.one_2 != "" && this.ruleThree.one_3 != "" && this.ruleThree.one_4 != "" && this.ruleThree.one_5 != "" && this.ruleThree.one_6 != "" && this.ruleThree.one_7 != "" && this.ruleThree.one_8 != "" && this.ruleThree.one_9 != "" && this.ruleThree.one_10 != "" && this.ruleThree.one_11 != "" && this.ruleThree.one_12 != "" ){
+console.log(this.ruleThree.one_1 != "" && this.ruleThree.one_1 != 0)
+//        if(this.ruleThree.one_1 != "" && this.ruleThree.one_2 != "" && this.ruleThree.one_3 != "" && this.ruleThree.one_4 != "" && this.ruleThree.one_5 != "" && this.ruleThree.one_6 != "" && this.ruleThree.one_7 != "" && this.ruleThree.one_8 != "" && this.ruleThree.one_9 != "" && this.ruleThree.one_10 != "" && this.ruleThree.one_11 != "" && this.ruleThree.one_12 != "" ){
 
             var _temp_sub = {
               customerQuotedId:this.par.id,
@@ -717,21 +715,33 @@
           });
 
 
-        }else{
-          this.$alert('请填写计划用电量', '提示', {
-            confirmButtonText: '确定',
-            callback: action => {
-              this.$message({
-                type: 'info',
-                message: `action: ${ action }`
-              });
-            }
-          });
-        }
+//        }else{
+//          this.$alert('请填写计划用电量', '提示', {
+//            confirmButtonText: '确定',
+//            callback: action => {
+////              this.$message({
+////                type: 'info',
+////                message: `action: ${ action }`
+////              });
+//            }
+//          });
+//        }
       },
       aff_cancel(){ //返回取消按钮
         this.$router.go(-1);
       },
+
+
+      add_num(val){   //小数相加，出现精度问题  先乘
+//        一是JS浮点数计算的bug, 另一个是和计算机最终转换成二进制计算有关系
+         return val * 1000
+
+      },
+      division_num(val){  //小数相加，出现精度问题 后除
+        return (val / 1000).toFixed(2)
+
+      },
+
     },
 //生命周期钩子函数，进入页面显示之前获取数据到store
     created () {

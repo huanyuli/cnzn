@@ -11,7 +11,7 @@
             <div class="ma_ui_div">
               <p>年份：</p>
               <div class="input_ss">
-                <el-select style="width: 49%;"  size="medium" v-model="finds.find_1" placeholder="">
+                <el-select style="width: 49%;" @change="find_screen"  size="medium" v-model="finds.find_1" placeholder="">
                   <el-option
                     v-for="item in form_1"
                     :key="item.value"
@@ -19,7 +19,7 @@
                     :value="item.value">
                   </el-option>
                 </el-select>
-                <el-select style="width: 49%;"  size="medium" v-model="finds.find_2" placeholder="">
+                <el-select style="width: 49%;" @change="find_screen"  size="medium" v-model="finds.find_2" placeholder="">
                   <el-option
                     v-for="item in form_2"
                     :key="item.value"
@@ -47,9 +47,10 @@
               :data="tableData"
               key="0"
               stripe
+
               :summary-method="getSummaries"
               show-summary
-              style="width: 100%;text-align: center"
+              style="width: 99.8%;text-align: center"
             >
               <el-table-column
                 prop="data_0"
@@ -215,7 +216,7 @@
                   label="预计当月用电量">
                   <template slot-scope="scope"  >
                     <el-input v-if="scope.row.data_lock_1 == 'lock' || scope.row.data_14s != null" :class="{input_color:scope.row.data_Source_1 == 'COPY'}"  :disabled="true"  v-model.number="scope.row.data_4" placeholder=""></el-input>
-                    <el-input v-else="" :class="{input_color:scope.row.data_Source_1 == 'COPY'}"  v-model.number="scope.row.data_4" placeholder=""></el-input>
+                    <el-input v-else=""  @change="change_s('data_4','data_5',scope.row.data_4,scope.$index)" :class="{input_color:scope.row.data_Source_1 == 'COPY'}"  v-model.number="scope.row.data_4" placeholder=""></el-input>
                   </template>
                 </el-table-column>
                 <el-table-column
@@ -224,8 +225,8 @@
                   prop="data_5"
                   label="其中富余电">
                   <template slot-scope="scope">
-                    <el-input v-if="scope.row.data_lock_1 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_1 == 'COPY'}" v-model.number="scope.row.data_5" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-else="" :class="{input_color:scope.row.data_Source_1 == 'COPY'}" v-model.number="scope.row.data_5" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_1 == 'lock' || scope.row.data_14s != null || scope.row.data_3 == 0  || (scope.row.data_3 != 0 && scope.row.data_5 == 0 )"  :class="{input_color:scope.row.data_Source_1 == 'COPY'}" v-model.number="scope.row.data_5" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else="" @change="change_fyd('data_5',scope.row.data_5,scope.$index)" :class="{input_color:scope.row.data_Source_1 == 'COPY'}" v-model.number="scope.row.data_5" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -240,7 +241,7 @@
                   label="预计当月用电量">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_2 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_6" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-else="" :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_6" placeholder=""></el-input>
+                    <el-input v-else="" @change="change_s('data_6','data_7',scope.row.data_6,scope.$index)" :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_6" placeholder=""></el-input>
                   </template>
                 </el-table-column>
                 <el-table-column
@@ -249,8 +250,8 @@
                   width="120"
                   label="其中富余电">
                   <template slot-scope="scope">
-                    <el-input v-if="scope.row.data_lock_2 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_7" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-else="" :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_7" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_2 == 'lock' || scope.row.data_14s != null || scope.row.data_3 == 0 || (scope.row.data_3 != 0 && scope.row.data_7 == 0 )"  :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_7" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else="" @change="change_fyd('data_7',scope.row.data_7,scope.$index)" :class="{input_color:scope.row.data_Source_2 == 'COPY'}" v-model.number="scope.row.data_7" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -266,7 +267,7 @@
                   label="预计当月用电量">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_3 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_8" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-else="" :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_8" placeholder=""></el-input>
+                    <el-input v-else="" @change="change_s('data_8','data_9',scope.row.data_8,scope.$index)" :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_8" placeholder=""></el-input>
                   </template>
                 </el-table-column>
                 <el-table-column
@@ -275,8 +276,8 @@
                   prop="data_9"
                   label="其中富余电">
                   <template slot-scope="scope">
-                    <el-input v-if="scope.row.data_lock_3 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_9" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-else="" :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_9" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_3 == 'lock' || scope.row.data_14s != null || scope.row.data_3 == 0|| (scope.row.data_3 != 0 && scope.row.data_9 == 0 )"  :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_9" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else=""  @change="change_fyd('data_9',scope.row.data_9,scope.$index)" :class="{input_color:scope.row.data_Source_3 == 'COPY'}" v-model.number="scope.row.data_9" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -291,7 +292,7 @@
                   label="预计当月用电量">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_4 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_10" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-else="" :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_10" placeholder=""></el-input>
+                    <el-input v-else="" @change="change_s('data_10','data_11',scope.row.data_10,scope.$index)" :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_10" placeholder=""></el-input>
                   </template>
                 </el-table-column>
                 <el-table-column
@@ -300,8 +301,8 @@
                   width="120"
                   label="其中富余电">
                   <template slot-scope="scope">
-                    <el-input v-if="scope.row.data_lock_4 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_11" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-else="" :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_11" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_4 == 'lock' || scope.row.data_14s != null || scope.row.data_3 == 0|| (scope.row.data_3 != 0 && scope.row.data_11 == 0 )"  :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_11" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else="" @change="change_fyd('data_11',scope.row.data_11,scope.$index)" :class="{input_color:scope.row.data_Source_4 == 'COPY'}" v-model.number="scope.row.data_11" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -316,7 +317,7 @@
                   label="预计当月用电量">
                   <template slot-scope="scope">
                     <el-input v-if="scope.row.data_lock_5 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_12" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-else="" :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_12" placeholder=""></el-input>
+                    <el-input v-else="" @change="change_s('data_12','data_13',scope.row.data_12,scope.$index)" :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_12" placeholder=""></el-input>
                   </template>
                 </el-table-column>
                 <el-table-column
@@ -325,8 +326,8 @@
                   prop="data_13"
                   label="其中富余电">
                   <template slot-scope="scope">
-                    <el-input v-if="scope.row.data_lock_5 == 'lock' || scope.row.data_14s != null"  :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_13" :disabled="true"  placeholder=""></el-input>
-                    <el-input v-else="" :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_13" placeholder=""></el-input>
+                    <el-input v-if="scope.row.data_lock_5 == 'lock' || scope.row.data_14s != null || scope.row.data_3 == 0 || (scope.row.data_3 != 0 && scope.row.data_13 == 0 )"  :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_13" :disabled="true"  placeholder=""></el-input>
+                    <el-input v-else="" @change="change_fyd('data_13',scope.row.data_13,scope.$index)" :class="{input_color:scope.row.data_Source_5 == 'COPY'}" v-model.number="scope.row.data_13" placeholder=""></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
@@ -338,7 +339,7 @@
               >
                 <template slot-scope="scope">
                   <el-input v-if=" scope.row.data_14s != null" :disabled="true" v-model.number="scope.row.data_14" placeholder=""></el-input>
-                  <el-input v-else="" @change="input_change"  v-model.number="scope.row.data_14" placeholder=""></el-input>
+                  <el-input v-else="" @change="input_change('data_14','data_15',scope.row.data_14,scope.$index)"  v-model.number="scope.row.data_14" placeholder=""></el-input>
                 </template>
               </el-table-column>
               <el-table-column
@@ -348,8 +349,8 @@
                 label="其中富余电"
               >
                 <template slot-scope="scope">
-                  <el-input v-if=" scope.row.data_14s != null" :disabled="true" v-model.number="scope.row.data_15" placeholder=""></el-input>
-                  <el-input v-else="" v-model.number="scope.row.data_15" placeholder=""></el-input>
+                  <el-input v-if=" scope.row.data_14s != null || scope.row.data_3 == 0 || (scope.row.data_3 != 0 && scope.row.data_15 == 0 )" :disabled="true" v-model.number="scope.row.data_15" placeholder=""></el-input>
+                  <el-input v-else="" @change="change_fyd('data_15',scope.row.data_15,scope.$index)"   v-model.number="scope.row.data_15" placeholder=""></el-input>
                 </template>
               </el-table-column>
               <el-table-column
@@ -359,7 +360,7 @@
                 label="备注"
               >
                 <template slot-scope="scope">
-                  <el-input v-if=" scope.row.data_14 != null" :disabled="true" v-model="scope.row.data_16" placeholder=""></el-input>
+                  <el-input v-if=" scope.row.data_14s != null" :disabled="true" v-model="scope.row.data_16" placeholder=""></el-input>
                   <el-input v-else="" v-model="scope.row.data_16" placeholder=""></el-input>
                 </template>
               </el-table-column>
@@ -532,12 +533,31 @@
 
     },
     methods: {
-      input_change(index,value){  //判断当前输入的实际用电量下标和值 （true为有数据，false为没有输入数据）
-         if(value != ""){
-           this.no_sj[index] = true
+      input_change(name,names,val,index){  //判断当前输入的实际用电量下标和值 （true为有数据，false为没有输入数据）
+         if(val != ""){
+//           this.no_sj[index] = true
+           this.no_sj[index] = false   //暂时屏蔽实际用电量
          }else{
            this.no_sj[index] = false
          }
+        if(this.no_fy == 1 && this.tableData[index].data_3 != 0){  //月份为6-10月，才有富余电,且富余电基数不为0
+          if(this.tableData[index].data_2 >= this.tableData[index].data_3 ){  //合同直购电量 >= 富余电基数
+//   本次计划用电量（预计当月用电量）-MAX（合同直购电量，富余电基数），默认值小于10万，其中富余电显示为0，不可修改
+//   默认值大于或等于10万，则显示正确的值，且可修改，但修改的值必须大于默认值。
+            if( val - this.tableData[index].data_2 < 100000){
+              this.tableData[index][names] = 0
+            }else{
+              this.tableData[index][names] = val - this.tableData[index].data_2
+            }
+
+          }else {  //合同直购电量 < 富余电基数
+            if( val - this.tableData[index].data_3 < 100000){
+              this.tableData[index][names] = 0
+            }else{
+              this.tableData[index][names] = val - this.tableData[index].data_3
+            }
+          }
+        }
       },
       current_change(val){
         this.page = val
@@ -583,19 +603,19 @@
         const sums = [];
         columns.forEach((column, index) => {
           if (index === 0) {
-            sums[index] = '总价';
+            sums[index] = '汇总';
             return;
           }
           const values = data.map(item => Number(item[column.property]));
           if (!values.every(value => isNaN(value))) {
-            sums[index] = values.reduce((prev, curr) => {
+            sums[index] = (values.reduce((prev, curr) => {
               const value = Number(curr);
               if (!isNaN(value)) {
                 return prev + curr;
               } else {
                 return prev;
               }
-            }, 0);
+            }, 0).toFixed(2));
           } else {
             sums[index] = ' ';
           }
@@ -621,6 +641,41 @@
           }
         });
       },
+      change_s(name,names,val,index){ //name:本次计划用电量的名称，names是当前其中富余电的名称，val：输入的值，index当前的下标
+        if(this.no_fy == 1 && this.tableData[index].data_3 != 0){  //月份为6-10月，才有富余电,且富余电基数不为0
+          if(this.tableData[index].data_2 >= this.tableData[index].data_3 ){  //合同直购电量 >= 富余电基数
+//   本次计划用电量（预计当月用电量）-MAX（合同直购电量，富余电基数），默认值小于10万，其中富余电显示为0，不可修改
+//   默认值大于或等于10万，则显示正确的值，且可修改，但修改的值必须大于默认值。
+           if( val - this.tableData[index].data_2 < 100000){
+             this.tableData[index][names] = 0
+           }else{
+             this.tableData[index][names] = val - this.tableData[index].data_2
+           }
+
+          }else {  //合同直购电量 < 富余电基数
+            if( val - this.tableData[index].data_3 < 100000){
+              this.tableData[index][names] = 0
+            }else{
+              this.tableData[index][names] = val - this.tableData[index].data_3
+            }
+          }
+        }
+
+
+          console.log(name,val,index)
+        console.log(this.tableData[index][name])
+      },
+      change_fyd(name,val,index){
+          if(val < 100000){
+            this.$alert('其中富余电输入必须大于100000，输入小于100000的富余电，默认显示100000', '提示信息', {
+              confirmButtonText: '确定',
+              callback: action => {
+                this.tableData[index][name] = 100000
+              }
+            });
+          }
+
+      },
       find_list(data){ //查询列表
 
         ajax_list.customerMonthPlanListService(data, res => {  //name
@@ -638,11 +693,28 @@
                 this.no_fy = 0
               }
             var _temp_type = this.tableData;
+
             $.map( this.find_lists.list,function(data){
+                if(data.surplusPowerBase == 0){
+                  var _data5 = 0
+                  var _data7 = 0
+                  var _data9 = 0
+                  var _data11 = 0
+                  var _data13 = 0
+                  var _data15 = 0
+                }else{
+                  var _data5 =  data.surplusPower1
+                  var _data7 = data.surplusPower2
+                  var _data9 = data.surplusPower3
+                  var _data11 = data.surplusPower4
+                  var _data13 = data.surplusPower5
+                  var _data15 = data.actualSurplusPower
+                }
+
               _temp_type.push({
                 data_id:data.id,
                 data_year:data.year,
-                data_month:data.month,
+                data_month:data.month, //月份
                 data_0: data.customerCode, //用户代码
                 data_1: data.customerName, //客户名称
                 data_2: data.contractPowerAmount, //当月合同直购电电量,
@@ -650,31 +722,32 @@
                 data_lock_1:data.lockStatus1, //"第一次 锁定状态（值为'lock'表示冻结）",
                 data_Source_1:data.dataSource1, //"第一次 数据来源(值为'INPUT'表示用户输入,为'COPY'表示复制上一次数据)",
                 data_4: data.usePowerAmount1,  //"第一次 预计当月用电量",
-                data_5: data.surplusPower1, //"第一次 其中富余电
+                data_5:_data5, //"第一次 其中富余电
 
                 data_lock_2:data.lockStatus2,
                 data_Source_2:data.dataSource2,
                 data_6: data.usePowerAmount2,
-                data_7: data.surplusPower2,
+                data_7: _data7,
 
                 data_lock_3:data.lockStatus3,
                 data_Source_3:data.dataSource3,
                 data_8: data.usePowerAmount3,
-                data_9: data.surplusPower3,
+                data_9: _data9,
 
                 data_lock_4:data.lockStatus4,
                 data_Source_4:data.dataSource4,
                 data_10: data.usePowerAmount4,
-                data_11: data.surplusPower4,
+                data_11: _data11,
 
                 data_lock_5:data.lockStatus5,
                 data_Source_5:data.dataSource5,
                 data_12: data.usePowerAmount5,
-                data_13: data.surplusPower5,
+                data_13: _data13,
 
                 data_14: data.actualUsePowerAmount, //实际用电量
-                data_14s: data.actualUsePowerAmount, //实际用电量
-                data_15: data.actualSurplusPower, //实际其中富余电
+            //    data_14s: data.actualUsePowerAmount, //实际用电量
+               data_14s: null, //实际用电量
+                data_15: _data15, //实际其中富余电
                 data_16: data.remark, //备注
 
               });
@@ -737,11 +810,12 @@
                     message: '保存成功',
                     type: 'success'
                   });
+                  this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +",'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
+                  this.find_list(this.par_form.find_area)
                 }
               });
 
-              this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +",'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
-              this.find_list(this.par_form.find_area)
+
             }).catch(() => {
 
             });
@@ -779,11 +853,12 @@
                   message: '保存成功',
                   type: 'success'
                 });
+                this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +",'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
+                this.find_list(this.par_form.find_area)
               }
             });
 
-            this.par_form.find_area = "{'year':"+ this.finds.find_1 +",'month':"+ this.finds.find_2 +",'page':'"+ this.page +"','limit':'"+ this.limit +"'}"
-            this.find_list(this.par_form.find_area)
+
           }
 
 

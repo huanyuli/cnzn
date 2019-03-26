@@ -1,10 +1,13 @@
 <template>
   <div>
-    <div class="marterial">
+    <div class="marterial pdf_div">
       <div class="ma_title">
         <div class="ma_title_left" @click="ret_add">
           <i class="el-icon-arrow-left"></i>
           <p>合同详情</p>
+        </div>
+        <div class="ma_right">
+          <el-button size="small" plain v-if="show_map(25) == 25"  @click="dele_deta" >删除</el-button>
         </div>
       </div>
       <div class="ma_content">
@@ -17,12 +20,16 @@
 </template>
 
 <script>
+  // 引入axios
+  import add_ajax from '../../../api/contract'
   export default {
     data() {
       return {
         one: {
           id: 1,
+          fid:1,
         },
+        menuList:{}
 
       }
     },
@@ -32,14 +39,46 @@
       ret_add(){
         this.$router.go(-1);
       },
+      show_map(id){
+        let obj = {};
+        if( this.menuList != ""){
+          obj =  this.menuList.find((item)=>{
+            return item.id === id;
+          });
+          if(obj != undefined){
+            return obj.id
+          }else{
+            return ""
+          }
+        }else {
+          return ""
+        }
+
+
+      },
+      dele_deta(){  //删除
+        this.fromdata = "{'id':" + this.one.fid + "}"
+        add_ajax.contractDeleteService(this.fromdata, res => {  //
+          this.$emit('login-success', res);
+        }, (res) => {
+          if(res.status == 200){
+            this.$message({
+              type: 'success',
+              message: '删除成功!'
+            });
+            this.$router.push('/Contract/sellElectric');
+          }
+        });
+      },
     },
 //生命周期钩子函数，进入页面显示之前获取数据到store
     created() {
 //      console.log(this.$route.params.one)
       this.one.id = this.$route.params.one
+      this.one.fid = this.$route.params.two
 //      this.one.type = this.$route.params.two
 //      this.find_date()
-//      this.menuList = JSON.parse(localStorage.getItem('menuList'));
+      this.menuList = JSON.parse(localStorage.getItem('menuList'));
 
 
     }
@@ -98,7 +137,11 @@
     float: left;
     margin-left: 10px;
   }
-
+  .pdf_div .ma_right {
+    width: calc(80px * 4);
+    float: right;
+    margin-top: 5px;
+  }
   .ma_content {
     width: 100%;
     /*min-height: calc(100vh - 61px - 51px - 16px);*/

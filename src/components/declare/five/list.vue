@@ -11,7 +11,7 @@
             <div class="ma_ui_div">
               <p>年份：</p>
               <div class="input_ss">
-                <el-select style="width: 100%;"  size="medium" v-model="finds.find_1" placeholder="请选择">
+                <el-select style="width: 100%;" @change="find_screen"  size="medium" v-model="finds.find_1" placeholder="请选择">
                   <el-option
                     v-for="item in form_1"
                     :key="item.value"
@@ -79,7 +79,7 @@
                   :data="tableData"
                   stripe
 
-                  style="width: 100%;text-align: center">
+                  style="width: 99.8%;text-align: center">
                   <el-table-column
                     type="index"
                     align="center"
@@ -166,7 +166,8 @@
                 <el-table
                   :data="tableData_1"
                   stripe
-                  style="width: 100%;text-align: center">
+                  border
+                  style="width: 99.8%;text-align: center">
                   <el-table-column
                     type="index"
                     align="center"
@@ -274,7 +275,8 @@
                 <el-table
                   :data="tableData_2"
                   stripe
-                  style="width: 100%;text-align: center">
+                  border
+                  style="width: 99.8%;text-align: center">
                   <el-table-column
                     type="index"
                     align="center"
@@ -817,6 +819,7 @@
                   type: 'success'
                 });
                 this.par_form.find_area = "{'year':" + this.finds.find_1 +  "}"
+
                 this.find_list(this.par_form.find_area)
               }
             });
@@ -892,8 +895,9 @@
           this.$refs["ruleForm"].resetFields();
         }
         this.linkAlert = true
-        var date=new Date;
-        this.ruleForm.vue_0 = date.getFullYear()
+//        var date=new Date;
+//        this.ruleForm.vue_0 = date.getFullYear()
+        this.ruleForm.vue_0 = this.finds.find_1
       },
       import_list(){
         var _temp_Export = "{'year':'"+ this.finds.find_1 +"','customerName':'"+ this.finds.find_2 +"','provinceCode':'" + this.finds.find_3 +"','cityCode':'"+ this.finds.find_4 +"'}"
@@ -1050,7 +1054,7 @@ console.log(_temp_Export)
     background-color: white;
   }
   .list_table{
-    width: 100%;
+    width: 99%;
     margin:0px auto;
     margin-top: 10px;
     margin-bottom: 10px;

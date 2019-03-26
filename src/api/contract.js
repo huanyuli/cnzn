@@ -53,6 +53,14 @@ contractSubmitService(params, success_callback, fail_callback) {
   },
 
   /**
+   *  /api/contractDeleteService 删除合同，以及关联数据（售电合同）
+   */
+  contractDeleteService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/contractDeleteService', params, success_callback, fail_callback);
+  },
+
+
+  /**
    *  /api/contractDownload 下载合同（get）
    */
   contractDownload(params, success_callback, fail_callback) {

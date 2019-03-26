@@ -36,8 +36,9 @@
             <el-table
               :data="tableData"
               stripe
+              border
               @selection-change="select_all"
-              style="width: 100%;text-align: center">
+              style="width: 99.8%;text-align: center">
 
               <el-table-column
                 prop="data_1"

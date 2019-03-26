@@ -34,7 +34,7 @@
             <div class="ma_ui_div">
               <p>年份：</p>
               <div class="input_ss">
-                <el-select style="width: 49%;" size="medium" v-model="finds.find_3" placeholder="">
+                <el-select style="width: 49%;" @change="find_screen" size="medium" v-model="finds.find_3" placeholder="">
                   <el-option
                     v-for="item in form_3"
                     :key="item.value"
@@ -42,7 +42,7 @@
                     :value="item.value">
                   </el-option>
                 </el-select>
-                <el-select style="width: 49%;"  size="medium" v-model="finds.find_4" placeholder="">
+                <el-select style="width: 49%;" @change="find_screen"  size="medium" v-model="finds.find_4" placeholder="">
                   <el-option
                     v-for="item in form_4"
                     :key="item.value"
@@ -71,8 +71,10 @@
                 <el-table
                   :data="tableData"
                   stripe
+                  border
                   show-summary
-                  style="width: 100%;text-align: center">
+                  sum-text="汇总"
+                  style="width: 99.8%;text-align: center">
                   <el-table-column
                     prop="data_0"
                     align="center"
@@ -215,18 +217,18 @@
 
                       <div class="table_tr">
                         <div class="table_td"><div class="table_td_w">已购合计</div></div>
-                        <div class="table_td"><div class="table_td_w">{{ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9}}</div></div>
-                        <div class="table_td"><div class="table_td_w">{{ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10}}</div></div>
+                        <div class="table_td"><div class="table_td_w">{{toFixed(ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9)}}</div></div>
+                        <div class="table_td"><div class="table_td_w">{{toFixed(ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10)}}</div></div>
                       </div>
                       <div class="table_tr">
                         <div class="table_td"><div class="table_td_w">按客户要求现存缺口</div></div>
-                        <div class="table_td"><div class="table_td_w">{{this.par_data.b - (ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9)}}</div></div>
-                        <div class="table_td"><div class="table_td_w">{{this.par_data.a - (ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10)}}</div></div>
+                        <div class="table_td"><div class="table_td_w">{{toFixed(this.par_data.b - (ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9))}}</div></div>
+                        <div class="table_td"><div class="table_td_w">{{toFixed(this.par_data.a - (ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10))}}</div></div>
                       </div>
                       <div class="table_tr">
                         <div class="table_td"><div class="table_td_w">按最大化富余电现存缺口</div></div>
-                        <div class="table_td"><div class="table_td_w">{{this.par_data.d - (ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9)}}</div></div>
-                        <div class="table_td"><div class="table_td_w">{{this.par_data.c - (ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10)}}</div></div>
+                        <div class="table_td"><div class="table_td_w">{{toFixed(this.par_data.d - (ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9))}}</div></div>
+                        <div class="table_td"><div class="table_td_w">{{toFixed(this.par_data.c - (ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10))}}</div></div>
                       </div>
                       <div class="table_tr">
                         <div class="table_td"><div class="table_td_w">本次拟购</div></div>
@@ -243,23 +245,23 @@
                       </div>
                       <div class="table_tr">
                         <div class="table_td"><div class="table_td_w">按客户要求剩余缺口</div></div>
-                        <div class="table_td"><div class="table_td_w">{{(this.par_data.b - (ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9)) - ruleThree.one_11}}</div></div>
-                        <div class="table_td"><div class="table_td_w">{{(this.par_data.a - (ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10)) - ruleThree.one_12}}</div></div>
+                        <div class="table_td"><div class="table_td_w">{{toFixed((this.par_data.b - (ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9)) - ruleThree.one_11)}}</div></div>
+                        <div class="table_td"><div class="table_td_w">{{toFixed((this.par_data.a - (ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10)) - ruleThree.one_12)}}</div></div>
                       </div>
                       <div class="table_tr">
                         <div class="table_td"><div class="table_td_w">按最大化富余电剩余缺口</div></div>
-                        <div class="table_td"><div class="table_td_w">{{(this.par_data.d - (ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9)) - ruleThree.one_11 }}</div></div>
-                        <div class="table_td"><div class="table_td_w">{{(this.par_data.c - (ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10)) - ruleThree.one_12}}</div></div>
+                        <div class="table_td"><div class="table_td_w">{{toFixed((this.par_data.d - (ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9)) - ruleThree.one_11) }}</div></div>
+                        <div class="table_td"><div class="table_td_w">{{toFixed((this.par_data.c - (ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10)) - ruleThree.one_12)}}</div></div>
                       </div>
                       <div class="table_tr">
                         <div class="table_td"><div class="table_td_w">按客户要求剩余缺口的偏差率</div></div>
-                        <div class="table_td"><div class="table_td_w">{{toPercent(((this.par_data.b - (ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9)) - ruleThree.one_11) /  ((ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9) + ruleThree.one_11))}}</div></div>
-                        <div class="table_td"><div class="table_td_w">{{toPercent(((this.par_data.a - (ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10)) - ruleThree.one_12) / ((ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10) + ruleThree.one_12))}}</div></div>
+                        <div class="table_td"><div class="table_td_w">{{(toPercent(((this.par_data.b - (ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9)) - ruleThree.one_11) /  ((ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9) + ruleThree.one_11)))}}</div></div>
+                        <div class="table_td"><div class="table_td_w">{{(toPercent(((this.par_data.a - (ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10)) - ruleThree.one_12) / ((ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10) + ruleThree.one_12)))}}</div></div>
                       </div>
                       <div class="table_tr">
                         <div class="table_td"><div class="table_td_w">按最大化富余电剩余缺口的偏差率</div></div>
-                        <div class="table_td"><div class="table_td_w">{{toPercent(((this.par_data.d - (ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9)) - ruleThree.one_11) / ((ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9) + ruleThree.one_11))}}</div></div>
-                        <div class="table_td"><div class="table_td_w">{{toPercent(((this.par_data.c - (ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10)) - ruleThree.one_12) / ((ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10) + ruleThree.one_12))}}</div></div>
+                        <div class="table_td"><div class="table_td_w">{{(toPercent(((this.par_data.d - (ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9)) - ruleThree.one_11) / ((ruleThree.one_1 + ruleThree.one_3 + ruleThree.one_5 + ruleThree.one_7 + ruleThree.one_9) + ruleThree.one_11)))}}</div></div>
+                        <div class="table_td"><div class="table_td_w">{{(toPercent(((this.par_data.c - (ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10)) - ruleThree.one_12) / ((ruleThree.one_2 + ruleThree.one_4 + ruleThree.one_6 + ruleThree.one_8 + ruleThree.one_10) + ruleThree.one_12)))}}</div></div>
                       </div>
                     </el-form>
 
@@ -461,18 +463,18 @@
 
                           <div class="table_tr">
                             <div class="table_td"><div class="table_td_w">已购合计</div></div>
-                            <div class="table_td"><div class="table_td_w">{{ruleTwo.one_1 + ruleTwo.one_3 + ruleTwo.one_5 + ruleTwo.one_7 + ruleTwo.one_9}}</div></div>
-                            <div class="table_td"><div class="table_td_w">{{ruleTwo.one_2 + ruleTwo.one_4 + ruleTwo.one_6 + ruleTwo.one_8 + ruleTwo.one_10}}</div></div>
+                            <div class="table_td"><div class="table_td_w">{{toFixed(ruleTwo.one_1 + ruleTwo.one_3 + ruleTwo.one_5 + ruleTwo.one_7 + ruleTwo.one_9)}}</div></div>
+                            <div class="table_td"><div class="table_td_w">{{toFixed(ruleTwo.one_2 + ruleTwo.one_4 + ruleTwo.one_6 + ruleTwo.one_8 + ruleTwo.one_10)}}</div></div>
                           </div>
                           <div class="table_tr">
                             <div class="table_td"><div class="table_td_w">按客户要求现存缺口</div></div>
-                            <div class="table_td"><div class="table_td_w">{{this.mn_par_data.b - (ruleTwo.one_1 + ruleTwo.one_3 + ruleTwo.one_5 + ruleTwo.one_7 + ruleTwo.one_9)}}</div></div>
-                            <div class="table_td"><div class="table_td_w">{{this.mn_par_data.a - (ruleTwo.one_2 + ruleTwo.one_4 + ruleTwo.one_6 + ruleTwo.one_8 + ruleTwo.one_10)}}</div></div>
+                            <div class="table_td"><div class="table_td_w">{{toFixed(this.mn_par_data.b - (ruleTwo.one_1 + ruleTwo.one_3 + ruleTwo.one_5 + ruleTwo.one_7 + ruleTwo.one_9))}}</div></div>
+                            <div class="table_td"><div class="table_td_w">{{toFixed(this.mn_par_data.a - (ruleTwo.one_2 + ruleTwo.one_4 + ruleTwo.one_6 + ruleTwo.one_8 + ruleTwo.one_10))}}</div></div>
                           </div>
                           <div class="table_tr">
                             <div class="table_td"><div class="table_td_w">按最大化富余电现存缺口</div></div>
-                            <div class="table_td"><div class="table_td_w">{{this.mn_par_data.d - (ruleTwo.one_1 + ruleTwo.one_3 + ruleTwo.one_5 + ruleTwo.one_7 + ruleTwo.one_9)}}</div></div>
-                            <div class="table_td"><div class="table_td_w">{{this.mn_par_data.c - (ruleTwo.one_2 + ruleTwo.one_4 + ruleTwo.one_6 + ruleTwo.one_8 + ruleTwo.one_10)}}</div></div>
+                            <div class="table_td"><div class="table_td_w">{{toFixed(this.mn_par_data.d - (ruleTwo.one_1 + ruleTwo.one_3 + ruleTwo.one_5 + ruleTwo.one_7 + ruleTwo.one_9))}}</div></div>
+                            <div class="table_td"><div class="table_td_w">{{toFixed(this.mn_par_data.c - (ruleTwo.one_2 + ruleTwo.one_4 + ruleTwo.one_6 + ruleTwo.one_8 + ruleTwo.one_10))}}</div></div>
                           </div>
                           <div class="table_tr">
                             <div class="table_td"><div class="table_td_w">本次拟购</div></div>
@@ -489,13 +491,13 @@
                           </div>
                           <div class="table_tr">
                             <div class="table_td"><div class="table_td_w">按客户要求剩余缺口</div></div>
-                            <div class="table_td"><div class="table_td_w">{{(this.mn_par_data.b - (ruleTwo.one_1 + ruleTwo.one_3 + ruleTwo.one_5 + ruleTwo.one_7 + ruleTwo.one_9)) - ruleTwo.one_11}}</div></div>
-                            <div class="table_td"><div class="table_td_w">{{(this.mn_par_data.a - (ruleTwo.one_2 + ruleTwo.one_4 + ruleTwo.one_6 + ruleTwo.one_8 + ruleTwo.one_10)) - ruleTwo.one_12}}</div></div>
+                            <div class="table_td"><div class="table_td_w">{{toFixed((this.mn_par_data.b - (ruleTwo.one_1 + ruleTwo.one_3 + ruleTwo.one_5 + ruleTwo.one_7 + ruleTwo.one_9)) - ruleTwo.one_11)}}</div></div>
+                            <div class="table_td"><div class="table_td_w">{{toFixed(((this.mn_par_data.a - (ruleTwo.one_2 + ruleTwo.one_4 + ruleTwo.one_6 + ruleTwo.one_8 + ruleTwo.one_10)) - ruleTwo.one_12))}}</div></div>
                           </div>
                           <div class="table_tr">
                             <div class="table_td"><div class="table_td_w">按最大化富余电剩余缺口</div></div>
-                            <div class="table_td"><div class="table_td_w">{{(this.mn_par_data.d - (ruleTwo.one_1 + ruleTwo.one_3 + ruleTwo.one_5 + ruleTwo.one_7 + ruleTwo.one_9)) - ruleTwo.one_11 }}</div></div>
-                            <div class="table_td"><div class="table_td_w">{{(this.mn_par_data.c - (ruleTwo.one_2 + ruleTwo.one_4 + ruleTwo.one_6 + ruleTwo.one_8 + ruleTwo.one_10)) - ruleTwo.one_12}}</div></div>
+                            <div class="table_td"><div class="table_td_w">{{toFixed((this.mn_par_data.d - (ruleTwo.one_1 + ruleTwo.one_3 + ruleTwo.one_5 + ruleTwo.one_7 + ruleTwo.one_9)) - ruleTwo.one_11 )}}</div></div>
+                            <div class="table_td"><div class="table_td_w">{{toFixed((this.mn_par_data.c - (ruleTwo.one_2 + ruleTwo.one_4 + ruleTwo.one_6 + ruleTwo.one_8 + ruleTwo.one_10)) - ruleTwo.one_12)}}</div></div>
                           </div>
                           <div class="table_tr">
                             <div class="table_td"><div class="table_td_w">按客户要求剩余缺口的偏差率</div></div>
@@ -843,9 +845,10 @@
           }else{
               str ="0%"
           }
-
-
         return str;
+      },
+      toFixed(val){
+          return (val).toFixed(2);
       },
       change_3(){ //地区
         if(this.finds.find_1 != ""){

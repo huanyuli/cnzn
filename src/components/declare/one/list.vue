@@ -11,7 +11,7 @@
             <div class="ma_ui_div">
               <p>年份：</p>
               <div class="input_ss">
-                <el-select style="width: 100%;"  size="medium" v-model="finds.find_1" placeholder="请选择">
+                <el-select style="width: 100%;"  @change="find_screen" size="medium" v-model="finds.find_1" placeholder="请选择">
                   <el-option
                     v-for="item in form_1"
                     :key="item.value"
@@ -76,9 +76,10 @@
             <el-table
               :data="tableData"
               stripe
+              border
               show-summary
               sum-text="汇总"
-              style="width: 100%;text-align: center">
+              style="width: 99.8%;text-align: center">
               <el-table-column
                 prop="data_0"
                 align="center"

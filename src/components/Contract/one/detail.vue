@@ -41,6 +41,7 @@
             <el-button plain v-print="'#printTest'">打印</el-button>
             <el-button plain @click="download_deta">下载</el-button>
             <el-button plain v-if="this.deta_list.contract.contractStatus  == '草稿' ||  this.deta_list.contract.contractStatus  == '审批未通过' || (this.deta_list.contract.contractStatus  != '已结束' && show_map(23) == 23)"  @click="edit_deta" >编辑</el-button>
+            <el-button plain v-if="show_map(25) == 25"  @click="dele_deta" >删除</el-button>
           </div>
         </div>
         <div class="cont_frame_div">
@@ -1481,6 +1482,20 @@
       },
       edit_deta(){  //编辑
         this.$router.push({name:'oneDeit',params:{one:this.one.id}});
+      },
+      dele_deta(){  //删除
+        this.fromdata = "{'id':" + this.one.id + "}"
+        add_ajax.contractDeleteService(this.fromdata, res => {  //
+          this.$emit('login-success', res);
+        }, (res) => {
+          if(res.status == 200){
+            this.$message({
+              type: 'success',
+              message: '删除成功!'
+            });
+            this.$router.push('/Contract/sellElectric');
+          }
+        });
       },
       get_times(str){ //转换时间戳
        // console.log(str)

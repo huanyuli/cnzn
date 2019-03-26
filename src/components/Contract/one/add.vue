@@ -635,16 +635,19 @@
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">合计</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    {{this.ruleThree.three_1_1 + this.ruleThree.three_2_1 + this.ruleThree.three_3_1 + this.ruleThree.three_4_1 + this.ruleThree.three_5_1 + this.ruleThree.three_6_1 + this.ruleThree.three_7_1 + this.ruleThree.three_8_1 + this.ruleThree.three_9_1 + this.ruleThree.three_10_1 + this.ruleThree.three_11_1 + this.ruleThree.three_12_1}}
+                    {{toFixeds(number_s(this.ruleThree.three_1_1) + number_s(this.ruleThree.three_2_1) + number_s(this.ruleThree.three_3_1) + number_s(this.ruleThree.three_4_1) + number_s(this.ruleThree.three_5_1)
+                    + number_s(this.ruleThree.three_6_1) + number_s(this.ruleThree.three_7_1) + number_s(this.ruleThree.three_8_1) + number_s(this.ruleThree.three_9_1) + number_s(this.ruleThree.three_10_1)
+                    + number_s(this.ruleThree.three_11_1) + number_s(this.ruleThree.three_12_1))}}
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
-                    {{this.ruleThree.three_1_2 + this.ruleThree.three_2_2 + this.ruleThree.three_3_2 + this.ruleThree.three_4_2 + this.ruleThree.three_5_2 + this.ruleThree.three_6_2
-                  + this.ruleThree.three_7_2 + this.ruleThree.three_8_2 + this.ruleThree.three_9_2 + this.ruleThree.three_10_2 + this.ruleThree.three_11_2 + this.ruleThree.three_12_2}}
+                    {{toFixeds(number_s(this.ruleThree.three_1_2) + number_s(this.ruleThree.three_2_2) + number_s(this.ruleThree.three_3_2) + number_s(this.ruleThree.three_4_2) + number_s(this.ruleThree.three_5_2)
+                    + number_s(this.ruleThree.three_6_2)+ number_s(this.ruleThree.three_7_2) + number_s(this.ruleThree.three_8_2) + number_s(this.ruleThree.three_9_2) +
+                    number_s(this.ruleThree.three_10_2) + number_s(this.ruleThree.three_11_2) + number_s(this.ruleThree.three_12_2))}}
                   </div></div>
                   <div class="table_td"><div class="table_td_w">/</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    {{this.ruleThree.three_1_4 + this.ruleThree.three_2_4 + this.ruleThree.three_3_4 + this.ruleThree.three_4_4 + this.ruleThree.three_5_4 + this.ruleThree.three_6_4
-                  + this.ruleThree.three_7_4 + this.ruleThree.three_8_4 + this.ruleThree.three_9_4 + this.ruleThree.three_10_4 + this.ruleThree.three_11_4 + this.ruleThree.three_12_4}}
+                    {{toFixeds(number_s(this.ruleThree.three_1_4) + number_s(this.ruleThree.three_2_4) + number_s(this.ruleThree.three_3_4) + number_s(this.ruleThree.three_4_4) + number_s(this.ruleThree.three_5_4) + number_s(this.ruleThree.three_6_4)
+                  + number_s(this.ruleThree.three_7_4) + number_s(this.ruleThree.three_8_4) + number_s(this.ruleThree.three_9_4) + number_s(this.ruleThree.three_10_4) + number_s(this.ruleThree.three_11_4) + number_s(this.ruleThree.three_12_4))}}
                   </div></div>
                   <div class="table_td"><div class="table_td_w">/</div></div>
                   <div class="table_td"><div class="table_td_w">/</div></div>
@@ -898,11 +901,11 @@
                 <div class="table_tr">
                   <div class="table_td"><div class="table_td_w">合计</div></div>
                   <div class="table_td"><div class="table_td_w">
-                    {{this.ruleFour.four_6_1 + this.ruleFour.four_7_1 + this.ruleFour.four_8_1 + this.ruleFour.four_9_1 + this.ruleFour.four_10_1}}
+                    {{toFixeds(number_s(this.ruleFour.four_6_1) + number_s(this.ruleFour.four_7_1) + number_s(this.ruleFour.four_8_1) + number_s(this.ruleFour.four_9_1) + number_s(this.ruleFour.four_10_1))}}
                   </div></div>
                   <div class="table_td"><div class="table_td_w">
-                    {{this.ruleFour.four_6_2
-                  + this.ruleFour.four_7_2 + this.ruleFour.four_8_2 + this.ruleFour.four_9_2 + this.ruleFour.four_10_2}}
+                    {{toFixeds(number_s(this.ruleFour.four_6_2)
+                  + number_s(this.ruleFour.four_7_2) + number_s(this.ruleFour.four_8_2) + number_s(this.ruleFour.four_9_2) + number_s(this.ruleFour.four_10_2))}}
                   </div></div>
                   <div class="table_td"><div class="table_td_w">/</div></div>
                   <div class="table_td"><div class="table_td_w">/</div></div>
@@ -2683,6 +2686,16 @@
 
           }
         });
+      },
+      number_s(val){
+        return val * 1000
+      },
+      toFixeds(val){
+        if(val != 0){
+          return (val / 1000).toFixed(2);
+        }else{
+          return (val / 1000);
+        }
       },
       add_one(){
         var _temp = this.istype;

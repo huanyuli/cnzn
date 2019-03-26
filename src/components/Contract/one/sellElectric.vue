@@ -159,11 +159,13 @@
                 :action="this.url_action"
                 :on-success="handleSuccess"
                 :on-progress="handProgress"
+                accept=".pdf"
                 name="file"
                 :show-file-list="this.show_file_list"
                 :data="this.url_data"
               >
                 <el-button size="small" :loading="this.load_add" type="primary" >导入合同</el-button></el-upload>
+              <div slot="tip" class="el-upload__tip">仅支持 pdf 格式</div>
             </div>
             <!--<div class='wi_btn'> <el-button size="small" @click="import_list_m"><i class="el-icon-download"></i>下载导入模板</el-button></div>-->
           </div>
@@ -383,7 +385,9 @@
         if(type == "INPUT"){
           this.$router.push({name:'sellDetail',params:{one:id}});
         }else{
-         this.$router.push({name:'showPdf',params:{one:this.list_con.list[index].filePath}});
+         this.$router.push({name:'showPdf',params:{one:this.list_con.list[index].filePath,two:id}});
+          console.log("http://39.98.43.90/downloads?fileId=" + this.list_con.list[index].filePath)
+
         }
 
 //

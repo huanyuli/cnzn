@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="marterial">
+    <div class="two_list marterial">
       <div class="ma_title">
         <span></span>
         <p>角色管理</p>
@@ -33,8 +33,8 @@
             <el-table
               :data="tableData"
               stripe
-
-              style="width: 100%;text-align: center">
+              border
+              style="width: 99.8%;text-align: center">
               <el-table-column
                 prop="data_1"
                 align="center"
@@ -89,7 +89,7 @@
       </div>
     </div>
     <!--<router-view></router-view>-->
-    <div class="add_alert">
+    <div class="two_list add_alert">
       <el-dialog  title="添加角色" width="40%"  :visible.sync="linkAlert">
         <div class='add_div'>
           <div class='add_div_one'>
@@ -890,7 +890,7 @@
  .select_tree .el-icon-arrow-down{
    float: right;
  }
-  .el-dropdown-menu{
+  .two_list .el-dropdown-menu{
     padding: 10px 30px!important;
   }
  /*.el-popper[x-placement^=bottom]{*/

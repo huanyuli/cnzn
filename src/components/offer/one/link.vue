@@ -11,7 +11,7 @@
             <div class="ma_ui_div">
               <p>年份：</p>
               <div class="input_ss">
-                <el-select style="width: 100%;"  size="medium" v-model="finds.find_1" placeholder="请选择">
+                <el-select style="width: 100%;"  @change="find_screen"  size="medium" v-model="finds.find_1" placeholder="请选择">
                   <el-option
                     v-for="item in form_1"
                     :key="item.value"
@@ -75,8 +75,8 @@
             <el-table
               :data="tableData"
               stripe
-
-              style="width: 100%;text-align: center">
+              border
+              style="width: 99.8%;text-align: center">
               <el-table-column
                 prop="data_1"
                 align="center"
@@ -672,7 +672,8 @@
 
 
 
-      }
+      },
+
     },
 //生命周期钩子函数，进入页面显示之前获取数据到store
     created () {
@@ -852,7 +853,7 @@
     min-height: calc(100vh - 500px)!important;
   }
   .list_table{
-    width: 96%;
+    width: 97%;
     margin:0px auto;
     margin-top: 40px;
     margin-bottom: 10px;

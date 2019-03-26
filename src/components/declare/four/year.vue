@@ -11,7 +11,7 @@
             <div class="ma_ui_div">
               <p>年份：</p>
               <div class="input_ss">
-                <el-select style="width: 100%;" size="medium" v-model="finds.find_1" placeholder="">
+                <el-select style="width: 100%;" @change="find_screen" size="medium" v-model="finds.find_1" placeholder="">
                   <el-option
                     v-for="item in form_1"
                     :key="item.value"
@@ -86,6 +86,7 @@
                   stripe
                   show-summary
                   sum-text="汇总"
+                  :summary-method="getSummaries"
                   style="width: 100%;text-align: center">
                   <el-table-column
                     prop="data_0"
@@ -364,6 +365,7 @@
                 <el-table
                   :data="tableData_1"
                   stripe
+                  border
                   show-summary
                   sum-text="汇总"
                   style="width: 100%;text-align: center">
@@ -484,6 +486,7 @@
                 <el-table
                   :data="tableData_2"
                   stripe
+                  border
                   style="width: 100%;text-align: center">
                   <el-table-column
                     prop="data_1"
@@ -892,6 +895,42 @@
 
     },
     methods: {
+      getSummaries(param) {
+        const { columns, data } = param;
+        const sums = [];
+        columns.forEach((column, index) => {
+          if (index === 0) {
+            sums[index] = '汇总';
+            return;
+          }else if(index === 1){
+            sums[index] = '';
+            return;
+          }
+          const values = data.map(item => Number(item[column.property]));
+          if (!values.every(value => isNaN(value))) {
+            sums[index] = values.reduce((prev, curr) => {
+              const value = Number(curr);
+
+              if (!isNaN(value)) {
+                  var _temp = parseFloat(prev) + parseFloat(curr)   //转换为数字相加
+                return _temp;
+              } else {
+                var _temp = parseFloat(prev)
+//                _temp =  _temp.toFixed(2)
+
+                return _temp;
+              }
+            }, 0);
+//            sums[index] = Math.floor(sums[index] * 100) / 100    //获取小数点后两位，不四舍五入
+            sums[index] =  sums[index].toFixed(2)  //获取小数点后两位，四舍五入
+          } else {
+//            sums[index] = 'N/A';
+            sums[index] = '';
+          }
+        });
+
+        return sums;
+      },
       set_add(){
           this.linkAlerts = true
           this.$refs["ruleForm_1"].resetFields();
@@ -1124,7 +1163,7 @@
         this.no_find = tab.index
         var _temp_data = "{}"
         if(tab.index == 0){  //客户用电情况
-          _temp_data ="{'year':"+ this.finds.find_1 +",'customerName':'"+  this.value9 +"'}"
+          _temp_data ="{'year':"+ this.finds.find_1 +",'customerName':'"+  this.value9 +"','dataSourceType':'"+  this.finds.find_4 +"'}"
         }else if(tab.index == 1){ //已购电情况
           _temp_data ="{'year':"+ this.finds.find_1 +",'powerPlantName':'"+  this.finds.find_2 +"'}"
         }else if(tab.index == 2){ //用电缺口

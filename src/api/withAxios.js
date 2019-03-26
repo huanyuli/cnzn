@@ -5,7 +5,7 @@ import baseUrl from "../assets/js/baseurl"
 export default {
 
   /**
-   * 请求API公用函数
+   * 请求API公用函数(普通接口)
    * @param httpMethod 请求方法（GET POST PUT PATCH DELETE）
    * @param urlType URL类型
    * @param path api路径
@@ -69,6 +69,14 @@ export default {
       }
     });
   },
+
+  /**
+   * 请求API公用函数（上传使用FormData类型，暂时没用）
+   * @param httpMethod 请求方法（GET POST PUT PATCH DELETE）
+   * @param urlType URL类型
+   * @param path api路径
+   * @param params 请求参数
+   */
   requestFormData(path,file, params, success_callback, fail_callback) {
     let token = localStorage.getItem('adminToken') || '';
     let selfId = localStorage.getItem('adminSelfId') || '';
@@ -111,10 +119,19 @@ export default {
     }); // 发送请求
 
   },
+
+  /**
+   * 请求API公用函数（下载方法，使用window.open简单下载）
+   * @param httpMethod 请求方法（GET POST PUT PATCH DELETE）
+   * @param urlType URL类型
+   * @param path api路径
+   * @param params 请求参数
+   */
   requestExportService(httpMethod,urlType,path, params, success_callback, fail_callback) {
     let selfId = localStorage.getItem('adminSelfId') || '';
-    var _temp =process.env.API_ROOT + path +"?version=1.0&selfId= "+ selfId +"&data="+ params
-    console.log(encodeURI(_temp))
+    let token = localStorage.getItem('adminToken') || '';
+    var _temp =process.env.API_ROOT + path +"?version=1.0&token="+ token +"&selfId= "+ selfId +"&data="+ params
+  //  console.log(encodeURI(_temp))
     window.open(encodeURI(_temp))
   },
 }
