@@ -1702,7 +1702,7 @@
   }
 
   .ma_left {
-    width: calc(100% - 320px);
+    width: calc(100% - 410px);
     float: left;
   }
 
@@ -1786,7 +1786,7 @@
   }
 
   .ma_right {
-    width: calc(80px * 4);
+    width: calc(80px * 5);
     float: right;
   }
 

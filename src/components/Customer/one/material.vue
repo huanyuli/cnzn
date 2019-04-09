@@ -160,7 +160,7 @@
                 :show-file-list="this.show_file_list"
                 :data="this.url_data"
               >
-                <el-button size="small" type="primary" >导入数据</el-button></el-upload>
+                <el-button size="small" type="primary"  :loading="this.load_add_0">导入数据</el-button></el-upload>
             </div>
             <div class='wi_btn'> <el-button size="small" @click="import_list_m"><i class="el-icon-download"></i>下载导入模板</el-button></div>
           </div>
@@ -188,7 +188,7 @@
                 :data="this.url_data"
                 multiple
               >
-                <el-button size="small" type="primary" >继续导入</el-button></el-upload>
+                <el-button size="small" type="primary" :loading="this.load_add_0">继续导入</el-button></el-upload>
             </div>
             <div class='wi_btn'> <el-button size="small" @click="d_close('s')">关闭</el-button></div>
           </div>
@@ -216,7 +216,7 @@
                 :data="this.url_data"
                 multiple
               >
-                <el-button size="small" type="primary" >重新导入</el-button></el-upload>
+                <el-button size="small" type="primary" :loading="this.load_add_0">重新导入</el-button></el-upload>
               <el-button size="small" @click="d_close('e')">关闭</el-button>
             </div>
           </div>
@@ -241,6 +241,7 @@
         url_action:"",
         url_data:{},
         d_success:false,
+        load_add_0:false,
         d_error:false,
         show_file_list:false,
         dialogTableVisible_s:false,
@@ -310,7 +311,7 @@
     },
     methods: {
       handleSuccess(response, file, fileList){
-
+          this.load_add_0 = true
         if(response.status == 200){
           if( response.body.failSize != 0){ //有错误消息
             this.dialogTableVisible_s = false
@@ -319,16 +320,25 @@
             this.d_failList = response.body.failList
             this.d_list_index = response.body.successSize
             this.d_fail_index = response.body.failSize
+            this.load_add_0 = false
+            this.page = 1
+            this.formData = "{'page':'"+ this.page +"','limit':'"+ this.limit +"','signStatus': '"+ this.contract_Status +"','provinceCode':'"+ this.contract_Type +"','cityCode':'"+ this.contract_city +"','name':'"+ this.value9 +"','businessId':'"+ this.value9_s +"','industry':'"+ this.time_value +"'}",
+              //  console.log(this.formData)
+              this.list_find(this.formData,2)
           }else{
             this.dialogTableVisible_s = false
             this.d_error = false
             this.d_success = true
             this.d_list_index = response.body.successSize
+            this.load_add_0 = false
+            this.page = 1
+            this.formData = "{'page':'"+ this.page +"','limit':'"+ this.limit +"','signStatus': '"+ this.contract_Status +"','provinceCode':'"+ this.contract_Type +"','cityCode':'"+ this.contract_city +"','name':'"+ this.value9 +"','businessId':'"+ this.value9_s +"','industry':'"+ this.time_value +"'}",
+              //  console.log(this.formData)
+              this.list_find(this.formData,2)
           }
-          this.page = 1
-          this.formData = "{'page':'"+ this.page +"','limit':'"+ this.limit +"','signStatus': '"+ this.contract_Status +"','provinceCode':'"+ this.contract_Type +"','cityCode':'"+ this.contract_city +"','name':'"+ this.value9 +"','businessId':'"+ this.value9_s +"','industry':'"+ this.time_value +"'}",
-            //  console.log(this.formData)
-            this.list_find(this.formData,2)
+
+        }else {
+          this.load_add_0 = false
         }
 
       },
