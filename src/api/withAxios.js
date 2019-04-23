@@ -60,6 +60,7 @@ export default {
       fail_callback && fail_callback(res.data);
 
     }).catch(function (errormsg) {
+      console.log('errormsg', errormsg)
       if (errormsg) {
         Message({
           type: 'warning',
@@ -131,7 +132,9 @@ export default {
     let selfId = localStorage.getItem('adminSelfId') || '';
     let token = localStorage.getItem('adminToken') || '';
     var _temp =process.env.API_ROOT + path +"?version=1.0&token="+ token +"&selfId= "+ selfId +"&data="+ params
-  //  console.log(encodeURI(_temp))
-    window.open(encodeURI(_temp))
+    if(urlType === 3){
+      _temp = encodeURI(_temp)
+    }
+    window.open(_temp)
   },
 }

@@ -30,7 +30,7 @@ export default {
  *  /api/customerMonthPlanListService 每月计划用电量列表
  */
 customerMonthPlanListService(params, success_callback, fail_callback) {
-  withAxios.requestData('POST', 3,'/api/customerMonthPlanListService', params, success_callback, fail_callback);
+  withAxios.requestData('POST', 3,'/api/customerMonthPlanUsePowerListService', params, success_callback, fail_callback);
 },
 
   /**
@@ -43,7 +43,7 @@ customerMonthPlanListService(params, success_callback, fail_callback) {
    *  /api/customerMonthPlanSaveService 保存计划用电量
    */
   customerMonthPlanSaveService(params, success_callback, fail_callback) {
-    withAxios.requestData('POST', 3,'/api/customerMonthPlanSaveService', params, success_callback, fail_callback);
+    withAxios.requestData('POST', 3,'/api/customerMonthPlanUsePowerSaveService', params, success_callback, fail_callback);
   },
 
   /**
@@ -137,7 +137,7 @@ customerMonthPlanListService(params, success_callback, fail_callback) {
    * /api/customerMonthPlanExportService 每月计划用电量导出
    */
   customerMonthPlanExportService(params, success_callback, fail_callback) {
-    withAxios.requestExportService('POST', 3,'/api/customerMonthPlanExportService', params, success_callback, fail_callback);
+    withAxios.requestExportService('POST', 0,'/api/customerMonthPlanUsePowerExportService', params, success_callback, fail_callback);
   },
 
   /**
