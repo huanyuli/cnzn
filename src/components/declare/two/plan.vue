@@ -533,7 +533,7 @@ export default {
           invoiceAmount: item.invoiceAmount,
           realAmount: item.realAmount,
           deviation: item.deviation,
-          deviationRate: item.deviationRate,
+          deviationRate: item.deviationRate.replace('%',''),
           remark: item.remark
         };
       });
