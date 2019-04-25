@@ -42,15 +42,17 @@
               </div>
             </div>
             <div class="ma_ui_div">
-              <P>用户代码：</P>
-              <div class="input_ss">
-                <el-input v-model="finds.customerCode"></el-input>
-              </div>
-            </div>
-            <div class="ma_ui_div">
               <P>客户名称：</P>
               <div class="input_ss">
                 <el-input v-model="finds.customerName"></el-input>
+              </div>
+            </div>
+            </div>
+            <div class="div_row">
+            <div class="ma_ui_div">
+              <P>用户代码：</P>
+              <div class="input_ss">
+                <el-input v-model="finds.customerCode"></el-input>
               </div>
             </div>
             <div class="ma_ui_div" style="padding-bottom: 10px">
@@ -63,7 +65,7 @@
           <el-button size="small" type="primary" @click="import_list">导出列表</el-button>
         </div>
         <div v-if="this.no_val == 1" class="content_list page_height">
-          <p class="table_title">电量单位：千瓦时（kWh）</p>
+          <p class="table_title">电量单位：兆瓦时（MWh）</p>
           <div class="list_table">
             <el-table :data="tableData" key="0" stripe style="width: 99.8%;text-align: center">
               <el-table-column prop="yearMonth" align="center" width="120" label="时间"></el-table-column>
@@ -86,6 +88,7 @@
                       type="number"
                       v-model.number="row.userReportAmount"
                       @change="onChangeInput(row.index)"
+                      :class="[{'userReportAmount':row.userReportAmount === row.realAmount}]"
                     ></el-input>
                   </template>
                 </el-table-column>
@@ -95,6 +98,7 @@
                       type="number"
                       v-model.number="row.userHotLineAmount"
                       @change="onChangeInput(row.index)"
+                      :class="[{'userHotLineAmount':row.userHotLineAmount === row.realAmount}]"
                     ></el-input>
                   </template>
                 </el-table-column>
@@ -104,14 +108,29 @@
                       type="number"
                       v-model.number="row.invoiceAmount"
                       @change="onChangeInput(row.index)"
+                      :class="[{'invoiceAmount':row.invoiceAmount === row.realAmount}]"
                     ></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
 
-              <el-table-column prop="realAmount" align="center" label="计算用值"></el-table-column>
+              <el-table-column align="center" label="计算用值" >
+                <template slot-scope="{row}">
+                    <div
+                    :class="[{'invoiceAmount':row.invoiceAmount === row.realAmount},{'userHotLineAmount':row.userHotLineAmount === row.realAmount},{'userReportAmount':row.userReportAmount === row.realAmount}]"
+                    >
+                    {{row.realAmount}}
+                    </div>
+                  </template>
+              </el-table-column>
               <el-table-column prop="deviation" align="center" label="与合同偏差"></el-table-column>
-              <el-table-column prop="deviationRate" align="center" label="与合同偏差百分比"></el-table-column>
+              <el-table-column align="center" label="与合同偏差百分比">
+                  <template slot-scope="{row}">
+                    <div :class="[{'warning': Number(row.deviationRate) > 30 || Number(row.deviationRate) < -30}]">
+                    {{row.deviationRate}}%
+                    </div>
+                  </template>
+              </el-table-column>
 
               <el-table-column prop="remark" align="center" label="备注">
                 <template slot-scope="scope">
@@ -283,9 +302,9 @@ export default {
         data.userHotLineAmount ||
         data.userReportAmount;
       var deviation = 0;
-      deviation = realAmount - contractPowerAmount;
+      deviation = (realAmount - contractPowerAmount).toFixed(2);
       var deviationRate =
-        ((deviation / contractPowerAmount) * 100).toFixed(2) + "%";
+        ((deviation / contractPowerAmount) * 100).toFixed(2);
       data.realAmount = realAmount;
       if (contractPowerAmount) {
         data.deviation = deviation;
@@ -478,9 +497,9 @@ export default {
             var deviation = 0;
             var deviationRate = 0;
             if (data.contractPowerAmount) {
-              deviation = realAmount - contractPowerAmount;
+              deviation = (realAmount - contractPowerAmount).toFixed(2);
               deviationRate =
-                ((deviation / contractPowerAmount) * 100).toFixed(2) + "%";
+                ((deviation / contractPowerAmount) * 100).toFixed(2);
             }
             _temp_type.push({
               index,
@@ -533,7 +552,7 @@ export default {
           invoiceAmount: item.invoiceAmount,
           realAmount: item.realAmount,
           deviation: item.deviation,
-          deviationRate: item.deviationRate && item.deviationRate.replace('%',''),
+          deviationRate: item.deviationRate && item.deviationRate,
           remark: item.remark
         };
       });
@@ -684,6 +703,8 @@ export default {
       var date = new Date();
       this.finds.find_1 = date.getFullYear();
       this.finds.find_2 = date.getMonth() + 1;
+      this.finds.customerCode = ''
+      this.finds.customerName = ''
       this.par_form.find_area =
         "{'year':" +
         this.finds.find_1 +
@@ -693,6 +714,10 @@ export default {
         this.page +
         "','limit':'" +
         this.limit +
+        "','customerCode':'" +
+        this.finds.customerCode +
+        "','customerName':'" +
+        this.finds.customerName +
         "'}";
       this.find_list(this.par_form.find_area);
     }
@@ -783,7 +808,7 @@ p {
 }
 .ma_screen {
   width: 100%;
-  height: 60px;
+  height: 110px;
   padding-top: 10px;
   border-bottom: 1px solid rgba(229, 229, 229, 1);
 }
@@ -1029,5 +1054,30 @@ p {
 .list_table .el-button:nth-child(2):hover {
   color: #5a5e66;
   border: 1px solid #d8dce5;
+}
+
+.invoiceAmount{
+   line-height: 30px;
+   background: rgb(198,224,180);
+}
+.invoiceAmount input{
+   background: rgb(198,224,180);
+}
+.userHotLineAmount{
+  line-height: 30px;
+   background: rgb(189,215,238);
+}
+.userHotLineAmount input{
+   background: rgb(189,215,238);
+}
+.userReportAmount{
+  line-height: 30px;
+   background: rgb(255,230,153);
+}
+.userReportAmount input{
+   background: rgb(255,230,153);
+}
+.warning {
+  color: #f30;
 }
 </style>

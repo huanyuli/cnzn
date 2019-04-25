@@ -71,7 +71,7 @@
           <!--<el-button size="small" type="primary" @click="import_list_m">下载导入模板</el-button>-->
         </div>
         <div v-if="this.no_val == 1" class="content_list page_height">
-          <p class="table_title">电量单位：千瓦时（KWh）</p>
+          <p class="table_title">电量单位：兆瓦时（MWh）</p>
           <div class="list_table">
             <el-table
               :data="tableData"
@@ -175,7 +175,7 @@
                     </el-option>
                   </el-select>
                 </el-form-item>
-                <p style="margin-bottom: 10px;text-align: right">用电单位：千瓦时（kwh）</p>
+                <p style="margin-bottom: 10px;text-align: right">用电单位：兆瓦时（Mwh）</p>
                 <div class="set_left">
                   <el-form-item label="6月"  prop="set_6">
                     <el-input type="number" size="medium" v-model.number="ruleForm.set_6" placeholder=""></el-input>
