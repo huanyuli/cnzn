@@ -87,7 +87,12 @@
                 label="富余基数"
               ></el-table-column>
               <el-table-column align="center" width="360" label="电量填写">
-                <el-table-column prop="contractPowerAmount" align="center" label="当月合同直购电" width="120"></el-table-column>
+                <el-table-column
+                  prop="contractPowerAmount"
+                  align="center"
+                  label="当月合同直购电"
+                  width="120"
+                ></el-table-column>
                 <el-table-column align="center" label="用户上报" width="120">
                   <template slot-scope="{row}">
                     <el-input
@@ -303,7 +308,7 @@ export default {
     onChangeInput(index) {
       var data = this.tableData[index];
       var contractPowerAmount = data.contractPowerAmount;
-      var realAmount = 0;
+      var realAmount = "";
       var activeKey = "";
 
       if (data.userReportAmount !== "") {
@@ -318,7 +323,9 @@ export default {
         realAmount = data.invoiceAmount;
         activeKey = "invoiceAmount";
       }
-      console.log("activeKey", activeKey);
+      if (realAmount === "") {
+        realAmount = contractPowerAmount || 0;
+      }
       var deviation = 0;
       deviation = (realAmount - contractPowerAmount).toFixed(2);
       var deviationRate = ((deviation / contractPowerAmount) * 100).toFixed(2);
@@ -351,9 +358,7 @@ export default {
       this.linkAlert = true;
     },
     import_list() {
-      var _temp_Export = `{"year":${this.finds.find_1},"month":${
-        this.finds.find_2
-      }}`;
+      var _temp_Export = `{"year":${this.finds.find_1},"month":${this.finds.find_2},"customerCode":${this.finds.customerCode || '""'},"customerName":${this.finds.customerName || '""'}}`;
       ajax_list.customerMonthPlanExportService(
         _temp_Export,
         res => {
@@ -496,7 +501,7 @@ export default {
 
           $.map(this.find_lists.list, function(data, index) {
             var contractPowerAmount = data.contractPowerAmount;
-            var realAmount = 0;
+            var realAmount = "";
             var activeKey = "";
 
             if (data.userReportAmount !== "") {
@@ -511,7 +516,9 @@ export default {
               realAmount = data.invoiceAmount;
               activeKey = "invoiceAmount";
             }
-
+            if (realAmount === "") {
+              realAmount = contractPowerAmount || 0;
+            }
             var deviation = 0;
             var deviationRate = 0;
             if (data.contractPowerAmount) {
@@ -1103,11 +1110,10 @@ p {
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-}
- 
-input[type="number"] {
-    -moz-appearance: textfield;
+  -webkit-appearance: none;
 }
 
+input[type="number"] {
+  -moz-appearance: textfield;
+}
 </style>
