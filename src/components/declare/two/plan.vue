@@ -47,8 +47,8 @@
                 <el-input v-model="finds.customerName"></el-input>
               </div>
             </div>
-            </div>
-            <div class="div_row">
+          </div>
+          <div class="div_row">
             <div class="ma_ui_div">
               <P>用户代码：</P>
               <div class="input_ss">
@@ -67,69 +67,71 @@
         <div v-if="this.no_val == 1" class="content_list page_height">
           <p class="table_title">电量单位：兆瓦时（MWh）</p>
           <div class="list_table">
-            <el-table :data="tableData" key="0" stripe style="width: 99.8%;text-align: center">
-              <el-table-column prop="yearMonth" align="center" width="120" label="时间"></el-table-column>
-              <el-table-column prop="customerCode" align="center" width="120" label="用户代码"></el-table-column>
+            <el-table
+              :data="tableData"
+              key="0"
+              stripe
+              style="width: 100%;text-align: center"
+              show-summary
+              :summary-method="getSummaries"
+            >
+              <el-table-column prop="businessName" align="center" label="所属客户经理"></el-table-column>
+              <el-table-column prop="customerCode" align="center" label="用户代码"></el-table-column>
               <el-table-column prop="customerName" align="center" width="120" label="客户名称"></el-table-column>
-              <el-table-column prop="transactionType" align="center" width="80" label="交易品种"></el-table-column>
-              <el-table-column prop="meterReadingDay" align="center" width="80" label="抄表例日"></el-table-column>
+              <el-table-column prop="transactionType" align="center" label="交易品种"></el-table-column>
+              <el-table-column prop="meterReadingDay" align="center" label="抄表例日"></el-table-column>
               <el-table-column
                 v-if="this.isSurplus"
                 prop="surplusPowerBase"
                 align="center"
-                width="80"
                 label="富余基数"
               ></el-table-column>
-              <el-table-column align="center" width="320" label="电量填写">
-                <el-table-column prop="contractPowerAmount" align="center" label="当月合同直购电"></el-table-column>
-                <el-table-column align="center" label="用户上报">
+              <el-table-column align="center" width="360" label="电量填写">
+                <el-table-column prop="contractPowerAmount" align="center" label="当月合同直购电" width="120"></el-table-column>
+                <el-table-column align="center" label="用户上报" width="120">
                   <template slot-scope="{row}">
                     <el-input
                       type="number"
                       v-model.number="row.userReportAmount"
                       @change="onChangeInput(row.index)"
-                      :class="[{'userReportAmount':row.userReportAmount === row.realAmount}]"
+                      :class="[{'userReportAmount': row.activeKey === 'userReportAmount'}]"
                     ></el-input>
                   </template>
                 </el-table-column>
-                <el-table-column align="center" label="9598">
+                <el-table-column align="center" label="9598" width="120">
                   <template slot-scope="{row}">
                     <el-input
                       type="number"
                       v-model.number="row.userHotLineAmount"
                       @change="onChangeInput(row.index)"
-                      :class="[{'userHotLineAmount':row.userHotLineAmount === row.realAmount}]"
+                      :class="[{'userHotLineAmount': row.activeKey === 'userHotLineAmount'}]"
                     ></el-input>
                   </template>
                 </el-table-column>
-                <el-table-column align="center" label="模拟发票">
+                <el-table-column align="center" label="模拟发票" width="120">
                   <template slot-scope="{row}">
                     <el-input
                       type="number"
                       v-model.number="row.invoiceAmount"
                       @change="onChangeInput(row.index)"
-                      :class="[{'invoiceAmount':row.invoiceAmount === row.realAmount}]"
+                      :class="[{'invoiceAmount': row.activeKey === 'invoiceAmount'}]"
                     ></el-input>
                   </template>
                 </el-table-column>
               </el-table-column>
 
-              <el-table-column align="center" label="计算用值" >
+              <el-table-column align="center" label="计算用值">
                 <template slot-scope="{row}">
-                    <div
-                    :class="[{'invoiceAmount':row.invoiceAmount === row.realAmount},{'userHotLineAmount':row.userHotLineAmount === row.realAmount},{'userReportAmount':row.userReportAmount === row.realAmount}]"
-                    >
-                    {{row.realAmount}}
-                    </div>
-                  </template>
+                  <div :class="row.activeKey">{{row.realAmount}}</div>
+                </template>
               </el-table-column>
               <el-table-column prop="deviation" align="center" label="与合同偏差"></el-table-column>
               <el-table-column align="center" label="与合同偏差百分比">
-                  <template slot-scope="{row}">
-                    <div :class="[{'warning': Number(row.deviationRate) > 30 || Number(row.deviationRate) < -30}]">
-                    {{row.deviationRate}}%
-                    </div>
-                  </template>
+                <template slot-scope="{row}">
+                  <div
+                    :class="[{'warning': Number(row.deviationRate) > 30 || Number(row.deviationRate) < -30}]"
+                  >{{row.deviationRate}}%</div>
+                </template>
               </el-table-column>
 
               <el-table-column prop="remark" align="center" label="备注">
@@ -239,6 +241,10 @@ export default {
           label: "12月"
         }
       ],
+      totalMap: {
+        deviation: "0.00",
+        realAmount: "0.00"
+      },
       finds: {
         find_1: 2019,
         find_2: 1,
@@ -297,19 +303,31 @@ export default {
     onChangeInput(index) {
       var data = this.tableData[index];
       var contractPowerAmount = data.contractPowerAmount;
-      var realAmount =
-        data.invoiceAmount ||
-        data.userHotLineAmount ||
-        data.userReportAmount;
+      var realAmount = 0;
+      var activeKey = "";
+
+      if (data.userReportAmount !== "") {
+        realAmount = data.userReportAmount;
+        activeKey = "userReportAmount";
+      }
+      if (data.userHotLineAmount !== "") {
+        realAmount = data.userHotLineAmount;
+        activeKey = "userHotLineAmount";
+      }
+      if (data.invoiceAmount !== "") {
+        realAmount = data.invoiceAmount;
+        activeKey = "invoiceAmount";
+      }
+      console.log("activeKey", activeKey);
       var deviation = 0;
       deviation = (realAmount - contractPowerAmount).toFixed(2);
-      var deviationRate =
-        ((deviation / contractPowerAmount) * 100).toFixed(2);
+      var deviationRate = ((deviation / contractPowerAmount) * 100).toFixed(2);
       data.realAmount = realAmount;
       if (contractPowerAmount) {
         data.deviation = deviation;
         data.deviationRate = deviationRate;
       }
+      data.activeKey = activeKey;
       this.tableData[index] = data;
     },
     current_change(val) {
@@ -368,23 +386,14 @@ export default {
       const sums = [];
       columns.forEach((column, index) => {
         if (index === 0) {
-          sums[index] = "汇总";
+          sums[index] = "合计";
           return;
         }
-        const values = data.map(item => Number(item[column.property]));
-        if (!values.every(value => isNaN(value))) {
-          sums[index] = values
-            .reduce((prev, curr) => {
-              const value = Number(curr);
-              if (!isNaN(value)) {
-                return prev + curr;
-              } else {
-                return prev;
-              }
-            }, 0)
-            .toFixed(2);
-        } else {
-          sums[index] = " ";
+        if (index === 9) {
+          sums[index] = this.totalMap.realAmount;
+        }
+        if (index === 10) {
+          sums[index] = this.totalMap.deviation;
         }
       });
 
@@ -451,9 +460,6 @@ export default {
           }
         }
       }
-
-      console.log(name, val, index);
-      console.log(this.tableData[index][name]);
     },
     change_fyd(name, val, index) {
       if (val < 100000) {
@@ -478,6 +484,7 @@ export default {
         this.tableData = [];
         this.no_sj = [];
         this.count = this.find_lists.count;
+        this.totalMap = res.body.totalMap;
         if (
           this.find_lists.list != [] &&
           this.find_lists.list != "" &&
@@ -489,22 +496,35 @@ export default {
 
           $.map(this.find_lists.list, function(data, index) {
             var contractPowerAmount = data.contractPowerAmount;
-            var realAmount =
-              data.invoiceAmount ||
-              data.userHotLineAmount ||
-              data.userReportAmount ||
-              0;
+            var realAmount = 0;
+            var activeKey = "";
+
+            if (data.userReportAmount !== "") {
+              realAmount = data.userReportAmount;
+              activeKey = "userReportAmount";
+            }
+            if (data.userHotLineAmount !== "") {
+              realAmount = data.userHotLineAmount;
+              activeKey = "userHotLineAmount";
+            }
+            if (data.invoiceAmount !== "") {
+              realAmount = data.invoiceAmount;
+              activeKey = "invoiceAmount";
+            }
+
             var deviation = 0;
             var deviationRate = 0;
             if (data.contractPowerAmount) {
               deviation = (realAmount - contractPowerAmount).toFixed(2);
-              deviationRate =
-                ((deviation / contractPowerAmount) * 100).toFixed(2);
+              deviationRate = ((deviation / contractPowerAmount) * 100).toFixed(
+                2
+              );
             }
             _temp_type.push({
               index,
               id: data.id,
-              yearMonth: `${data.year}年-${data.month}月`, // 日期
+              activeKey, // 当前计算值
+              businessName: data.businessName, // 客户经理
               customerCode: data.customerCode, //用户代码
               customerName: data.customerName, //客户名称
               transactionType: data.transactionType, //交易类型
@@ -558,15 +578,15 @@ export default {
       });
       ajax_list.customerMonthPlanSaveService({ list }, res => {
         if (res.status == 200) {
-              this.$message({
-                message: "保存成功",
-                type: "success"
-              })
-        }else{
           this.$message({
-                message: "保存出错",
-                type: "error"
-              })
+            message: "保存成功",
+            type: "success"
+          });
+        } else {
+          this.$message({
+            message: "保存出错",
+            type: "error"
+          });
         }
       });
     },
@@ -703,8 +723,8 @@ export default {
       var date = new Date();
       this.finds.find_1 = date.getFullYear();
       this.finds.find_2 = date.getMonth() + 1;
-      this.finds.customerCode = ''
-      this.finds.customerName = ''
+      this.finds.customerCode = "";
+      this.finds.customerName = "";
       this.par_form.find_area =
         "{'year':" +
         this.finds.find_1 +
@@ -1055,29 +1075,39 @@ p {
   color: #5a5e66;
   border: 1px solid #d8dce5;
 }
+.userReportAmount {
+  line-height: 30px;
+  background: rgb(255, 230, 153);
+}
+.userReportAmount input {
+  background: rgb(255, 230, 153);
+}
+.userHotLineAmount {
+  line-height: 30px;
+  background: rgb(189, 215, 238);
+}
+.userHotLineAmount input {
+  background: rgb(189, 215, 238);
+}
+.invoiceAmount {
+  line-height: 30px;
+  background: rgb(198, 224, 180);
+}
+.invoiceAmount input {
+  background: rgb(198, 224, 180);
+}
 
-.invoiceAmount{
-   line-height: 30px;
-   background: rgb(198,224,180);
-}
-.invoiceAmount input{
-   background: rgb(198,224,180);
-}
-.userHotLineAmount{
-  line-height: 30px;
-   background: rgb(189,215,238);
-}
-.userHotLineAmount input{
-   background: rgb(189,215,238);
-}
-.userReportAmount{
-  line-height: 30px;
-   background: rgb(255,230,153);
-}
-.userReportAmount input{
-   background: rgb(255,230,153);
-}
 .warning {
   color: #f30;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+ 
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
 </style>
