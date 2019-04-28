@@ -125,7 +125,7 @@
                 </el-table-column>
               </el-table-column>
 
-              <el-table-column align="center" label="计算用值">
+              <el-table-column align="center" label="计算用值" prop="realAmount">
                 <template slot-scope="{row}">
                   <div :class="row.activeKey">{{row.realAmount}}</div>
                 </template>
@@ -394,10 +394,10 @@ export default {
           sums[index] = "合计";
           return;
         }
-        if (index === 9) {
+        if (column.property === 'realAmount') {
           sums[index] = this.totalMap.realAmount;
         }
-        if (index === 10) {
+        if (column.property === 'deviation') {
           sums[index] = this.totalMap.deviation;
         }
       });

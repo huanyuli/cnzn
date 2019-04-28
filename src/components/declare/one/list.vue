@@ -420,14 +420,14 @@
             this.d_success = true
             this.d_list_index = response.body.successSize
           }
-          var _temp_data = "{}"
-          if(this.no_find  == 0){  //客户用电情况
-            _temp_data ="{'year':"+ this.finds.find_1 +",'customerName':'"+  this.value9 +"' ,'dataSourceType':'"+  this.finds.find_4 +"'}"
-          }else if(this.no_find  == 1){ //已购电情况
-            _temp_data ="{'year':"+ this.finds.find_1 +",'powerPlantName':'"+  this.finds.find_2 +"'}"
-          }else if(this.no_find  == 2){ //用电缺口
-            _temp_data ="{'year':"+ this.finds.find_1 +"}"
-          }
+          var _temp_data = this.par_form.find_area
+          // if(this.no_find  == 0){  //客户用电情况
+          //   _temp_data ="{'year':"+ this.finds.find_1 +",'customerName':'"+  this.value9 +"' ,'dataSourceType':'"+  this.finds.find_4 +"'}"
+          // }else if(this.no_find  == 1){ //已购电情况
+          //   _temp_data ="{'year':"+ this.finds.find_1 +",'powerPlantName':'"+  this.finds.find_2 +"'}"
+          // }else if(this.no_find  == 2){ //用电缺口
+          //   _temp_data ="{'year':"+ this.finds.find_1 +"}"
+          // }
           this.find_list(_temp_data)
         }
 
