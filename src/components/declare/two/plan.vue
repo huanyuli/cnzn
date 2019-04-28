@@ -589,6 +589,7 @@ export default {
             message: "保存成功",
             type: "success"
           });
+          this.find_list(this.par_form.find_area);
         } else {
           this.$message({
             message: "保存出错",
