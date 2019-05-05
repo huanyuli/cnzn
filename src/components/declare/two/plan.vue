@@ -42,13 +42,31 @@
               </div>
             </div>
             <div class="ma_ui_div">
+              <P>抄表例日：</P>
+              <div class="input_ss">
+                <el-select
+                  size="medium"
+                  style="width: 100%;"
+                  v-model="finds.meterReadingDay"
+                  placeholder
+                >
+                  <el-option
+                    v-for="value in form_3"
+                    :key="value"
+                    :label="value+' 日'"
+                    :value="value"
+                  ></el-option>
+                </el-select>
+              </div>
+            </div>
+          </div>
+          <div class="div_row">
+            <div class="ma_ui_div">
               <P>客户名称：</P>
               <div class="input_ss">
                 <el-input v-model="finds.customerName"></el-input>
               </div>
             </div>
-          </div>
-          <div class="div_row">
             <div class="ma_ui_div">
               <P>用户代码：</P>
               <div class="input_ss">
@@ -246,6 +264,7 @@ export default {
           label: "12月"
         }
       ],
+      form_3: Array.from(Array(31)).map((v, k) => k + 1),
       totalMap: {
         deviation: "0.00",
         realAmount: "0.00"
@@ -253,6 +272,7 @@ export default {
       finds: {
         find_1: 2019,
         find_2: 1,
+        meterReadingDay: "", // 抄表例日
         customerCode: "", // 用户代码
         customerName: "" // 企业名称
       },
@@ -358,7 +378,10 @@ export default {
       this.linkAlert = true;
     },
     import_list() {
-      var _temp_Export = `{"year":${this.finds.find_1},"month":${this.finds.find_2},"customerCode":${this.finds.customerCode || '""'},"customerName":${this.finds.customerName || '""'}}`;
+      var _temp_Export = `{"year":${this.finds.find_1},"month":${
+        this.finds.find_2
+      },"customerCode":${this.finds.customerCode || '""'},"customerName":${this
+        .finds.customerName || '""'},"meterReadingDay":${this.finds.meterReadingDay || '""'}}`;
       ajax_list.customerMonthPlanExportService(
         _temp_Export,
         res => {
@@ -394,10 +417,10 @@ export default {
           sums[index] = "合计";
           return;
         }
-        if (column.property === 'realAmount') {
+        if (column.property === "realAmount") {
           sums[index] = this.totalMap.realAmount;
         }
-        if (column.property === 'deviation') {
+        if (column.property === "deviation") {
           sums[index] = this.totalMap.deviation;
         }
       });
@@ -563,6 +586,8 @@ export default {
         this.page +
         "','limit':'" +
         this.limit +
+        "','meterReadingDay':'" +
+        this.finds.meterReadingDay +
         "','customerCode':'" +
         this.finds.customerCode +
         "','customerName':'" +
@@ -733,6 +758,7 @@ export default {
       this.finds.find_2 = date.getMonth() + 1;
       this.finds.customerCode = "";
       this.finds.customerName = "";
+      this.finds.meterReadingDay = "";
       this.par_form.find_area =
         "{'year':" +
         this.finds.find_1 +
@@ -742,10 +768,6 @@ export default {
         this.page +
         "','limit':'" +
         this.limit +
-        "','customerCode':'" +
-        this.finds.customerCode +
-        "','customerName':'" +
-        this.finds.customerName +
         "'}";
       this.find_list(this.par_form.find_area);
     }
