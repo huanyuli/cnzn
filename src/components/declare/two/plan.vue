@@ -381,7 +381,8 @@ export default {
       var _temp_Export = `{"year":${this.finds.find_1},"month":${
         this.finds.find_2
       },"customerCode":${this.finds.customerCode || '""'},"customerName":${this
-        .finds.customerName || '""'},"meterReadingDay":${this.finds.meterReadingDay || '""'}}`;
+        .finds.customerName || '""'},"meterReadingDay":${this.finds
+        .meterReadingDay || '""'}}`;
       ajax_list.customerMonthPlanExportService(
         _temp_Export,
         res => {
@@ -858,7 +859,7 @@ p {
 }
 .ma_screen {
   width: 100%;
-  height: 110px;
+  min-height: 110px;
   padding-top: 10px;
   border-bottom: 1px solid rgba(229, 229, 229, 1);
 }
