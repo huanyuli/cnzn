@@ -121,7 +121,7 @@
                     ></el-input>
                   </template>
                 </el-table-column>
-                <el-table-column align="center" label="9598" width="120">
+                <el-table-column align="center" label="95598" width="120">
                   <template slot-scope="{row}">
                     <el-input
                       type="number"
