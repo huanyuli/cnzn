@@ -11,6 +11,11 @@
           <p>角色管理</p>
         </div>
       </div>
+      <!-- <div v-if="show_map(23) == 23" @click='cc' class="left_two_list" :class="{click_list:this.click_index == 3}">
+        <div class="list_right list_right_one">
+          <p>交易品种管理</p>
+        </div>
+      </div> -->
     </div>
     <div class="right_two">
       <router-view></router-view>
@@ -40,6 +45,10 @@
         this.click_index = 2;
         this.$router.push('/sys/role');
 //        this.dl_css();
+      },
+      cc(){
+        this.click_index = 23;
+        this.$router.push('/sys/tradingType');
       },
       show_map(id){
         let obj = {};

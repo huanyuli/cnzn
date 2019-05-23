@@ -2011,61 +2011,60 @@
             { required: true, message: '请选择甲方', trigger: 'change' }
           ],
           one_3:[
-            { required: true, message: '请输入企业所在地', trigger: 'blur' },
+            { required: false, message: '请输入企业所在地', trigger: 'blur' },
           ],
           one_4:[
-            { required: true, message: '请输入税务登记号', trigger: 'blur' },
+            { required: false, message: '请输入税务登记号', trigger: 'blur' },
           ],
           one_5:[
-            { required: true, message: '请输入住所', trigger: 'blur' },
+            { required: false, message: '请输入住所', trigger: 'blur' },
           ],
           one_6:[
-            { required: true, message: '请输入法人代表/授权代理人', trigger: 'blur' },
+            { required: false, message: '请输入法人代表/授权代理人', trigger: 'blur' },
           ],
           one_7:[
-            { required: true, message: '请输入开户名称', trigger: 'blur' },
+            { required: false, message: '请输入开户名称', trigger: 'blur' },
           ],
           one_8:[
-            { required: true, message: '请输入开户银行', trigger: 'blur' },
+            { required: false, message: '请输入开户银行', trigger: 'blur' },
           ],
           one_9:[
-            { required: true, message: '请输入账号', trigger: 'blur' },
+            { required: false, message: '请输入账号', trigger: 'blur' },
           ],
           one_10:[
-            { required: true, message: '请输入联系人', trigger: 'blur' },
-            { validator: add_validator.is_name, trigger: 'blur' },
+            { required: false, message: '请输入联系人', trigger: 'blur' },
           ],
           one_11:[
-            { required: true, message: '请输入电子邮箱', trigger: 'blur' },
-            { type:"email", required: true, message: '电子邮箱格式不正确', trigger: 'blur' },
+            // { required: true, message: '请输入电子邮箱', trigger: 'blur' },
+            { type:"email", required: false, message: '电子邮箱格式不正确', trigger: 'blur' },
           ],
           one_12:[
-            { required: true, message: '请输入手机号', trigger: 'blur' },
-            { validator: add_validator.is_Phone, trigger: 'blur' },
+            // { required: true, message: '请输入手机号', trigger: 'blur' },
+             { validator: add_validator.is_Phone,required: false, trigger: 'blur' },
           ],
           one_13:[
-            { required: true, message: '请输入办公电话', trigger: 'blur' },
+            { required: false, message: '请输入办公电话', trigger: 'blur' },
           ],
           one_14:[
-            { required: true, message: '请输入通讯地址', trigger: 'blur' },
+            { required: false, message: '请输入通讯地址', trigger: 'blur' },
           ],
           one_15:[
             { required: true, message: '请输入账号', trigger: 'blur' },
           ],
           two_1:[
-            { required: true, message: '请输入企业地址', trigger: 'blur' },
+            { required: false, message: '请输入企业地址', trigger: 'blur' },
           ],
           two_2:[
-            { required: true, message: '请选择电压等级', trigger: 'change' },
+            { required: false, message: '请选择电压等级', trigger: 'change' },
           ],
           two_5:[
             {  required: true, message: '请选择时间', trigger: 'change' },
           ],
           two_5s:[
-            { required: true, message: '请输入合同起止地址', trigger: 'change' },
+            { required: true, message: '请输入合同起止日期', trigger: 'change' },
           ],
           two_6:[
-            { required: true, message: '请输入预估总用电量', trigger: 'blur' },
+            { required: false, message: '请输入预估总用电量', trigger: 'blur' },
           ],
           two_7:[
             { required: true, message: '请输入抄表例日', trigger: 'blur' },

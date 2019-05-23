@@ -88,7 +88,7 @@
                 </el-form-item>
               </div>
               <div class="list_con_input">
-                <el-form-item label="行政区域" required>
+                <el-form-item label="行政区域">
                   <el-col style="width: 48%; margin-right: 3%">
                     <el-form-item  prop="one_4">
                       <el-select size="medium" @change="change_3" v-model="ruleForm.one_4" clearable placeholder="请选择">
@@ -676,28 +676,30 @@
             { required: true, message: '请输入客户名称', trigger: 'blur' }
           ],
           one_2: [
-            { required: true, message: '请选择所属行业', trigger: 'change' }
+            { required: false, message: '请选择所属行业', trigger: 'change' }
           ],
           one_3:[
-            { required: true, message: '请选择所在区域', trigger: 'change' },
+            { required: false, message: '请选择所在区域', trigger: 'change' },
           ],
           one_4:[
-            { required: true, message: '请选择市', trigger: 'change' },
+            { required: false, message: '请选择市', trigger: 'change' },
           ],
           add_one_4:[
-            { required: true, message: '请选择区县', trigger: 'change' },
+            { required: false, message: '请选择区县', trigger: 'change' },
           ],
           one_5:[
-            { required: true, message: '请选择供电区域性质', trigger: 'blur' },
+            { required: false, message: '请选择供电区域性质', trigger: 'blur' },
           ],
           one_14:[
-            { validator: checkAge, trigger: 'blur' }
+            // { validator: checkAge, trigger: 'blur' }
+            { required: false, trigger: 'blur' }
           ],
           one_16:[
-            { validator: checkEmail, trigger: 'blur' }
+            // { validator: checkEmail, trigger: 'blur' }
+            { required: false, trigger: 'blur' }
           ],
           two_4:[
-            { required: true, message: '请选择用电类别', trigger: 'blur' },
+            { required: false, message: '请选择用电类别', trigger: 'blur' },
           ],
           add_14: [
             { required: true, message: '请输入用户代码', trigger: 'blur' }
@@ -739,22 +741,22 @@
         },
         rules_Two:{
           two_5:[
-            { required: true, message: '请输入原用电价格', trigger: 'blur' },
+            { required: false, message: '请输入原用电价格', trigger: 'blur' },
           ],
           two_3:[
-            { required: true, message: '请选择电压等级', trigger: 'change' },
+            { required: false, message: '请选择电压等级', trigger: 'change' },
           ],
           two_11:[
-            { required: true, message: '请输入所属供电公司', trigger: 'blur' },
+            { required: false, message: '请输入所属供电公司', trigger: 'blur' },
           ],
           two_12:[
-            { required: true, message: '请输入用电户号', trigger: 'blur' },
+            { required: false, message: '请输入用电户号', trigger: 'blur' },
           ],
           two_13:[
-            { required: true, message: '请输入总用电容量', trigger: 'blur' },
+            { required: false, message: '请输入总用电容量', trigger: 'blur' },
           ],
           add_two_1:[
-            { required: true, message: '请输入统一社会信用代码', trigger: 'blur' },
+            { required: false, message: '请输入统一社会信用代码', trigger: 'blur' },
           ],
         },
         lists:[{

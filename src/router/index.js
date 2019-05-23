@@ -183,6 +183,9 @@ export default new Router({
                   },{
                     path: 'role', //角色管理
                     component: resolve => require(['@/components/sys/two/list'],resolve),
+                  },{
+                    path: 'tradingType', //交易类型
+                    component: resolve => require(['@/components/sys/tradingType/index'],resolve),
                   },
                 ]
 
