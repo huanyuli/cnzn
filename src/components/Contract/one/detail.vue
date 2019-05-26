@@ -2519,26 +2519,26 @@ p {
 .trading-table .el-table__body td{
   padding: 0;
 }
-.trading-table .el-table__footer-wrapper tbody td, .el-table__header-wrapper tbody td{
+.trading-table .el-table__footer-wrapper tbody td,.trading-table  .el-table__header-wrapper tbody td{
   background-color: #fff;
 }
-.el-table td, .el-table th.is-leaf{
+.trading-table .el-table td,.trading-table .el-table th.is-leaf{
   border-bottom: 1px solid #000;
 }
-.el-table--border td, .el-table--border th{
+.trading-table .el-table--border td,.trading-table .trading-table  .el-table--border th{
   border-right: 1px solid #000;
 }
-.el-table--border{
+.trading-table .el-table--border{
       border: 1px solid #000;
       /* border-right: none; */
 }
-.el-table__row td:last-child{
+.trading-table .el-table__row td:last-child{
   border-right: none;
 }
-.el-table--mini td, .el-table--mini th{
+.trading-table .el-table--mini td,.trading-table .el-table--mini th{
   padding: 0;
 }
-.el-table-filter__bottom, .el-table__footer-wrapper td{
+.trading-table .el-table-filter__bottom,.trading-table .el-table__footer-wrapper td{
   border-top: 1px solid #000;
 }
 /*.el-message-box__btns {*/

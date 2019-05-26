@@ -7,13 +7,20 @@
       </div>
       <div class="ma_content">
         <div class="content_list">
-          <el-tabs
-            type="border-card"
-            addable
-            @tab-click="handleClickType"
-            @tab-add="dialogVisible = true"
-          >
-            <el-tab-pane v-for="item in list" :key="item.id" :label="item.name" :id="item.id">
+          <div class="buttons">
+            <el-button type="primary" @click="dialogVisible = true">新增品种</el-button>
+          </div>
+          <el-tabs type="border-card" @tab-click="handleClickType">
+            <el-tab-pane
+              v-for="item in list"
+              :key="item.id"
+              :label="item.name"
+              :id="item.id"
+              :tableName="item.name"
+            >
+              <div class="table-title">
+                <el-button type="primary" @click="hanldeEdit(item)" icon="el-icon-edit" title="修改"></el-button>
+              </div>
               <el-table :data="generateRows()" border size="small">
                 <el-table-column prop="month" label="月份"></el-table-column>
                 <el-table-column
@@ -29,16 +36,18 @@
                   </template>
                 </el-table-column>
               </el-table>
-              <el-button
-                class="edit-table"
-                type="primary"
-                icon="el-icon-edit"
-                circle
-                size="mini"
-                @click="hanldeEdit(item)"
-              ></el-button>
             </el-tab-pane>
           </el-tabs>
+          <el-pagination
+            background
+            layout="prev, pager, next"
+            :current-page="query.page"
+            :page-size="query.limit"
+            :total="query.count"
+            @current-change="onChangePage"
+            @prev-click="onChangePage"
+            @next-click="onChangePage"
+          ></el-pagination>
         </div>
       </div>
     </div>
@@ -248,10 +257,23 @@ export default {
       },
       list: [],
       currentItem: [],
+      query: {
+        limit: 10,
+        page: 1,
+        count: 0
+      },
       monthOptions: Array.from({ length: 12 }, (v, k) => k + 1)
     };
   },
   methods: {
+    onChangePage(page) {
+      this.query.page = page;
+      ajax_list.contractTableListService(
+        this.query,
+        this.handleContractTableListServiceOk,
+        this.handleContractTableListServiceErros
+      );
+    },
     compare(property) {
       return function(a, b) {
         var value1 = a[property];
@@ -325,7 +347,7 @@ export default {
                 tableId: this.tableId
               },
               res => {
-                const tableId = this.tableId
+                const tableId = this.tableId;
                 this.dialogVisible = false;
                 this.isEidt = false;
                 this.tableId = null;
@@ -334,7 +356,7 @@ export default {
                   columns: []
                 };
                 ajax_list.contractTableListService(
-                  {},
+                  this.query,
                   res => this.handleContractTableListServiceOk(res, tableId),
                   this.handleContractTableListServiceErros
                 );
@@ -355,7 +377,7 @@ export default {
                   columns: []
                 };
                 ajax_list.contractTableListService(
-                  {},
+                  this.query,
                   this.handleContractTableListServiceOk,
                   this.handleContractTableListServiceErros
                 );
@@ -395,10 +417,8 @@ export default {
           children: []
         };
       });
-      this.itemForm = {
-        tableName: item.name,
-        columns
-      };
+      this.itemForm.columns = columns;
+      this.itemForm.tableName = item.name;
     },
     handleDeleteItem(index) {
       this.itemForm.columns.splice(index, 1);
@@ -409,29 +429,29 @@ export default {
     handleAddColumns(target) {
       target = target ? target : this.itemForm.columns;
       target.push({
-          columnName: {
-            ...this.fieldsOption.columnName,
-            value: ''
-          },
+        columnName: {
+          ...this.fieldsOption.columnName,
+          value: ""
+        },
 
-          canWriteMonth: {
-            ...this.fieldsOption.canWriteMonth,
-            value: ''
-          },
-          columnCode: {
-            ...this.fieldsOption.columnCode,
-            value: ''
-          },
-          isYearAmount: {
-            ...this.fieldsOption.isYearAmount,
-            value: false
-          },
-          orderIndex: {
-            ...this.fieldsOption.orderIndex,
-            value: this.itemForm.columns.length + 2
-          },
-          children: []
-        });
+        canWriteMonth: {
+          ...this.fieldsOption.canWriteMonth,
+          value: ""
+        },
+        columnCode: {
+          ...this.fieldsOption.columnCode,
+          value: ""
+        },
+        isYearAmount: {
+          ...this.fieldsOption.isYearAmount,
+          value: false
+        },
+        orderIndex: {
+          ...this.fieldsOption.orderIndex,
+          value: this.itemForm.columns.length + 2
+        },
+        children: []
+      });
       console.log(this.itemForm);
       //   this.$nextTick(() => {
       //     this.$refs.itemForm.validate();
@@ -439,13 +459,16 @@ export default {
     },
     handleAddType() {},
     handleClickType(tab) {
+      this.tableId = tab.$attrs.id;
+      this.itemForm.tableName = tab.$attrs.tableName;
       ajax_list.contractTableDetailService({ tableId: tab.$attrs.id }, res => {
         this.currentItem = res.body || [];
         this.currentItem.sort(this.compare("orderIndex"));
       });
     },
     handleContractTableListServiceOk(res, tableId) {
-      this.list = res.body || [];
+      this.list = res.body.list || [];
+      this.query.count = res.body.count || 0;
       if (this.list.length) {
         ajax_list.contractTableDetailService(
           { tableId: tableId || this.list[0].id },
@@ -463,7 +486,7 @@ export default {
 
   created() {
     ajax_list.contractTableListService(
-      {},
+      this.query,
       this.handleContractTableListServiceOk,
       this.handleContractTableListServiceErros
     );
@@ -580,6 +603,10 @@ p {
   padding-top: 20px;
   min-height: calc(100vh - 352px);
   background-color: white;
+}
+.content_list .buttons {
+  margin-bottom: 15px;
+  text-align: right;
 }
 .list_table {
   width: 96%;
@@ -792,6 +819,22 @@ p {
   border-radius: 50%;
 }
 .right_two .el-tabs__content {
-  padding: 40px;
+  padding: 20px 30px;
+}
+.el-tabs__content .table-title {
+  margin-bottom: 10px;
+}
+.el-tabs__content .table-title button {
+  width: 40px;
+  height: 30px;
+  padding: 0;
+  line-height: 30px;
+  float: right;
+  clear: both;
+  margin-bottom: 5px;
+}
+.el-pagination {
+  text-align: center;
+  margin-top: 20px;
 }
 </style>

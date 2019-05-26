@@ -166,7 +166,7 @@
                     v-model="ruleForm.two_5"
                     type="year"
                     align="right"
-                    size="mini"
+                    size="small"
                     placeholder="选择周期"
                   ></el-date-picker>
                 </el-form-item>
@@ -184,7 +184,7 @@
                     style="width: 100%;"
                     v-model="ruleForm.two_5s"
                     type="daterange"
-                    size="mini"
+                    size="small"
                     range-separator="至"
                     start-placeholder="开始日期"
                     end-placeholder="结束日期"
@@ -193,7 +193,12 @@
               </div>
               <div class="list_con_input">
                 <el-form-item label="总用电容量" prop="two_6s">
-                  <el-input type="number" size="medium" placeholder v-model.number="ruleForm.two_6s">
+                  <el-input
+                    type="number"
+                    size="medium"
+                    placeholder
+                    v-model.number="ruleForm.two_6s"
+                  >
                     <template slot="append">千瓦(KW)</template>
                   </el-input>
                 </el-form-item>
@@ -243,6 +248,8 @@
                           :prop="forms['table' + cols[0].tableId][scope.$index+1][col.columnCode]"
                         >
                           <el-input
+                            size="mini"
+                            type="number"
                             v-model="forms['table'+ cols[0].tableId][scope.$index+1][col.columnCode]"
                           ></el-input>
                         </el-form-item>
@@ -475,12 +482,17 @@ export default {
       return temp;
     },
     add_cont(type_name) {
+      if (this.contractType == "标准") {
+        this.contractType = "STANDARD";
+      } else if (this.contractType == "自定义") {
+        this.contractType = "CUSTOMIZE";
+      }
       //提交参数
       this.add_create = {
         id: this.id,
         number: this.ruleForm.one_1, //合同编号
         action: type_name, //合同保存方式
-        contractType: this.add_Type, //合同类型
+        contractType: this.contractType, //合同类型
         customerId: this.customerId, //客户id
         customerName: this.ruleForm.one_2, //客户名称(甲方)
         taxNumber: this.ruleForm.one_4, //税务登记号
@@ -551,7 +563,7 @@ export default {
       // });
       console.log(this.add_create);
       this.add_create = JSON.stringify(this.add_create);
-      add_ajax.contractCreateService(
+      add_ajax.contractEditService(
         this.add_create,
         res => {
           //创建
@@ -559,8 +571,6 @@ export default {
         },
         res => {
           if (res.status == 200) {
-            this.con_id = res.body;
-
             var _temp_id = 0;
             if (type_name == "save") {
               _temp_id = 2;
@@ -570,7 +580,7 @@ export default {
             if (_temp_id != 0) {
               this.$router.push({
                 name: "addSucceed",
-                params: { btn_id: _temp_id, cont_id: this.con_id }
+                params: { btn_id: _temp_id, cont_id: this.id }
               });
             }
           } else {
@@ -740,6 +750,11 @@ export default {
   //生命周期钩子函数，进入页面显示之前获取数据到store
   created() {
     this.id = this.$route.params.one;
+    sys_ajax.contractTableListService({}, typeRes => {
+      typeRes.body.forEach(type => {
+        this.tradingTypes[type.id] = type.name;
+      });
+    });
     add_ajax.contractDetailService(
       { id: this.id },
       res => {
@@ -762,11 +777,6 @@ export default {
                 };
               }
             );
-          });
-          sys_ajax.contractTableListService({}, typeRes => {
-            typeRes.body.forEach(type => {
-              this.tradingTypes[type.id] = type.name;
-            });
           });
 
           // 设置初始值
@@ -1205,8 +1215,13 @@ p {
   text-align: center;
   color: rgba(96, 96, 96, 1);
 }
+
 .compile-table .el-form-item {
   margin: 0;
+}
+.compile-table .el-table__header .cell {
+  line-height: 38px;
+  color: #000;
 }
 @media screen and (max-width: 1420px) {
   .list_con_input {

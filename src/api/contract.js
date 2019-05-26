@@ -87,7 +87,7 @@ contractSubmitService(params, success_callback, fail_callback) {
    *  /api/contractEditService 合同编辑 （售电合同）
    */
   contractEditService(params, success_callback, fail_callback) {
-    withAxios.requestData('POST', 3,'/api/contractEditService', params, success_callback, fail_callback);
+    withAxios.requestData('POST', '2.0','/api/contractEditService', params, success_callback, fail_callback);
   },
 
   /**
