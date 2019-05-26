@@ -3,7 +3,7 @@
     <div class="marterial">
       <div class="ma_title">
         <span></span>
-        <p>交易类型管理</p>
+        <p>交易品种表管理</p>
       </div>
       <div class="ma_content">
         <div class="content_list">
@@ -14,7 +14,29 @@
             @tab-add="dialogVisible = true"
           >
             <el-tab-pane v-for="item in list" :key="item.id" :label="item.name" :id="item.id">
-              <span v-for="col in currentItem" :key="col.columnCode">{{col.columnName}}</span>
+              <el-table :data="generateRows()" border size="small">
+                <el-table-column prop="month" label="月份"></el-table-column>
+                <el-table-column
+                  v-for="col in currentItem"
+                  :key="col.columnCode"
+                  :prop="col.columnCode"
+                  :label="col.columnName"
+                >
+                  <template slot-scope="scope">
+                    <span v-if="scope.row[col.columnCode]">
+                      <el-input></el-input>
+                    </span>
+                  </template>
+                </el-table-column>
+              </el-table>
+              <el-button
+                class="edit-table"
+                type="primary"
+                icon="el-icon-edit"
+                circle
+                size="mini"
+                @click="hanldeEdit(item)"
+              ></el-button>
             </el-tab-pane>
           </el-tabs>
         </div>
@@ -35,54 +57,141 @@
               </el-form-item>
               <p v-if="!itemForm.columns.length">点击增加表列，开始增加表列...</p>
               <div class="columns-item" v-for="(item,index) in itemForm.columns" :key="index">
-                <el-form-item
-                  v-for="key in Object.keys(item)"
-                  :label="item[key].name"
-                  :prop="'columns.'+index+'.'+key+'.value'"
-                  :rules="item[key].rule"
-                  :key="key"
+                <div
+                  v-if="item.children.length > 0"
+                  style="width:100%;display:flex;flex-wrap:wrap;"
                 >
-                  <el-select
-                    v-if="item[key].type === 'select'"
-                    v-model="itemForm.columns[index][key].value"
-                    multiple
-                    placeholder="请选择月份"
+                  <div style="width:100%;display:flex;">
+                    <el-form-item
+                      label="组合列名称"
+                      :prop="'columns.'+index+'.columnName.value'"
+                      :rules="item.columnName.rule"
+                    >
+                      <el-input v-model="itemForm.columns[index].columnName.value"></el-input>
+                    </el-form-item>
+                    <el-form-item
+                      label="组合列序号"
+                      :rules="item.orderIndex.rule"
+                      :prop="'columns.'+index+'.orderIndex.value'"
+                    >
+                      <el-input-number
+                        controls-position="right"
+                        :min="1"
+                        v-model="itemForm.columns[index].orderIndex.value"
+                      ></el-input-number>
+                    </el-form-item>
+                  </div>
+                  <div class="child-columns-item" v-for="(child,idx) in item.children" :key="idx">
+                    <el-form-item
+                      v-for="key in fields"
+                      :label="child[key].name"
+                      :prop="'columns.'+idx+'.'+key+'.value'"
+                      :rules="child[key].rule"
+                      :key="key"
+                    >
+                      <el-select
+                        v-if="child[key].type === 'select'"
+                        v-model="itemForm.columns[index].children[idx][key].value"
+                        multiple
+                        collapse-tags
+                        placeholder="请选择月份"
+                      >
+                        <el-option
+                          v-for="month in monthOptions"
+                          :key="month"
+                          :label="month+'月'"
+                          :value="month"
+                        ></el-option>
+                      </el-select>
+                      <el-input
+                        v-if="child[key].type === 'input'"
+                        v-model="itemForm.columns[index].children[idx][key].value"
+                      ></el-input>
+                      <el-input-number
+                        v-if="child[key].type === 'inputNumber'"
+                        v-model="itemForm.columns[index].children[idx][key].value"
+                        controls-position="right"
+                        :min="1"
+                      ></el-input-number>
+                      <el-switch
+                        v-if="child[key].type === 'switch'"
+                        v-model="itemForm.columns[index].children[idx][key].value"
+                      ></el-switch>
+                    </el-form-item>
+                  </div>
+                  <el-button
+                    class="delete-item"
+                    type="danger"
+                    icon="el-icon-delete"
+                    @click="handleDeleteItem(index)"
+                  ></el-button>
+                  <!-- <el-button
+                    class="add-child"
+                    type="success"
+                    icon="el-icon-plus"
+                    @click="handleAddChild(index)"
+                  ></el-button>-->
+                </div>
+                <div
+                  v-if="item.children.length === 0"
+                  style="width:100%;display:flex;flex-wrap:wrap;"
+                >
+                  <el-form-item
+                    v-for="key in fields"
+                    :label="item[key].name"
+                    :prop="'columns.'+index+'.'+key+'.value'"
+                    :rules="item[key].rule"
+                    :key="key"
                   >
-                    <el-option
-                      v-for="month in monthOptions"
-                      :key="month"
-                      :label="month+'月'"
-                      :value="month"
-                    ></el-option>
-                  </el-select>
-                  <el-input
-                    v-if="item[key].type === 'input'"
-                    v-model="itemForm.columns[index][key].value"
-                  ></el-input>
-                  <el-input-number
-                    v-if="item[key].type === 'inputNumber'"
-                    v-model="itemForm.columns[index][key].value"
-                    controls-position="right"
-                    :min="1"
-                  ></el-input-number>
-                  <el-switch
-                    v-if="item[key].type === 'switch'"
-                    v-model="itemForm.columns[index][key].value"
-                  ></el-switch>
-                </el-form-item>
-                <el-button
-                  class="delete-item"
-                  type="danger"
-                  icon="el-icon-delete"
-                  @click="handleDeleteItem(index)"
-                ></el-button>
+                    <el-select
+                      v-if="item[key].type === 'select'"
+                      v-model="itemForm.columns[index][key].value"
+                      multiple
+                      collapse-tags
+                      placeholder="请选择月份"
+                    >
+                      <el-option
+                        v-for="month in monthOptions"
+                        :key="month"
+                        :label="month+'月'"
+                        :value="month"
+                      ></el-option>
+                    </el-select>
+                    <el-input
+                      v-if="item[key].type === 'input'"
+                      v-model="itemForm.columns[index][key].value"
+                    ></el-input>
+                    <el-input-number
+                      v-if="item[key].type === 'inputNumber'"
+                      v-model="itemForm.columns[index][key].value"
+                      controls-position="right"
+                      :min="1"
+                    ></el-input-number>
+                    <el-switch
+                      v-if="item[key].type === 'switch'"
+                      v-model="itemForm.columns[index][key].value"
+                    ></el-switch>
+                  </el-form-item>
+                  <el-button
+                    class="delete-item"
+                    type="danger"
+                    icon="el-icon-delete"
+                    @click="handleDeleteItem(index)"
+                  ></el-button>
+                  <!-- <el-button
+                    class="add-child"
+                    type="success"
+                    icon="el-icon-plus"
+                    @click="handleAddChild(index)"
+                  ></el-button>-->
+                </div>
               </div>
             </el-form>
           </div>
         </div>
         <div class="add_div_two" slot="footer">
-          <el-button class="wi_btn" @click="dialogVisible = false">取 消</el-button>
-          <el-button type="success" @click="handleAddColumns">增加表列</el-button>
+          <el-button class="wi_btn" @click="handleCloseModal">取 消</el-button>
+          <el-button type="success" @click="handleAddColumns()">增加表列</el-button>
           <el-button class="cont_btn" type="primary" @click="handleSubmit">确 定</el-button>
         </div>
       </div>
@@ -97,7 +206,42 @@ import ajax_list from "../../../api/sys";
 export default {
   data() {
     return {
+      tableId: null,
+      isEidt: false,
       dialogVisible: false,
+      fields: ["columnName", "canWriteMonth", "orderIndex", "isYearAmount"],
+      fieldsOption: {
+        columnName: {
+          name: "列名称",
+          type: "input",
+          value: "",
+          rule: [
+            { required: true, message: "请输入表格列名称", trigger: "blur" },
+            { validator: this.validateColumnName, trigger: ["blur", "change"] }
+          ]
+        },
+        canWriteMonth: {
+          name: "能写入的月份",
+          type: "select",
+          value: "",
+          rule: { required: true, message: "请选择月份", trigger: "blur" }
+        },
+        orderIndex: {
+          name: "列序号",
+          type: "inputNumber",
+          value: 1,
+          rule: [
+            { required: true, message: "请输入排序号", trigger: "blur" },
+            { validator: this.validateColumnOrder, trigger: ["blur", "change"] }
+          ]
+        },
+        isYearAmount: {
+          name: "是否年度交易电量",
+          type: "switch",
+          value: false
+        },
+        children: []
+      },
       itemForm: {
         tableName: "",
         columns: []
@@ -108,6 +252,26 @@ export default {
     };
   },
   methods: {
+    compare(property) {
+      return function(a, b) {
+        var value1 = a[property];
+        var value2 = b[property];
+        return value1 - value2;
+      };
+    },
+    generateRows() {
+      let data = Array.from({ length: 12 }, (v, k) => k);
+      data = data.map(month => {
+        let col = { month: month + 1 + "月" };
+        this.currentItem.forEach(item => {
+          col[item.columnCode] = item.canWriteMonth
+            .split(",")
+            .includes(String(month + 1));
+        });
+        return col;
+      });
+      return data;
+    },
     validateColumnName(rule, value, cb) {
       if (!value) {
         cb(new Error("请输入列名称"));
@@ -131,6 +295,15 @@ export default {
       }
       cb();
     },
+    handleCloseModal() {
+      this.dialogVisible = false;
+      this.isEidt = false;
+      this.tableId = null;
+      this.itemForm = {
+        tableName: "",
+        columns: []
+      };
+    },
     handleSubmit() {
       this.$refs.itemForm.validate(valid => {
         if (valid) {
@@ -143,58 +316,123 @@ export default {
               columnName: item.columnName.value
             };
           });
-          ajax_list.contractTableCreateService(
-            {
-              tableName: this.itemForm.tableName,
-              columns
-            },
-            res => {
-              this.dialogVisible = false;
-              ajax_list.contractTableListService(
-                {},
-                this.handleContractTableListServiceOk,
-                this.handleContractTableListServiceErros
-              );
-            }
-          );
+
+          if (this.isEidt) {
+            ajax_list.contractTableEditService(
+              {
+                tableName: this.itemForm.tableName,
+                columns,
+                tableId: this.tableId
+              },
+              res => {
+                const tableId = this.tableId
+                this.dialogVisible = false;
+                this.isEidt = false;
+                this.tableId = null;
+                this.itemForm = {
+                  tableName: "",
+                  columns: []
+                };
+                ajax_list.contractTableListService(
+                  {},
+                  res => this.handleContractTableListServiceOk(res, tableId),
+                  this.handleContractTableListServiceErros
+                );
+              }
+            );
+          } else {
+            ajax_list.contractTableCreateService(
+              {
+                tableName: this.itemForm.tableName,
+                columns
+              },
+              res => {
+                this.dialogVisible = false;
+                this.isEidt = false;
+                this.tableId = null;
+                this.itemForm = {
+                  tableName: "",
+                  columns: []
+                };
+                ajax_list.contractTableListService(
+                  {},
+                  this.handleContractTableListServiceOk,
+                  this.handleContractTableListServiceErros
+                );
+              }
+            );
+          }
         }
       });
+    },
+    hanldeEdit(item) {
+      this.dialogVisible = true;
+      this.isEidt = true;
+      this.tableId = item.id;
+      const columns = this.currentItem.map(item => {
+        return {
+          columnName: {
+            ...this.fieldsOption.columnName,
+            value: item.columnName
+          },
+
+          canWriteMonth: {
+            ...this.fieldsOption.canWriteMonth,
+            value: item.canWriteMonth.split(",").map(s => Number(s))
+          },
+          columnCode: {
+            ...this.fieldsOption.columnCode,
+            value: item.columnCode
+          },
+          isYearAmount: {
+            ...this.fieldsOption.isYearAmount,
+            value: item.isYearAmount === "Y"
+          },
+          orderIndex: {
+            ...this.fieldsOption.orderIndex,
+            value: item.orderIndex
+          },
+          children: []
+        };
+      });
+      this.itemForm = {
+        tableName: item.name,
+        columns
+      };
     },
     handleDeleteItem(index) {
       this.itemForm.columns.splice(index, 1);
     },
-    handleAddColumns() {
-      this.itemForm.columns.push({
-        columnName: {
-          name: "列名称",
-          type: "input",
-          value: "",
-          rule: [
-            { required: true, message: "请输入表格列名称", trigger: "blur" },
-            { validator: this.validateColumnName, trigger: ["blur", "change"] }
-          ]
-        },
-        canWriteMonth: {
-          name: "能写入的月份",
-          type: "select",
-          value: "",
-          rule: { required: true, message: "请选择月份", trigger: "blur" }
-        },
-        orderIndex: {
-          name: "列序号",
-          type: "inputNumber",
-          value: this.itemForm.columns.length + 1,
-          rule: [
-            { required: true, message: "请输入排序号", trigger: "blur" },
-            { validator: this.validateColumnOrder, trigger: ["blur", "change"] }
-          ]
-        },
-        isYearAmount: {
-          name: "是否年度交易电量",
-          type: "switch",
-          value: false
-        }
-      });
+    handleAddChild(index) {
+      this.handleAddColumns(this.itemForm.columns[index].children);
+    },
+    handleAddColumns(target) {
+      target = target ? target : this.itemForm.columns;
+      target.push({
+          columnName: {
+            ...this.fieldsOption.columnName,
+            value: ''
+          },
+
+          canWriteMonth: {
+            ...this.fieldsOption.canWriteMonth,
+            value: ''
+          },
+          columnCode: {
+            ...this.fieldsOption.columnCode,
+            value: ''
+          },
+          isYearAmount: {
+            ...this.fieldsOption.isYearAmount,
+            value: false
+          },
+          orderIndex: {
+            ...this.fieldsOption.orderIndex,
+            value: this.itemForm.columns.length + 2
+          },
+          children: []
+        });
+      console.log(this.itemForm);
       //   this.$nextTick(() => {
       //     this.$refs.itemForm.validate();
       //   });
@@ -202,16 +440,18 @@ export default {
     handleAddType() {},
     handleClickType(tab) {
       ajax_list.contractTableDetailService({ tableId: tab.$attrs.id }, res => {
-        this.currentItem = res.body;
+        this.currentItem = res.body || [];
+        this.currentItem.sort(this.compare("orderIndex"));
       });
     },
-    handleContractTableListServiceOk(res) {
+    handleContractTableListServiceOk(res, tableId) {
       this.list = res.body || [];
       if (this.list.length) {
         ajax_list.contractTableDetailService(
-          { tableId: this.list[0].id },
+          { tableId: tableId || this.list[0].id },
           res => {
-            this.currentItem = res.body;
+            this.currentItem = res.body || [];
+            this.currentItem.sort(this.compare("orderIndex"));
           }
         );
       }
@@ -502,7 +742,15 @@ p {
 }
 .columns-item {
   border: 1px solid #3a8ee6;
-  padding: 10px 0 0 10px;
+  padding: 10px 10px 0 10px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+.child-columns-item {
+  border: 1px solid #3a8ee6;
+  padding: 10px 10px 0 10px;
   margin-bottom: 15px;
   display: flex;
   flex-wrap: wrap;
@@ -511,13 +759,13 @@ p {
 .addColumns {
   text-align: center;
 }
-.el-form-item {
+.columns-item .el-form-item {
   display: flex;
   width: 50%;
 }
 .delete-item {
   position: absolute;
-  top: 50%;
+  top: 32%;
   margin-top: -15px;
   right: -50px;
   border-radius: 50%;
@@ -525,5 +773,25 @@ p {
   color: #fff !important;
   background-color: #f56c6c;
   border-color: #f56c6c !important;
+}
+.add-child {
+  position: absolute;
+  top: 68%;
+  margin-top: -15px;
+  right: -50px;
+  border-radius: 50%;
+  padding: 12px;
+  color: #fff !important;
+}
+.edit-table {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  z-index: 999;
+  padding: 10px 10px;
+  border-radius: 50%;
+}
+.right_two .el-tabs__content {
+  padding: 40px;
 }
 </style>

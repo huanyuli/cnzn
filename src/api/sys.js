@@ -147,6 +147,21 @@ export default {
       fail_callback,
     )
   },
+  
+  /**
+   * 交易类型表创建
+   */
+  contractTableEditService(params, success_callback, fail_callback) {
+    withAxios.requestData(
+      'POST',
+      3,
+      '/api/contractTableEditService',
+      params,
+      success_callback,
+      fail_callback,
+    )
+  },
+
 
   /**
    * 交易类型表详情

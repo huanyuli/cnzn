@@ -7,11 +7,11 @@ export default {
   /**
    * 请求API公用函数(普通接口)
    * @param httpMethod 请求方法（GET POST PUT PATCH DELETE）
-   * @param urlType URL类型
+   * @param version 版本
    * @param path api路径
    * @param params 请求参数
    */
-  requestData(httpMethod,urlType,path, params, success_callback, fail_callback) {
+  requestData(httpMethod,version,path, params, success_callback, fail_callback) {
     let token = localStorage.getItem('adminToken') || '';
     let selfId = localStorage.getItem('adminSelfId') || '';
    // console.log(token)
@@ -32,7 +32,7 @@ export default {
     // } else {
     //   reqUrl = baseUrl.dataUrl();
     // }
-
+    
     axios({
       url: path,
       method: httpMethod,
@@ -42,7 +42,7 @@ export default {
         // 'version': '1.0'
       },
       [key]:{
-        'version': '1.0',
+        'version': typeof version === 'string' ? version : '1.0',
          'selfId':selfId,
         'token': token,
         data:params
