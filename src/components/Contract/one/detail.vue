@@ -2064,9 +2064,9 @@ export default {
             this.deta_list = res.body;
             this.sf_form.vue1 = this.deta_list.contract.quotedPrice;
             const tableIds = this.deta_list.tableColumns.forEach(item => {
-              sys_ajax.contractTableListService({}, typeRes => {
+              sys_ajax.contractTableListService({limit: 99999}, typeRes => {
                 this.tradingTypes = {};
-                typeRes.body.forEach(type => {
+                typeRes.body.list.forEach(type => {
                   this.tradingTypes[type.id] = type.name;
                 });
               });

@@ -598,8 +598,8 @@ export default {
         }
       }
     );
-    sys_ajax.contractTableListService({}, res => {
-      this.tradingTypes = res.body || [];
+    sys_ajax.contractTableListService({limit: 99999}, res => {
+      this.tradingTypes = res.body.list || [];
     });
   }
 };

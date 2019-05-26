@@ -750,8 +750,8 @@ export default {
   //生命周期钩子函数，进入页面显示之前获取数据到store
   created() {
     this.id = this.$route.params.one;
-    sys_ajax.contractTableListService({}, typeRes => {
-      typeRes.body.forEach(type => {
+    sys_ajax.contractTableListService({limit: 99999}, typeRes => {
+      typeRes.body.list.forEach(type => {
         this.tradingTypes[type.id] = type.name;
       });
     });

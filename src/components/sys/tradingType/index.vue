@@ -334,11 +334,11 @@ export default {
               canWriteMonth: item.canWriteMonth.value.join(","),
               isYearAmount: item.isYearAmount.value ? "Y" : "N",
               orderIndex: item.orderIndex.value,
-              columnCode: "col" + item.orderIndex.value,
+              columnCode: item.columnCode.value || "col" + item.orderIndex.value,
               columnName: item.columnName.value
             };
           });
-
+          console.log(columns)
           if (this.isEidt) {
             ajax_list.contractTableEditService(
               {
