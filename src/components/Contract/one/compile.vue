@@ -226,10 +226,26 @@
             </el-form>
           </div>
         </div>
+        <div class="list_module">
+          <div class="add-trading-type">
+            <el-select v-model="selectedTradingType" filterable placeholder="请选择交易品种">
+              <el-option
+                v-for="item in tradingTypesOrigin"
+                :key="item.id"
+                :label="item.name"
+                :value="item.id"
+              ></el-option>
+            </el-select>
+            <el-button type="primary" @click="hanldAddTable">增加交易品种表</el-button>
+          </div>
+        </div>
         <div class="list_module" v-for="(cols,idx) in contractData.tableColumns" :key="idx">
           <div>
             <div class="list_module_title">
-              <p>{{tradingTypes[cols[0].tableId]}}</p>
+              <p>
+                {{tradingTypes[cols[0].tableId]}}
+                <el-button type="danger" icon="el-icon-delete" @click="hanldDeleteTable(idx)"></el-button>
+              </p>
             </div>
             <div class="list_con">
               <div class="table_hint">单位：兆瓦时、元/兆瓦时</div>
@@ -297,13 +313,15 @@ export default {
   data() {
     return {
       id: "",
+      selectedTradingType: "", // 当前选择的品种
       contractType: "", //合同类型
       customerId: "", //客户ID
       add_con_id: "",
       c_backfill: {},
       tableColumns: {}, // 表列信息
       currentTableData: [], // 当前表格数据
-      tradingTypes: {},
+      tradingTypes: {}, // 品种，转换后
+      tradingTypesOrigin: [], // 接口返回的原始数据
       forms: {},
       stepNav: [],
       contractData: {
@@ -447,9 +465,63 @@ export default {
   // 映射store数据
   computed: {},
   methods: {
+    generateRowsFromOrigin(tableColumns) {
+      let cols = [];
+      const tableId = this.selectedTradingType
+      if (!this.forms["table" + tableId]) {
+        this.forms["table" + tableId] = {};
+      }
+      tableColumns.forEach(col => {
+        let currentCol = {
+          tableId,
+          columnCode: col.columnCode,
+          columnName: col.columnName
+        };
+        let months = Array.from({ length: 12 }, (v, k) => k + 1);
+        months.forEach(month => {
+          currentCol["monthValue" + month] = "";
+          this.forms["table" + tableId][month] = {};
+        });
+        cols.push(currentCol);
+      });
+      this.tableColumns["table" + tableId] = cols.map(
+        elements => {
+          return {
+            columnCode: elements.columnCode,
+            columnName: elements.columnName
+          };
+        }
+      );
+      this.contractData.tableColumns.push(cols);
+      console.log(this.tableColumns, this.forms);
+    },
+    hanldAddTable() {
+      if (!this.selectedTradingType) {
+        return this.$message("请选择交易品种");
+      }
+      const currentTableIds = this.contractData.tableColumns.map(
+        item => item[0].tableId
+      );
+      if (!currentTableIds.includes(this.selectedTradingType)) {
+        sys_ajax.contractTableDetailService(
+          { tableId: this.selectedTradingType },
+          res => {
+            const tableColumns = res.body || [];
+            if (!tableColumns.length) {
+              return;
+            }
+            this.generateRowsFromOrigin(tableColumns);
+          }
+        );
+      } else {
+        return this.$message("已有该交易品种表，请选择其他品类");
+      }
+    },
+    hanldDeleteTable(index) {
+      this.contractData.tableColumns.splice(index, 1);
+    },
     generateRows(cols) {
       let data = Array.from({ length: 12 }, (v, k) => k + 1);
-
       data = data.map(month => {
         let colData = { month: month + "月" };
         cols.forEach((col, index) => {
@@ -653,9 +725,9 @@ export default {
       let obj = {};
       obj = list.find(item => {
         return item.label === label;
-      });
+      }) || {};
       // console.log(obj.value)
-      return obj.value;
+      return obj.value || '';
     },
     get_utc(arr) {
       //时间戳（秒）转换UTC时间格式
@@ -750,7 +822,8 @@ export default {
   //生命周期钩子函数，进入页面显示之前获取数据到store
   created() {
     this.id = this.$route.params.one;
-    sys_ajax.contractTableListService({limit: 99999}, typeRes => {
+    sys_ajax.contractTableListService({ limit: 99999 }, typeRes => {
+      this.tradingTypesOrigin = typeRes.body.list || [];
       typeRes.body.list.forEach(type => {
         this.tradingTypes[type.id] = type.name;
       });
@@ -760,8 +833,7 @@ export default {
       res => {
         //
         this.$emit("login-success", res);
-      },
-      res => {
+
         if (res.status == 200) {
           this.contractData = res.body;
           this.c_backfill = res.body;
@@ -1223,6 +1295,19 @@ p {
   line-height: 38px;
   color: #000;
 }
+
+.add-trading-type {
+  text-align: right;
+  padding-right: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.add-trading-type .el-select {
+  display: inline-block;
+  width: 200px;
+}
+
 @media screen and (max-width: 1420px) {
   .list_con_input {
     width: 42%;
@@ -1233,9 +1318,4 @@ p {
   }
 }
 </style>
-<style>
-/*.add_input .list_module .el-input__inner{*/
-/*padding: 0 15px!important;*/
-/*margin-top: 0px!important;*/
-/*}*/
-</style>
+

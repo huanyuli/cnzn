@@ -73,6 +73,12 @@
                 <el-input v-model="finds.customerCode"></el-input>
               </div>
             </div>
+            <div class="ma_ui_div">
+              <P>交易品种：</P>
+              <div class="input_ss">
+                <el-input v-model="finds.transactionType"></el-input>
+              </div>
+            </div>
             <div class="ma_ui_div" style="padding-bottom: 10px">
               <el-button size="small" type="primary" @click="find_screen">查询</el-button>
               <el-button size="small" @click="empty_find">清空</el-button>
@@ -274,7 +280,8 @@ export default {
         find_2: 1,
         meterReadingDay: "", // 抄表例日
         customerCode: "", // 用户代码
-        customerName: "" // 企业名称
+        customerName: "", // 企业名称
+        transactionType: "", // 交易品种
       },
       par_form: {
         area: "",
@@ -593,6 +600,9 @@ export default {
         this.finds.customerCode +
         "','customerName':'" +
         this.finds.customerName +
+        "','transactionType':'" +
+        this.finds.transactionType +
+        
         "'}";
       this.find_list(this.par_form.find_area);
     },

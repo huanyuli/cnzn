@@ -32,7 +32,6 @@ export default {
     // } else {
     //   reqUrl = baseUrl.dataUrl();
     // }
-    
     axios({
       url: path,
       method: httpMethod,
