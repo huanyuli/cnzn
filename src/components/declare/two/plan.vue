@@ -281,7 +281,7 @@ export default {
         meterReadingDay: "", // 抄表例日
         customerCode: "", // 用户代码
         customerName: "", // 企业名称
-        transactionType: "", // 交易品种
+        transactionType: "" // 交易品种
       },
       par_form: {
         area: "",
@@ -387,8 +387,8 @@ export default {
     import_list() {
       var _temp_Export = `{"year":${this.finds.find_1},"month":${
         this.finds.find_2
-      },"customerCode":${this.finds.customerCode || '""'},"customerName":${this
-        .finds.customerName || '""'},"meterReadingDay":${this.finds
+      },"customerCode":${this.finds.customerCode || '""'},"customerName":"${this
+        .finds.customerName || ''}","meterReadingDay":${this.finds
         .meterReadingDay || '""'}}`;
       ajax_list.customerMonthPlanExportService(
         _temp_Export,
@@ -602,7 +602,6 @@ export default {
         this.finds.customerName +
         "','transactionType':'" +
         this.finds.transactionType +
-        
         "'}";
       this.find_list(this.par_form.find_area);
     },

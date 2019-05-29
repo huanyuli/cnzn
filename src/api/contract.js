@@ -112,6 +112,20 @@ contractSubmitService(params, success_callback, fail_callback) {
   },
 
   /**
+   *  /api/contractTableSaveService 购电合同增加附表
+   */
+  contractTableSaveService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/contractTableSaveService', params, success_callback, fail_callback);
+  },
+
+  /**
+   *  /api/contractTableDelService 合同附表删除
+   */
+  contractTableDelService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/contractTableDelService', params, success_callback, fail_callback);
+  },
+
+  /**
    *  /apiFile/purchaseContractEditService 购电合同编辑
    */
   purchaseContractEditService(params, success_callback, fail_callback) {

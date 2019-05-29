@@ -52,18 +52,36 @@
       </div>
     </div>
 
-    <el-dialog title="交易类型" :visible.sync="dialogVisible" width="70%">
+    <el-dialog title="交易品种" :visible.sync="dialogVisible" width="70%">
       <div class="add_div">
         <div class="add_div_one">
           <div class="one_con">
             <el-form ref="itemForm" :model="itemForm">
-              <el-form-item
-                label="交易类型名称"
-                prop="tableName"
-                :rules="{ required: true, message: '请输入类型名称', trigger: 'blur' }"
-              >
-                <el-input v-model="itemForm.tableName"></el-input>
-              </el-form-item>
+              <div style="width:100%;display:flex;justify-content: space-between">
+                <el-form-item
+                  label="品种名称"
+                  prop="tableName"
+                  :rules="{ required: true, message: '请输入品种名称', trigger: 'blur' }"
+                >
+                  <el-input v-model="itemForm.tableName"></el-input>
+                </el-form-item>
+                <el-form-item label="有效月份" prop="canWriteMonth">
+                  <el-select
+                    v-model="itemForm.canWriteMonth"
+                    multiple
+                    collapse-tags
+                    placeholder="请选择有效月份"
+                  >
+                    <el-option
+                      v-for="month in monthOptions"
+                      :key="month"
+                      :label="month+'月'"
+                      :value="month"
+                    ></el-option>
+                  </el-select>
+                </el-form-item>
+              </div>
+
               <p v-if="!itemForm.columns.length">点击增加表列，开始增加表列...</p>
               <div class="columns-item" v-for="(item,index) in itemForm.columns" :key="index">
                 <div
@@ -232,8 +250,7 @@ export default {
         canWriteMonth: {
           name: "能写入的月份",
           type: "select",
-          value: "",
-          rule: { required: true, message: "请选择月份", trigger: "blur" }
+          value: ""
         },
         orderIndex: {
           name: "列序号",
@@ -253,6 +270,7 @@ export default {
       },
       itemForm: {
         tableName: "",
+        canWriteMonth: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
         columns: []
       },
       list: [],
@@ -334,11 +352,12 @@ export default {
               canWriteMonth: item.canWriteMonth.value.join(","),
               isYearAmount: item.isYearAmount.value ? "Y" : "N",
               orderIndex: item.orderIndex.value,
-              columnCode: item.columnCode.value || "col" + item.orderIndex.value,
+              columnCode:
+                item.columnCode.value || "col" + item.orderIndex.value,
               columnName: item.columnName.value
             };
           });
-          console.log(columns)
+          console.log(columns);
           if (this.isEidt) {
             ajax_list.contractTableEditService(
               {

@@ -268,7 +268,14 @@
             <el-button @click="add_cancel" size="small" plain>取消</el-button>
             <el-button v-if="istype < stepNav.length" @click="add_one" size="small" plain>上一步</el-button>
             <el-button
-              v-if="istype < stepNav.length"
+              v-if="istype > 1 && istype < stepNav.length"
+              class="btn_aff"
+              type="primary"
+              size="small"
+              @click="add_two"
+            >保存并继续</el-button>
+            <el-button
+              v-if="istype === 1"
               class="btn_aff"
               type="primary"
               size="small"
@@ -403,7 +410,7 @@ export default {
         list4: [],
         list: []
       },
-      con_id: "",
+      con_id: "", // 合同id
 
       ruleTwo: {
         two_1: "",
@@ -753,9 +760,6 @@ export default {
   methods: {
     generateRows() {
       // 前两个不加载
-      if (this.istype < 3) {
-        return;
-      }
       const id = this.stepNav[this.istype - 1].id;
       sys_ajax.contractTableDetailService(
         { tableId: this.stepNav[this.istype - 1].id },
@@ -837,23 +841,7 @@ export default {
           customerCode: this.ruleForm.one_15 //用户代码
         }
       };
-      this.add_create.tableIds = this.stepNav.slice(2).map(item => item.id);
-      this.add_create.tableIds = this.add_create.tableIds.join(",");
 
-      // 重新组装数据结构
-      Object.keys(this.tableColumns).forEach(key => {
-        this.add_create[key] = [];
-        this.tableColumns[key].forEach(col => {
-          let currentCol = {
-            columnCode: col.columnCode,
-            columnName: col.columnName
-          };
-          Object.keys(this.forms[key]).forEach(month => {
-            currentCol["monthValue" + month] = this.forms[key][month][col.columnCode];
-          });
-          this.add_create[key].push(currentCol);
-        });
-      });
       console.log(this.add_create);
       this.add_create = JSON.stringify(this.add_create);
       add_ajax.contractCreateService(
@@ -865,19 +853,21 @@ export default {
         res => {
           if (res.status == 200) {
             this.con_id = res.body;
-
-            var _temp_id = 0;
-            if (type_name == "save") {
-              _temp_id = 2;
-            } else if (type_name == "submit") {
-              _temp_id = 1;
-            }
-            if (_temp_id != 0) {
-              this.$router.push({
-                name: "addSucceed",
-                params: { btn_id: _temp_id, cont_id: this.con_id }
-              });
-            }
+            this.istype = this.istype + 1;
+            // 加载附表
+            this.generateRows();
+            // var _temp_id = 0;
+            // if (type_name == "save") {
+            //   _temp_id = 2;
+            // } else if (type_name == "submit") {
+            //   _temp_id = 1;
+            // }
+            // if (_temp_id != 0) {
+            //   this.$router.push({
+            //     name: "addSucceed",
+            //     params: { btn_id: _temp_id, cont_id: this.con_id }
+            //   });
+            // }
           } else {
             this.$message({ message: "创建失败" });
           }
@@ -911,39 +901,90 @@ export default {
       //表单重置验证
       form.clearValidate();
     },
+    // 附表保存
+    addSubTable(type_name) {
+      const tableId = this.stepNav[this.istype - 1].id;
+      const tableColumn = this.tableColumns["table" + tableId];
+      const contractId = this.con_id;
+      // 重新组装数据结构
+      let columns = [];
+      tableColumn.forEach(col => {
+        let currentCol = {
+          columnCode: col.columnCode,
+          columnName: col.columnName
+        };
+        Object.keys(this.forms["table" + tableId]).forEach(month => {
+          currentCol["monthValue" + month] = this.forms["table" + tableId][
+            month
+          ][col.columnCode];
+        });
+        columns.push(currentCol);
+      });
+      add_ajax.contractTableSaveService(
+        { tableId, contractId, columns },
+        res => {
+          // 最后一个附表，成功后跳转
+          if (this.istype === this.stepNav.length) {
+            let _temp_id = 0;
+            if (type_name == "save") {
+              _temp_id = 2;
+            } else if (type_name == "submit") {
+              _temp_id = 1;
+            }
+
+            this.$router.push({
+              name: "addSucceed",
+              params: { btn_id: _temp_id, cont_id: this.con_id }
+            });
+
+            return;
+          }
+          this.istype = this.istype + 1;
+          this.generateRows();
+          this.load_save = false;
+          this.load_subit = false;
+        },
+        res => {
+          this.load_save = false;
+          this.load_subit = false;
+        }
+      );
+    },
     submitForm(formName, type, action) {
       let form = this.$refs[formName];
-      if (type > 2) {
-        form = this.$refs[formName][0];
-      }
-      //表单提交验证
-      form.validate(valid => {
-        if (valid) {
-          if (type === this.stepNav.length) {
-            if (action == "submit") {
-              //提交
-              this.load_subit = true;
-            } else if (action == "save") {
-              this.load_save = true;
-            }
-            this.add_cont(action);
-          } else {
+      this["load_" + action] = true;
+      // 第1个表单需要校验
+      if (type === 1) {
+        form.validate(valid => {
+          if (valid) {
             this.resetForm(form);
             this.istype = type + 1;
-            this.generateRows();
+            return true;
+          } else {
+            return false;
           }
-          return true;
-        } else {
-          console.log("error submit!!");
-          return false;
-        }
-      });
+        });
+      }
+      // 第二个表单需要校验
+      if (type === 2) {
+        form.validate(valid => {
+          if (valid) {
+            this.resetForm(form);
+            this.add_cont(action);
+            return true;
+          } else {
+            return false;
+          }
+        });
+      }
+      if (type > 2) {
+        this.addSubTable(action);
+      }
     },
     add_two() {
       //下一步
       const _temp = this.istype;
-      const total = this.stepNav.length;
-      this.submitForm("form" + this.istype, _temp);
+      this.submitForm("form" + this.istype, _temp, "save");
     },
     remoteMethod(query) {
       //购电方远程搜索选择
