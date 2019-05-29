@@ -467,7 +467,7 @@ export default {
   methods: {
     generateRowsFromOrigin(tableColumns) {
       let cols = [];
-      const tableId = this.selectedTradingType
+      const tableId = this.selectedTradingType;
       if (!this.forms["table" + tableId]) {
         this.forms["table" + tableId] = {};
       }
@@ -484,16 +484,28 @@ export default {
         });
         cols.push(currentCol);
       });
-      this.tableColumns["table" + tableId] = cols.map(
-        elements => {
-          return {
-            columnCode: elements.columnCode,
-            columnName: elements.columnName
-          };
+      add_ajax.contractTableSaveService(
+        {
+          contractId: this.contractData.contract.id,
+          tableId: this.selectedTradingType,
+          columns: cols
+        },
+        res => {
+          this.tableColumns["table" + tableId] = cols.map(elements => {
+            return {
+              columnCode: elements.columnCode,
+              columnName: elements.columnName
+            };
+          });
+
+          this.contractData.tableColumns.push(cols);
+        },
+        res => {
+          if (res && res.status !== 200) {
+            this.$message("添加品种失败");
+          }
         }
       );
-      this.contractData.tableColumns.push(cols);
-      console.log(this.tableColumns, this.forms);
     },
     hanldAddTable() {
       if (!this.selectedTradingType) {
@@ -510,6 +522,7 @@ export default {
             if (!tableColumns.length) {
               return;
             }
+
             this.generateRowsFromOrigin(tableColumns);
           }
         );
@@ -518,7 +531,18 @@ export default {
       }
     },
     hanldDeleteTable(index) {
-      this.contractData.tableColumns.splice(index, 1);
+      const tableId = this.contractData.tableColumns[index][0].tableId;
+      add_ajax.contractTableDelService(
+        { tableId, contractId: this.contractData.contract.id },
+        res => {
+          this.contractData.tableColumns.splice(index, 1);
+        },
+        res => {
+          if (res && res.status !== 200) {
+            this.$message("删除品种失败");
+          }
+        }
+      );
     },
     generateRows(cols) {
       let data = Array.from({ length: 12 }, (v, k) => k + 1);
@@ -598,15 +622,10 @@ export default {
           customerCode: this.ruleForm.one_15 //用户代码
         }
       };
-      this.add_create.tableIds = this.contractData.tableColumns.map(
-        item => item[0].tableId
-      );
-      this.add_create.tableIds = this.add_create.tableIds.join(",");
 
       const newForms = Object.assign({}, this.forms);
-
       for (let tableName in this.tableColumns) {
-        this.add_create[tableName] = this.tableColumns[tableName].map(col => {
+        const cols = this.tableColumns[tableName].map(col => {
           let months = Array.from({ length: 12 }, (v, k) => k + 1);
           months.forEach(month => {
             col["monthValue" + month] =
@@ -614,26 +633,13 @@ export default {
           });
           return col;
         });
+        add_ajax.contractTableSaveService({
+          contractId: this.contractData.contract.id,
+          tableId: tableName.split('table')[1],
+          columns: cols
+        })
       }
-      console.log(this.tableColumns);
-      console.log(newForms);
-      // 重新组装数据结构
-      // Object.keys(this.contractData.tableColumns).forEach(key => {
-      //   this.add_create[key] = [];
-      //   this.contractData.tableColumns[key].forEach(col => {
-      //     let currentCol = {
-      //       columnCode: col.columnCode,
-      //       columnName: col.columnName
-      //     };
-      //     Object.keys(this.forms[key]).forEach(month => {
-      //       currentCol["monthValue" + month] = this.forms[key][month][
-      //         col.columnCode
-      //       ];
-      //     });
-      //     this.add_create[key].push(currentCol);
-      //   });
-      // });
-      console.log(this.add_create);
+
       this.add_create = JSON.stringify(this.add_create);
       add_ajax.contractEditService(
         this.add_create,
@@ -723,11 +729,12 @@ export default {
     },
     zh_val(list, label) {
       let obj = {};
-      obj = list.find(item => {
-        return item.label === label;
-      }) || {};
+      obj =
+        list.find(item => {
+          return item.label === label;
+        }) || {};
       // console.log(obj.value)
-      return obj.value || '';
+      return obj.value || "";
     },
     get_utc(arr) {
       //时间戳（秒）转换UTC时间格式
@@ -828,71 +835,66 @@ export default {
         this.tradingTypes[type.id] = type.name;
       });
     });
-    add_ajax.contractDetailService(
-      { id: this.id },
-      res => {
-        //
-        this.$emit("login-success", res);
+    add_ajax.contractDetailService({ id: this.id }, res => {
+      //
+      this.$emit("login-success", res);
 
-        if (res.status == 200) {
-          this.contractData = res.body;
-          this.c_backfill = res.body;
-          this.contractData.tableColumns.forEach(cols => {
-            if (!this.forms["table" + cols[0].tableId]) {
-              this.forms["table" + cols[0].tableId] = {};
-            }
-            this.tableColumns["table" + cols[0].tableId] = cols.map(
-              elements => {
-                return {
-                  columnCode: elements.columnCode,
-                  columnName: elements.columnName
-                };
-              }
-            );
+      if (res.status == 200) {
+        this.contractData = res.body;
+        this.c_backfill = res.body;
+        this.contractData.tableColumns.forEach(cols => {
+          if (!this.forms["table" + cols[0].tableId]) {
+            this.forms["table" + cols[0].tableId] = {};
+          }
+          this.tableColumns["table" + cols[0].tableId] = cols.map(elements => {
+            return {
+              columnCode: elements.columnCode,
+              columnName: elements.columnName
+            };
           });
+        });
 
-          // 设置初始值
-          this.contractType = this.c_backfill.contract.contractType; //合同类型
-          this.customerId = this.c_backfill.contract.customerId; //客户ID
-          this.ruleForm.one_1 = this.c_backfill.contract.number; //合同编号
-          this.ruleForm.one_2 = this.c_backfill.contract.customerName; ////客户名称(甲方)
-          this.ruleForm.one_4 = this.c_backfill.contract.taxNumber; //税务登记号
-          this.ruleForm.one_5 = this.c_backfill.contract.residence; //甲方住所
-          this.ruleForm.one_7 = this.c_backfill.contract.accountName; //甲方开户名称
-          this.ruleForm.one_8 = this.c_backfill.contract.accountBank; //甲方开户银行
-          this.ruleForm.one_9 = this.c_backfill.contract.accountNumber; //甲方开户账号
-          this.ruleForm.one_14 = this.c_backfill.contract.contactAddress; //甲方通讯地址
-          this.ruleForm.one_15 = this.c_backfill.customer.customerCode; //用户代码
-          this.ruleForm.two_1 = this.c_backfill.contract.companyAddress; //甲方企业地址
-          this.ruleForm.two_3 = this.c_backfill.contract.totalUsePowerAmount; //甲方企业地址
-          this.ruleForm.two_4 = this.c_backfill.contract.transformerCapacity; //变压器容量
-          this.ruleForm.two_5 = this.get_utc(
-            this.c_backfill.contract.transactionCycle
-          ); //交易周期
-          this.ruleForm.two_5s = [
-            this.get_utc(this.c_backfill.contract.contractStartTime),
-            this.get_utc(this.c_backfill.contract.contractEndTime)
-          ];
-          this.ruleForm.two_6 = this.c_backfill.contract.estimateTotalUsePowerAmount; //预估总用电量
-          this.ruleForm.two_7 = this.c_backfill.contract.meterReadingDay; //抄表例日
-          this.ruleForm.two_8 = this.c_backfill.contract.powerAmountPricePromise; //双方电量和电价约定
-          this.ruleForm.two_9 = this.c_backfill.contract.defaultClausePromise; //双方违约条款约定
-          this.ruleForm.two_10 = this.c_backfill.contract.forceMajeurePromise; //不可抗力约定
+        // 设置初始值
+        this.contractType = this.c_backfill.contract.contractType; //合同类型
+        this.customerId = this.c_backfill.contract.customerId; //客户ID
+        this.ruleForm.one_1 = this.c_backfill.contract.number; //合同编号
+        this.ruleForm.one_2 = this.c_backfill.contract.customerName; ////客户名称(甲方)
+        this.ruleForm.one_4 = this.c_backfill.contract.taxNumber; //税务登记号
+        this.ruleForm.one_5 = this.c_backfill.contract.residence; //甲方住所
+        this.ruleForm.one_7 = this.c_backfill.contract.accountName; //甲方开户名称
+        this.ruleForm.one_8 = this.c_backfill.contract.accountBank; //甲方开户银行
+        this.ruleForm.one_9 = this.c_backfill.contract.accountNumber; //甲方开户账号
+        this.ruleForm.one_14 = this.c_backfill.contract.contactAddress; //甲方通讯地址
+        this.ruleForm.one_15 = this.c_backfill.customer.customerCode; //用户代码
+        this.ruleForm.two_1 = this.c_backfill.contract.companyAddress; //甲方企业地址
+        this.ruleForm.two_3 = this.c_backfill.contract.totalUsePowerAmount; //甲方企业地址
+        this.ruleForm.two_4 = this.c_backfill.contract.transformerCapacity; //变压器容量
+        this.ruleForm.two_5 = this.get_utc(
+          this.c_backfill.contract.transactionCycle
+        ); //交易周期
+        this.ruleForm.two_5s = [
+          this.get_utc(this.c_backfill.contract.contractStartTime),
+          this.get_utc(this.c_backfill.contract.contractEndTime)
+        ];
+        this.ruleForm.two_6 = this.c_backfill.contract.estimateTotalUsePowerAmount; //预估总用电量
+        this.ruleForm.two_7 = this.c_backfill.contract.meterReadingDay; //抄表例日
+        this.ruleForm.two_8 = this.c_backfill.contract.powerAmountPricePromise; //双方电量和电价约定
+        this.ruleForm.two_9 = this.c_backfill.contract.defaultClausePromise; //双方违约条款约定
+        this.ruleForm.two_10 = this.c_backfill.contract.forceMajeurePromise; //不可抗力约定
 
-          this.ruleForm.one_3 = this.c_backfill.customer.address; //所在地
-          this.ruleForm.one_6 = this.c_backfill.customer.representative; //法人代表
-          this.ruleForm.one_10 = this.c_backfill.customer.contact; //联系人
-          this.ruleForm.one_11 = this.c_backfill.customer.email; //电子邮箱
-          this.ruleForm.one_12 = this.c_backfill.customer.phone; //手机号
-          this.ruleForm.one_13 = this.c_backfill.customer.contactNumber; //联系电话
-          this.ruleForm.two_2 = this.zh_val(
-            this.yn_3,
-            this.c_backfill.customer.voltageLevel
-          ); //电压等级
-          this.ruleForm.two_6s = this.c_backfill.customer.totalUsePowerAmount; //总用电容量
-        }
+        this.ruleForm.one_3 = this.c_backfill.customer.address; //所在地
+        this.ruleForm.one_6 = this.c_backfill.customer.representative; //法人代表
+        this.ruleForm.one_10 = this.c_backfill.customer.contact; //联系人
+        this.ruleForm.one_11 = this.c_backfill.customer.email; //电子邮箱
+        this.ruleForm.one_12 = this.c_backfill.customer.phone; //手机号
+        this.ruleForm.one_13 = this.c_backfill.customer.contactNumber; //联系电话
+        this.ruleForm.two_2 = this.zh_val(
+          this.yn_3,
+          this.c_backfill.customer.voltageLevel
+        ); //电压等级
+        this.ruleForm.two_6s = this.c_backfill.customer.totalUsePowerAmount; //总用电容量
       }
-    );
+    });
     var _temp_zd = "{}";
     add_ajax.contractCodeService(
       _temp_zd,
