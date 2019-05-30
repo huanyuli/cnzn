@@ -357,11 +357,11 @@ export default {
               columnName: item.columnName.value
             };
           });
-          console.log(columns);
           if (this.isEidt) {
             ajax_list.contractTableEditService(
               {
                 tableName: this.itemForm.tableName,
+                canWriteMonth: this.itemForm.canWriteMonth,
                 columns,
                 tableId: this.tableId
               },
@@ -372,7 +372,8 @@ export default {
                 this.tableId = null;
                 this.itemForm = {
                   tableName: "",
-                  columns: []
+                  columns: [],
+                  canWriteMonth: [1,2,3,4,,5,6,7,8,9,10,11,12]
                 };
                 ajax_list.contractTableListService(
                   this.query,

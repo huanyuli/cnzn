@@ -842,7 +842,7 @@ export default {
         }
       };
 
-      console.log(this.add_create);
+      // console.log(this.add_create);
       this.add_create = JSON.stringify(this.add_create);
       add_ajax.contractCreateService(
         this.add_create,
@@ -931,12 +931,15 @@ export default {
             } else if (type_name == "submit") {
               _temp_id = 1;
             }
-
-            this.$router.push({
-              name: "addSucceed",
-              params: { btn_id: _temp_id, cont_id: this.con_id }
-            });
-
+            // 提交合同
+            if (type_name === "submit") {
+              add_ajax.contractSubmitService({ id: this.con_id }, submitRes => {
+                this.$router.push({
+                  name: "addSucceed",
+                  params: { btn_id: _temp_id, cont_id: this.con_id }
+                });
+              });
+            }
             return;
           }
           this.istype = this.istype + 1;

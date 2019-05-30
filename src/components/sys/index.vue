@@ -11,7 +11,7 @@
           <p>角色管理</p>
         </div>
       </div>
-      <div v-if="show_map(23) == 23" @click='cc' class="left_two_list" :class="{click_list:this.click_index == 3}">
+      <div v-if="show_map(26) == 26" @click='cc' class="left_two_list" :class="{click_list:this.click_index == 3}">
         <div class="list_right list_right_one">
           <p>交易品种管理</p>
         </div>

@@ -245,6 +245,7 @@
               <p>
                 {{tradingTypes[cols[0].tableId]}}
                 <el-button type="danger" icon="el-icon-delete" @click="hanldDeleteTable(idx)"></el-button>
+                <el-button type="success" icon="el-icon-check" @click="hanldSaveTable(idx)"></el-button>
               </p>
             </div>
             <div class="list_con">
@@ -261,6 +262,7 @@
                     >
                       <template slot-scope="scope">
                         <el-form-item
+                          v-if="scope.row['display_'+col.columnCode]"
                           :prop="forms['table' + cols[0].tableId][scope.$index+1][col.columnCode]"
                         >
                           <el-input
@@ -475,7 +477,8 @@ export default {
         let currentCol = {
           tableId,
           columnCode: col.columnCode,
-          columnName: col.columnName
+          columnName: col.columnName,
+          canWriteMonth: col.canWriteMonth
         };
         let months = Array.from({ length: 12 }, (v, k) => k + 1);
         months.forEach(month => {
@@ -484,6 +487,7 @@ export default {
         });
         cols.push(currentCol);
       });
+      // sys_ajax.contractTableDetailService({})
       add_ajax.contractTableSaveService(
         {
           contractId: this.contractData.contract.id,
@@ -544,16 +548,48 @@ export default {
         }
       );
     },
+    hanldSaveTable(index) {
+      const newForms = Object.assign({}, this.forms);
+      const tableId = this.contractData.tableColumns[index][0].tableId;
+      const tableName = "table" + tableId;
+      const cols = this.tableColumns[tableName].map(col => {
+        let months = Array.from({ length: 12 }, (v, k) => k + 1);
+        months.forEach(month => {
+          col["monthValue" + month] =
+            newForms[tableName][month][col.columnCode];
+        });
+        return col;
+      });
+      add_ajax.contractTableSaveService(
+        {
+          contractId: this.contractData.contract.id,
+          tableId,
+          columns: cols
+        },
+        res => {
+          if (res && res.status === 200) {
+            this.$message("保存成功");
+          }
+        }
+      );
+    },
     generateRows(cols) {
+      console.log("cols", cols);
       let data = Array.from({ length: 12 }, (v, k) => k + 1);
       data = data.map(month => {
-        let colData = { month: month + "月" };
+        let colData = {
+          month: month + "月"
+        };
         cols.forEach((col, index) => {
           colData[col.columnCode] = col["monthValue" + month];
+          colData["display_" + col.columnCode] = col.canWriteMonth
+            .split(",")
+            .includes(`${month}`);
         });
         this.forms["table" + cols[0].tableId][month] = colData;
         return colData;
       });
+      console.log(data);
       return data;
     },
     ret_add() {
@@ -622,7 +658,7 @@ export default {
           customerCode: this.ruleForm.one_15 //用户代码
         }
       };
-
+      // 保存所有附表
       const newForms = Object.assign({}, this.forms);
       for (let tableName in this.tableColumns) {
         const cols = this.tableColumns[tableName].map(col => {
@@ -635,9 +671,9 @@ export default {
         });
         add_ajax.contractTableSaveService({
           contractId: this.contractData.contract.id,
-          tableId: tableName.split('table')[1],
+          tableId: tableName.split("table")[1],
           columns: cols
-        })
+        });
       }
 
       this.add_create = JSON.stringify(this.add_create);
@@ -840,17 +876,35 @@ export default {
       this.$emit("login-success", res);
 
       if (res.status == 200) {
-        this.contractData = res.body;
+        let { contract = {}, customer = {}, tableColumns = [] } = res.body;
         this.c_backfill = res.body;
-        this.contractData.tableColumns.forEach(cols => {
-          if (!this.forms["table" + cols[0].tableId]) {
-            this.forms["table" + cols[0].tableId] = {};
+        this.contractData.contract = contract;
+        this.contractData.customer = customer;
+        this.contractData.tableColumns = [];
+        tableColumns.forEach((cols, index) => {
+          const tableId = cols[0].tableId;
+          const tableName = "table" + tableId;
+
+          if (!this.forms[tableName]) {
+            this.forms[tableName] = {};
           }
-          this.tableColumns["table" + cols[0].tableId] = cols.map(elements => {
+          tableColumns[tableName] = cols.map(elements => {
             return {
               columnCode: elements.columnCode,
               columnName: elements.columnName
             };
+          });
+          // 获取可写月份信息
+          sys_ajax.contractTableDetailService({ tableId }, res => {
+            const colsInfo = res.body || [];
+            tableColumns[index] = tableColumns[index].map(d => {
+              const colInfo = colsInfo.find(c => c.columnCode === d.columnCode);
+              return {
+                ...d,
+                canWriteMonth: colInfo.canWriteMonth
+              };
+            });
+            this.contractData.tableColumns.push(tableColumns[index]);
           });
         });
 

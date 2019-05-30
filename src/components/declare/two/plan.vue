@@ -76,7 +76,14 @@
             <div class="ma_ui_div">
               <P>交易品种：</P>
               <div class="input_ss">
-                <el-input v-model="finds.transactionType"></el-input>
+                <el-select v-model="finds.transactionType" filterable>
+                  <el-option
+                    v-for="item in tradingTypes"
+                    :key="item.id"
+                    :label="item.name"
+                    :value="item.id"
+                  ></el-option>
+                </el-select>
               </div>
             </div>
             <div class="ma_ui_div" style="padding-bottom: 10px">
@@ -205,10 +212,12 @@
 <script>
 // 引入axios
 import ajax_list from "../../../api/declare";
+import sys_ajax from "../../../api/sys";
 
 export default {
   data() {
     return {
+      tradingTypes: [],
       isSurplus: false,
       no_val: 1,
       no_fy: 0,
@@ -388,8 +397,9 @@ export default {
       var _temp_Export = `{"year":${this.finds.find_1},"month":${
         this.finds.find_2
       },"customerCode":${this.finds.customerCode || '""'},"customerName":"${this
-        .finds.customerName || ''}","meterReadingDay":${this.finds
-        .meterReadingDay || '""'}}`;
+        .finds.customerName || ""}","meterReadingDay":${this.finds
+        .meterReadingDay || '""'}},"tableId":"${this.finds.transactionType ||
+        ""}"`;
       ajax_list.customerMonthPlanExportService(
         _temp_Export,
         res => {
@@ -515,7 +525,6 @@ export default {
       //查询列表
 
       ajax_list.customerMonthPlanListService(data, res => {
-        console.log("res", res);
         this.find_lists = res.body;
         this.tableData = [];
         this.no_sj = [];
@@ -565,7 +574,8 @@ export default {
               businessName: data.businessName, // 客户经理
               customerCode: data.customerCode, //用户代码
               customerName: data.customerName, //客户名称
-              transactionType: data.transactionType, //交易类型
+              tableId: data.tableId, //交易类型
+              transactionType: data.transactionType, // 交易类型名称
               meterReadingDay: data.meterReadingDay + "日", //抄表例日
               surplusPowerBase: data.surplusPowerBase, // 富余基数
               contractPowerAmount, //当月合同直购电电量,
@@ -600,7 +610,7 @@ export default {
         this.finds.customerCode +
         "','customerName':'" +
         this.finds.customerName +
-        "','transactionType':'" +
+        "','tableId':'" +
         this.finds.transactionType +
         "'}";
       this.find_list(this.par_form.find_area);
@@ -769,6 +779,7 @@ export default {
       this.finds.customerCode = "";
       this.finds.customerName = "";
       this.finds.meterReadingDay = "";
+      this.finds.transactionType = "";
       this.par_form.find_area =
         "{'year':" +
         this.finds.find_1 +
@@ -817,6 +828,9 @@ export default {
         });
       }
     );
+    sys_ajax.contractTableListService({ limit: 99999 }, typeRes => {
+      this.tradingTypes = typeRes.body.list || [];
+    });
   }
 };
 </script>
