@@ -245,7 +245,7 @@
               <p>
                 {{tradingTypes[cols[0].tableId]}}
                 <el-button type="danger" icon="el-icon-delete" @click="hanldDeleteTable(idx)"></el-button>
-                <el-button type="success" icon="el-icon-check" @click="hanldSaveTable(idx)"></el-button>
+                <el-button type="success" icon="el-icon-check" :loading="savingStatus" @click="hanldSaveTable(idx)"></el-button>
               </p>
             </div>
             <div class="list_con">
@@ -315,6 +315,7 @@ export default {
   data() {
     return {
       id: "",
+      savingStatus: false, // 保存附表状态
       selectedTradingType: "", // 当前选择的品种
       contractType: "", //合同类型
       customerId: "", //客户ID
@@ -549,6 +550,7 @@ export default {
       );
     },
     hanldSaveTable(index) {
+      this.savingStatus = true
       const newForms = Object.assign({}, this.forms);
       const tableId = this.contractData.tableColumns[index][0].tableId;
       const tableName = "table" + tableId;
@@ -570,11 +572,12 @@ export default {
           if (res && res.status === 200) {
             this.$message("保存成功");
           }
+        }, res => {
+          this.savingStatus = false
         }
       );
     },
     generateRows(cols) {
-      console.log("cols", cols);
       let data = Array.from({ length: 12 }, (v, k) => k + 1);
       data = data.map(month => {
         let colData = {
@@ -888,7 +891,7 @@ export default {
           if (!this.forms[tableName]) {
             this.forms[tableName] = {};
           }
-          tableColumns[tableName] = cols.map(elements => {
+          this.tableColumns[tableName] = cols.map(elements => {
             return {
               columnCode: elements.columnCode,
               columnName: elements.columnName

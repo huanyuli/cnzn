@@ -8,7 +8,7 @@
       <div class="ma_content">
         <div class="content_list">
           <div class="buttons">
-            <el-button type="primary" @click="dialogVisible = true">新增品种</el-button>
+            <el-button type="primary" @click="handleAddTable">新增品种</el-button>
           </div>
           <el-tabs type="border-card" @tab-click="handleClickType">
             <el-tab-pane
@@ -335,13 +335,24 @@ export default {
       }
       cb();
     },
+    handleAddTable() {
+      this.dialogVisible = true;
+      this.isEidt = false;
+      this.tableId = null;
+      this.itemForm = {
+        tableName: "",
+        columns: [],
+        canWriteMonth: [1, 2, 3, 4, , 5, 6, 7, 8, 9, 10, 11, 12]
+      };
+    },
     handleCloseModal() {
       this.dialogVisible = false;
       this.isEidt = false;
       this.tableId = null;
       this.itemForm = {
         tableName: "",
-        columns: []
+        columns: [],
+        canWriteMonth: [1, 2, 3, 4, , 5, 6, 7, 8, 9, 10, 11, 12]
       };
     },
     handleSubmit() {
@@ -373,7 +384,7 @@ export default {
                 this.itemForm = {
                   tableName: "",
                   columns: [],
-                  canWriteMonth: [1,2,3,4,,5,6,7,8,9,10,11,12]
+                  canWriteMonth: [1, 2, 3, 4, , 5, 6, 7, 8, 9, 10, 11, 12]
                 };
                 ajax_list.contractTableListService(
                   this.query,
@@ -394,7 +405,8 @@ export default {
                 this.tableId = null;
                 this.itemForm = {
                   tableName: "",
-                  columns: []
+                  columns: [],
+                  canWriteMonth: [1, 2, 3, 4, , 5, 6, 7, 8, 9, 10, 11, 12]
                 };
                 ajax_list.contractTableListService(
                   this.query,
@@ -407,10 +419,11 @@ export default {
         }
       });
     },
-    hanldeEdit(item) {
+    hanldeEdit(curItem) {
       this.dialogVisible = true;
       this.isEidt = true;
-      this.tableId = item.id;
+      this.tableId = curItem.id;
+      console.log(curItem);
       const columns = this.currentItem.map(item => {
         return {
           columnName: {
@@ -438,7 +451,11 @@ export default {
         };
       });
       this.itemForm.columns = columns;
-      this.itemForm.tableName = item.name;
+      this.itemForm.tableName = curItem.name;
+      this.itemForm.canWriteMonth = curItem.canWriteMonth
+        .replace(/\]|\[/g, "")
+        .split(",")
+        .map(s => Number(s));
     },
     handleDeleteItem(index) {
       this.itemForm.columns.splice(index, 1);
