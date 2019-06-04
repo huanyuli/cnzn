@@ -372,7 +372,7 @@ export default {
             ajax_list.contractTableEditService(
               {
                 tableName: this.itemForm.tableName,
-                canWriteMonth: this.itemForm.canWriteMonth,
+                canWriteMonth: this.itemForm.canWriteMonth.join(','),
                 columns,
                 tableId: this.tableId
               },
@@ -397,6 +397,7 @@ export default {
             ajax_list.contractTableCreateService(
               {
                 tableName: this.itemForm.tableName,
+                canWriteMonth: this.itemForm.canWriteMonth.join(','),
                 columns
               },
               res => {

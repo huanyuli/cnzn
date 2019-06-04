@@ -245,7 +245,11 @@
               <p>
                 {{tradingTypes[cols[0].tableId]}}
                 <el-button type="danger" icon="el-icon-delete" @click="hanldDeleteTable(idx)"></el-button>
-                <el-button type="success" icon="el-icon-check" :loading="savingStatus" @click="hanldSaveTable(idx)"></el-button>
+                <el-button
+                  type="success"
+                  icon="el-icon-check"
+                  @click="hanldSaveTable(idx)"
+                ></el-button>
               </p>
             </div>
             <div class="list_con">
@@ -541,6 +545,7 @@ export default {
         { tableId, contractId: this.contractData.contract.id },
         res => {
           this.contractData.tableColumns.splice(index, 1);
+          delete this.tableColumns['table'+tableId]
         },
         res => {
           if (res && res.status !== 200) {
@@ -550,7 +555,6 @@ export default {
       );
     },
     hanldSaveTable(index) {
-      this.savingStatus = true
       const newForms = Object.assign({}, this.forms);
       const tableId = this.contractData.tableColumns[index][0].tableId;
       const tableName = "table" + tableId;
@@ -572,8 +576,6 @@ export default {
           if (res && res.status === 200) {
             this.$message("保存成功");
           }
-        }, res => {
-          this.savingStatus = false
         }
       );
     },
@@ -592,7 +594,6 @@ export default {
         this.forms["table" + cols[0].tableId][month] = colData;
         return colData;
       });
-      console.log(data);
       return data;
     },
     ret_add() {
@@ -663,6 +664,7 @@ export default {
       };
       // 保存所有附表
       const newForms = Object.assign({}, this.forms);
+      
       for (let tableName in this.tableColumns) {
         const cols = this.tableColumns[tableName].map(col => {
           let months = Array.from({ length: 12 }, (v, k) => k + 1);
@@ -687,24 +689,26 @@ export default {
           this.$emit("login-success", res);
         },
         res => {
-          if (res.status == 200) {
-            var _temp_id = 0;
-            if (type_name == "save") {
-              _temp_id = 2;
-            } else if (type_name == "submit") {
-              _temp_id = 1;
+          setTimeout(() => {
+            if (res.status == 200) {
+              var _temp_id = 0;
+              if (type_name == "save") {
+                _temp_id = 2;
+              } else if (type_name == "submit") {
+                _temp_id = 1;
+              }
+              if (_temp_id != 0) {
+                this.$router.push({
+                  name: "addSucceed",
+                  params: { btn_id: _temp_id, cont_id: this.id }
+                });
+              }
+            } else {
+              this.$message({ message: "创建失败" });
             }
-            if (_temp_id != 0) {
-              this.$router.push({
-                name: "addSucceed",
-                params: { btn_id: _temp_id, cont_id: this.id }
-              });
-            }
-          } else {
-            this.$message({ message: "创建失败" });
-          }
-          this.load_save = false;
-          this.load_subit = false;
+            this.load_save = false;
+            this.load_subit = false;
+          }, 1200);
         }
       );
     },
@@ -902,12 +906,14 @@ export default {
             const colsInfo = res.body || [];
             tableColumns[index] = tableColumns[index].map(d => {
               const colInfo = colsInfo.find(c => c.columnCode === d.columnCode);
+              const canWriteMonth = colInfo ? colInfo.canWriteMonth : ''
               return {
                 ...d,
-                canWriteMonth: colInfo.canWriteMonth
+                canWriteMonth
               };
             });
             this.contractData.tableColumns.push(tableColumns[index]);
+            this.contractData.tableColumns.sort((a,b) => a[0].tableId - b[0].tableId)
           });
         });
 

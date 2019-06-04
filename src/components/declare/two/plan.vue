@@ -378,13 +378,21 @@ export default {
       this.par_form.find_area =
         "{'year':" +
         this.finds.find_1 +
+        ",'month':" +
+        this.finds.find_2 +
         ",'page':'" +
         this.page +
         "','limit':'" +
         this.limit +
-        "','month':" +
-        this.finds.find_2 +
-        "}";
+        "','meterReadingDay':'" +
+        this.finds.meterReadingDay +
+        "','customerCode':'" +
+        this.finds.customerCode +
+        "','customerName':'" +
+        this.finds.customerName +
+        "','tableId':'" +
+        this.finds.transactionType +
+        "'}";
       this.find_list(this.par_form.find_area);
     },
     add_alert() {
@@ -398,15 +406,14 @@ export default {
         this.finds.find_2
       },"customerCode":${this.finds.customerCode || '""'},"customerName":"${this
         .finds.customerName || ""}","meterReadingDay":${this.finds
-        .meterReadingDay || '""'}},"tableId":"${this.finds.transactionType ||
-        ""}"`;
+        .meterReadingDay || '""'},"tableId":"${this.finds.transactionType ||
+        ""}"}`;
       ajax_list.customerMonthPlanExportService(
         _temp_Export,
         res => {
           //导出
           this.$emit("login-success", res);
-        },
-        res => {}
+        }
       );
     },
     show_map(id) {

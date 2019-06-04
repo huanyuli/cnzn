@@ -796,13 +796,15 @@ export default {
     },
     add_affirm() {
       //提交按钮
-      this.submitForm("form" + this.istype, this.stepNav.length, "submit");
+      this.submitForm("submit");
     },
     add_save() {
       //保存
-      this.submitForm("form" + this.istype, this.stepNav.length, "save");
+      this.submitForm("save");
     },
     add_cont(type_name) {
+      this.load_save = true;
+      this.load_subit = true;
       //提交参数
       this.add_create = {
         number: this.ruleForm.one_1, //合同编号
@@ -914,9 +916,9 @@ export default {
           columnName: col.columnName
         };
         Object.keys(this.forms["table" + tableId]).forEach(month => {
-          currentCol["monthValue" + month] = this.forms["table" + tableId][
-            month
-          ][col.columnCode];
+          currentCol["monthValue" + (Number(month) + 1)] = this.forms[
+            "table" + tableId
+          ][month][col.columnCode];
         });
         columns.push(currentCol);
       });
@@ -931,7 +933,7 @@ export default {
             } else if (type_name == "submit") {
               _temp_id = 1;
             }
-            // 提交合同
+            // 完成后跳转
             if (type_name === "submit") {
               add_ajax.contractSubmitService({ id: this.con_id }, submitRes => {
                 this.$router.push({
@@ -939,13 +941,17 @@ export default {
                   params: { btn_id: _temp_id, cont_id: this.con_id }
                 });
               });
+            } else {
+              this.$router.push({
+                name: "addSucceed",
+                params: { btn_id: _temp_id, cont_id: this.con_id }
+              });
             }
+
             return;
           }
           this.istype = this.istype + 1;
           this.generateRows();
-          this.load_save = false;
-          this.load_subit = false;
         },
         res => {
           this.load_save = false;
@@ -953,7 +959,9 @@ export default {
         }
       );
     },
-    submitForm(formName, type, action) {
+    submitForm(action) {
+      const formName = "form" + this.istype;
+      const type = this.istype;
       let form = this.$refs[formName];
       this["load_" + action] = true;
       // 第1个表单需要校验
@@ -986,8 +994,7 @@ export default {
     },
     add_two() {
       //下一步
-      const _temp = this.istype;
-      this.submitForm("form" + this.istype, _temp, "save");
+      this.submitForm("save");
     },
     remoteMethod(query) {
       //购电方远程搜索选择

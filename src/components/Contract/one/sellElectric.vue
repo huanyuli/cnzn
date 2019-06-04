@@ -408,14 +408,26 @@ export default {
     current_change(val) {
       this.page = val;
       this.formData =
-        "{'page':'" + this.page + "','limit':'" + this.limit + "'}";
+        "{'page':'" +
+        this.page +
+        "','limit':'" +
+        this.limit +
+        "','contractStatus': '" +
+        this.contract_Status +
+        "','contractType':'" +
+        this.contract_Type +
+        "','name':'" +
+        this.value9 +
+        "','transactionCycle':'" +
+        this.time_value +
+        "'}";
       this.list_find(this.formData, 2);
     },
     add_contract() {
       //创建合同
       this.bus.add_contractType = this.one_img;
       this.bus.tradingTypes = this.selectedTradingTypes.map(name => {
-        return this.tradingTypes.find(item => item.name === name)
+        return this.tradingTypes.find(item => item.name === name);
       });
       this.dialogTableVisible = false;
       this.$router.push("/Contract/add");
@@ -464,7 +476,7 @@ export default {
     find_list() {
       //进行筛选
       this.page = 1;
-      (this.formData =
+      this.formData =
         "{'page':'" +
         this.page +
         "','limit':'" +
@@ -477,8 +489,8 @@ export default {
         this.value9 +
         "','transactionCycle':'" +
         this.time_value +
-        "'}"),
-        this.list_find(this.formData, 2);
+        "'}";
+      this.list_find(this.formData, 2);
     },
     list_find(data, type) {
       //data：参数   type：第一次列表查询
@@ -598,7 +610,7 @@ export default {
         }
       }
     );
-    sys_ajax.contractTableListService({limit: 99999}, res => {
+    sys_ajax.contractTableListService({ limit: 99999 }, res => {
       this.tradingTypes = res.body.list || [];
     });
   }
@@ -1070,7 +1082,7 @@ p {
   width: auto;
   margin: 15px auto;
 }
-.tradingTypes .el-checkbox.is-bordered.el-checkbox--mini{
+.tradingTypes .el-checkbox.is-bordered.el-checkbox--mini {
   margin-left: 10px;
   margin-bottom: 15px;
   width: 120px;
