@@ -121,7 +121,7 @@
                 <el-table-column
                   prop="contractPowerAmount"
                   align="center"
-                  label="当月合同直购电"
+                  label="上月电量"
                   width="120"
                 ></el-table-column>
                 <el-table-column align="center" label="用户上报" width="120">
