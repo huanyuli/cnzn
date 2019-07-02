@@ -161,8 +161,8 @@
                   <div :class="row.activeKey">{{row.realAmount}}</div>
                 </template>
               </el-table-column>
-              <el-table-column prop="deviation" align="center" label="与合同偏差"></el-table-column>
-              <el-table-column align="center" label="与合同偏差百分比">
+              <el-table-column prop="deviation" align="center" label="上月偏差"></el-table-column>
+              <el-table-column align="center" label="与上月偏差百分比">
                 <template slot-scope="{row}">
                   <div
                     :class="[{'warning': Number(row.deviationRate) > 30 || Number(row.deviationRate) < -30}]"
