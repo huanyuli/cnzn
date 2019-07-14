@@ -6,6 +6,11 @@
           <p>客户资料</p>
         </div>
       </div>
+      <div v-if="show_map(2) == 2" @click='cc' class="left_two_list" :class="{click_list:this.click_index == 2}">
+        <div class="list_right">
+          <p>客户画像</p>
+        </div>
+      </div>
 
     </div>
     <div class="right_two">
@@ -30,6 +35,11 @@
       bb(){
         this.click_index = 1;
         this.$router.push('/Customer/material');
+//        this.dl_css();
+      },
+      cc(){
+        this.click_index = 2;
+        this.$router.push('/Customer/portrait');
 //        this.dl_css();
       },
       show_map(id){

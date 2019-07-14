@@ -97,4 +97,42 @@ customerExistsService (params, success_callback, fail_callback) {
   templateDownloadService(params, success_callback, fail_callback) {
     withAxios.requestExportService('POST', 3,'/api/templateDownloadService', params, success_callback, fail_callback);
   },
+
+  /**
+   * /api/customerPortraitListService 用户画像列表
+   */
+  customerPortraitListService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/customerPortraitListService', params, success_callback, fail_callback);
+  },
+  /**
+   * /api/customerPortraitDetailService 用户画像详情
+   */
+  customerPortraitDetailService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/customerPortraitDetailService', params, success_callback, fail_callback);
+  },
+  /**
+   * /api/customerPortraitExistsService
+   */
+  customerPortraitExistsService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/customerPortraitExistsService', params, success_callback, fail_callback);
+  },
+  /**
+   * /api/customerPortraitCreateService
+   */
+  customerPortraitCreateService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/customerPortraitCreateService', params, success_callback, fail_callback);
+  },
+  /**
+   * /api/customerPortraitEditService
+   */
+  customerPortraitEditService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/customerPortraitEditService', params, success_callback, fail_callback);
+  },
+  /**
+   * /api/customerPortraitDeleteService 客户画像删除
+   */
+  customerPortraitDeleteService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/customerPortraitDeleteService', params, success_callback, fail_callback);
+  },
+
 }
