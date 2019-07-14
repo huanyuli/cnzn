@@ -842,6 +842,9 @@ export default {
     },
     submitForm(formName) {
       //表单提交验证
+      if(!this.checkExisted){
+        return this.$message('公司名称重复，请重新输入')
+      }
       const that = this;
       this.$refs[formName].validate(valid => {
         if (valid && !this.checkExisted) {
@@ -944,7 +947,7 @@ export default {
         return;
       }
       add_ajax.customerPortraitExistsService(
-        "{name:" + this.ruleForm.one_1 + "}",
+        JSON.stringify({ name: this.ruleForm.one_1 }),
         res => {
           this.checkExisted = res.body.exists;
           res.body.exists && this.$message("公司名称重复，请重新输入");
@@ -1161,8 +1164,8 @@ export default {
             this.ruleForm.add_6 = res.body.electricType;
             this.ruleForm.two_3 = res.body.voltageLevel;
             this.ruleForm.two_1 = res.body.loadNature.split(",");
-            
-            this.attachments = res.body.attachments
+
+            this.attachments = res.body.attachments;
             this.file1 = res.body.attachments.file1.map(item => ({
               name: item.fileName,
               url:

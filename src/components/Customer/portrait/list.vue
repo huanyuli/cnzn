@@ -64,24 +64,7 @@
             <div class="ma_ui_div">
               <p>客户名称：</p>
               <div class="input_ss">
-                <el-select
-                  style="width: 100%;"
-                  v-model="value9"
-                  filterable
-                  remote
-                  clearable
-                  reserve-keyword
-                  placeholder="请输入关键词"
-                  :remote-method="remoteMethod"
-                  :loading="loading"
-                >
-                  <el-option
-                    v-for="item in options4"
-                    :key="item.value"
-                    :label="item.label"
-                    :value="item.value"
-                  ></el-option>
-                </el-select>
+                  <el-input placeholder="请输入关键词" size="medium" v-model="value9"></el-input>
               </div>
             </div>
             <div class="ma_ui_div">
@@ -126,11 +109,11 @@
             :key="index"
           >
             <div class="content_list_con">
-              <!-- <div class="list_img">
-                <img v-if="item.signStatus == '未签约'" src="../../../assets/aImg/kh_01.png" alt />
-                <img v-if="item.signStatus == '已签约'" src="../../../assets/aImg/kh_02.png" alt />
-                <img v-if="item.signStatus == '待续约'" src="../../../assets/aImg/kh_03.png" alt />
-              </div>-->
+              <div class="list_img">
+                <!-- <img v-if="item.signStatus == '未签约'" src="../../../assets/aImg/kh_01.png" alt /> -->
+                <img  src="../../../assets/aImg/kh_02.png" alt />
+                <!-- <img v-if="item.signStatus == '待续约'" src="../../../assets/aImg/kh_03.png" alt /> -->
+              </div>
               <div class="list_right">
                 <p>
                   <label>{{item.name}}</label>
@@ -229,13 +212,13 @@ export default {
       time_value: "", //所属行业选中值
 
       options4: [], //客户名称选择框数组
-      value9: [], //客户名称选中的值
+      value9: '', //客户名称选中的值
       list: [], //客户名称过滤
       loading: false, //是否正在从远程获取数据
       gd_list: [], //客户名称后台返回数据
       states: [], //筛选出客户名称数组
 
-      value9_s: [], //客户名称选中的值
+      value9_s: '', //客户名称选中的值
       options4_s: [], //购电方选择框数组
       list_s: [], //购电方过滤
       loading_s: false, //是否正在从远程获取数据

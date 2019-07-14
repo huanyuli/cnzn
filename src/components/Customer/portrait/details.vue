@@ -32,15 +32,15 @@
         <div class="top_name">
           <p>
             {{this.date_list.name}}
-            <span>{{this.one_type}}</span>
+            <!-- <span>{{this.one_type}}</span> -->
           </p>
         </div>
-        <div class="top_de">
+        <!-- <div class="top_de"> -->
           <!-- <span>{{this.date_list.industry}}</span> -->
           <!-- <span>{{this.date_list.province}}</span> -->
           <!-- <span>创建人：{{this.date_list.createUserName}}</span> -->
           <!-- <span>创建日期：{{ get_date(this.date_list.createAt)}}</span> -->
-        </div>
+        <!-- </div> -->
         <div class="top_btn">
           <el-button size="mini" @click="deta_edit" plain>编辑</el-button>
           <el-button v-if="show_map(24) == 24" size="mini" @click="open2" plain>删除</el-button>
