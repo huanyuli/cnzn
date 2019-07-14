@@ -424,6 +424,7 @@
 <script>
 // 引入axios
 import add_ajax from "../../../api/customer ";
+import customer from "../../../api/customer ";
 
 export default {
   data() {
@@ -842,25 +843,32 @@ export default {
     },
     submitForm(formName) {
       //表单提交验证
-      if(!this.checkExisted){
-        return this.$message('公司名称重复，请重新输入')
+      if (this.checkExisted) {
+        return this.$message("公司名称重复，请重新输入");
       }
       const that = this;
       this.$refs[formName].validate(valid => {
         if (valid && !this.checkExisted) {
           this.load_subit = true;
           let businessId = this.ruleForm.add_1;
+          let businessName = "";
           if (Number.isNaN(Number(businessId))) {
             businessId = this.ruleForm.origin_add_1;
           }
           const businessUser = this.options4_s.find(
             item => item.value === businessId
           );
-
+          if (businessUser) {
+            businessName = businessUser.label;
+          }
+          // 没有改变过
+          if (!businessUser && businessId) {
+            businessName = this.ruleForm.add_1;
+          }
           this.add_create = {
             name: this.ruleForm.one_1,
             address: this.ruleForm.add_9,
-            businessName: businessUser && businessUser.label, // 市场经理名称
+            businessName,
             businessId,
             businessPhone: this.ruleForm.businessPhone,
             companyLeaderName: this.ruleForm.companyLeaderName,
@@ -905,13 +913,17 @@ export default {
               res => {
                 that.load_subit = false;
                 if (res.status === 200) {
-                  this.$message("编辑成功!");
+                  this.$message({
+                    message: "编辑成功",
+                    type: "success"
+                  });
                   this.$router.push("/Customer/portrait");
-                } else {
-                  this.$message("编辑失败!");
                 }
               },
               err => {
+                if (err.status !== 200) {
+                  this.$message("创建失败!");
+                }
                 that.load_subit = false;
               }
             );
@@ -922,13 +934,17 @@ export default {
             res => {
               that.load_subit = false;
               if (res.status === 200) {
-                this.$message("创建成功!");
+                this.$message({
+                  message: "创建成功",
+                  type: "success"
+                });
                 this.$router.push("/Customer/portrait");
-              } else {
-                this.$message("创建失败!");
               }
             },
             err => {
+              if (err.status !== 200) {
+                this.$message("创建失败!");
+              }
               that.load_subit = false;
             }
           );
@@ -943,6 +959,7 @@ export default {
       this.submitForm("ruleForm");
     },
     checkName() {
+      const that = this;
       if (!this.ruleForm.one_1) {
         return;
       }
@@ -951,6 +968,73 @@ export default {
         res => {
           this.checkExisted = res.body.exists;
           res.body.exists && this.$message("公司名称重复，请重新输入");
+          if (!res.body.exists) {
+            add_ajax.customerListService(
+              "{'page':'1','limit':'999'}",
+              listRes => {
+                const target = listRes.body.list.find(
+                  customer => customer.name === this.ruleForm.one_1
+                );
+                if (target) {
+                  add_ajax.customerDetailService(
+                    JSON.stringify({ id: target.id }),
+                    customerRes => {
+                      if (customerRes.status === 200) {
+                        const usePowerType =
+                          that.form_two_4.find(
+                            item => item.label === customerRes.body.usePowerType
+                          ) || {};
+                        const companyNature =
+                          that.form_one_11.find(
+                            item =>
+                              item.label === customerRes.body.companyNature
+                          ) || {};
+                        const voltageLevel =
+                          that.form_two_3.find(
+                            item => item.label === customerRes.body.voltageLevel
+                          ) || {};
+                        const electricType =
+                          that.form_add_3.find(
+                            item => item.label === customerRes.body.electricType
+                          ) || {};
+                        that.ruleForm.one_1 = customerRes.body.name;
+                        that.ruleForm.add_9 = customerRes.body.contactAddress;
+                        that.ruleForm.add_1 = customerRes.body.businessName; // 这里需特殊处理
+                        that.ruleForm.origin_add_1 =
+                          customerRes.body.businessId;
+                        that.ruleForm.one_11 = companyNature.value;
+                        that.ruleForm.one_3 = customerRes.body.provinceCode;
+                        that.ruleForm.one_2 = customerRes.body.industry.substring(
+                          0,
+                          1
+                        );
+                        that.ruleForm.two_4 = usePowerType.value;
+                        that.ruleForm.add_6 = electricType.value;
+                        that.ruleForm.two_3 = voltageLevel.value;
+                        that.ruleForm.two_1 = customerRes.body.loadNature.split(
+                          ","
+                        );
+                        that.ruleForm.companyPersonNumber =
+                          customerRes.body.companyScale;
+
+                        // 延迟加载城市信息
+                        setTimeout(() => {
+                          that.ruleForm.one_4 = customerRes.body.cityCode;
+                          that.change_3(that.ruleForm.one_4);
+                        }, 500);
+                        setTimeout(
+                          () =>
+                            (that.ruleForm.add_one_4 =
+                              customerRes.body.countyCode),
+                          1000
+                        );
+                      }
+                    }
+                  );
+                }
+              }
+            );
+          }
         },
         err => {
           if (err.status !== 200) {
