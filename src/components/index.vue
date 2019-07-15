@@ -2,7 +2,7 @@
     <div>
       <div class="index_top">
         <img class="icon" src="../assets/aImg/main_logo.png" alt="">
-        <span class="top_left_title">四川川能智网</span>
+        <span class="top_left_title">凉山富港售电</span>
         <div class="top_right">
           <el-dropdown trigger="click" @command="handleCommand">
             <span class="el-dropdown-link">

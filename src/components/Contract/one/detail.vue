@@ -1661,7 +1661,7 @@
                 <span style="font-family:仿宋; font-size:14pt">&nbsp;</span>
               </p>
               <p style="margin:0pt; orphans:0; text-align:justify; widows:0">
-                <span style="font-family:仿宋; font-size:14pt">乙方：四川川能智网实业有限公司</span>
+                <span style="font-family:仿宋; font-size:14pt">乙方：凉山富港售电实业有限公司</span>
               </p>
               <p style="margin:0pt; orphans:0; text-align:justify; widows:0">
                 <span style="font-family:仿宋; font-size:14pt">&nbsp;</span>
@@ -1837,7 +1837,7 @@
                           <span style="font-family:方正仿宋_GBK; font-size:12pt">名称：</span>
                           <span
                             style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline"
-                          >四川川能智网实业有限公司&nbsp;</span>
+                          >凉山富港售电实业有限公司&nbsp;</span>
                         </p>
                         <p
                           style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"
@@ -1845,7 +1845,7 @@
                           <span style="font-family:方正仿宋_GBK; font-size:12pt">交易简称：</span>
                           <span
                             style="font-family:方正仿宋_GBK; font-size:12pt; text-decoration:underline"
-                          >&nbsp; 川能智网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                          >&nbsp; 凉山富港售电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                         </p>
                         <p
                           style="line-height:20pt; margin:0pt; orphans:0; text-align:justify; widows:0"

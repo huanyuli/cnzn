@@ -184,7 +184,7 @@
         up_file:{},
         ruleForm:{
             vue_1:"",
-            vue_2:"川能售电公司",
+            vue_2:"凉山富港售电公司",
             vue_3:"",
             vue_4:"",
         },
@@ -215,7 +215,7 @@
         if (this.$refs["ruleForm"]!==undefined) {
           this.$refs["ruleForm"].resetFields();
         }
-        this.ruleForm.vue_2 = "川能售电公司"
+        this.ruleForm.vue_2 = "凉山富港售电公司"
         this.threeAlert = true
       },
       current_change(val){

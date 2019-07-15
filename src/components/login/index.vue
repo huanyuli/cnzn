@@ -49,7 +49,7 @@
             </div>
           </div>
           <div class="div_row" style="margin-top: 30px">
-            <div class="div_bottom">智网在线</div>
+            <!-- <div class="div_bottom">智网在线</div> -->
           </div>
         </el-form>
       </div>

@@ -2,7 +2,7 @@
   <div class="login">
     <div class="login_title">
       <img class="icon" src="../../assets/aImg/main_logo.png" alt="">
-      <p>四川川能智网</p>
+      <p>凉山富港售电</p>
     </div>
     <div class="login_form_div">
       <div class="div_row_title">
