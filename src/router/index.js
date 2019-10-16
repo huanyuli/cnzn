@@ -194,6 +194,27 @@ export default new Router({
           ],
         },
         {
+          path: '/preSalePrice', //售前报价
+          component: resolve => require(['@/components/preSalePrice/index'], resolve),
+          children: [
+            {
+              path: 'index',
+              component: resolve =>
+                require(['@/components/preSalePrice/index/list'], resolve),
+            },
+            {
+              path: 'edit',
+              component: resolve =>
+                require(['@/components/preSalePrice/index/edit'], resolve),
+            },
+            {
+              path: 'detail',
+              component: resolve =>
+                require(['@/components/preSalePrice/index/details'], resolve),
+            },
+          ],
+        },
+        {
           path: '/declare', //电量申报
           component: resolve =>
             require(['@/components/declare/index'], resolve),

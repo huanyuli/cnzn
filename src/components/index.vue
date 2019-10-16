@@ -2,7 +2,7 @@
     <div>
       <div class="index_top">
         <img class="icon" src="../assets/aImg/main_logo.png" alt="">
-        <span class="top_left_title">四川川能智网</span>
+        <!-- <span class="top_left_title">智网在线</span> -->
         <div class="top_right">
           <el-dropdown trigger="click" @command="handleCommand">
             <span class="el-dropdown-link">
@@ -18,6 +18,9 @@
               <el-dropdown-item command="e" >退出登录</el-dropdown-item>
             </el-dropdown-menu>
           </el-dropdown>
+        </div>
+        <div class="download-file">
+          <a href="http://39.98.43.90/sys/file/2020年售电公司与电力用户购售电合同-模板190815(版本1).doc" target="_blank" download="2020年售电公司与电力用户购售电合同-模板190815(版本1).doc">下载合同模板</a>
         </div>
       </div>
       <div class="index_bottom">
@@ -40,6 +43,9 @@
               <li v-if="show_map(13) == 13 " @click='dl_es' :class="{click_icon:this.click_home == 5}">
                 <i class="cn_icon es_icon"></i>
                 <span>电量申报</span></li>
+              <li v-if="show_map(13) == 13 " @click='dl_sq' :class="{click_icon:this.click_home == 7}">
+                <i class="cn_icon es_icon"></i>
+                <span>售前报价</span></li>
               <li v-if="show_map(20) == 20 " @click='dl_set' :class="{click_icon:this.click_home == 6}">
                 <i class="cn_icon set_icon"></i>
                 <span>系统设置</span></li>
@@ -112,6 +118,16 @@
             if(this.click_home != 5){
               this.click_home = 5;
               this.$router.push('/declare');
+//            this.img_src.isst = true;
+              $(".left_two").css("display","none");
+              this.dl_css()
+            }
+          },
+          // 售前报价
+          dl_sq(){
+            if(this.click_home != 7){
+              this.click_home = 7;
+              this.$router.push('/preSalePrice');
 //            this.img_src.isst = true;
               $(".left_two").css("display","none");
               this.dl_css()
@@ -230,7 +246,7 @@
     box-shadow:0px 1px 3px 0px rgba(176,176,176,0.5);
   }
   .index_top .icon {
-    width:32px ;
+    width:138px ;
     height: 32px;
     margin-top: 10px;
     margin-left: 20px;
@@ -522,6 +538,14 @@
     margin-bottom: 10px;
     color:rgba(150,150,150,1);
     background:#fff;
+  }
+  .download-file {
+    float: right;
+    margin-right: 20px;
+  }
+  .download-file a {
+    line-height: 50px;
+    color: #000;
   }
 </style>
 <style>
