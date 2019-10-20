@@ -8,7 +8,7 @@
           <span v-if="!isHead">
             <el-input
               size="small"
-              v-model.number="value['amount'+month]"
+              v-model.number="value[type]['amount'+month]"
               @input="onChange($event,month)"
               :disabled="!enableAll && !months.includes(month)"
             ></el-input>
@@ -213,6 +213,14 @@ export default {
     isHead: {
       type: Boolean,
       default: false
+    },
+    type: {
+      type: String,
+      default: ""
+    },
+    relate: {
+      type: String,
+      default: ""
     }
   },
   mounted() {
@@ -229,10 +237,10 @@ export default {
         applyType,
         conventionalPrice,
         conventionalPriceFeng,
-          conventionalPricePing,
-          conventionalPriceKu,
-          surplusPrice,
-          abandonPrice
+        conventionalPricePing,
+        conventionalPriceKu,
+        surplusPrice,
+        abandonPrice
       } = this.baseParam;
       let data = {
         powerList,
@@ -258,12 +266,12 @@ export default {
           surplusCost: 0, //纯富余电费
           abandonCost: 0 //弃水电费
         };
-        if (!this.value.powerAmountCalculation) {
-          this.value.powerAmountCalculation = {
+        if (!this.value[this.type].powerAmountCalculation) {
+          this.value[this.type].powerAmountCalculation = {
             ...body
           };
         }
-        this.value.powerAmountCalculation.records = powerList;
+        this.value[this.type].powerAmountCalculation.records = powerList;
         // dialog 表单信息
       });
     },
@@ -287,8 +295,31 @@ export default {
       this.resetDialog();
     },
     onChange(value, month) {
-      let targetValue = { ...this.value, ["amount" + month]: value };
-      this.total = Object.values(targetValue).reduce(
+      console.log(this.value[this.type]);
+      const cur = "amount" + month;
+      let targetValue = {
+        ...this.value,
+        [this.type]: { ...this.value[this.type], [cur]: value }
+      };
+      if (this.relate) {
+        console.log(
+          Number(value) - Number(targetValue.SURPLUS_BASE[cur]  || 0)
+        );
+        targetValue[this.relate][cur] =
+          Number(value) - Number(targetValue.SURPLUS_BASE[cur]  || 0);
+      }
+      if (this.type === "SURPLUS_BASE") {
+          targetValue.REAL_MINUS_SURPLUS[cur] =
+            Number(targetValue.REAL[cur] || 0) -
+            Number(targetValue.SURPLUS_BASE[cur]  || 0);
+          targetValue.CONTRACT_MINUS_SURPLUS[cur] =
+            Number(targetValue.CONTRACT[cur]  || 0) -
+            Number(targetValue.SURPLUS_BASE[cur]  || 0);
+          targetValue.TENDER_MINUS_SURPLUS[cur] =
+            Number(targetValue.TENDER[cur]  || 0) -
+            Number(targetValue.SURPLUS_BASE[cur]  || 0);
+      }
+      this.total = Object.values(targetValue[this.type]).reduce(
         (total, cur) => Number(total) + Number(cur)
       );
       this.$emit("change", targetValue);

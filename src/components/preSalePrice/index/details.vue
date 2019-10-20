@@ -30,7 +30,7 @@
           />
         </div>
         <div class="top_name">
-          <p>{{date_list.name}}</p>
+          <p>{{date_list.customerName}}</p>
         </div>
         <div class="top_btn">
           <el-button size="mini" @click="deta_edit" plain>编辑</el-button>
@@ -56,7 +56,7 @@
             </div>
             <div>
               <el-table :data="ElectricityInformation" border style="width: 100%">
-                <el-table-column prop="type" width="100px">
+                <el-table-column prop="type" width="150px">
                   <template slot-scope="scope">
                     <span>{{TYPES[scope.row.type]}}</span>
                   </template>
@@ -70,8 +70,10 @@
                 ></el-table-column>
                 <el-table-column prop="total" label="合计">
                   <template slot-scope="scope">
-                    <span>{{scope.row.type}}</span>
+                    <span>{{scope.row.total}}</span>
                   </template>
+                </el-table-column>
+                <el-table-column prop="fengKuRate" label="丰枯比">
                 </el-table-column>
               </el-table>
               <div id="myCharts" ref="myCharts"></div>
@@ -97,7 +99,7 @@
               <!--<p></p>-->
             </div>
             <div class="leader-operate" v-if="ISLEADER === 'Y'">
-              <el-button type="primary" @click="addOfferPrice">添加报价</el-button>
+              <el-button type="primary" size="mini" @click="addOfferPrice">添加报价</el-button>
             </div>
             <el-table :data.sync="leaderOfferPrices" border style="width: 100%">
               <el-table-column prop="transactionVariety" label="交易品种" width="180"></el-table-column>
@@ -107,7 +109,7 @@
             </el-table>
           </div>
           <div class="deta_con goback">
-            <el-button type="primary" @click="sendBack">退 回</el-button>
+            <el-button type="primary" v-if="ISLEADER === 'Y'" @click="sendBack">退 回</el-button>
             <el-button @click="goback">返 回</el-button>
           </div>
         </div>
@@ -174,71 +176,71 @@ export default {
       },
       baseInfo: [
         {
-          field: "",
+          field: "customerName",
           name: "客户名称"
         },
         {
-          field: "",
+          field: "customerNo",
           name: "客户编码"
         },
         {
-          field: "",
+          field: "industry",
           name: "行业"
         },
         {
-          field: "",
+          field: "address",
           name: "地址"
         },
         {
-          field: "",
+          field: "businessName",
           name: "客户经理"
         },
         {
-          field: "",
+          field: "year",
           name: "目标年份"
         },
         {
-          field: "",
+          field: "usePowerType",
           name: "用电分类"
         },
         {
-          field: "",
+          field: "isStateGrid",
           name: "是否国网"
         },
         {
-          field: "",
+          field: "transformerCapacity",
           name: "变压器容量"
         },
         {
-          field: "",
+          field: "voltageLevel",
           name: "电压等级"
         },
         {
-          field: "",
+          field: "score",
           name: "评分"
         },
         {
-          field: "",
+          field: "rebate",
           name: "#"
         },
         {
-          field: "",
+          field: "powerAmount",
           name: "大概电量"
         },
         {
-          field: "",
+          field: "conventionalPrice",
           name: "常规直购电价"
         },
         {
-          field: "",
+          field: "surplusPrice",
           name: "富余价"
         },
         {
-          field: "",
+          field: "abandonPrice",
           name: "弃水价"
         },
         {
-          field: "",
+          field: "remark",
           name: "备注"
         }
       ]
@@ -256,9 +258,26 @@ export default {
       this_ajax.preCustomerDetailService(this.data_form, res => {
         if (res.status === 200) {
           this.date_list = res.body.customerInfo || {};
+          this.date_list.address =
+            this.date_list.province +
+            "-" +
+            this.date_list.city +
+            "-" +
+            this.date_list.county;
           this.competitionCompanyList = res.body.competitionCompanyList || [];
           this.ElectricityInformation = res.body.powerAmountList || [];
           this.leaderOfferPrices = res.body.leaderOfferPrices || [];
+          this.ElectricityInformation = this.ElectricityInformation.map(
+            item => {
+              return {
+                ...item,
+                total: Object.keys(item)
+                  .filter(el => el.includes("amount"))
+                  .map(key => Number(item[key]))
+                  .reduce((total, cur) => Number(total) + Number(cur))
+              };
+            }
+          );
           this.initChart();
         }
       });
@@ -318,7 +337,7 @@ export default {
       const id = this.one_id;
       this_ajax.preCustomerLeaderBackService({ id }, res => {
         if (res.status === 200) {
-          this.$message('报价已退回！')
+          this.$message("报价已退回！");
           this.$router.push("/preSalePrice/index");
         }
       });

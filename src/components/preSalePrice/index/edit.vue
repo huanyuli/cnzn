@@ -41,11 +41,11 @@
                     </el-select>
                   </el-form-item>
                 </div>
-                <div class="list_con_input">
+                <!-- <div class="list_con_input">
                   <el-form-item label="地址" prop="add_9">
                     <el-input size="medium" v-model="ruleForm.add_9" placeholder></el-input>
                   </el-form-item>
-                </div>
+                </div>-->
                 <div class="list_con_input">
                   <el-form-item label="客户经理" prop="add_1">
                     <el-select
@@ -245,17 +245,23 @@
                 <table-inputs :isHead="true" :showExpand="false" />
                 <table-inputs
                   :label="this.ruleForm.year + '年真实'"
-                  v-model="priceInputs.REAL"
+                  v-model="priceInputs"
+                  type="REAL"
+                  relate="REAL_MINUS_SURPLUS"
                   :baseParam="ruleForm"
                 />
                 <table-inputs
                   :label="this.ruleForm.year + '年合同'"
-                  v-model="priceInputs.CONTRACT"
+                  v-model="priceInputs"
+                  type="CONTRACT"
+                  relate="CONTRACT_MINUS_SURPLUS"
                   :baseParam="ruleForm"
                 />
                 <table-inputs
                   :label="this.ruleForm.year + '年标书'"
-                  v-model="priceInputs.TENDER"
+                  v-model="priceInputs"
+                  type="TENDER"
+                  relate="TENDER_MINUS_SURPLUS"
                   :baseParam="ruleForm"
                 />
                 <table-inputs
@@ -263,37 +269,41 @@
                   :showTotal="false"
                   :months="[6,7,8,9,10]"
                   label="富余电基数"
-                  v-model="priceInputs.SURPLUS_BASE"
+                  v-model="priceInputs"
+                  type="SURPLUS_BASE"
                 />
-                <table-inputs
+                <table-inputs-static
                   :label="this.ruleForm.year + '年真实电量（扣富余）'"
-                  :showExpand="false"
-                  v-model="priceInputs.REAL_MINUS_SURPLUS"
+                  v-model="priceInputs"
+                  type="REAL_MINUS_SURPLUS"
                 />
-                <table-inputs
+                <table-inputs-static
                   :label="this.ruleForm.year + '年合同电量（扣富余）'"
-                  :showExpand="false"
-                  v-model="priceInputs.CONTRACT_MINUS_SURPLUS"
+                  v-model="priceInputs"
+                  type="CONTRACT_MINUS_SURPLUS"
                 />
-                <table-inputs
+                <table-inputs-static
                   :label="this.ruleForm.year + '年标书电量（扣富余）'"
-                  :showExpand="false"
-                  v-model="priceInputs.TENDER_MINUS_SURPLUS"
+                  v-model="priceInputs"
+                  type="TENDER_MINUS_SURPLUS"
                 />
                 <table-inputs
                   :label="this.ruleForm.year -1 + '年历史电量'"
                   :showExpand="false"
-                  v-model="priceInputs.HISTORY_AMOUNT1"
+                  v-model="priceInputs"
+                  type="HISTORY_AMOUNT1"
                 />
                 <table-inputs
                   :label="this.ruleForm.year -2 + '年历史电量'"
                   :showExpand="false"
-                  v-model="priceInputs.HISTORY_AMOUNT2"
+                  v-model="priceInputs"
+                  type="HISTORY_AMOUNT2"
                 />
                 <table-inputs
                   :label="this.ruleForm.year -3 + '年历史电量'"
                   :showExpand="false"
-                  v-model="priceInputs.HISTORY_AMOUNT3"
+                  v-model="priceInputs"
+                  type="HISTORY_AMOUNT3"
                 />
               </el-row>
               <el-row style="padding: 50px 50px 0 50px;">
@@ -402,6 +412,7 @@
 import add_ajax from "../../../api/customer ";
 import this_ajax from "../../../api/preSalePrice";
 import tableEdit from "./tableEdit";
+import tableInputStatic from "./tableInputStatic";
 import directPurchaseInput from "./directPurchaseInput";
 import sys_ajax from "../../../api/sys";
 
@@ -419,6 +430,7 @@ const defaultCompetitionCompanyForm = {
 export default {
   components: {
     "table-inputs": tableEdit,
+    "table-inputs-static": tableInputStatic,
     "direct-purchase-input": directPurchaseInput
   },
   data() {
@@ -458,22 +470,28 @@ export default {
       saleId: "",
       days: Array.from(Array(31)).map((v, k) => k + 1 + "日"),
       checkExisted: false,
-      tradingTypes: [{
-        id: 'DIRECTORY_COST',
-        name: '目录'
-      },{
-        id: 'CONVENTIONAL_COST',
-        name: '纯常规'
-      },{
-        id: 'CONVENTIONAL_SURPLUS_COST',
-        name: '常规+富余'
-      },{
-        id: 'SURPLUS_COST',
-        name: '纯富余（目录+富余）'
-      },{
-        id: 'ABANDON_COST',
-        name: '弃水（目录+弃水）'
-      }], // 品种
+      tradingTypes: [
+        {
+          id: "DIRECTORY_COST",
+          name: "目录"
+        },
+        {
+          id: "CONVENTIONAL_COST",
+          name: "纯常规"
+        },
+        {
+          id: "CONVENTIONAL_SURPLUS_COST",
+          name: "常规+富余"
+        },
+        {
+          id: "SURPLUS_COST",
+          name: "纯富余（目录+富余）"
+        },
+        {
+          id: "ABANDON_COST",
+          name: "弃水（目录+弃水）"
+        }
+      ], // 品种
       attachments: { file1: [], file2: [], file3: [] },
       inputType: "1", // 电量填法
       tableData_3_3: "", // 3+3
@@ -544,7 +562,7 @@ export default {
         one_16: "",
         two_1: "",
         add_1: "", //市场经理姓名
-        transactionVariety: '', // 交易品种
+        transactionVariety: "", // 交易品种
         conventionalPrice: "", // 常规
         conventionalPriceFeng: "", // 丰
         conventionalPricePing: "", // 平
@@ -593,7 +611,9 @@ export default {
         add_14: "" //用户代码
       },
       rules: {
-        transactionVariety: [{ required: true, message: "请选择品种", trigger: "blur" }],
+        transactionVariety: [
+          { required: true, message: "请选择品种", trigger: "blur" }
+        ],
         one_1: [{ required: true, message: "请输入客户名称", trigger: "blur" }],
         customerNo: [
           { required: true, message: "请输入客户编码", trigger: "blur" }
@@ -930,9 +950,10 @@ export default {
     change_3(val, cb) {
       //点击市区获取lable
       let objs = {};
-      objs = this.form_one_4.find(item => {
-        return item.value === val;
-      });
+      objs =
+        this.form_one_4.find(item => {
+          return item.value === val;
+        }) || {};
       this.ruleForm.one_4s = objs.label;
 
       this.form_code_qs = {
@@ -1192,27 +1213,45 @@ export default {
       this.title = "编辑报价";
       this.saleId = saleId;
       this.data_form = "{ 'id':" + saleId + "}";
-      this_ajax.preCustomerDetailService(
-        this.data_form,
-        res => {
-          this.$emit("login-success", res);
-        },
-        res => {
-          if (res.status === 200) {
-            // this.ruleForm = Object.assign(this.ruleForm, res.body);
-            console.log(res.body);
+      this_ajax.preCustomerDetailService(this.data_form, res => {
+        if (res.status === 200) {
+          // this.ruleForm = Object.assign(this.ruleForm, res.body);
+          console.log(res.body);
+          const customerInfo = res.body.customerInfo;
+          this.competitionCompanyList = res.body.competitionCompanyList;
+          this.ruleForm.one_1 = customerInfo.customerName;
+          this.ruleForm.customerNo = customerInfo.customerNo;
+          this.ruleForm.one_2 = customerInfo.industry;
+          this.ruleForm.add_1 = customerInfo.businessId;
+          this.ruleForm.year = customerInfo.year;
+          this.ruleForm.two_4 = customerInfo.usePowerType;
+          this.ruleForm.two_4 = customerInfo.usePowerType;
+          this.ruleForm.isStateGrid = customerInfo.isStateGrid;
+          this.ruleForm.transformerCapacity = customerInfo.transformerCapacity;
+          this.ruleForm.two_3 = customerInfo.voltageLevel;
+          this.ruleForm.applyType = customerInfo.applyType;
+          this.ruleForm.rebate = customerInfo.rebate;
+          this.ruleForm.powerAmount = customerInfo.powerAmount;
+          this.ruleForm.surplusPrice = customerInfo.surplusPrice;
+          this.ruleForm.abandonPrice = customerInfo.abandonPrice;
+          this.ruleForm.fund = customerInfo.fund;
+          this.ruleForm.score = customerInfo.score;
+          this.ruleForm.one_3 = customerInfo.province;
+          this.ruleForm.one_4 = customerInfo.city;
+          this.ruleForm.add_one_4 = customerInfo.county;
+          this.ruleForm.remark = customerInfo.remark;
+
             // 延迟加载城市信息
             setTimeout(() => {
               this.ruleForm.one_4 = res.body.cityCode;
               this.change_3(this.ruleForm.one_4);
             }, 500);
-            setTimeout(
-              () => (this.ruleForm.add_one_4 = res.body.countyCode),
-              1000
-            );
-          }
+          setTimeout(
+            () => (this.ruleForm.add_one_4 = res.body.countyCode),
+            1000
+          );
         }
-      );
+      });
     } else {
       this.title = "创建报价";
       this.ruleForm.year = new Date().getFullYear() - 2000;

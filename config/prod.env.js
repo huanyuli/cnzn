@@ -2,5 +2,6 @@
 module.exports = {
   NODE_ENV: '"production"',
   //  API_ROOT:'"http://106.12.192.230:8080/"'
- API_ROOT:'"http://39.98.43.90/power/"'
+  API_ROOT: '"http://47.92.229.44:8080/"',
+//  API_ROOT:'"http://39.98.43.90/power/"'
 }
