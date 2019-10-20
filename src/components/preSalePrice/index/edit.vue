@@ -103,7 +103,7 @@
                     <el-input
                       size="medium"
                       placeholder="请输入内容"
-                      v-model.number="ruleForm.transformerAmount"
+                      v-model.number="ruleForm.transformerCapacity"
                     >
                       <template slot="append">MVA</template>
                     </el-input>
@@ -122,15 +122,18 @@
                   </el-form-item>
                 </div>
                 <div class="list_con_input">
-                  <el-form-item label="按容/按需" prop>
-                    <el-input
+                  <el-form-item label="电费申报类型" prop>
+                    <el-select
                       size="medium"
-                      placeholder="请输入内容"
-                      v-model.number="ruleForm.transformerAmount"
-                    ></el-input>
+                      v-model="ruleForm.applyType"
+                      clearable
+                      placeholder="请选择"
+                    >
+                      <el-option label="按需" value="按需"></el-option>
+                      <el-option label="按容" value="按容"></el-option>
+                    </el-select>
                   </el-form-item>
                 </div>
-
                 <div class="list_con_input">
                   <el-form-item label="#" prop>
                     <el-input size="medium" v-model="ruleForm.rebate" placeholder></el-input>
@@ -144,14 +147,14 @@
                 <div class="list_con_input">
                   <el-form-item label="（测算）常规直购电价" prop="conventionalPrice">
                     <el-input size="medium" v-model="ruleForm.conventionalPrice" placeholder>
-                      <el-select
+                      <!-- <el-select
                         v-model="ruleForm.conventionalPriceType"
                         slot="prepend"
                         placeholder
                       >
                         <el-option label="一口价" value="1"></el-option>
                         <el-option label="分水期" value="2"></el-option>
-                      </el-select>
+                      </el-select>-->
                     </el-input>
                   </el-form-item>
                 </div>
@@ -238,7 +241,7 @@
                   <el-form-item label="备注" prop>
                     <el-input
                       type="textarea"
-                      rows="5"
+                      :rows="5"
                       size="medium"
                       v-model="ruleForm.remark"
                       placeholder
@@ -246,135 +249,94 @@
                   </el-form-item>
                 </div>
               </el-row>
-              <el-row style="padding: 50px 50px 0 50px">
+              <el-row style="padding: 50px 20px 0 20px">
                 <div class="page-list-title" style="margin-top: 80px">电量信息</div>
-                <div class="table-inputs">
-                  <div class="input-label"></div>
-                  <div class="month-list">
-                    <div v-for="month in 12" :key="month">
-                      <span>{{month}}月</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="table-inputs">
-                  <div class="input-label">20年真实</div>
-                  <div class="month-list">
-                    <div v-for="month in 12" :key="month">
-                      <span>
-                        <el-input size="small"></el-input>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="table-inputs">
-                  <div class="input-label">20年合同</div>
-                  <div class="month-list">
-                    <div v-for="month in 12" :key="month">
-                      <span>
-                        <el-input size="small"></el-input>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="table-inputs">
-                  <div class="input-label">20年标书</div>
-                  <div class="month-list">
-                    <div v-for="month in 12" :key="month">
-                      <span>
-                        <el-input size="small"></el-input>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="table-inputs">
-                  <div class="input-label">富余电基数</div>
-                  <div class="month-list">
-                    <div v-for="month in 12" :key="month">
-                      <span>
-                        <el-input size="small" :disabled="month < 5 || month > 10"></el-input>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="table-inputs">
-                  <div class="input-label">20年真实电量（扣富余）</div>
-                  <div class="month-list">
-                    <div v-for="month in 12" :key="month">
-                      <span>
-                        <el-input size="small"></el-input>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="table-inputs">
-                  <div class="input-label">20年合同电量（扣富余）</div>
-                  <div class="month-list">
-                    <div v-for="month in 12" :key="month">
-                      <span>
-                        <el-input size="small"></el-input>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="table-inputs">
-                  <div class="input-label">20年标书电量（扣富余）</div>
-                  <div class="month-list">
-                    <div v-for="month in 12" :key="month">
-                      <span>
-                        <el-input size="small"></el-input>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="table-inputs">
-                  <div class="input-label">19年历史电量</div>
-                  <div class="month-list">
-                    <div v-for="month in 12" :key="month">
-                      <span>
-                        <el-input size="small"></el-input>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="table-inputs">
-                  <div class="input-label">18年历史电量</div>
-                  <div class="month-list">
-                    <div v-for="month in 12" :key="month">
-                      <span>
-                        <el-input size="small"></el-input>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="table-inputs">
-                  <div class="input-label">17年历史电量</div>
-                  <div class="month-list">
-                    <div v-for="month in 12" :key="month">
-                      <span>
-                        <el-input size="small"></el-input>
-                      </span>
-                    </div>
-                  </div>
-                </div>
+                <table-inputs :isHead="true" :showExpand="false" />
+                <table-inputs label="20年真实" v-model="priceInputs.REAL" :baseParam="ruleForm" />
+                <table-inputs label="20年合同" v-model="priceInputs.CONTRACT" :baseParam="ruleForm" />
+                <table-inputs label="20年标书" v-model="priceInputs.TENDER" :baseParam="ruleForm" />
+                <table-inputs
+                  :showExpand="false"
+                  :showTotal="false"
+                  :months="[6,7,8,9,10]"
+                  label="富余电基数"
+                  v-model="priceInputs.SURPLUS_BASE"
+                />
+                <table-inputs
+                  label="20年真实电量（扣富余）"
+                  :showExpand="false"
+                  v-model="priceInputs.REAL_MINUS_SURPLUS"
+                />
+                <table-inputs
+                  label="20年合同电量（扣富余）"
+                  :showExpand="false"
+                  v-model="priceInputs.CONTRACT_MINUS_SURPLUS"
+                />
+                <table-inputs
+                  label="20年标书电量（扣富余）"
+                  :showExpand="false"
+                  v-model="priceInputs.TENDER_MINUS_SURPLUS"
+                />
+                <table-inputs
+                  label="19年历史电量"
+                  :showExpand="false"
+                  v-model="priceInputs.HISTORY_AMOUNT1"
+                />
+                <table-inputs
+                  label="18年历史电量"
+                  :showExpand="false"
+                  v-model="priceInputs.HISTORY_AMOUNT2"
+                />
+                <table-inputs
+                  label="17年历史电量"
+                  :showExpand="false"
+                  v-model="priceInputs.HISTORY_AMOUNT3"
+                />
               </el-row>
               <el-row style="padding: 50px 50px 0 50px;">
                 <div class="page-list-title">
                   竞争对手
                   <span class="extra">
-                    <el-button type="primary" size="small" :loading="this.load_subit">添加竞争对手</el-button>
+                    <el-button
+                      type="primary"
+                      size="small"
+                      @click="competitionCompanyVisible = true"
+                    >添加竞争对手</el-button>
                   </span>
                 </div>
-                <el-table border style="width: 100%">
-                  <el-table-column prop="date" label="企业名称" width="180"></el-table-column>
-                  <el-table-column prop="date" label="常规直购电价" width="180"></el-table-column>
-                  <el-table-column prop="name" label="富余价" width="180"></el-table-column>
-                  <el-table-column prop="address" label="弃水价"></el-table-column>
-                  <el-table-column prop="address" label="记录时间"></el-table-column>
-                  <el-table-column prop="address" label="备注"></el-table-column>
-                  <el-table-column prop="address" label="操作"></el-table-column>
+                <el-table :data.sync="competitionCompanyList" border style="width: 100%">
+                  <el-table-column prop="companyName" label="企业名称" width="180"></el-table-column>
+                  <el-table-column prop="conventionalPrice" label="常规直购电价" width="180"></el-table-column>
+                  <el-table-column prop="surplusPrice" label="富余价" width="180"></el-table-column>
+                  <el-table-column prop="abandonPrice" label="弃水价"></el-table-column>
+                  <el-table-column prop="date" label="记录时间"></el-table-column>
+                  <el-table-column prop="remark" label="备注"></el-table-column>
+                  <el-table-column label="操作">
+                    <template slot-scope="scope">
+                      <el-button @click="handleDeleteCompany(scope.row)" type="text" size="small">删除</el-button>
+                    </template>
+                  </el-table-column>
                 </el-table>
               </el-row>
-              <el-row style="padding: 50px 50px 0 50px;">选择品种：上传附件：</el-row>
+              <el-row style="padding: 50px 50px 0 50px;">
+                <el-col :span="12">
+                  <el-form-item label="选择品种">
+                    <el-select size="small" clearable placeholder="请选择">
+                      <el-option
+                        v-for="item in tradingTypes"
+                        :key="item.id"
+                        :label="item.name"
+                        :value="item.id"
+                      ></el-option>
+                    </el-select>
+                  </el-form-item>
+                </el-col>
+                <el-col :span="12">
+                  <el-form-item label="上传附件">
+                      <el-button>点击上传</el-button>
+                  </el-form-item>
+                </el-col>
+              </el-row>
               <div class="wrap">
                 <!-- <el-table :data="tableData_3_3" border style="width: 100%">
                   <el-table-column prop="date" label="" width="180"></el-table-column>
@@ -390,7 +352,7 @@
         <div class="upload-wrap"></div>
         <div class="list_module" style="width:90%; ">
           <div class="list_module_btn">
-            <el-button type="success" @click="add_cancel" size="small" plain>保存</el-button>
+            <el-button type="success" @click="save_form" size="small" plain>保存</el-button>
             <el-button @click="add_cancel" size="small" plain>取消</el-button>
             <el-button
               class="btn_aff"
@@ -403,7 +365,34 @@
         </div>
       </div>
     </div>
-    <!--<router-view></router-view>-->
+    <el-dialog
+      title="竞争对手信息"
+      destroy-on-close
+      :visible.sync="competitionCompanyVisible"
+      class="competitionCompanyDialog"
+    >
+      <el-form :model="competitionCompanyForm">
+        <el-form-item label="企业名称" :label-width="formLabelWidth">
+          <el-input v-model="competitionCompanyForm.companyName"></el-input>
+        </el-form-item>
+        <el-form-item label="常规直购电价" :label-width="formLabelWidth">
+          <el-input v-model="competitionCompanyForm.conventionalPrice"></el-input>
+        </el-form-item>
+        <el-form-item label="富余价" :label-width="formLabelWidth">
+          <el-input v-model="competitionCompanyForm.surplusPrice"></el-input>
+        </el-form-item>
+        <el-form-item label="弃水价" :label-width="formLabelWidth">
+          <el-input v-model="competitionCompanyForm.abandonPrice"></el-input>
+        </el-form-item>
+        <el-form-item label="备注" :label-width="formLabelWidth">
+          <el-input type="textarea" :rows="15" v-model="competitionCompanyForm.remark"></el-input>
+        </el-form-item>
+      </el-form>
+      <div slot="footer" class="dialog-footer">
+        <el-button @click="resetCompanyForm">取 消</el-button>
+        <el-button type="primary" @click="handleAddCompany">确 定</el-button>
+      </div>
+    </el-dialog>
   </div>
 </template>
 
@@ -411,8 +400,24 @@
 // 引入axios
 import add_ajax from "../../../api/customer ";
 import this_ajax from "../../../api/preSalePrice";
+import tableEdit from "./tableEdit";
+import sys_ajax from "../../../api/sys";
 
+const defaultCompetitionCompanyForm = {
+  companyName: "",
+  conventionalPrice: "",
+  conventionalPriceFeng: "",
+  conventionalPricePing: "",
+  conventionalPriceKu: "",
+  surplusPrice: "",
+  abandonPrice: "",
+  remark: "",
+  date: ""
+};
 export default {
+  components: {
+    "table-inputs": tableEdit
+  },
   data() {
     var checkAge = (rule, value, callback) => {
       //联系电话
@@ -445,13 +450,30 @@ export default {
       }
     };
     return {
+      userInfo: {},
       title: "",
-      portraitId: "",
+      saleId: "",
       days: Array.from(Array(31)).map((v, k) => k + 1 + "日"),
       checkExisted: false,
       attachments: { file1: [], file2: [], file3: [] },
       inputType: "1", // 电量填法
       tableData_3_3: "", // 3+3
+      submitStatus: "", // "提交状态 0-保存 1-提交"
+
+      formLabelWidth: "120px",
+      competitionCompanyVisible: false,
+      competitionCompanyList: [], // 竞争企业
+      competitionCompanyForm: {
+        companyName: "",
+        conventionalPrice: "",
+        conventionalPriceFeng: "",
+        conventionalPricePing: "",
+        conventionalPriceKu: "",
+        surplusPrice: "",
+        abandonPrice: "",
+        remark: "",
+        date: ""
+      },
       file1: [],
       file2: [],
       file3: [],
@@ -469,6 +491,18 @@ export default {
       form_code_qs: "",
       form_select_q: "",
       form_select_qs: "",
+      priceInputs: {
+        REAL: {}, // 真实
+        CONTRACT: {}, //合同
+        TENDER: {}, //标书
+        SURPLUS_BASE: {}, //富余电基数
+        REAL_MINUS_SURPLUS: {}, //真实-扣富余
+        CONTRACT_MINUS_SURPLUS: {}, //合同-扣富
+        TENDER_MINUS_SURPLUS: {}, //标书-扣富余
+        HISTORY_AMOUNT1: {}, //历史电量
+        HISTORY_AMOUNT2: {}, //历史电量2
+        HISTORY_AMOUNT3: {} //历史电量3
+      }, // 电量填写
 
       ruleForm: {
         //第一步
@@ -615,6 +649,82 @@ export default {
   // 映射store数据
   computed: {},
   methods: {
+    handleDeleteCompany(row) {
+      this.competitionCompanyList = this.competitionCompanyList.filter(
+        item => item.date !== row.date
+      );
+    },
+    handleAddCompany() {
+      this.competitionCompanyForm.date = new Date().getTime();
+      this.competitionCompanyList.push({ ...this.competitionCompanyForm });
+      this.resetCompanyForm();
+    },
+    resetCompanyForm() {
+      this.competitionCompanyVisible = false;
+      this.competitionCompanyForm = { ...defaultCompetitionCompanyForm };
+    },
+    getFormData() {
+      let powerAmountList = [];
+
+      Object.keys(this.priceInputs).forEach(type => {
+        let item = {
+          type,
+          ...this.priceInputs[type]
+        };
+        powerAmountList.push(item);
+      });
+      const customerNameObj = this.options4_s.find(
+        item => item.value === this.ruleForm.add_1
+      );
+      const customerName = customerNameObj ? customerNameObj.label : "";
+      return {
+        customerName,
+        customerNo: this.ruleForm.one_1,
+        industry: this.ruleForm.one_2,
+        pprovince: this.ruleForm.one_3s,
+        city: this.ruleForm.one_4s,
+        county: this.ruleForm.add_one_4_s,
+        provinceCode: this.ruleForm.one_3,
+        cityCode: this.ruleForm.one_4,
+        countyCode: this.ruleForm.add_one_4,
+        businessId: this.ruleForm.add_1,
+        businessName:this.ruleForm.add_1,
+        year: this.ruleForm.year,
+        powerAmount: this.ruleForm.powerAmount,
+        isStateGrid: this.ruleForm.isStateGrid,
+        transformerCapacity: this.ruleForm.transformerCapacity,
+        fund: this.ruleForm.fund,
+        score: this.ruleForm.score,
+        rebate: this.ruleForm.rebate,
+        voltageLevel: this.ruleForm.two_3,
+        usePowerType: this.ruleForm.two_4,
+        conventionalPrice: this.ruleForm.conventionalPrice,
+        conventionalPriceFeng: this.ruleForm.conventionalPriceFeng,
+        conventionalPricePing: this.ruleForm.conventionalPricePing,
+        conventionalPriceKu: this.ruleForm.conventionalPriceKu,
+        surplusPrice: this.ruleForm.surplusPrice,
+        abandonPrice: this.ruleForm.abandonPrice,
+        remark: this.ruleForm.remark,
+        submitStatus: this.submitStatus,
+        powerAmountList,
+        competitionCompanyList: this.competitionCompanyList
+      };
+    },
+    save_form() {
+      console.log(this.priceInputs);
+      this.$refs["ruleForm"].validate(valid => {
+        if (valid) {
+          this.submitStatus = "0";
+          const data = this.getFormData();
+          console.log(data);
+          // this_ajax.preCustomerCreateService(data, res => {
+          //   console.log(res);
+          // });
+        } else {
+          return false;
+        }
+      });
+    },
     on_success1(response) {
       if (response.status == 200 && response.body.length) {
         this.attachments.file1.push({
@@ -909,8 +1019,8 @@ export default {
 
             attachments: this.attachments
           };
-          if (this.portraitId) {
-            this.add_create.id = this.portraitId;
+          if (this.saleId) {
+            this.add_create.id = this.saleId;
             this.add_create = JSON.stringify(this.add_create);
             return add_ajax.customerPortraitEditService(
               this.add_create,
@@ -1052,7 +1162,10 @@ export default {
 
   //生命周期钩子函数，进入页面显示之前获取数据到store
   created() {
-    const portraitId = this.$route.params.one;
+    const { id: saleId } = this.$route.query;
+    // this.userInfo = JSON.parse(localStorage.getItem("userInfo")) || {};
+    // console.log("userInfo", this.userInfo);
+    // this.ruleForm.add_1 = this.userInfo.id;
     this.form_code = "{}";
     add_ajax.customerCodeService(
       this.form_code,
@@ -1228,57 +1341,19 @@ export default {
         );
       }
     );
-    if (portraitId !== "new") {
+    if (saleId !== "new") {
       this.title = "编辑报价";
-      this.portraitId = portraitId;
-      this.data_form = "{ 'id':" + portraitId + "}";
-      add_ajax.customerPortraitDetailService(
+      this.saleId = saleId;
+      this.data_form = "{ 'id':" + saleId + "}";
+      this_ajax.preCustomerDetailService(
         this.data_form,
         res => {
           this.$emit("login-success", res);
         },
         res => {
           if (res.status === 200) {
-            this.ruleForm = Object.assign(this.ruleForm, res.body);
-            this.ruleForm.one_1 = res.body.name;
-            this.ruleForm.add_9 = res.body.address;
-            this.ruleForm.add_1 = res.body.businessName; // 这里需特殊处理
-            this.ruleForm.origin_add_1 = res.body.businessId;
-            this.ruleForm.one_11 = res.body.companyNature;
-            this.ruleForm.one_3 = res.body.provinceCode;
-            this.ruleForm.one_2 = res.body.industry;
-            this.ruleForm.two_4 = res.body.usePowerType;
-            this.ruleForm.two_2 = res.body.yearUseAmount;
-            this.ruleForm.add_6 = res.body.electricType;
-            this.ruleForm.two_3 = res.body.voltageLevel;
-            this.ruleForm.two_1 = res.body.loadNature.split(",");
-
-            this.attachments = res.body.attachments;
-            this.file1 = res.body.attachments.file1.map(item => ({
-              name: item.fileName,
-              url:
-                "http://39.98.43.90/downloads?fileId=" +
-                item.fileId +
-                "&fileName=" +
-                item.fileName
-            }));
-            this.file2 = res.body.attachments.file2.map(item => ({
-              name: item.fileName,
-              url:
-                "http://39.98.43.90/downloads?fileId=" +
-                item.fileId +
-                "&fileName=" +
-                item.fileName
-            }));
-            this.file3 = res.body.attachments.file3.map(item => ({
-              name: item.fileName,
-              url:
-                "http://39.98.43.90/downloads?fileId=" +
-                item.fileId +
-                "&fileName=" +
-                item.fileName
-            }));
-
+            // this.ruleForm = Object.assign(this.ruleForm, res.body);
+            console.log(res.body);
             // 延迟加载城市信息
             setTimeout(() => {
               this.ruleForm.one_4 = res.body.cityCode;
@@ -1294,11 +1369,19 @@ export default {
     } else {
       this.title = "创建报价";
     }
+
+    sys_ajax.contractTableListService({ limit: 99999 }, res => {
+      this.tradingTypes = res.body.list || [];
+    });
   }
 };
 </script>
 
 <style scoped>
+.competitionCompanyDialog .el-form {
+  width: 480px;
+  margin: 30px;
+}
 .input_div .el-input__icon {
   line-height: 30px !important;
 }
@@ -1441,7 +1524,7 @@ p {
 }
 
 .list_con {
-  width: calc(100% - 40px);
+  width: calc(100% - 20px);
   height: auto;
   overflow: visible;
   padding: 26px 0;
@@ -1644,35 +1727,12 @@ p {
   overflow: hidden;
 }
 .page-list-title {
+  font-size: 12px;
   border-bottom: 1px solid #ccc;
   margin-bottom: 30px;
   padding-bottom: 10px;
 }
 .page-list-title .extra {
   float: right;
-}
-.table-inputs {
-  display: flex;
-  flex-wrap: nowrap;
-  margin: 15px 0;
-}
-.table-inputs .input-label {
-  width: 188px;
-  line-height: 2;
-}
-.table-inputs .month-list {
-  width: 80%;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-}
-.table-inputs .month-list > div {
-  width: 8%;
-}
-
-.table-inputs .month-list > div span {
-  text-align: center;
-  display: inline-block;
-  width: 100%;
 }
 </style>

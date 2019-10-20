@@ -64,7 +64,7 @@
             <div class="ma_ui_div">
               <p>客户名称：</p>
               <div class="input_ss">
-                  <el-input placeholder="请输入关键词" size="medium" v-model="value9"></el-input>
+                <el-input placeholder="请输入关键词" size="medium" v-model="value9"></el-input>
               </div>
             </div>
             <div class="ma_ui_div">
@@ -110,15 +110,15 @@
           >
             <div class="content_list_con">
               <div class="list_img">
-                <img  src="../../../assets/aImg/kh_02.png" alt />
+                <img src="../../../assets/aImg/kh_02.png" alt />
               </div>
               <div class="list_right">
                 <p>
-                  <label>{{item.name}}</label>
+                  <label>{{item.customerName}}</label>
                   <!-- <span>{{item.signStatus}}</span> -->
                 </p>
-                <p>所属行业：{{Service_con.industry[item.industry]}}</p>
-                <p>所在区域：{{item.province}}</p>
+                <p>所属行业：{{item.industry}}</p>
+                <p>目标年份：{{item.year}}</p>
               </div>
             </div>
           </div>
@@ -210,13 +210,13 @@ export default {
       time_value: "", //所属行业选中值
 
       options4: [], //客户名称选择框数组
-      value9: '', //客户名称选中的值
+      value9: "", //客户名称选中的值
       list: [], //客户名称过滤
       loading: false, //是否正在从远程获取数据
       gd_list: [], //客户名称后台返回数据
       states: [], //筛选出客户名称数组
 
-      value9_s: '', //客户名称选中的值
+      value9_s: "", //客户名称选中的值
       options4_s: [], //购电方选择框数组
       list_s: [], //购电方过滤
       loading_s: false, //是否正在从远程获取数据
@@ -350,7 +350,7 @@ export default {
       this.list_find(this.formData, 2);
     },
     add_item() {
-      this.$router.push("/preSalePrice/edit");
+      this.$router.push({ path: "/preSalePrice/edit", query: { id: "new" } });
     },
 
     one_click() {
@@ -361,10 +361,8 @@ export default {
     },
     list_daterial(id) {
       //查看详情
-      this.$router.push({
-        name: "portraitDetails",
-        params: { one: id }
-      });
+      this.$router.push({ path: "/preSalePrice/edit", query: { id } });
+      // this.$router.push("/preSalePrice/edit?id="+id);
     },
     find_list() {
       //进行筛选
@@ -393,7 +391,6 @@ export default {
       ajax_list.preCustomerListService(
         data,
         res => {
-          //合同列表
           this.$emit("login-success", res);
         },
         res => {

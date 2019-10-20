@@ -127,7 +127,7 @@
           dl_sq(){
             if(this.click_home != 7){
               this.click_home = 7;
-              this.$router.push('/preSalePrice');
+              this.$router.push('/preSalePrice/index');
 //            this.img_src.isst = true;
               $(".left_two").css("display","none");
               this.dl_css()

@@ -11,12 +11,34 @@ import withAxios from "./withAxios";
 
 
 export default {
-
+    /**
+   * /api/areaListService 区域列表
+   */
+  areaListService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/areaListService', params, success_callback, fail_callback);
+  },
+  /**
+   *  /api/customerListCodeService 客户列表字典
+   */
+  customerListCodeService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/customerListCodeService', params, success_callback, fail_callback);
+  },
   /**
    *  /api/preCustomerListService 列表
    */
   preCustomerListService(params, success_callback, fail_callback) {
     withAxios.requestData('POST', 3,'/api/preCustomerListService', params, success_callback, fail_callback);
   },
+  preCustomerCreateService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/preCustomerCreateService', params, success_callback, fail_callback);
+  },
+  preCustomerCalculationService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/preCustomerCalculationService', params, success_callback, fail_callback);
+  },
+  // /api/preCustomerDetailService 售前报价报量-详情
+  preCustomerDetailService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/preCustomerDetailService', params, success_callback, fail_callback);
+  },
+  
 
 }
