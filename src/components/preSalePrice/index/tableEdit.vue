@@ -23,13 +23,7 @@
       </div>
       <i v-if="showExpand" class="el-icon-setting" @click="handleExpand"></i>
     </div>
-    <el-dialog
-      destroy-on-close
-      width="1200px"
-      title="测算信息"
-      :visible.sync="dialogFormVisible"
-      class="dialog-form"
-    >
+    <el-dialog width="1200px" title="测算信息" :visible="dialogFormVisible" class="dialog-form">
       <el-form :model="dialogForm">
         <div class="input_3_3">
           <div>
@@ -41,25 +35,31 @@
           <div>
             <span>电量</span>
             <span>
-              <el-input v-model="dialogForm.amountFeng"></el-input>
+              <el-input
+                v-model="dialogForm.amountFeng"
+                @change="onChangeRate($event, 'total','Feng')"
+              ></el-input>
             </span>
             <span>
-              <el-input v-model="dialogForm.amountPing"></el-input>
+              <el-input
+                v-model="dialogForm.amountPing"
+                @change="onChangeRate($event, 'total','Ping')"
+              ></el-input>
             </span>
             <span>
-              <el-input v-model="dialogForm.amountKu"></el-input>
+              <el-input v-model="dialogForm.amountKu" @change="onChangeRate($event, 'total','Ku')"></el-input>
             </span>
           </div>
           <div>
             <span>比例</span>
             <span>
-              <el-input v-model="dialogForm.rateFeng"></el-input>
+              <el-input v-model="dialogForm.rateFeng" @change="onChangeRate($event, 'rate','Feng')"></el-input>
             </span>
             <span>
-              <el-input v-model="dialogForm.ratePing"></el-input>
+              <el-input v-model="dialogForm.ratePing" @change="onChangeRate($event, 'rate','Ping')"></el-input>
             </span>
             <span>
-              <el-input v-model="dialogForm.rateKu"></el-input>
+              <el-input v-model="dialogForm.rateKu" @change="onChangeRate($event, 'rate','Ku')"></el-input>
             </span>
           </div>
         </div>
@@ -72,19 +72,19 @@
           <div>
             <span>峰</span>
             <span v-for="month in 12" :key="month">
-              <el-input v-model="dialogForm.FENG['amount'+month]"></el-input>
+              <el-input v-model="FENG['amount'+month]" @change="onChangeMonthInput"></el-input>
             </span>
           </div>
           <div>
             <span>平</span>
             <span v-for="month in 12" :key="month">
-              <el-input v-model="dialogForm.PING['amount'+month]"></el-input>
+              <el-input v-model="PING['amount'+month]" @change="onChangeMonthInput"></el-input>
             </span>
           </div>
           <div>
             <span>枯</span>
             <span v-for="month in 12" :key="month">
-              <el-input v-model="dialogForm.GU['amount'+month]"></el-input>
+              <el-input v-model="GU['amount'+month]" @change="onChangeMonthInput"></el-input>
             </span>
           </div>
         </div>
@@ -94,55 +94,55 @@
           <p class="title">基础参数</p>
           <div class="list">
             <div>
-              <span>变压器容量</span>
-              <span>--</span>
+              <span>变压器容量:</span>
+              <span>{{baseParam.transformerCapacity}}</span>
             </div>
             <div>
-              <span>按需/按容</span>
-              <span>--</span>
+              <span>申报类型：</span>
+              <span>{{baseParam.applyType}}</span>
             </div>
             <div>
-              <span>电压等级</span>
-              <span>--</span>
+              <span>电压等级：</span>
+              <span>{{baseParam.two_3}}</span>
             </div>
             <div>
-              <span>基金</span>
-              <span>--</span>
+              <span>基金：</span>
+              <span>{{baseParam.fund}}</span>
             </div>
             <div>
-              <span>常规价</span>
-              <span>--</span>
+              <span>常规价：</span>
+              <span>{{baseParam.conventionalPrice}}</span>
             </div>
             <div>
-              <span>弃水价</span>
-              <span>--</span>
+              <span>弃水价：</span>
+              <span>{{baseParam.abandonPrice}}</span>
             </div>
             <div>
-              <span>富余价</span>
-              <span>--</span>
+              <span>富余价：</span>
+              <span>{{baseParam.surplusPrice}}</span>
             </div>
           </div>
           <p class="title">测算结果</p>
           <div class="list">
             <div>
               <span>常规+富余电费</span>
-              <span>--</span>
+              <span>{{dialogResult.conventionalSurplusCost}}</span>
             </div>
             <div>
               <span>目录电费</span>
-              <span>--</span>
+              <span>{{dialogResult.directoryCost}}</span>
             </div>
             <div>
               <span>纯富余电费</span>
-              <span>--</span>
+              <span>{{dialogResult.surplusCost}}</span>
             </div>
             <div>
               <span>常规电费</span>
-              <span>--</span>
+              <span>{{dialogResult.conventionalCost}}</span>
             </div>
             <div>
               <span>弃水电费</span>
-              <span>--</span>
+              <span>{{dialogResult.abandonCost}}</span>
             </div>
           </div>
           <div class="handleCalc">
@@ -159,17 +159,6 @@
 </template>
 <script>
 import this_ajax from "../../../api/preSalePrice";
-const defaultDialogForm = {
-  amountFeng: "",
-  amountPing: "",
-  amountKu: "",
-  rateFeng: "",
-  ratePing: "",
-  rateKu: "",
-  FENG: {},
-  PING: {},
-  GU: {}
-};
 export default {
   name: "month-table-input",
   data() {
@@ -177,8 +166,19 @@ export default {
       total: "",
       enableAll: true,
       formLabelWidth: 180,
-      dialogForm: { ...defaultDialogForm },
-      dialogFormVisible: false
+      FENG: {},
+      PING: {},
+      GU: {},
+      dialogForm: {
+        amountFeng: "",
+        amountPing: "",
+        amountKu: "",
+        rateFeng: "",
+        ratePing: "",
+        rateKu: ""
+      },
+      dialogFormVisible: false,
+      dialogResult: {}
     };
   },
   model: {
@@ -229,6 +229,54 @@ export default {
     }
   },
   methods: {
+    onChangeMonthInput(){
+      this.dialogForm = {
+        amountFeng: "",
+        amountPing: "",
+        amountKu: "",
+        rateFeng: "",
+        ratePing: "",
+        rateKu: ""
+      }
+    },
+    onChangeRate(value, type, name) {
+      const that = this;
+      let rates = [];
+      if (type === "total") {
+        rates = that.dialogForm["rate" + name].split(":");
+      } else if (type === "rate") {
+        rates = value.split(":");
+      } else {
+        return;
+      }
+      if (rates.length && rates[0] !== '') {
+        let months = [];
+        let total = "";
+        if (name === "Feng") {
+          months = [6, 7, 8, 9, 10];
+          total = this.dialogForm.amountFeng;
+        }
+        if (name === "Ping") {
+          months = [5, 11];
+          total = this.dialogForm.amountPing;
+        }
+        if (name === "Ku") {
+          months = [1, 2, 3, 4, 12];
+          total = this.dialogForm.amountKu;
+        }
+
+        const firstNum = (Number(total) * Number(rates[0])) / 100;
+        const secondNum = (Number(total) * Number(rates[1])) / 100;
+        const thirdNum = (Number(total) * Number(rates[2])) / 100;
+
+        months.forEach(month => {
+          that.FENG["amount" + month] = firstNum;
+          that.PING["amount" + month] = secondNum;
+          that.GU["amount" + month] = thirdNum;
+        });
+      }
+      this.$forceUpdate();
+    },
     preCustomerCalculationService() {
       const powerList = this.getRecords();
       const {
@@ -243,6 +291,7 @@ export default {
         abandonPrice
       } = this.baseParam;
       let data = {
+        surplusBase: this.value.SURPLUS_BASE,
         powerList,
         baseParam: {
           //基础参数
@@ -258,40 +307,30 @@ export default {
         }
       };
       this_ajax.preCustomerCalculationService(data, res => {
-        console.log(res);
-        const body = {
-          directoryCost: 2714855.54765, //目录电费
-          conventionalCost: 0, //纯常规电费
-          conventionalSurplusCost: 0, //常规+富余电费
-          surplusCost: 0, //纯富余电费
-          abandonCost: 0 //弃水电费
-        };
+        if (res.status === 200) {
+          this.dialogResult = res.body || {};
+        }
+        // 构造请求数据
         if (!this.value[this.type].powerAmountCalculation) {
           this.value[this.type].powerAmountCalculation = {
-            ...body
+            ...res.body
           };
         }
         this.value[this.type].powerAmountCalculation.records = powerList;
-        // dialog 表单信息
       });
     },
     resetDialog() {
-      this.dialogForm = { ...defaultDialogForm, FENG: {}, PING: {}, GU: {} };
+      // this.dialogForm = { ...defaultDialogForm, FENG: {}, PING: {}, GU: {} };
       this.dialogFormVisible = false;
     },
     getRecords() {
       let records = [];
-      records.push({ divisionTimeType: "FENG", ...this.dialogForm.FENG });
-      records.push({ divisionTimeType: "PING", ...this.dialogForm.PING });
-      records.push({ divisionTimeType: "GU", ...this.dialogForm.GU });
+      records.push({ divisionTimeType: "FENG", ...this.FENG });
+      records.push({ divisionTimeType: "PING", ...this.PING });
+      records.push({ divisionTimeType: "GU", ...this.GU });
       return records;
     },
     handleConfirm() {
-      let result = {};
-      let records = this.getRecords();
-      result = {
-        records
-      };
       this.resetDialog();
     },
     onChange(value, month) {
@@ -302,22 +341,19 @@ export default {
         [this.type]: { ...this.value[this.type], [cur]: value }
       };
       if (this.relate) {
-        console.log(
-          Number(value) - Number(targetValue.SURPLUS_BASE[cur]  || 0)
-        );
         targetValue[this.relate][cur] =
-          Number(value) - Number(targetValue.SURPLUS_BASE[cur]  || 0);
+          Number(value) - Number(targetValue.SURPLUS_BASE[cur] || 0);
       }
       if (this.type === "SURPLUS_BASE") {
-          targetValue.REAL_MINUS_SURPLUS[cur] =
-            Number(targetValue.REAL[cur] || 0) -
-            Number(targetValue.SURPLUS_BASE[cur]  || 0);
-          targetValue.CONTRACT_MINUS_SURPLUS[cur] =
-            Number(targetValue.CONTRACT[cur]  || 0) -
-            Number(targetValue.SURPLUS_BASE[cur]  || 0);
-          targetValue.TENDER_MINUS_SURPLUS[cur] =
-            Number(targetValue.TENDER[cur]  || 0) -
-            Number(targetValue.SURPLUS_BASE[cur]  || 0);
+        targetValue.REAL_MINUS_SURPLUS[cur] =
+          Number(targetValue.REAL[cur] || 0) -
+          Number(targetValue.SURPLUS_BASE[cur] || 0);
+        targetValue.CONTRACT_MINUS_SURPLUS[cur] =
+          Number(targetValue.CONTRACT[cur] || 0) -
+          Number(targetValue.SURPLUS_BASE[cur] || 0);
+        targetValue.TENDER_MINUS_SURPLUS[cur] =
+          Number(targetValue.TENDER[cur] || 0) -
+          Number(targetValue.SURPLUS_BASE[cur] || 0);
       }
       this.total = Object.values(targetValue[this.type]).reduce(
         (total, cur) => Number(total) + Number(cur)
@@ -394,7 +430,7 @@ export default {
 }
 .result .list > div {
   display: inline-block;
-  margin-bottom: 15px;
+  margin: 7px;
 }
 .result .list > div span {
   width: 100px;

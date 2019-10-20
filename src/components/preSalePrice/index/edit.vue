@@ -242,7 +242,7 @@
               </el-row>
               <el-row style="padding: 50px 20px 0 20px">
                 <div class="page-list-title" style="margin-top: 80px">电量信息</div>
-                <table-inputs :isHead="true" :showExpand="false" />
+                <table-inputs :isHead="true" :showExpand="false" :baseParam="ruleForm" />
                 <table-inputs
                   :label="this.ruleForm.year + '年真实'"
                   v-model="priceInputs"
@@ -271,6 +271,7 @@
                   label="富余电基数"
                   v-model="priceInputs"
                   type="SURPLUS_BASE"
+                  :baseParam="ruleForm"
                 />
                 <table-inputs-static
                   :label="this.ruleForm.year + '年真实电量（扣富余）'"
@@ -292,18 +293,21 @@
                   :showExpand="false"
                   v-model="priceInputs"
                   type="HISTORY_AMOUNT1"
+                  :baseParam="ruleForm"
                 />
                 <table-inputs
                   :label="this.ruleForm.year -2 + '年历史电量'"
                   :showExpand="false"
                   v-model="priceInputs"
                   type="HISTORY_AMOUNT2"
+                  :baseParam="ruleForm"
                 />
                 <table-inputs
                   :label="this.ruleForm.year -3 + '年历史电量'"
                   :showExpand="false"
                   v-model="priceInputs"
                   type="HISTORY_AMOUNT3"
+                  :baseParam="ruleForm"
                 />
               </el-row>
               <el-row style="padding: 50px 50px 0 50px;">
@@ -904,15 +908,12 @@ export default {
         this.options4_s = [];
       }
     },
-    add_contract() {
-      this.$router.push("/Customer/details");
-    },
     ret_add() {
       this.$router.go(-1);
     },
     add_cancel() {
       //取消按钮
-      this.$router.push("/Customer/portrait");
+      this.$router.push("/preSalePrice/index");
     },
     change_2(val) {
       //点击省份获取市数据
