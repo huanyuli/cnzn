@@ -73,8 +73,7 @@
                     <span>{{scope.row.total}}</span>
                   </template>
                 </el-table-column>
-                <el-table-column prop="fengKuRate" label="丰枯比">
-                </el-table-column>
+                <el-table-column prop="fengKuRate" label="丰枯比"></el-table-column>
               </el-table>
               <div id="myCharts" ref="myCharts"></div>
             </div>
@@ -89,7 +88,9 @@
               <el-table-column prop="conventionalPrice" label="常规直购电价" width="180"></el-table-column>
               <el-table-column prop="surplusPrice" label="富余价" width="180"></el-table-column>
               <el-table-column prop="abandonPrice" label="弃水价"></el-table-column>
-              <el-table-column prop="createAt" label="记录时间"></el-table-column>
+              <el-table-column prop="createAt" label="记录时间">
+                <template slot-scope="scope">{{get_date(scope.row.createAt)}}</template>
+              </el-table-column>
               <el-table-column prop="remark" label="备注"></el-table-column>
             </el-table>
           </div>
@@ -104,7 +105,9 @@
             <el-table :data.sync="leaderOfferPrices" border style="width: 100%">
               <el-table-column prop="transactionVariety" label="交易品种" width="180"></el-table-column>
               <el-table-column prop="offerPrice" label="报价" width="180"></el-table-column>
-              <el-table-column prop="createAt" label="报价时间"></el-table-column>
+              <el-table-column prop="createAt" label="报价时间">
+                <template slot-scope="scope">{{get_date(scope.row.createAt)}}</template>
+              </el-table-column>
               <el-table-column prop="remark" label="备注"></el-table-column>
             </el-table>
           </div>

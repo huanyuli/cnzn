@@ -23,7 +23,7 @@
       </div>
       <i v-if="showExpand" class="el-icon-setting" @click="handleExpand"></i>
     </div>
-    <el-dialog width="1200px" title="测算信息" :visible="dialogFormVisible" class="dialog-form">
+    <el-dialog width="1200px" title="测算信息" :visible.sync="dialogFormVisible" class="dialog-form" :show-close="false">
       <el-form :model="dialogForm">
         <div class="input_3_3">
           <div>
@@ -361,7 +361,7 @@ export default {
       this.$emit("change", targetValue);
     },
     handleExpand() {
-      this.dialogFormVisible = !this.dialogFormVisible;
+      this.dialogFormVisible = true;
     }
   }
 };
