@@ -309,6 +309,8 @@ export default {
       this_ajax.preCustomerCalculationService(data, res => {
         if (res.status === 200) {
           this.dialogResult = res.body || {};
+        }else{
+          this.$message(res.message)
         }
         // 构造请求数据
         if (!this.value[this.type].powerAmountCalculation) {
