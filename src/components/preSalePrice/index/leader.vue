@@ -4,7 +4,7 @@
       <div class="ma_title">
         <div class="ma_title_left" @click="aff_cancel">
           <i class="el-icon-arrow-left"></i>
-          <p>报价详情</p>
+          <p>领导报价</p>
         </div>
       </div>
       <div class="ma_content">
@@ -31,9 +31,6 @@
         </div>
         <div class="top_name">
           <p>{{date_list.name}}</p>
-        </div>
-        <div class="top_btn">
-          <el-button size="mini" @click="deta_edit" plain>编辑</el-button>
         </div>
         <div class="deta_div">
           <!--<div class="deta_div_title"><span>企业信息</span></div>-->
@@ -96,9 +93,6 @@
               <span>领导报价</span>
               <!--<p></p>-->
             </div>
-            <div class="leader-operate" v-if="ISLEADER === 'Y'">
-              <el-button type="primary" @click="addOfferPrice">添加报价</el-button>
-            </div>
             <el-table :data.sync="leaderOfferPrices" border style="width: 100%">
               <el-table-column prop="transactionVariety" label="交易品种" width="180"></el-table-column>
               <el-table-column prop="offerPrice" label="报价" width="180"></el-table-column>
@@ -107,26 +101,11 @@
             </el-table>
           </div>
           <div class="deta_con goback">
-            <el-button type="primary" @click="sendBack">退 回</el-button>
-            <el-button @click="goback">返 回</el-button>
+            <el-button type="primary" @click="goback">返 回</el-button>
           </div>
         </div>
       </div>
     </div>
-    <el-dialog title="领导报价" :visible.sync="offerPriceVisible">
-      <div class="input-item">
-        <span>报价</span>
-        <el-input v-model.number="offerPrice"></el-input>
-      </div>
-      <div class="input-item">
-        <span>备注</span>
-        <el-input type="textarea" :rows="10" v-model="remark"></el-input>
-      </div>
-      <div slot="footer" class="dialog-footer">
-        <el-button @click="resetOfferPrice">取 消</el-button>
-        <el-button type="primary" @click="handleAddOfferPrice">确 定</el-button>
-      </div>
-    </el-dialog>
   </div>
 </template>
 
@@ -140,9 +119,6 @@ export default {
   data() {
     return {
       ISLEADER: "N",
-      offerPrice: "",
-      remark: "",
-      offerPriceVisible: false,
       TYPES: {
         REAL: "真实",
         CONTRACT: "合同",
@@ -248,45 +224,6 @@ export default {
   computed: {},
 
   methods: {
-    getDetail() {
-      this.menuList = JSON.parse(localStorage.getItem("menuList"));
-      this.ISLEADER = localStorage.getItem("ISLEADER");
-      this.one_id = this.$route.query.id;
-      this.data_form = "{ 'id':" + this.one_id + "}";
-      this_ajax.preCustomerDetailService(this.data_form, res => {
-        if (res.status === 200) {
-          this.date_list = res.body.customerInfo || {};
-          this.competitionCompanyList = res.body.competitionCompanyList || [];
-          this.ElectricityInformation = res.body.powerAmountList || [];
-          this.leaderOfferPrices = res.body.leaderOfferPrices || [];
-          this.initChart();
-        }
-      });
-    },
-    handleAddOfferPrice() {
-      const id = this.one_id;
-      if (!this.offerPrice) {
-        this.$message("请填写报价");
-        return;
-      }
-      this_ajax.preCustomerLeaderEditService(
-        { id, offerPrice: this.offerPrice, remark: this.remark },
-        res => {
-          if (res.status === 200) {
-            this.getDetail();
-          }
-          this.offerPrice = "";
-          this.offerPriceVisible = false;
-        }
-      );
-    },
-    addOfferPrice() {
-      this.offerPriceVisible = true;
-    },
-    resetOfferPrice() {
-      this.offerPrice = "";
-      this.offerPriceVisible = false;
-    },
     initChart() {
       let mychart = echarts.init(document.getElementById("myCharts"));
       mychart.setOption({
@@ -314,15 +251,6 @@ export default {
     goback() {
       this.$router.push("/preSalePrice/index");
     },
-    sendBack() {
-      const id = this.one_id;
-      this_ajax.preCustomerLeaderBackService({ id }, res => {
-        if (res.status === 200) {
-          this.$message('报价已退回！')
-          this.$router.push("/preSalePrice/index");
-        }
-      });
-    },
     get_date(arr) {
       var now = new Date(arr * 1000),
         y = now.getFullYear(),
@@ -336,10 +264,6 @@ export default {
     deta_edit() {
       const id = this.one_id;
       this.$router.push({ path: "/preSalePrice/edit", query: { id } });
-    },
-    leader_edit() {
-      // const id = this.one_id;
-      // this.$router.push({ path: "/preSalePrice/leader", query: { id } });
     },
     show_map(id) {
       let obj = {};
@@ -359,7 +283,25 @@ export default {
     }
   },
   created() {
-    this.getDetail();
+    this.menuList = JSON.parse(localStorage.getItem("menuList"));
+    this.ISLEADER = localStorage.getItem("ISLEADER");
+    this.one_id = this.$route.query.id;
+    this.data_form = "{ 'id':" + this.one_id + "}";
+    this_ajax.preCustomerDetailService(
+      this.data_form,
+      res => {
+        this.$emit("login-success", res);
+      },
+      res => {
+        if (res.status === 200) {
+          this.date_list = res.body.customerInfo || {};
+          this.competitionCompanyList = res.body.competitionCompanyList || [];
+          this.ElectricityInformation = res.body.powerAmountList || [];
+          this.leaderOfferPrices = res.body.leaderOfferPrices || [];
+          this.initChart();
+        }
+      }
+    );
     ajax_list.customerCodeService(
       "{}",
       res => {
@@ -378,20 +320,6 @@ export default {
 </script>
 
 <style scoped>
-.input-item {
-  display: flex;
-  width: 300px;
-  padding: 20px;
-}
-.input-item span {
-  width: 100px;
-  text-align: right;
-  padding: 0 12px;
-}
-.leader-operate {
-  width: 100%;
-  text-align: right;
-}
 .goback {
   height: 80px;
   padding: 50px;

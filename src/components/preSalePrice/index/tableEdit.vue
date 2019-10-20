@@ -8,7 +8,7 @@
           <span v-if="!isHead">
             <el-input
               size="small"
-              :value="value['amount'+month]"
+              v-model.number="value['amount'+month]"
               @input="onChange($event,month)"
               :disabled="!enableAll && !months.includes(month)"
             ></el-input>
@@ -287,7 +287,6 @@ export default {
       this.resetDialog();
     },
     onChange(value, month) {
-      console.log(value, month);
       let targetValue = { ...this.value, ["amount" + month]: value };
       this.total = Object.values(targetValue).reduce(
         (total, cur) => Number(total) + Number(cur)

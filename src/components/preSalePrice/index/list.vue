@@ -361,8 +361,7 @@ export default {
     },
     list_daterial(id) {
       //查看详情
-      this.$router.push({ path: "/preSalePrice/edit", query: { id } });
-      // this.$router.push("/preSalePrice/edit?id="+id);
+      this.$router.push({ path: "/preSalePrice/detail", query: { id } });
     },
     find_list() {
       //进行筛选

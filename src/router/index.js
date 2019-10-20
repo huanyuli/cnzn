@@ -211,6 +211,10 @@ export default new Router({
               path: 'detail',
               component: resolve =>
                 require(['@/components/preSalePrice/index/details'], resolve),
+            },{
+              path: 'leader',
+              component: resolve =>
+                require(['@/components/preSalePrice/index/leader'], resolve),
             },
           ],
         },
