@@ -32,6 +32,9 @@ export default {
   preCustomerCreateService(params, success_callback, fail_callback) {
     withAxios.requestData('POST', 3,'/api/preCustomerCreateService', params, success_callback, fail_callback);
   },
+  preCustomerEditService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/preCustomerEditService', params, success_callback, fail_callback);
+  },
   preCustomerCalculationService(params, success_callback, fail_callback) {
     withAxios.requestData('POST', 3,'/api/preCustomerCalculationService', params, success_callback, fail_callback);
   },

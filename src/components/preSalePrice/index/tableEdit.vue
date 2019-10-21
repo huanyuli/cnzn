@@ -23,7 +23,14 @@
       </div>
       <i v-if="showExpand" class="el-icon-setting" @click="handleExpand"></i>
     </div>
-    <el-dialog width="1200px" title="测算信息" :visible.sync="dialogFormVisible" class="dialog-form" :show-close="false">
+    <el-dialog
+      width="1200px"
+      title="测算信息"
+      :visible.sync="dialogFormVisible"
+      class="dialog-form"
+      :show-close="false"
+      :close-on-click-modal="false"
+    >
       <el-form :model="dialogForm">
         <div class="input_3_3">
           <div>
@@ -93,34 +100,55 @@
           <h4>测算结果栏</h4>
           <p class="title">基础参数</p>
           <div class="list">
-            <div>
-              <span>变压器容量:</span>
-              <span>{{baseParam.transformerCapacity}}</span>
-            </div>
-            <div>
-              <span>申报类型：</span>
-              <span>{{baseParam.applyType}}</span>
-            </div>
-            <div>
-              <span>电压等级：</span>
-              <span>{{baseParam.two_3}}</span>
-            </div>
-            <div>
-              <span>基金：</span>
-              <span>{{baseParam.fund}}</span>
-            </div>
-            <div>
-              <span>常规价：</span>
-              <span>{{baseParam.conventionalPrice}}</span>
-            </div>
-            <div>
-              <span>弃水价：</span>
-              <span>{{baseParam.abandonPrice}}</span>
-            </div>
-            <div>
-              <span>富余价：</span>
-              <span>{{baseParam.surplusPrice}}</span>
-            </div>
+            <el-form :rules="dialogRules" :model="dialogBaseParam" :inline="true">
+              <el-form-item label="变压器容量" prop="transformerCapacity">
+                <el-input
+                  placeholder="请输入"
+                  size="medium"
+                  v-model.number="dialogBaseParam.transformerCapacity"
+                >
+                  <template slot="append">MVA</template>
+                </el-input>
+              </el-form-item>
+              <el-form-item label="申报类型" prop="applyType">
+                <el-select
+                  size="medium"
+                  v-model="dialogBaseParam.applyType"
+                  clearable
+                  placeholder="请选择"
+                >
+                  <el-option label="按需" value="按需"></el-option>
+                  <el-option label="按容" value="按容"></el-option>
+                </el-select>
+              </el-form-item>
+              <el-form-item label="电压等级" prop="two_3">
+                <el-select
+                  size="medium"
+                  v-model="dialogBaseParam.two_3"
+                  clearable
+                  placeholder="请选择"
+                >
+                  <el-option
+                    v-for="item in selectOptions.form_two_3"
+                    :key="item.value"
+                    :label="item.label"
+                    :value="item.value"
+                  ></el-option>
+                </el-select>
+              </el-form-item>
+              <el-form-item label="基金" prop="fund">
+                <el-input size="medium" v-model="dialogBaseParam.fund"></el-input>
+              </el-form-item>
+              <el-form-item label="常规价">
+                <el-input size="medium" v-model="dialogBaseParam.conventionalPrice"></el-input>
+              </el-form-item>
+              <el-form-item label="弃水价">
+                <el-input size="medium" v-model="dialogBaseParam.abandonPrice"></el-input>
+              </el-form-item>
+              <el-form-item label="富余价">
+                <el-input size="medium" v-model="dialogBaseParam.surplusPrice"></el-input>
+              </el-form-item>
+            </el-form>
           </div>
           <p class="title">测算结果</p>
           <div class="list">
@@ -163,12 +191,14 @@ export default {
   name: "month-table-input",
   data() {
     return {
+      isLoadedData: false,
       total: "",
       enableAll: true,
       formLabelWidth: 180,
       FENG: {},
       PING: {},
       GU: {},
+      dialogBaseParam: {},
       dialogForm: {
         amountFeng: "",
         amountPing: "",
@@ -178,7 +208,13 @@ export default {
         rateKu: ""
       },
       dialogFormVisible: false,
-      dialogResult: {}
+      dialogResult: {},
+      dialogRules: {
+        fund: [{ required: true, message: "请输入", trigger: "blur" }],
+        transformerCapacity: [{ required: true, message: "请输入", trigger: "blur" }],
+        two_3: [{ required: true, message: "请选择", trigger: "blur" }],
+        applyType: [{ required: true, message: "请选择", trigger: "blur" }],
+      }
     };
   },
   model: {
@@ -221,7 +257,16 @@ export default {
     relate: {
       type: String,
       default: ""
+    },
+    selectOptions: {
+      type: Object,
+      default: () => {}
+    },
+    powerAmountCalculation: {
+      type: Object,
+      default: () => {}
     }
+
   },
   mounted() {
     if (this.months.length) {
@@ -229,7 +274,7 @@ export default {
     }
   },
   methods: {
-    onChangeMonthInput(){
+    onChangeMonthInput() {
       this.dialogForm = {
         amountFeng: "",
         amountPing: "",
@@ -237,7 +282,7 @@ export default {
         rateFeng: "",
         ratePing: "",
         rateKu: ""
-      }
+      };
     },
     onChangeRate(value, type, name) {
       const that = this;
@@ -249,7 +294,7 @@ export default {
       } else {
         return;
       }
-      if (rates.length && rates[0] !== '') {
+      if (rates.length && rates[0] !== "") {
         let months = [];
         let total = "";
         if (name === "Feng") {
@@ -288,13 +333,15 @@ export default {
         conventionalPricePing,
         conventionalPriceKu,
         surplusPrice,
-        abandonPrice
-      } = this.baseParam;
+        abandonPrice,
+        fund,
+      } = this.dialogBaseParam;
       let data = {
         surplusBase: this.value.SURPLUS_BASE,
         powerList,
         baseParam: {
           //基础参数
+          fund,
           transformerCapacity, //变压器容量
           voltageLevel, //LEVEL_0_4KV，LEVEL_6_3KV，LEVEL_10KV，LEVEL_35KV，LEVEL_110KV，LEVEL_220KV
           applyType,
@@ -309,8 +356,8 @@ export default {
       this_ajax.preCustomerCalculationService(data, res => {
         if (res.status === 200) {
           this.dialogResult = res.body || {};
-        }else{
-          this.$message(res.message)
+        } else {
+          this.$message(res.message);
         }
         // 构造请求数据
         if (!this.value[this.type].powerAmountCalculation) {
@@ -364,6 +411,13 @@ export default {
     },
     handleExpand() {
       this.dialogFormVisible = true;
+      if (!this.isLoadedData) {
+        this.dialogBaseParam = { ...this.baseParam };
+        this.FENG = {...this.powerAmountCalculation[this.type].FENG};
+        this.PING = {...this.powerAmountCalculation[this.type].PING};
+        this.GU = {...this.powerAmountCalculation[this.type].GU};
+        this.isLoadedData = true;
+      }
     }
   }
 };
@@ -404,6 +458,13 @@ export default {
 }
 .dialog-form {
 }
+.dialog-form  .el-form--inline .el-form-item{
+  width: 40%;
+}
+.result .el-form--inline .el-form-item__label{
+  width: 120px;
+}
+
 .dialog-form .input_3_3,
 .dialog-form .input_36 {
   margin: 15px 0;
@@ -427,13 +488,15 @@ export default {
   font-weight: bold;
 }
 .result .list {
-  width: 80%;
+  width: 85%;
   margin: 20px auto;
 }
 .result .list > div {
+  width: 30%;
   display: inline-block;
   margin: 7px;
 }
+
 .result .list > div span {
   width: 100px;
   display: inline-block;

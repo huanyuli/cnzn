@@ -240,15 +240,23 @@
                   </el-form-item>
                 </div>
               </el-row>
-              <el-row style="padding: 50px 20px 0 20px">
+              <el-row style="padding: 50px 50px 0 50px">
                 <div class="page-list-title" style="margin-top: 80px">电量信息</div>
-                <table-inputs :isHead="true" :showExpand="false" :baseParam="ruleForm" />
+                <table-inputs
+                  :isHead="true"
+                  :showExpand="false"
+                  :baseParam="ruleForm"
+                  :powerAmountCalculation="powerAmountCalculation"
+                  :selectOptions="{form_two_3}"
+                />
                 <table-inputs
                   :label="this.ruleForm.year + '年真实'"
                   v-model="priceInputs"
                   type="REAL"
                   relate="REAL_MINUS_SURPLUS"
                   :baseParam="ruleForm"
+                  :selectOptions="{form_two_3}"
+                  :powerAmountCalculation="powerAmountCalculation"
                 />
                 <table-inputs
                   :label="this.ruleForm.year + '年合同'"
@@ -256,6 +264,8 @@
                   type="CONTRACT"
                   relate="CONTRACT_MINUS_SURPLUS"
                   :baseParam="ruleForm"
+                  :selectOptions="{form_two_3}"
+                  :powerAmountCalculation="powerAmountCalculation"
                 />
                 <table-inputs
                   :label="this.ruleForm.year + '年标书'"
@@ -263,6 +273,8 @@
                   type="TENDER"
                   relate="TENDER_MINUS_SURPLUS"
                   :baseParam="ruleForm"
+                  :selectOptions="{form_two_3}"
+                  :powerAmountCalculation="powerAmountCalculation"
                 />
                 <table-inputs
                   :showExpand="false"
@@ -272,6 +284,7 @@
                   v-model="priceInputs"
                   type="SURPLUS_BASE"
                   :baseParam="ruleForm"
+                  :selectOptions="{form_two_3}"
                 />
                 <table-inputs-static
                   :label="this.ruleForm.year + '年真实电量（扣富余）'"
@@ -294,6 +307,8 @@
                   v-model="priceInputs"
                   type="HISTORY_AMOUNT1"
                   :baseParam="ruleForm"
+                  :powerAmountCalculation="powerAmountCalculation"
+                  :selectOptions="{form_two_3}"
                 />
                 <table-inputs
                   :label="this.ruleForm.year -2 + '年历史电量'"
@@ -301,6 +316,8 @@
                   v-model="priceInputs"
                   type="HISTORY_AMOUNT2"
                   :baseParam="ruleForm"
+                  :powerAmountCalculation="powerAmountCalculation"
+                  :selectOptions="{form_two_3}"
                 />
                 <table-inputs
                   :label="this.ruleForm.year -3 + '年历史电量'"
@@ -308,6 +325,8 @@
                   v-model="priceInputs"
                   type="HISTORY_AMOUNT3"
                   :baseParam="ruleForm"
+                  :powerAmountCalculation="powerAmountCalculation"
+                  :selectOptions="{form_two_3}"
                 />
               </el-row>
               <el-row style="padding: 50px 50px 0 50px;">
@@ -500,7 +519,11 @@ export default {
       inputType: "1", // 电量填法
       tableData_3_3: "", // 3+3
       submitStatus: "", // "提交状态 0-保存 1-提交"
-
+      powerAmountCalculation: {
+        REAL: {},
+        CONTRACT: {},
+        TENDER: {}
+      },
       formLabelWidth: "120px",
       competitionCompanyVisible: false,
       competitionCompanyList: [], // 竞争企业
@@ -728,7 +751,7 @@ export default {
         customerName: this.ruleForm.one_1,
         customerNo: this.ruleForm.customerNo,
         industry: this.ruleForm.one_2,
-        pprovince: this.ruleForm.one_3s,
+        province: this.ruleForm.one_3s,
         city: this.ruleForm.one_4s,
         county: this.ruleForm.add_one_4_s,
         provinceCode: this.ruleForm.one_3,
@@ -754,25 +777,34 @@ export default {
         remark: this.ruleForm.remark,
         submitStatus: this.submitStatus,
         powerAmountList,
-        competitionCompanyList: this.competitionCompanyList
+        competitionCompanyList: this.competitionCompanyList,
+        transactionVariety: this.ruleForm.transactionVariety,
+        applyType: this.ruleForm.applyType
       };
+      if (this.saleId) {
+        dataTemp.id = this.saleId;
+      }
       Object.keys(dataTemp).forEach(key => {
         if (!dataTemp[key]) {
           delete dataTemp[key];
         }
       });
+      console.log("dataTemp", dataTemp);
       return dataTemp;
     },
     save_form() {
-      console.log(this.priceInputs);
+      const api = this.saleId
+        ? "preCustomerEditService"
+        : "preCustomerCreateService";
       this.$refs["ruleForm"].validate(valid => {
         if (valid) {
           this.submitStatus = "0";
           const data = this.getFormData();
-          console.log(data);
-          this_ajax.preCustomerCreateService(data, res => {
+          this_ajax[api](data, res => {
             if (res.status === 200) {
               this.$message("保存成功！");
+            } else {
+              this.$message(res.message);
             }
           });
         } else {
@@ -781,11 +813,14 @@ export default {
       });
     },
     submit_form() {
+      const api = this.saleId
+        ? "preCustomerEditService"
+        : "preCustomerCreateService";
       this.$refs["ruleForm"].validate(valid => {
         if (valid) {
           this.submitStatus = "1";
           const data = this.getFormData();
-          this_ajax.preCustomerCreateService(data, res => {
+          this_ajax[api](data, res => {
             if (res.status === 200) {
               this.$message("保存成功！");
             }
@@ -1219,6 +1254,7 @@ export default {
           // this.ruleForm = Object.assign(this.ruleForm, res.body);
           console.log(res.body);
           const customerInfo = res.body.customerInfo;
+          const powerAmountList = res.body.powerAmountList || [];
           this.competitionCompanyList = res.body.competitionCompanyList;
           this.ruleForm.one_1 = customerInfo.customerName;
           this.ruleForm.customerNo = customerInfo.customerNo;
@@ -1237,19 +1273,41 @@ export default {
           this.ruleForm.abandonPrice = customerInfo.abandonPrice;
           this.ruleForm.fund = customerInfo.fund;
           this.ruleForm.score = customerInfo.score;
-          this.ruleForm.one_3 = customerInfo.province;
-          this.ruleForm.one_4 = customerInfo.city;
-          this.ruleForm.add_one_4 = customerInfo.county;
+          this.ruleForm.one_3 = customerInfo.provinceCode;
+          this.ruleForm.one_4 = customerInfo.cityCode;
+          this.ruleForm.add_one_4 = customerInfo.countyCode;
           this.ruleForm.remark = customerInfo.remark;
+          this.ruleForm.transactionVariety = customerInfo.transactionVariety;
+          this.ruleForm.conventionalPrice = customerInfo.conventionalPrice;
+          this.ruleForm.conventionalPriceFeng =
+            customerInfo.conventionalPriceFeng;
+          this.ruleForm.conventionalPriceKu = customerInfo.conventionalPriceKu;
+          this.ruleForm.conventionalPricePing =
+            customerInfo.conventionalPricePing;
 
-            // 延迟加载城市信息
-            setTimeout(() => {
-              this.ruleForm.one_4 = res.body.cityCode;
-              this.change_3(this.ruleForm.one_4);
-            }, 500);
+          powerAmountList.forEach(item => {
+            let _item = {};
+            Object.keys(item).forEach(key => {
+              if (key.includes("amount")) {
+                _item[key] = item[key];
+              }
+            });
+            this.powerAmountCalculation[item.type] = {}
+            item.powerAmountCalculation && item.powerAmountCalculation.records.forEach(record => {
+              this.powerAmountCalculation[item.type][record.divisionTimeType] = record
+            })
+            console.log("this.powerAmountCalculation", this.powerAmountCalculation);
+            this.priceInputs[item.type] = _item;
+          });
+
+          // 延迟加载城市信息
+          setTimeout(() => {
+            this.ruleForm.one_4 = customerInfo.cityCode;
+            this.change_3(this.ruleForm.one_4);
+          }, 1000);
           setTimeout(
-            () => (this.ruleForm.add_one_4 = res.body.countyCode),
-            1000
+            () => (this.ruleForm.add_one_4 = customerInfo.countyCode),
+            1500
           );
         }
       });
@@ -1611,10 +1669,11 @@ p {
   overflow: hidden;
 }
 .page-list-title {
-  font-size: 12px;
+  font-size: 14px;
   border-bottom: 1px solid #ccc;
   margin-bottom: 30px;
   padding-bottom: 10px;
+  line-height: 35px;
 }
 .page-list-title .extra {
   float: right;

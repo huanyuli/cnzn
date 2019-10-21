@@ -53,6 +53,7 @@ export default {
       }
       console.log(this.value)
       this.isOne = !this.isOne;
+      this.$forceUpdate();
     }
   }
 };

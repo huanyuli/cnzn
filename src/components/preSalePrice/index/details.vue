@@ -33,7 +33,7 @@
           <p>{{date_list.customerName}}</p>
         </div>
         <div class="top_btn">
-          <el-button size="mini" @click="deta_edit" plain>编辑</el-button>
+          <el-button v-if="date_list.submitStatus !== 1" size="mini" @click="deta_edit" plain>编辑</el-button>
         </div>
         <div class="deta_div">
           <!--<div class="deta_div_title"><span>企业信息</span></div>-->
@@ -68,12 +68,12 @@
                   :key="month"
                   width="130px"
                 ></el-table-column>
-                <el-table-column prop="total" label="合计">
+                <el-table-column prop="total" label="合计" width="120px">
                   <template slot-scope="scope">
                     <span>{{scope.row.total}}</span>
                   </template>
                 </el-table-column>
-                <el-table-column prop="fengKuRate" label="丰枯比"></el-table-column>
+                <el-table-column prop="fengKuRate" label="丰枯比" width="120px"></el-table-column>
               </el-table>
               <div id="myCharts" ref="myCharts"></div>
             </div>
@@ -99,7 +99,7 @@
               <span>领导报价</span>
               <!--<p></p>-->
             </div>
-            <div class="leader-operate" v-if="ISLEADER === 'Y'">
+            <div class="leader-operate" v-if="ISLEADER === 'Y' && date_list.submitStatus === 1">
               <el-button type="primary" size="mini" @click="addOfferPrice">添加报价</el-button>
             </div>
             <el-table :data.sync="leaderOfferPrices" border style="width: 100%">
@@ -112,7 +112,11 @@
             </el-table>
           </div>
           <div class="deta_con goback">
-            <el-button type="primary" v-if="ISLEADER === 'Y'" @click="sendBack">退 回</el-button>
+            <el-button
+              type="primary"
+              v-if="ISLEADER === 'Y'  && date_list.submitStatus === 1"
+              @click="sendBack"
+            >退 回</el-button>
             <el-button @click="goback">返 回</el-button>
           </div>
         </div>
@@ -156,10 +160,32 @@ export default {
         REAL_MINUS_SURPLUS: "真实-扣富余",
         CONTRACT_MINUS_SURPLUS: "合同-扣富余",
         TENDER_MINUS_SURPLUS: "标书-扣富余",
-        HISTORY_AMOUNT1: new Date().getFullYear - 2000 - 1 + "历史电量",
-        HISTORY_AMOUNT2: new Date().getFullYear - 2000 - 2 + "历史电量",
-        HISTORY_AMOUNT3: new Date().getFullYear - 2000 - 3 + "历史电量"
+        HISTORY_AMOUNT1: "历史电量",
+        HISTORY_AMOUNT2: "历史电量",
+        HISTORY_AMOUNT3: "历史电量"
       },
+      tradingTypes: [
+        {
+          id: "DIRECTORY_COST",
+          name: "目录"
+        },
+        {
+          id: "CONVENTIONAL_COST",
+          name: "纯常规"
+        },
+        {
+          id: "CONVENTIONAL_SURPLUS_COST",
+          name: "常规+富余"
+        },
+        {
+          id: "SURPLUS_COST",
+          name: "纯富余（目录+富余）"
+        },
+        {
+          id: "ABANDON_COST",
+          name: "弃水（目录+弃水）"
+        }
+      ], // 品种
       one_id: 0, //ID
       one_type: "", //签约状态
       data_form: "", //获取详情参数
@@ -185,6 +211,10 @@ export default {
         {
           field: "customerNo",
           name: "客户编码"
+        },
+        {
+          field: "transactionVariety",
+          name: "交易品种"
         },
         {
           field: "industry",
@@ -254,6 +284,10 @@ export default {
 
   methods: {
     getDetail() {
+      const ISSTATEGRID = {
+        Y: "是",
+        N: "否"
+      };
       this.menuList = JSON.parse(localStorage.getItem("menuList"));
       this.ISLEADER = localStorage.getItem("ISLEADER");
       this.one_id = this.$route.query.id;
@@ -281,6 +315,21 @@ export default {
               };
             }
           );
+          this.date_list.isStateGrid = ISSTATEGRID[this.date_list.isStateGrid];
+          this.date_list.voltageLevel = this.codeNames.voltageLevel[
+            this.date_list.voltageLevel
+          ];
+          this.date_list.usePowerType = this.codeNames.usePowerType[
+            this.date_list.usePowerType
+          ];
+          this.date_list.industry = this.codeNames.industry[
+            this.date_list.industry
+          ];
+           const tradingType = this.tradingTypes.find(item => item.id === this.date_list.transactionVariety) || {}
+          this.date_list.transactionVariety = tradingType.name
+          this.TYPES.HISTORY_AMOUNT1 = Number(this.date_list.year) - 1 + '历史电量'
+          this.TYPES.HISTORY_AMOUNT2 = Number(this.date_list.year) - 2 + '历史电量'
+          this.TYPES.HISTORY_AMOUNT3 = Number(this.date_list.year) - 3 + '历史电量'
           this.initChart();
         }
       });
