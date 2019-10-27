@@ -31,6 +31,7 @@
         </div>
         <div class="top_name">
           <p>{{date_list.customerName}}</p>
+          <p class="date">创建时间：{{get_date(date_list.createAt)}}</p>
         </div>
         <div class="top_btn">
           <el-button v-if="date_list.submitStatus !== 1" size="mini" @click="deta_edit" plain>编辑</el-button>
@@ -360,18 +361,20 @@ export default {
     },
     initChart() {
       let mychart = echarts.init(document.getElementById("myCharts"));
+      const types = ['REAL','CONTRACT','TENDER','HISTORY_AMOUNT1', 'HISTORY_AMOUNT2', 'HISTORY_AMOUNT3']
+      const data = this.ElectricityInformation.filter(item => types.includes(item.type))
       mychart.setOption({
         title: { text: "" },
         tooltip: {},
         legend: {
           show: true,
-          data: this.ElectricityInformation.map(item => this.TYPES[item.type])
+          data: data.map(item => this.TYPES[item.type])
         },
         xAxis: {
           data: Array.from(Array(11)).map((v, k) => k + 1 + "月")
         },
         yAxis: {},
-        series: this.ElectricityInformation.map(item => {
+        series: data.map(item => {
           return {
             name: this.TYPES[item.type],
             type: "line",
@@ -569,6 +572,10 @@ p {
   position: relative;
   top: -2px;
   border: 1px solid rgba(126, 179, 217, 1);
+}
+.top_name p.date{
+  font-size: 12px;
+  color: #999;
 }
 .top_de {
   width: 100%;

@@ -211,9 +211,11 @@ export default {
       dialogResult: {},
       dialogRules: {
         fund: [{ required: true, message: "请输入", trigger: "blur" }],
-        transformerCapacity: [{ required: true, message: "请输入", trigger: "blur" }],
+        transformerCapacity: [
+          { required: true, message: "请输入", trigger: "blur" }
+        ],
         two_3: [{ required: true, message: "请选择", trigger: "blur" }],
-        applyType: [{ required: true, message: "请选择", trigger: "blur" }],
+        applyType: [{ required: true, message: "请选择", trigger: "blur" }]
       }
     };
   },
@@ -266,7 +268,6 @@ export default {
       type: Object,
       default: () => {}
     }
-
   },
   mounted() {
     if (this.months.length) {
@@ -292,6 +293,11 @@ export default {
       } else if (type === "rate") {
         rates = value.split(":");
       } else {
+        return;
+      }
+      console.log(Number(rates[0]) + Number(rates[1]) + Number(rates[0]))
+      if (Number(rates[0]) + Number(rates[1]) + Number(rates[2]) !== 100) {
+        this.$message("比例之和应为100");
         return;
       }
       if (rates.length && rates[0] !== "") {
@@ -334,7 +340,7 @@ export default {
         conventionalPriceKu,
         surplusPrice,
         abandonPrice,
-        fund,
+        fund
       } = this.dialogBaseParam;
       let data = {
         surplusBase: this.value.SURPLUS_BASE,
@@ -413,9 +419,9 @@ export default {
       this.dialogFormVisible = true;
       if (!this.isLoadedData) {
         this.dialogBaseParam = { ...this.baseParam };
-        this.FENG = {...this.powerAmountCalculation[this.type].FENG};
-        this.PING = {...this.powerAmountCalculation[this.type].PING};
-        this.GU = {...this.powerAmountCalculation[this.type].GU};
+        this.FENG = { ...this.powerAmountCalculation[this.type].FENG };
+        this.PING = { ...this.powerAmountCalculation[this.type].PING };
+        this.GU = { ...this.powerAmountCalculation[this.type].GU };
         this.isLoadedData = true;
       }
     }
@@ -458,10 +464,10 @@ export default {
 }
 .dialog-form {
 }
-.dialog-form  .el-form--inline .el-form-item{
+.dialog-form .el-form--inline .el-form-item {
   width: 40%;
 }
-.result .el-form--inline .el-form-item__label{
+.result .el-form--inline .el-form-item__label {
   width: 120px;
 }
 

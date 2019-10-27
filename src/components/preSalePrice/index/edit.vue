@@ -21,7 +21,7 @@
                 <div class="list_tile">基本信息</div>
                 <div class="list_con_input">
                   <el-form-item label="客户名称" prop="one_1">
-                    <el-input v-model="ruleForm.one_1"></el-input>
+                    <el-input v-model="ruleForm.one_1" @change="onChangeUser"></el-input>
                   </el-form-item>
                 </div>
                 <div class="list_con_input">
@@ -345,7 +345,9 @@
                   <el-table-column prop="conventionalPrice" label="常规直购电价" width="180"></el-table-column>
                   <el-table-column prop="surplusPrice" label="富余价" width="180"></el-table-column>
                   <el-table-column prop="abandonPrice" label="弃水价"></el-table-column>
-                  <el-table-column prop="date" label="记录时间"></el-table-column>
+                  <el-table-column prop="date" label="记录时间">
+                    <template slot-scope="scope">{{get_date(scope.row.date)}}</template>
+                  </el-table-column>
                   <el-table-column prop="remark" label="备注"></el-table-column>
                   <el-table-column label="操作">
                     <template slot-scope="scope">
@@ -719,13 +721,23 @@ export default {
   // 映射store数据
   computed: {},
   methods: {
+    onChangeUser(value){
+      console.log(value)
+    },
+    get_date(arr) {
+      var now = new Date(arr * 1000),
+        y = now.getFullYear(),
+        m = now.getMonth() + 1,
+        d = now.getDate();
+      return y + "." + (m < 10 ? "0" + m : m) + "." + (d < 10 ? "0" + d : d);
+    },
     handleDeleteCompany(row) {
       this.competitionCompanyList = this.competitionCompanyList.filter(
         item => item.date !== row.date
       );
     },
     handleAddCompany() {
-      this.competitionCompanyForm.date = new Date().getTime();
+      this.competitionCompanyForm.date = new Date().getTime() / 1000;
       this.competitionCompanyList.push({ ...this.competitionCompanyForm });
       this.resetCompanyForm();
     },
@@ -823,6 +835,9 @@ export default {
           this_ajax[api](data, res => {
             if (res.status === 200) {
               this.$message("保存成功！");
+              this.$router.push('/preSalePrice/index')
+            }else{
+              this.$message(res.message)
             }
           });
         } else {
@@ -1292,11 +1307,17 @@ export default {
                 _item[key] = item[key];
               }
             });
-            this.powerAmountCalculation[item.type] = {}
-            item.powerAmountCalculation && item.powerAmountCalculation.records.forEach(record => {
-              this.powerAmountCalculation[item.type][record.divisionTimeType] = record
-            })
-            console.log("this.powerAmountCalculation", this.powerAmountCalculation);
+            this.powerAmountCalculation[item.type] = {};
+            item.powerAmountCalculation &&
+              item.powerAmountCalculation.records.forEach(record => {
+                this.powerAmountCalculation[item.type][
+                  record.divisionTimeType
+                ] = record;
+              });
+            console.log(
+              "this.powerAmountCalculation",
+              this.powerAmountCalculation
+            );
             this.priceInputs[item.type] = _item;
           });
 
@@ -1313,7 +1334,9 @@ export default {
       });
     } else {
       this.title = "创建报价";
-      this.ruleForm.year = new Date().getFullYear() - 2000;
+      const thisYear = new Date().getFullYear() - 2000;
+      const isBigThan10 = new Date().getMonth() >= 9;
+      this.ruleForm.year = isBigThan10 ? thisYear + 1 : thisYear;
     }
   }
 };
