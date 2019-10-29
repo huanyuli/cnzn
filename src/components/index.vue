@@ -44,7 +44,7 @@
                 <i class="cn_icon es_icon"></i>
                 <span>电量申报</span></li>
               <li v-if="show_map(13) == 13 " @click='dl_sq' :class="{click_icon:this.click_home == 7}">
-                <i class="cn_icon es_icon"></i>
+                <i class="cn_icon bj_icon"></i>
                 <span>售前报价</span></li>
               <li v-if="show_map(20) == 20 " @click='dl_set' :class="{click_icon:this.click_home == 6}">
                 <i class="cn_icon set_icon"></i>
@@ -378,6 +378,14 @@
     width: 12px!important;
     height: 22px!important;
     background: url("../assets/aImg/es.png") center no-repeat;
+  }
+  .bj_icon{
+    width: 20px!important;
+    height: 22px!important;
+    background: url("../assets/aImg/bj.png") center no-repeat;
+  }
+  .left_nav ul li:hover .bj_icon,.click_icon .bj_icon{
+    background: url("../assets/aImg/bj_selected.png") center no-repeat!important;
   }
   .left_nav ul li:hover .es_icon,.click_icon .es_icon{
     background: url("../assets/aImg/es_selected.png") center no-repeat!important;

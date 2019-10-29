@@ -86,9 +86,17 @@
             </div>
             <el-table :data.sync="competitionCompanyList" border style="width: 100%">
               <el-table-column prop="companyName" label="企业名称" width="180"></el-table-column>
-              <el-table-column prop="conventionalPrice" label="常规直购电价" width="180"></el-table-column>
+              <el-table-column label="常规直购电价" width="180">
+                <template slot-scope="scope">
+                  <span v-if="scope.row.conventionalPrice">{{scope.row.conventionalPrice}}</span>
+                  <span
+                    v-else
+                  >丰:{{scope.row.conventionalPriceFeng}}平:{{scope.row.conventionalPricePing}}枯:{{scope.row.conventionalPriceKu}}</span>
+                </template>
+              </el-table-column>
               <el-table-column prop="surplusPrice" label="富余价" width="180"></el-table-column>
               <el-table-column prop="abandonPrice" label="弃水价"></el-table-column>
+              <el-table-column prop="incrementPrice" label="增量价"></el-table-column>
               <el-table-column prop="createAt" label="记录时间">
                 <template slot-scope="scope">{{get_date(scope.row.createAt)}}</template>
               </el-table-column>
@@ -100,12 +108,20 @@
               <span>领导报价</span>
               <!--<p></p>-->
             </div>
-            <div class="leader-operate" v-if="ISLEADER === 'Y' && date_list.submitStatus === 1">
+            <div class="leader-operate" v-if="ISLEADER === 'Y' && date_list.submitStatus === 10">
               <el-button type="primary" size="mini" @click="addOfferPrice">添加报价</el-button>
             </div>
             <el-table :data.sync="leaderOfferPrices" border style="width: 100%">
               <el-table-column prop="transactionVariety" label="交易品种" width="180"></el-table-column>
-              <el-table-column prop="offerPrice" label="报价" width="180"></el-table-column>
+              <el-table-column prop="offerPrice" label="报价" width="180">
+                <template slot-scope="scope">
+                  <span v-if="scope.row.offerPrice">{{scope.row.offerPrice}}</span>
+                  <span
+                    v-else
+                  >丰:{{scope.row.offerPriceFeng}}平:{{scope.row.offerPricePing}}枯:{{scope.row.offerPriceKu}}</span>
+                </template>
+              </el-table-column>
+              <el-table-column prop="incrementPrice" label="增量价" width="180"></el-table-column>
               <el-table-column prop="createAt" label="报价时间">
                 <template slot-scope="scope">{{get_date(scope.row.createAt)}}</template>
               </el-table-column>
@@ -124,14 +140,21 @@
       </div>
     </div>
     <el-dialog title="领导报价" :visible.sync="offerPriceVisible">
-      <div class="input-item">
-        <span>报价</span>
-        <el-input v-model.number="offerPrice"></el-input>
-      </div>
-      <div class="input-item">
-        <span>备注</span>
-        <el-input type="textarea" :rows="10" v-model="remark"></el-input>
-      </div>
+      <el-form>
+        <div class="input-item">
+          <span>报价</span>
+          <!-- <el-input v-model.number="offerPrice"></el-input> -->
+          <direct-purchase-input v-model="offerPriceForm" />
+        </div>
+        <div class="input-item">
+          <span>增量价</span>
+          <el-input v-model.number="offerPriceForm.incrementPrice"></el-input>
+        </div>
+        <div class="input-item">
+          <span>备注</span>
+          <el-input type="textarea" :rows="10" v-model="offerPriceForm.remark"></el-input>
+        </div>
+      </el-form>
       <div slot="footer" class="dialog-footer">
         <el-button @click="resetOfferPrice">取 消</el-button>
         <el-button type="primary" @click="handleAddOfferPrice">确 定</el-button>
@@ -145,13 +168,23 @@
 import ajax_list from "../../../api/customer ";
 import this_ajax from "../../../api/preSalePrice";
 import echarts from "echarts";
+import directPurchaseInput from "./directPurchaseInput";
 
 export default {
+  components: {
+    "direct-purchase-input": directPurchaseInput
+  },
   data() {
     return {
+      offerPriceForm: {
+        conventionalPrice: "",
+        conventionalPriceFeng: "",
+        conventionalPricePing: "",
+        conventionalPriceKu: "",
+        remark: "",
+        incrementPrice: ""
+      },
       ISLEADER: "N",
-      offerPrice: "",
-      remark: "",
       offerPriceVisible: false,
       TYPES: {
         REAL: "真实",
@@ -326,29 +359,40 @@ export default {
           this.date_list.industry = this.codeNames.industry[
             this.date_list.industry
           ];
-           const tradingType = this.tradingTypes.find(item => item.id === this.date_list.transactionVariety) || {}
-          this.date_list.transactionVariety = tradingType.name
-          this.TYPES.HISTORY_AMOUNT1 = Number(this.date_list.year) - 1 + '历史电量'
-          this.TYPES.HISTORY_AMOUNT2 = Number(this.date_list.year) - 2 + '历史电量'
-          this.TYPES.HISTORY_AMOUNT3 = Number(this.date_list.year) - 3 + '历史电量'
+          const tradingType =
+            this.tradingTypes.find(
+              item => item.id === this.date_list.transactionVariety
+            ) || {};
+          this.date_list.transactionVariety = tradingType.name;
+          this.TYPES.HISTORY_AMOUNT1 =
+            Number(this.date_list.year) - 1 + "历史电量";
+          this.TYPES.HISTORY_AMOUNT2 =
+            Number(this.date_list.year) - 2 + "历史电量";
+          this.TYPES.HISTORY_AMOUNT3 =
+            Number(this.date_list.year) - 3 + "历史电量";
           this.initChart();
         }
       });
     },
     handleAddOfferPrice() {
       const id = this.one_id;
-      if (!this.offerPrice) {
-        this.$message("请填写报价");
-        return;
-      }
+      // if (!this.offerPriceForm.offerPrice && !this.offerPriceForm) {
+      //   this.$message("请填写报价");
+      //   return;
+      // }
       this_ajax.preCustomerLeaderEditService(
-        { id, offerPrice: this.offerPrice, remark: this.remark },
+        {
+          id,
+          offerPrice: this.offerPriceForm.conventionalPrice,
+          offerPriceFeng: this.offerPriceForm.conventionalPriceFeng,
+          offerPricePing: this.offerPriceForm.conventionalPricePing,
+          offerPriceKu: this.offerPriceForm.conventionalPriceKu
+        },
         res => {
           if (res.status === 200) {
             this.getDetail();
           }
-          this.offerPrice = "";
-          this.offerPriceVisible = false;
+          this.resetOfferPrice()
         }
       );
     },
@@ -356,13 +400,27 @@ export default {
       this.offerPriceVisible = true;
     },
     resetOfferPrice() {
-      this.offerPrice = "";
+      this.offerPriceForm.conventionalPrice = "";
+      this.offerPriceForm.conventionalPriceFeng = "";
+      this.offerPriceForm.conventionalPricePing = "";
+      this.offerPriceForm.conventionalPriceKu = "";
+      this.offerPriceForm.incrementPrice = "";
+      this.offerPriceForm.remark = "";
       this.offerPriceVisible = false;
     },
     initChart() {
       let mychart = echarts.init(document.getElementById("myCharts"));
-      const types = ['REAL','CONTRACT','TENDER','HISTORY_AMOUNT1', 'HISTORY_AMOUNT2', 'HISTORY_AMOUNT3']
-      const data = this.ElectricityInformation.filter(item => types.includes(item.type))
+      const types = [
+        "REAL",
+        "CONTRACT",
+        "TENDER",
+        "HISTORY_AMOUNT1",
+        "HISTORY_AMOUNT2",
+        "HISTORY_AMOUNT3"
+      ];
+      const data = this.ElectricityInformation.filter(item =>
+        types.includes(item.type)
+      );
       mychart.setOption({
         title: { text: "" },
         tooltip: {},
@@ -371,7 +429,7 @@ export default {
           data: data.map(item => this.TYPES[item.type])
         },
         xAxis: {
-          data: Array.from(Array(11)).map((v, k) => k + 1 + "月")
+          data: Array.from(Array(12)).map((v, k) => k + 1 + "月")
         },
         yAxis: {},
         series: data.map(item => {
@@ -458,7 +516,8 @@ export default {
   padding: 20px;
 }
 .input-item span {
-  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
   text-align: right;
   padding: 0 12px;
 }
@@ -573,7 +632,7 @@ p {
   top: -2px;
   border: 1px solid rgba(126, 179, 217, 1);
 }
-.top_name p.date{
+.top_name p.date {
   font-size: 12px;
   color: #999;
 }

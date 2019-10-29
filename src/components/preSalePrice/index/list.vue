@@ -8,6 +8,19 @@
       <div class="ma_content">
         <div class="ma_screen">
           <div class="div_row">
+            <div class="record-status">
+              <span>状态：</span>
+              <el-radio-group v-model="submitStatus" size="small">
+                <el-radio-button label="全部"></el-radio-button>
+                <el-radio-button label="草稿"></el-radio-button>
+                <el-radio-button label="领导报价"></el-radio-button>
+                <el-radio-button label="市场人员待处理"></el-radio-button>
+                <el-radio-button label="签章"></el-radio-button>
+                <el-radio-button label="废弃"></el-radio-button>
+              </el-radio-group>
+            </div>
+          </div>
+          <div class="div_row">
             <div class="ma_ui_div">
               <p>所在区域：</p>
               <div class="input_ss">
@@ -92,7 +105,7 @@
             </div>
           </div>
           <div class="div_row">
-            <div class="ma_ui_div ma_ui_btn" style="padding-bottom: 10px">
+            <div class="ma_ui_div ma_ui_btn" style="padding-bottom: 10px;padding-left: 28px;">
               <el-button size="small" type="primary" @click="find_list">筛选</el-button>
               <el-button size="small" @click="empty_find">清空</el-button>
             </div>
@@ -110,7 +123,7 @@
           >
             <div class="content_list_con">
               <div class="list_img">
-                <img src="../../../assets/aImg/kh_02.png" alt />
+                <img :src="`/static/img/sub_${item.submitStatus}.png`" alt="" />
               </div>
               <div class="list_right">
                 <p>
@@ -119,6 +132,8 @@
                 </p>
                 <p>所属行业：{{item.industry}}</p>
                 <p>目标年份：{{item.year}}</p>
+                <p>客户经理：{{item.businessName}}</p>
+                <p>更新时间：{{get_date(item.updateAt)}}</p>
               </div>
             </div>
           </div>
@@ -148,10 +163,18 @@
 <script>
 // 引入axios
 import ajax_list from "../../../api/preSalePrice";
-
+const SUBMIT_STATUS = {
+  全部: "",
+  草稿: 0,
+  领导报价: 10,
+  市场人员待处理: 20,
+  签章: 30,
+  废弃: 40
+};
 export default {
   data() {
     return {
+      submitStatus: "全部",
       url_action: "",
       url_data: {},
       d_success: false,
@@ -227,6 +250,13 @@ export default {
   // 映射store数据
   computed: {},
   methods: {
+    get_date(arr) {
+      var now = new Date(arr * 1000),
+        y = now.getFullYear(),
+        m = now.getMonth() + 1,
+        d = now.getDate();
+      return y + "." + (m < 10 ? "0" + m : m) + "." + (d < 10 ? "0" + d : d);
+    },
     handleSuccess(response, file, fileList) {
       this.load_add_0 = true;
       if (response.status == 200) {
@@ -249,12 +279,14 @@ export default {
             this.contract_Type +
             "','cityCode':'" +
             this.contract_city +
-            "','name':'" +
+            "','customerName':'" +
             this.value9 +
             "','businessId':'" +
             this.value9_s +
             "','industry':'" +
             this.time_value +
+            "','submitStatus':'" +
+            SUBMIT_STATUS[this.submitStatus] +
             "'}"),
             //  console.log(this.formData)
             this.list_find(this.formData, 2);
@@ -274,12 +306,14 @@ export default {
             this.contract_Type +
             "','cityCode':'" +
             this.contract_city +
-            "','name':'" +
+            "','customerName':'" +
             this.value9 +
             "','businessId':'" +
             this.value9_s +
             "','industry':'" +
             this.time_value +
+            "','submitStatus':'" +
+            SUBMIT_STATUS[this.submitStatus] +
             "'}"),
             //  console.log(this.formData)
             this.list_find(this.formData, 2);
@@ -340,12 +374,14 @@ export default {
         this.contract_Type +
         "','cityCode':'" +
         this.contract_city +
-        "','name':'" +
+        "','customerName':'" +
         this.value9 +
         "','businessId':'" +
         this.value9_s +
         "','industry':'" +
         this.time_value +
+        "','submitStatus':'" +
+        SUBMIT_STATUS[this.submitStatus] +
         "'}";
       this.list_find(this.formData, 2);
     },
@@ -375,12 +411,14 @@ export default {
         this.contract_Type +
         "','cityCode':'" +
         this.contract_city +
-        "','name':'" +
+        "','customerName':'" +
         this.value9 +
         "','businessId':'" +
         this.value9_s +
         "','industry':'" +
         this.time_value +
+        "','submitStatus':'" +
+        SUBMIT_STATUS[this.submitStatus] +
         "'}";
       //  console.log(this.formData)
       this.list_find(this.formData, 2);
@@ -647,6 +685,18 @@ export default {
 </script>
 
 <style scoped>
+.record-status {
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.record-status > span {
+  display: inline-block;
+  font-size: 12px;
+  width: 90px;
+  text-align: right;
+  margin-right: 5px;
+}
 p {
   margin: 0px;
   padding: 0px;
@@ -693,7 +743,7 @@ p {
 }
 .ma_screen {
   width: 100%;
-  height: 160px;
+  height: 200px;
   padding-top: 20px;
   border-bottom: 1px solid rgba(229, 229, 229, 1);
 }
@@ -751,7 +801,7 @@ p {
 .content_list_div {
   width: calc(100% / 3);
   min-width: 360px;
-  height: 120px;
+  height: 150px;
   float: left;
   cursor: pointer;
   border-bottom: 1px solid rgba(239, 239, 239, 1);
@@ -770,6 +820,8 @@ p {
   float: left;
   height: 100%;
   vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
 .list_img img {
   width: 50px;
@@ -783,6 +835,8 @@ p {
   width: calc(100% - 70px);
 }
 .list_right p {
+  font-size: 12px;
+  color: rgba(144, 144, 144, 1);
   margin: 0;
   padding: 0;
   text-align: left;

@@ -21,7 +21,26 @@
                 <div class="list_tile">基本信息</div>
                 <div class="list_con_input">
                   <el-form-item label="客户名称" prop="one_1">
-                    <el-input v-model="ruleForm.one_1" @change="onChangeUser"></el-input>
+                    <!-- <el-input v-model="ruleForm.one_1"></el-input> -->
+                    <el-select
+                      style="width: 100%;"
+                      v-model="ruleForm.one_1"
+                      filterable
+                      clearable
+                      remote
+                      reserve-keyword
+                      placeholder="请输入关键词"
+                      :remote-method="remoteForCustomer"
+                      :loading="loadingForCustomer"
+                      @change="onChangeCustomer"
+                    >
+                      <el-option
+                        v-for="item in customers"
+                        :key="item.id"
+                        :label="item.name"
+                        :value="item.id"
+                      ></el-option>
+                    </el-select>
                   </el-form-item>
                 </div>
                 <div class="list_con_input">
@@ -342,11 +361,19 @@
                 </div>
                 <el-table :data.sync="competitionCompanyList" border style="width: 100%">
                   <el-table-column prop="companyName" label="企业名称" width="180"></el-table-column>
-                  <el-table-column prop="conventionalPrice" label="常规直购电价" width="180"></el-table-column>
+                  <el-table-column label="常规直购电价" width="180">
+                    <template slot-scope="scope">
+                      <span v-if="scope.row.conventionalPrice">{{scope.row.conventionalPrice}}</span>
+                      <span
+                        v-else
+                      >丰:{{scope.row.conventionalPriceFeng}}平:{{scope.row.conventionalPricePing}}枯:{{scope.row.conventionalPriceKu}}</span>
+                    </template>
+                  </el-table-column>
                   <el-table-column prop="surplusPrice" label="富余价" width="180"></el-table-column>
                   <el-table-column prop="abandonPrice" label="弃水价"></el-table-column>
-                  <el-table-column prop="date" label="记录时间">
-                    <template slot-scope="scope">{{get_date(scope.row.date)}}</template>
+                  <el-table-column prop="incrementPrice" label="增量价"></el-table-column>
+                  <el-table-column prop="createAt" label="记录时间">
+                    <template slot-scope="scope">{{get_date(scope.row.createAt)}}</template>
                   </el-table-column>
                   <el-table-column prop="remark" label="备注"></el-table-column>
                   <el-table-column label="操作">
@@ -412,13 +439,16 @@
           <el-input v-model="competitionCompanyForm.companyName"></el-input>
         </el-form-item>
         <el-form-item label="常规直购电价" :label-width="formLabelWidth">
-          <el-input v-model="competitionCompanyForm.conventionalPrice"></el-input>
+          <direct-purchase-input v-model="competitionCompanyForm" />
         </el-form-item>
         <el-form-item label="富余价" :label-width="formLabelWidth">
           <el-input v-model="competitionCompanyForm.surplusPrice"></el-input>
         </el-form-item>
         <el-form-item label="弃水价" :label-width="formLabelWidth">
           <el-input v-model="competitionCompanyForm.abandonPrice"></el-input>
+        </el-form-item>
+        <el-form-item label="增量价" :label-width="formLabelWidth">
+          <el-input v-model="competitionCompanyForm.incrementPrice"></el-input>
         </el-form-item>
         <el-form-item label="备注" :label-width="formLabelWidth">
           <el-input type="textarea" :rows="15" v-model="competitionCompanyForm.remark"></el-input>
@@ -449,6 +479,7 @@ const defaultCompetitionCompanyForm = {
   conventionalPriceKu: "",
   surplusPrice: "",
   abandonPrice: "",
+  incrementPrice: "",
   remark: "",
   date: ""
 };
@@ -494,6 +525,8 @@ export default {
       title: "",
       saleId: "",
       days: Array.from(Array(31)).map((v, k) => k + 1 + "日"),
+      loadingForCustomer: false,
+      customers: [],
       checkExisted: false,
       tradingTypes: [
         {
@@ -537,6 +570,7 @@ export default {
         conventionalPriceKu: "",
         surplusPrice: "",
         abandonPrice: "",
+        incrementPrice: "",
         remark: "",
         date: ""
       },
@@ -721,8 +755,31 @@ export default {
   // 映射store数据
   computed: {},
   methods: {
-    onChangeUser(value){
-      console.log(value)
+    onChangeCustomer(id) {
+      if (!id) {
+        return;
+      }
+      const cur = this.customers.find(item => item.id === id);
+      if (!cur) {
+        return;
+      }
+      this.ruleForm.customerNo = cur.customerCode;
+      this.ruleForm.one_2 = cur.industryCode;
+      this.ruleForm.two_4 = cur.usePowerTypeCode;
+      this.ruleForm.two_3 = cur.voltageLevelCode;
+    },
+    remoteForCustomer(name) {
+      if (!name) {
+        this.customers = [];
+        return;
+      }
+      add_ajax.customerListService({ page: "1", limit: "9999", name }, res => {
+        if (res.body.list.length) {
+          this.customers = res.body.list;
+        } else {
+          this.customers = [];
+        }
+      });
     },
     get_date(arr) {
       var now = new Date(arr * 1000),
@@ -737,7 +794,7 @@ export default {
       );
     },
     handleAddCompany() {
-      this.competitionCompanyForm.date = new Date().getTime() / 1000;
+      this.competitionCompanyForm.createAt = new Date().getTime() / 1000;
       this.competitionCompanyList.push({ ...this.competitionCompanyForm });
       this.resetCompanyForm();
     },
@@ -759,8 +816,11 @@ export default {
         item => item.value === this.ruleForm.add_1
       );
       const businessName = customerNameObj ? customerNameObj.label : "";
+      console.log(businessName)
+      const customer = this.customers.find(item => item.id === this.ruleForm.one_1) || {}
       let dataTemp = {
-        customerName: this.ruleForm.one_1,
+        customerName: customer.name,
+        // customerName: this.ruleForm.one_1,
         customerNo: this.ruleForm.customerNo,
         industry: this.ruleForm.one_2,
         province: this.ruleForm.one_3s,
@@ -830,14 +890,14 @@ export default {
         : "preCustomerCreateService";
       this.$refs["ruleForm"].validate(valid => {
         if (valid) {
-          this.submitStatus = "1";
+          this.submitStatus = "10";
           const data = this.getFormData();
           this_ajax[api](data, res => {
             if (res.status === 200) {
               this.$message("保存成功！");
-              this.$router.push('/preSalePrice/index')
-            }else{
-              this.$message(res.message)
+              this.$router.push("/preSalePrice/index");
+            } else {
+              this.$message(res.message);
             }
           });
         } else {
