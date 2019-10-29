@@ -123,7 +123,7 @@
           >
             <div class="content_list_con">
               <div class="list_img">
-                <img :src="`/static/img/sub_${item.submitStatus}.png`" alt="" />
+                <img :src="`static/img/sub_${item.submitStatus}.png`" alt="" />
               </div>
               <div class="list_right">
                 <p>
