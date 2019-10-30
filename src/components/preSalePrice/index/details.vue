@@ -34,7 +34,7 @@
           <p class="date">创建时间：{{get_date(date_list.createAt)}}</p>
         </div>
         <div class="top_btn">
-          <el-button v-if="date_list.submitStatus !== 1" size="mini" @click="deta_edit" plain>编辑</el-button>
+          <el-button v-if="date_list.submitStatus !== 30 && date_list.submitStatus !== 40" size="mini" @click="deta_edit" plain>编辑</el-button>
         </div>
         <div class="deta_div">
           <!--<div class="deta_div_title"><span>企业信息</span></div>-->
@@ -108,9 +108,7 @@
               <span>领导报价</span>
               <!--<p></p>-->
             </div>
-            <div class="leader-operate" v-if="ISLEADER === 'Y' && date_list.submitStatus === 10">
-              <el-button type="primary" size="mini" @click="addOfferPrice">添加报价</el-button>
-            </div>
+
             <el-table :data.sync="leaderOfferPrices" border style="width: 100%">
               <el-table-column prop="transactionVariety" label="交易品种" width="180"></el-table-column>
               <el-table-column prop="offerPrice" label="报价" width="180">
@@ -130,10 +128,30 @@
           </div>
           <div class="deta_con goback">
             <el-button
+              type="danger"
+              v-if="ISLEADER === 'Y'  && date_list.submitStatus === 10"
+              @click="handleSendBack"
+            >退回报价</el-button>
+            <el-button
+              v-if="ISLEADER === 'Y' && date_list.submitStatus === 10"
               type="primary"
-              v-if="ISLEADER === 'Y'  && date_list.submitStatus === 1"
-              @click="sendBack"
-            >退 回</el-button>
+              @click="addOfferPrice"
+            >添加报价</el-button>
+            <el-button
+              v-if="ISLEADER === 'Y' && date_list.submitStatus === 20"
+              type="primary"
+              @click="addOfferPrice"
+            >添加报价</el-button>
+            <el-button
+              v-if="userInfo.id == date_list.createUserId && date_list.submitStatus === 20"
+              type="danger"
+              @click="handleAbandon"
+            >废  弃</el-button>
+            <el-button
+              v-if="userInfo.id == date_list.createUserId && date_list.submitStatus === 20"
+              type="primary"
+              @click="handleSignature"
+            >签  章</el-button>
             <el-button @click="goback">返 回</el-button>
           </div>
         </div>
@@ -160,6 +178,18 @@
         <el-button type="primary" @click="handleAddOfferPrice">确 定</el-button>
       </div>
     </el-dialog>
+    <el-dialog title="报价退回" :visible.sync="sendbackModalVisible">
+      <el-form>
+        <div class="input-item">
+          <span>退回意见</span>
+          <el-input type="textarea" :rows="10" v-model="offerPriceForm.remark"></el-input>
+        </div>
+      </el-form>
+      <div slot="footer" class="dialog-footer">
+        <el-button @click="resetSendbackModal">取 消</el-button>
+        <el-button type="primary" @click="sendBack">确 定</el-button>
+      </div>
+    </el-dialog>
   </div>
 </template>
 
@@ -176,6 +206,8 @@ export default {
   },
   data() {
     return {
+      sendbackModalVisible: false,
+      operationContent: "",
       offerPriceForm: {
         conventionalPrice: "",
         conventionalPriceFeng: "",
@@ -324,6 +356,7 @@ export default {
       };
       this.menuList = JSON.parse(localStorage.getItem("menuList"));
       this.ISLEADER = localStorage.getItem("ISLEADER");
+      this.userInfo = JSON.parse(localStorage.getItem("userInfo")) || {};
       this.one_id = this.$route.query.id;
       this.data_form = "{ 'id':" + this.one_id + "}";
       this_ajax.preCustomerDetailService(this.data_form, res => {
@@ -392,9 +425,17 @@ export default {
           if (res.status === 200) {
             this.getDetail();
           }
-          this.resetOfferPrice()
+          this.resetOfferPrice();
         }
       );
+    },
+    handleLeaderNextStep(){
+      const id = this.one_id;
+      const submitStatus = 20
+      this_ajax.preCustomerStatusModifyService({
+        id,
+        submitStatus
+      })
     },
     addOfferPrice() {
       this.offerPriceVisible = true;
@@ -446,14 +487,64 @@ export default {
     goback() {
       this.$router.push("/preSalePrice/index");
     },
+    resetSendbackModal() {
+      this.operationContent = "";
+      this.sendbackModalVisible = false;
+    },
+    handleSendBack() {
+      this.sendbackModalVisible = true;
+    },
+    handleSignature() {
+      const id = this.one_id;
+      const submitStatus = 30;
+      this_ajax.preCustomerStatusModifyService(
+        {
+          id,
+          submitStatus
+        },
+        res => {
+          if (res.status === 200) {
+            this.$message("签章成功！");
+            this.$router.push("/preSalePrice/index");
+          } else {
+            this.$message(res.message);
+          }
+        }
+      );
+    },
+    handleAbandon() {
+      const id = this.one_id;
+      const submitStatus = 40;
+      this_ajax.preCustomerStatusModifyService(
+        {
+          id,
+          submitStatus
+        },
+        res => {
+          if (res.status === 200) {
+            this.$message("该报价已废弃！");
+            this.$router.push("/preSalePrice/index");
+          } else {
+            this.$message(res.message);
+          }
+        }
+      );
+    },
     sendBack() {
       const id = this.one_id;
-      this_ajax.preCustomerLeaderBackService({ id }, res => {
-        if (res.status === 200) {
-          this.$message("报价已退回！");
-          this.$router.push("/preSalePrice/index");
+      const operationContent = this.operationContent;
+
+      this_ajax.preCustomerStatusModifyService(
+        { id, submitStatus: 20, operationType: "退回", operationContent },
+        res => {
+          if (res.status === 200) {
+            this.$message("报价已退回！");
+            this.$router.push("/preSalePrice/index");
+          } else {
+            this.$message(res.message);
+          }
         }
-      });
+      );
     },
     get_date(arr) {
       var now = new Date(arr * 1000),

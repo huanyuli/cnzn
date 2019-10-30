@@ -10,7 +10,7 @@
           <div class="div_row">
             <div class="record-status">
               <span>状态：</span>
-              <el-radio-group v-model="submitStatus" size="small">
+              <el-radio-group v-model="submitStatus" size="small" @change="find_list">
                 <el-radio-button label="全部"></el-radio-button>
                 <el-radio-button label="草稿"></el-radio-button>
                 <el-radio-button label="领导报价"></el-radio-button>
@@ -123,7 +123,7 @@
           >
             <div class="content_list_con">
               <div class="list_img">
-                <img :src="`static/img/sub_${item.submitStatus}.png`" alt="" />
+                <img :src="`static/img/sub_${item.submitStatus}.png`" alt />
               </div>
               <div class="list_right">
                 <p>
@@ -163,6 +163,8 @@
 <script>
 // 引入axios
 import ajax_list from "../../../api/preSalePrice";
+import sys_ajax from '../../../api/sys';
+
 const SUBMIT_STATUS = {
   全部: "",
   草稿: 0,
@@ -525,37 +527,36 @@ export default {
         this.states_s = [];
         this.list_s = [];
         this.options4_s = [];
-
         this.loading_s = true;
-        (this.name_list_s = "{'username': '" + query + "'}"),
-          setTimeout(() => {
-            this.loading_s = false;
-            ajax_list.userListService(
-              this.name_list_s,
-              res => {
-                //name
-                this.$emit("login-success", res);
-              },
-              res => {
-                this.gd_list_s = res.body.list;
-                for (var i = 0; i < this.gd_list_s.length; i++) {
-                  this.states_s.push({
-                    name: this.gd_list_s[i].username,
-                    id: this.gd_list_s[i].id
-                  });
-                }
-                this.list_s = this.states_s.map(item => {
-                  return { value: item.id, label: item.name };
-                });
-
-                this.options4_s = this.list_s.filter(item => {
-                  return (
-                    item.label.toLowerCase().indexOf(query.toLowerCase()) > -1
-                  );
+        this.name_list_s = "{'username': '" + query + "'}";
+        setTimeout(() => {
+          this.loading_s = false;
+          sys_ajax.userListService(
+            this.name_list_s,
+            res => {
+              //name
+              this.$emit("login-success", res);
+            },
+            res => {
+              this.gd_list_s = res.body.list;
+              for (var i = 0; i < this.gd_list_s.length; i++) {
+                this.states_s.push({
+                  name: this.gd_list_s[i].username,
+                  id: this.gd_list_s[i].id
                 });
               }
-            );
-          }, 200);
+              this.list_s = this.states_s.map(item => {
+                return { value: item.id, label: item.name };
+              });
+
+              this.options4_s = this.list_s.filter(item => {
+                return (
+                  item.label.toLowerCase().indexOf(query.toLowerCase()) > -1
+                );
+              });
+            }
+          );
+        }, 200);
       } else {
         this.options4_s = [];
       }

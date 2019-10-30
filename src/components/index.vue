@@ -46,7 +46,7 @@
               <li v-if="show_map(13) == 13 " @click='dl_sq' :class="{click_icon:this.click_home == 7}">
                 <i class="cn_icon bj_icon"></i>
                 <span>售前报价</span></li>
-              <li v-if="show_map(20) == 20 " @click='dl_set' :class="{click_icon:this.click_home == 6}">
+              <li v-if="show_map(13) == 13 " @click='dl_set' :class="{click_icon:this.click_home == 6}">
                 <i class="cn_icon set_icon"></i>
                 <span>系统设置</span></li>
             </ul>

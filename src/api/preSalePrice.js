@@ -46,6 +46,10 @@ export default {
   preCustomerLeaderEditService(params, success_callback, fail_callback) {
     withAxios.requestData('POST', 3,'/api/preCustomerLeaderEditService', params, success_callback, fail_callback);
   },
+    //api/preCustomerStatusModifyService  售前报价报量-状态修改
+  preCustomerStatusModifyService(params, success_callback, fail_callback) {
+      withAxios.requestData('POST', 3,'/api/preCustomerStatusModifyService', params, success_callback, fail_callback);
+    },
   // /api/preCustomerLeaderBackService 售前报价报量-领导退回
   preCustomerLeaderBackService(params, success_callback, fail_callback) {
     withAxios.requestData('POST', 3,'/api/preCustomerLeaderBackService', params, success_callback, fail_callback);
