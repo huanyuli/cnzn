@@ -12,20 +12,32 @@
           <img class="title_ba" src="../../../assets/aImg/company.png" alt />
           <img
             class="title_type"
-            v-if="this.one_type == '未签约'"
-            src="../../../assets/aImg/kh_01.png"
+            v-if="date_list.submitStatus == 0"
+            src="../../../assets/aImg/sub_0.png"
             alt
           />
           <img
             class="title_type"
-            v-if="this.one_type == '已签约'"
-            src="../../../assets/aImg/kh_02.png"
+            v-if="date_list.submitStatus == 10"
+            src="../../../assets/aImg/sub_10.png"
             alt
           />
           <img
             class="title_type"
-            v-if="this.one_type == '待续约'"
-            src="../../../assets/aImg/kh_03.png"
+            v-if="date_list.submitStatus == 20"
+            src="../../../assets/aImg/sub_20.png"
+            alt
+          />
+          <img
+            class="title_type"
+            v-if="date_list.submitStatus == 30"
+            src="../../../assets/aImg/sub_30.png"
+            alt
+          />
+          <img
+            class="title_type"
+            v-if="date_list.submitStatus == 40"
+            src="../../../assets/aImg/sub_40.png"
             alt
           />
         </div>
@@ -34,7 +46,7 @@
           <p class="date">创建时间：{{get_date(date_list.createAt)}}</p>
         </div>
         <div class="top_btn">
-          <el-button v-if="date_list.submitStatus !== 30 && date_list.submitStatus !== 40" size="mini" @click="deta_edit" plain>编辑</el-button>
+          <el-button v-if="isEditAble" size="mini" @click="deta_edit" plain>编辑</el-button>
         </div>
         <div class="deta_div">
           <!--<div class="deta_div_title"><span>企业信息</span></div>-->
@@ -126,19 +138,29 @@
               <el-table-column prop="remark" label="备注"></el-table-column>
             </el-table>
           </div>
+          <div class="deta_con">
+            <div class="deta_con_title">
+              <span>操作日志</span>
+              <!--<p></p>-->
+            </div>
+
+            <el-table :data.sync="operationRecordList" border style="width: 100%">
+              <el-table-column prop="operationType" label="操作类型" width="180"></el-table-column>
+              <el-table-column prop="createUserName" label="操作者" width="180"></el-table-column>
+              <el-table-column prop="operationContent" label="备注"></el-table-column>
+              <el-table-column prop="createAt" label="操作时间">
+                <template slot-scope="scope">{{get_date(scope.row.createAt)}}</template>
+              </el-table-column>
+            </el-table>
+          </div>
           <div class="deta_con goback">
             <el-button
               type="danger"
               v-if="ISLEADER === 'Y'  && date_list.submitStatus === 10"
               @click="handleSendBack"
-            >退回报价</el-button>
+            >退回</el-button>
             <el-button
               v-if="ISLEADER === 'Y' && date_list.submitStatus === 10"
-              type="primary"
-              @click="addOfferPrice"
-            >添加报价</el-button>
-            <el-button
-              v-if="ISLEADER === 'Y' && date_list.submitStatus === 20"
               type="primary"
               @click="addOfferPrice"
             >添加报价</el-button>
@@ -206,6 +228,8 @@ export default {
   },
   data() {
     return {
+      isEditAble: false,
+      operationRecordList: [],
       sendbackModalVisible: false,
       operationContent: "",
       offerPriceForm: {
@@ -368,6 +392,16 @@ export default {
             this.date_list.city +
             "-" +
             this.date_list.county;
+          // 是否可编辑
+
+          if(this.date_list.submitStatus == 0 && this.userInfo.id === this.date_list.createUserId){
+            this.isEditAble = true
+          }
+          if(this.date_list.submitStatus == 20 && this.userInfo.id === this.date_list.createUserId){
+            this.isEditAble = true
+          }          
+
+          this.operationRecordList = res.body.operationRecordList || [];
           this.competitionCompanyList = res.body.competitionCompanyList || [];
           this.ElectricityInformation = res.body.powerAmountList || [];
           this.leaderOfferPrices = res.body.leaderOfferPrices || [];
@@ -538,7 +572,7 @@ export default {
         { id, submitStatus: 20, operationType: "退回", operationContent },
         res => {
           if (res.status === 200) {
-            this.$message("报价已退回！");
+            this.$message("该报价已退回！");
             this.$router.push("/preSalePrice/index");
           } else {
             this.$message(res.message);
@@ -692,7 +726,7 @@ p {
   width: 60px;
   height: 60px;
   position: absolute;
-  top: 50px;
+  top: 62px;
   left: 50%;
   margin-left: -30px;
 }
