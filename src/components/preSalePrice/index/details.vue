@@ -63,13 +63,19 @@
             </div>
           </div>
           <div class="deta_con">
-            <div class="deta_con_title">
+            <div class="deta_con_title" id="table-box">
               <span>电量信息</span>
-              <!--<p></p>-->
+              <span class="extra-title">单位：兆瓦时</span>
             </div>
             <div>
-              <el-table :data="ElectricityInformation" border style="width: 100%">
-                <el-table-column prop="type" width="150px">
+              <el-table
+                :data="ElectricityInformation"
+                border
+                style="width: 100%"
+                stripe
+                :fit="false"
+              >
+                <el-table-column prop="type" width="80px">
                   <template slot-scope="scope">
                     <span>{{TYPES[scope.row.type]}}</span>
                   </template>
@@ -79,14 +85,15 @@
                   :prop="'amount'+month"
                   :label="month+'月'"
                   :key="month"
-                  width="130px"
+                  :width="colWidth"
                 ></el-table-column>
-                <el-table-column prop="total" label="合计" width="120px">
+                <el-table-column prop="total" label="合计" width="60px">
                   <template slot-scope="scope">
                     <span>{{scope.row.total}}</span>
                   </template>
                 </el-table-column>
-                <el-table-column prop="fengKuRate" label="丰枯比" width="120px"></el-table-column>
+                <el-table-column prop="fengKuRate" label="丰枯比" width="75px"></el-table-column>
+                <el-table-column prop="fengPingKuRate" label="丰平枯比" width="100px"></el-table-column>
               </el-table>
               <div id="myCharts" ref="myCharts"></div>
             </div>
@@ -106,13 +113,13 @@
                   >丰:{{scope.row.conventionalPriceFeng}}平:{{scope.row.conventionalPricePing}}枯:{{scope.row.conventionalPriceKu}}</span>
                 </template>
               </el-table-column>
-              <el-table-column prop="surplusPrice" label="富余价" width="180"></el-table-column>
+              <el-table-column prop="surplusPrice" label="富余价"></el-table-column>
               <el-table-column prop="abandonPrice" label="弃水价"></el-table-column>
               <el-table-column prop="incrementPrice" label="增量价"></el-table-column>
               <el-table-column prop="createAt" label="记录时间">
                 <template slot-scope="scope">{{get_date(scope.row.createAt)}}</template>
               </el-table-column>
-              <el-table-column prop="remark" label="备注"></el-table-column>
+              <el-table-column prop="remark" label="备注" min-width="280px"></el-table-column>
             </el-table>
           </div>
           <div class="deta_con">
@@ -137,6 +144,19 @@
               </el-table-column>
               <el-table-column prop="remark" label="备注"></el-table-column>
             </el-table>
+          </div>
+          <div class="deta_con file-list">
+            <div class="deta_con_title">
+              <span>附件</span>
+              <!--<p></p>-->
+            </div>
+
+            <p v-for="item in attachments.file1" :key="item.id">
+              <a
+                :href="'http://39.98.43.90/downloads?fileId='+ item.fileId +'&fileName=' + item.fileName"
+                title="点击下载附件"
+              >{{item.fileName}}</a>
+            </p>
           </div>
           <div class="deta_con">
             <div class="deta_con_title">
@@ -168,12 +188,12 @@
               v-if="userInfo.id == date_list.createUserId && date_list.submitStatus === 20"
               type="danger"
               @click="handleAbandon"
-            >废  弃</el-button>
+            >废 弃</el-button>
             <el-button
               v-if="userInfo.id == date_list.createUserId && date_list.submitStatus === 20"
               type="primary"
               @click="handleSignature"
-            >签  章</el-button>
+            >签 章</el-button>
             <el-button @click="goback">返 回</el-button>
           </div>
         </div>
@@ -228,6 +248,7 @@ export default {
   },
   data() {
     return {
+      colWidth: 52,
       isEditAble: false,
       operationRecordList: [],
       sendbackModalVisible: false,
@@ -385,6 +406,7 @@ export default {
       this.data_form = "{ 'id':" + this.one_id + "}";
       this_ajax.preCustomerDetailService(this.data_form, res => {
         if (res.status === 200) {
+          this.attachments = res.body.attachments;
           this.date_list = res.body.customerInfo || {};
           this.date_list.address =
             this.date_list.province +
@@ -394,12 +416,18 @@ export default {
             this.date_list.county;
           // 是否可编辑
 
-          if(this.date_list.submitStatus == 0 && this.userInfo.id === this.date_list.createUserId){
-            this.isEditAble = true
+          if (
+            this.date_list.submitStatus == 0 &&
+            this.userInfo.id === this.date_list.createUserId
+          ) {
+            this.isEditAble = true;
           }
-          if(this.date_list.submitStatus == 20 && this.userInfo.id === this.date_list.createUserId){
-            this.isEditAble = true
-          }          
+          if (
+            this.date_list.submitStatus == 20 &&
+            this.userInfo.id === this.date_list.createUserId
+          ) {
+            this.isEditAble = true;
+          }
 
           this.operationRecordList = res.body.operationRecordList || [];
           this.competitionCompanyList = res.body.competitionCompanyList || [];
@@ -438,6 +466,8 @@ export default {
           this.TYPES.HISTORY_AMOUNT3 =
             Number(this.date_list.year) - 3 + "历史电量";
           this.initChart();
+          const tableBox = document.getElementById("table-box");
+          this.colWidth = (tableBox.clientWidth - 75 - 100 - 60 - 82) / 12;
         }
       });
     },
@@ -463,13 +493,13 @@ export default {
         }
       );
     },
-    handleLeaderNextStep(){
+    handleLeaderNextStep() {
       const id = this.one_id;
-      const submitStatus = 20
+      const submitStatus = 20;
       this_ajax.preCustomerStatusModifyService({
         id,
         submitStatus
-      })
+      });
     },
     addOfferPrice() {
       this.offerPriceVisible = true;
@@ -493,6 +523,14 @@ export default {
         "HISTORY_AMOUNT2",
         "HISTORY_AMOUNT3"
       ];
+      const colors = [
+        "193,46,52",
+        "230,182,0",
+        "0,152,217",
+        "43,130,29",
+        "0,94,170",
+        "0,26,96"
+      ];
       const data = this.ElectricityInformation.filter(item =>
         types.includes(item.type)
       );
@@ -507,10 +545,21 @@ export default {
           data: Array.from(Array(12)).map((v, k) => k + 1 + "月")
         },
         yAxis: {},
-        series: data.map(item => {
+        series: data.map((item, index) => {
           return {
             name: this.TYPES[item.type],
             type: "line",
+            symbolSize: 7,
+            symbol: "circle",
+            itemStyle: {
+              normal: {
+                color: `rgb(${colors[index]},0.8)`,
+                lineStyle: {
+                  color: `rgb(${colors[index]},0.8)`,
+                  width: 2
+                }
+              }
+            },
             data: Object.keys(item)
               .filter(el => el.includes("amount"))
               .map(key => item[key])
@@ -635,6 +684,9 @@ export default {
 </script>
 
 <style scoped>
+.file-list p{
+  margin: 10px 0;
+}
 .input-item {
   display: flex;
   width: 300px;
@@ -726,8 +778,8 @@ p {
   width: 60px;
   height: 60px;
   position: absolute;
-  top: 62px;
-  left: 50%;
+  top: 104px;
+  left: 40%;
   margin-left: -30px;
 }
 
@@ -806,6 +858,11 @@ p {
   height: 50px;
   margin: 30px 0 0 0;
 }
+.deta_con_title .extra-title {
+  float: right;
+  font-size: 14px;
+  font-weight: normal;
+}
 .deta_con_title span {
   display: inline-block;
   font-size: 16px;
@@ -830,7 +887,7 @@ p {
 .deta_con_p div {
   display: inline-block;
   width: calc(100% / 3);
-  margin: 6px 0px;
+  margin: 0px 0px;
   /* float: left; */
 }
 .deta_con_p div label {
@@ -868,4 +925,26 @@ p {
   margin-top: 10px;
   text-align: center;
 }
+</style>
+<style>
+.el-table .cell,
+.el-table th div,
+.el-table--border td:first-child .cell,
+.el-table--border th:first-child .cell {
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 12px;
+}
+.el-table tr td:last-child,
+.el-table tr th:last-child {
+  border-right: none;
+}
+.el-table--border .has-gutter td:nth-last-of-type(2),
+.el-table--border .has-gutter th:nth-last-of-type(2) {
+  border-right: none;
+}
+/* .el-table--border .has-gutter td:nth-last-of-type(2),
+.el-table--border .has-gutter th:nth-last-of-type(2) {
+  border-right: none;
+} */
 </style>

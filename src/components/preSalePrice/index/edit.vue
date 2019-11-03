@@ -130,7 +130,13 @@
                 </div>
                 <div class="list_con_input">
                   <el-form-item label="电压等级" prop="two_3">
-                    <el-select size="medium" v-model="ruleForm.two_3" clearable placeholder="请选择">
+                    <el-select
+                      size="medium"
+                      v-model="ruleForm.two_3"
+                      clearable
+                      placeholder="请选择"
+                      @change="onChangeTwo_3"
+                    >
                       <el-option
                         v-for="item in form_two_3"
                         :key="item.value"
@@ -247,7 +253,7 @@
                     </el-col>
                   </el-form-item>
                 </div>
-                <div class="list_con_input" style="width:82%">
+                <div class="list_con_input" style="width:82%;margin-top:10px">
                   <el-form-item label="备注" prop>
                     <el-input
                       type="textarea"
@@ -260,7 +266,10 @@
                 </div>
               </el-row>
               <el-row style="padding: 50px 50px 0 50px">
-                <div class="page-list-title" style="margin-top: 80px">电量信息</div>
+                <div class="page-list-title" style="margin-top: 80px">
+                  电量信息
+                  <span class="extra">单位：兆瓦时</span>
+                </div>
                 <table-inputs
                   :isHead="true"
                   :showExpand="false"
@@ -403,7 +412,17 @@
                 </el-col>
                 <el-col :span="12">
                   <el-form-item label="上传附件">
-                    <el-button>点击上传</el-button>
+                    <el-upload
+                      class="upload-demo"
+                      action="http://39.98.43.90/uploads"
+                      name="files"
+                      :on-success="onFileSuccess"
+                      :on-remove="handleRemoveFile"
+                      :file-list="file1"
+                      list-type="picture"
+                    >
+                      <el-button slot="trigger" plain>点击上传</el-button>
+                    </el-upload>
                   </el-form-item>
                 </el-col>
               </el-row>
@@ -755,6 +774,24 @@ export default {
   // 映射store数据
   computed: {},
   methods: {
+    onFileSuccess(response) {
+      if (response.status == 200 && response.body.length) {
+        this.attachments.file1.push({
+          fileName: response.body[0].name,
+          fileId: response.body[0].fileId
+        });
+      }
+    },
+    handleRemoveFile(file, fileList) {
+      const index = this.attachments.file1.findIndex(
+        item => item.name === file.name
+      );
+      this.attachments.file1.splice(index, 1);
+    },
+    onChangeTwo_3(value) {
+      this.ruleForm.two_3 = value;
+      this.$forceUpdate();
+    },
     onChangeCustomer(id) {
       if (!id) {
         return;
@@ -816,8 +853,9 @@ export default {
         item => item.value === this.ruleForm.add_1
       );
       const businessName = customerNameObj ? customerNameObj.label : "";
-      console.log(businessName)
-      const customer = this.customers.find(item => item.id === this.ruleForm.one_1) || {}
+      console.log(businessName);
+      const customer =
+        this.customers.find(item => item.id === this.ruleForm.one_1) || {};
       let dataTemp = {
         customerName: customer.name,
         // customerName: this.ruleForm.one_1,
@@ -851,7 +889,8 @@ export default {
         powerAmountList,
         competitionCompanyList: this.competitionCompanyList,
         transactionVariety: this.ruleForm.transactionVariety,
-        applyType: this.ruleForm.applyType
+        applyType: this.ruleForm.applyType,
+        attachments: this.attachments
       };
       if (this.saleId) {
         dataTemp.id = this.saleId;
@@ -875,8 +914,9 @@ export default {
           this_ajax[api](data, res => {
             if (res.status === 200) {
               this.$message("保存成功！");
+              this.$router.push("/preSalePrice/index");
             } else {
-              this.$message(res.message);
+              this.$message(res.message || "保存失败！");
             }
           });
         } else {
@@ -904,48 +944,6 @@ export default {
           return false;
         }
       });
-    },
-    on_success1(response) {
-      if (response.status == 200 && response.body.length) {
-        this.attachments.file1.push({
-          fileName: response.body[0].name,
-          fileId: response.body[0].fileId
-        });
-      }
-    },
-    handleRemove1(file, fileList) {
-      const index = this.attachments.file1.findIndex(
-        item => item.name === file.name
-      );
-      this.attachments.file1.splice(index, 1);
-    },
-    handleRemove2(file, fileList) {
-      const index = this.attachments.file2.findIndex(
-        item => item.name === file.name
-      );
-      this.file1.splice(index, 1);
-    },
-    handleRemove3(file, fileList) {
-      const index = this.attachments.file3.findIndex(
-        item => item.name === file.name
-      );
-      this.file1.splice(index, 1);
-    },
-    on_success2(response, file) {
-      if (response.status == 200 && response.body.length) {
-        this.attachments.file2.push({
-          fileName: response.body[0].name,
-          fileId: response.body[0].fileId
-        });
-      }
-    },
-    on_success3(response, file) {
-      if (response.status == 200 && response.body.length) {
-        this.attachments.file3.push({
-          fileName: response.body[0].name,
-          fileId: response.body[0].fileId
-        });
-      }
     },
     add_lists(index) {
       index = index + 1;
@@ -1330,6 +1328,15 @@ export default {
           console.log(res.body);
           const customerInfo = res.body.customerInfo;
           const powerAmountList = res.body.powerAmountList || [];
+          this.attachments = res.body.attachments;
+          this.file1 = res.body.attachments.file1.map(item => ({
+              name: item.fileName,
+              url:
+                "http://39.98.43.90/downloads?fileId=" +
+                item.fileId +
+                "&fileName=" +
+                item.fileName
+            }));
           this.competitionCompanyList = res.body.competitionCompanyList;
           this.ruleForm.one_1 = customerInfo.customerName;
           this.ruleForm.customerNo = customerInfo.customerNo;
@@ -1374,10 +1381,6 @@ export default {
                   record.divisionTimeType
                 ] = record;
               });
-            console.log(
-              "this.powerAmountCalculation",
-              this.powerAmountCalculation
-            );
             this.priceInputs[item.type] = _item;
           });
 
@@ -1559,7 +1562,7 @@ p {
   padding: 0 5%;
   float: left;
   height: 36px;
-  margin-top: 15px;
+  margin-top: 1px;
 }
 
 .list_con_row {

@@ -295,7 +295,7 @@ export default {
       } else {
         return;
       }
-      console.log(Number(rates[0]) + Number(rates[1]) + Number(rates[0]))
+      console.log(Number(rates[0]) + Number(rates[1]) + Number(rates[0]));
       if (Number(rates[0]) + Number(rates[1]) + Number(rates[2]) !== 100) {
         this.$message("比例之和应为100");
         return;
@@ -402,13 +402,24 @@ export default {
       if (this.type === "SURPLUS_BASE") {
         targetValue.REAL_MINUS_SURPLUS[cur] =
           Number(targetValue.REAL[cur] || 0) -
-          Number(targetValue.SURPLUS_BASE[cur] || 0);
+            Number(targetValue.SURPLUS_BASE[cur] || 0) <
+          0
+            ? targetValue.REAL[cur]
+            : targetValue.SURPLUS_BASE[cur];
+
         targetValue.CONTRACT_MINUS_SURPLUS[cur] =
           Number(targetValue.CONTRACT[cur] || 0) -
-          Number(targetValue.SURPLUS_BASE[cur] || 0);
+            Number(targetValue.SURPLUS_BASE[cur] || 0) <
+          0
+            ? targetValue.CONTRACT[cur]
+            : targetValue.SURPLUS_BASE[cur];
+
         targetValue.TENDER_MINUS_SURPLUS[cur] =
           Number(targetValue.TENDER[cur] || 0) -
-          Number(targetValue.SURPLUS_BASE[cur] || 0);
+            Number(targetValue.SURPLUS_BASE[cur] || 0) <
+          0
+            ? targetValue.TENDER[cur]
+            : targetValue.SURPLUS_BASE[cur];
       }
       this.total = Object.values(targetValue[this.type]).reduce(
         (total, cur) => Number(total) + Number(cur)
