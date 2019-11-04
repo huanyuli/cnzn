@@ -1,17 +1,17 @@
 <template>
   <div class="direct-purchase-input">
     <el-form-item v-if="isOne">
-      <el-input v-model="value.conventionalPrice"></el-input>
+      <el-input-number :controls="false" v-model="value.conventionalPrice"></el-input-number>
     </el-form-item>
     <el-form-item v-else>
       <el-col :span="7">
-        <el-input placeholder="丰" v-model="value.conventionalPriceFeng"></el-input>
+        <el-input-number :controls="false" placeholder="丰" v-model="value.conventionalPriceFeng"></el-input-number>
       </el-col>
       <el-col :span="7" :offset="1">
-        <el-input placeholder="平" v-model="value.conventionalPricePing"></el-input>
+        <el-input-number :controls="false" placeholder="平" v-model="value.conventionalPricePing"></el-input-number>
       </el-col>
       <el-col :span="7" :offset="2">
-        <el-input placeholder="枯" v-model="value.conventionalPriceKu"></el-input>
+        <el-input-number :controls="false" placeholder="枯" v-model="value.conventionalPriceKu"></el-input-number>
       </el-col>
     </el-form-item>
     <i class="el-icon-sort" v-if="isOne" @click="handleSwitch">一口价</i>

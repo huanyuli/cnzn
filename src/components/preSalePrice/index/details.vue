@@ -85,15 +85,14 @@
                   :prop="'amount'+month"
                   :label="month+'月'"
                   :key="month"
-                  :width="colWidth"
                 ></el-table-column>
-                <el-table-column prop="total" label="合计" width="60px">
+                <el-table-column prop="total" label="合计" width="80px">
                   <template slot-scope="scope">
                     <span>{{scope.row.total}}</span>
                   </template>
                 </el-table-column>
-                <el-table-column prop="fengKuRate" label="丰枯比" width="75px"></el-table-column>
-                <el-table-column prop="fengPingKuRate" label="丰平枯比" width="100px"></el-table-column>
+                <el-table-column prop="fengKuRate" label="丰枯比" width="130px"></el-table-column>
+                <el-table-column prop="fengPingKuRate" label="丰平枯比" width="130px"></el-table-column>
               </el-table>
               <div id="myCharts" ref="myCharts"></div>
             </div>
@@ -128,7 +127,7 @@
               <!--<p></p>-->
             </div>
 
-            <el-table :data.sync="leaderOfferPrices" border style="width: 100%">
+            <el-table :data.sync="leaderOfferPrices" border style="width: 100%" size="mini">
               <el-table-column prop="transactionVariety" label="交易品种" width="180"></el-table-column>
               <el-table-column prop="offerPrice" label="报价" width="180">
                 <template slot-scope="scope">
@@ -143,6 +142,18 @@
                 <template slot-scope="scope">{{get_date(scope.row.createAt)}}</template>
               </el-table-column>
               <el-table-column prop="remark" label="备注"></el-table-column>
+              <el-table-column label="操作">
+                <template slot-scope="scope">
+                  <span v-if="date_list.submitStatus === 20 && scope.row.confirm == '0'">
+                    <el-button
+                      type="primary"
+                      size="mini"
+                      @click="confirmLeaderPrice(scope.row.id)"
+                    >确认</el-button>
+                  </span>
+                  <span v-else>已确认</span>
+                </template>
+              </el-table-column>
             </el-table>
           </div>
           <div class="deta_con file-list">
@@ -155,7 +166,14 @@
               <a
                 :href="'http://39.98.43.90/downloads?fileId='+ item.fileId +'&fileName=' + item.fileName"
                 title="点击下载附件"
-              >{{item.fileName}}</a>
+              >
+                <img
+                  style="width:120px;height: 120px;object-fit:cover"
+                  :src="'http://39.98.43.90/downloads?fileId='+ item.fileId +'&fileName=' + item.fileName"
+                  v-if="item.fileName.includes('.jpg') || item.fileName.includes('.png')"
+                />
+                <span v-else>{{item.fileName}}</span>
+              </a>
             </p>
           </div>
           <div class="deta_con">
@@ -181,6 +199,11 @@
             >退回</el-button>
             <el-button
               v-if="ISLEADER === 'Y' && date_list.submitStatus === 10"
+              type="primary"
+              @click="addOfferPrice"
+            >添加报价</el-button>
+            <el-button
+              v-if="ISLEADER === 'Y' && date_list.submitStatus === 20"
               type="primary"
               @click="addOfferPrice"
             >添加报价</el-button>
@@ -248,6 +271,7 @@ export default {
   },
   data() {
     return {
+      leaderPriceTimer: null,
       colWidth: 52,
       isEditAble: false,
       operationRecordList: [],
@@ -301,7 +325,7 @@ export default {
       one_type: "", //签约状态
       data_form: "", //获取详情参数
       data_dele: "", //删除详情参数
-      date_list: {}, //详情数据
+      date_list: { leaderOfferPrices: [] }, //详情数据
       menuList: {},
       attachments: { file1: [], file2: [], file3: [] },
       competitionCompanyList: [],
@@ -394,6 +418,16 @@ export default {
   computed: {},
 
   methods: {
+    confirmLeaderPrice(id) {
+      this_ajax.preOfferPriceConfirmService({ id }, res => {
+        if (res.status === 200) {
+          this.getDetail();
+          this.$message("确认成功！");
+        } else {
+          this.$message(res.message || "确认失败！");
+        }
+      });
+    },
     getDetail() {
       const ISSTATEGRID = {
         Y: "是",
@@ -662,10 +696,43 @@ export default {
       } else {
         return "";
       }
+    },
+    getRealTimeLeaderPrice() {
+      if (this.leaderPriceTimer) {
+        clearInterval(this.leaderPriceTimer);
+      }
+      const id = this.one_id;
+      this.leaderPriceTimer = setInterval(() => {
+        this_ajax.preOfferPriceListService({ id }, res => {
+          if (res.status === 200) {
+            const curLength = res.body.leaderOfferPrices.length;
+            if (!this.leaderOfferPrices) {
+              return;
+            }
+            if (
+              curLength !== this.leaderOfferPrices.length &&
+              this.ISLEADER !== "Y"
+            ) {
+              // console.log(curLength, this.leaderOfferPrices.length)
+              this.$alert("领导报价信息有更新，请确认！", "信息提示", {
+                callback: () => {
+                  this.leaderOfferPrices = res.body.leaderOfferPrices;
+                }
+              });
+            }
+          }
+        });
+      }, 15000);
+    }
+  },
+  beforeDestroy(){
+    if(this.leaderPriceTimer){
+      clearInterval(this.leaderPriceTimer)
     }
   },
   created() {
     this.getDetail();
+    this.getRealTimeLeaderPrice();
     ajax_list.customerCodeService(
       "{}",
       res => {
@@ -684,8 +751,10 @@ export default {
 </script>
 
 <style scoped>
-.file-list p{
-  margin: 10px 0;
+.file-list p {
+  display: flex;
+  margin: 10px;
+  overflow: hidden;
 }
 .input-item {
   display: flex;
@@ -947,4 +1016,12 @@ p {
 .el-table--border .has-gutter th:nth-last-of-type(2) {
   border-right: none;
 } */
+</style>
+<style>
+.el-input-number--medium {
+  width: 100%;
+}
+.el-input-number .el-input__inner {
+  text-align: left !important;
+}
 </style>

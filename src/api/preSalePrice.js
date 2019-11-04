@@ -54,6 +54,14 @@ export default {
   preCustomerLeaderBackService(params, success_callback, fail_callback) {
     withAxios.requestData('POST', 3,'/api/preCustomerLeaderBackService', params, success_callback, fail_callback);
   },
+  // /api/preOfferPriceConfirmService 确认报价
+  preOfferPriceConfirmService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/preOfferPriceConfirmService', params, success_callback, fail_callback);
+  },
+  // /api/preOfferPriceListService 领导报价列表（局部刷新用）
+  preOfferPriceListService(params, success_callback, fail_callback) {
+    withAxios.requestData('POST', 3,'/api/preOfferPriceListService', params, success_callback, fail_callback);
+  },
   
 
 }

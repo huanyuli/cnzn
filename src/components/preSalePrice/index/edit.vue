@@ -166,7 +166,12 @@
                 </div>
                 <div class="list_con_input">
                   <el-form-item label="预估电量" prop="powerAmount">
-                    <el-input size="medium" v-model="ruleForm.powerAmount" placeholder></el-input>
+                    <el-input-number
+                      :controls="false"
+                      size="medium"
+                      v-model.number="ruleForm.powerAmount"
+                      placeholder
+                    ></el-input-number>
                   </el-form-item>
                 </div>
                 <div class="list_con_input">
@@ -176,22 +181,42 @@
                 </div>
                 <div class="list_con_input">
                   <el-form-item label="（测算）富余" prop>
-                    <el-input size="medium" v-model="ruleForm.surplusPrice" placeholder></el-input>
+                    <el-input-number
+                      :controls="false"
+                      size="medium"
+                      v-model="ruleForm.surplusPrice"
+                      placeholder
+                    ></el-input-number>
                   </el-form-item>
                 </div>
                 <div class="list_con_input">
                   <el-form-item label="（测算）弃水" prop>
-                    <el-input size="medium" v-model="ruleForm.abandonPrice" placeholder></el-input>
+                    <el-input-number
+                      :controls="false"
+                      size="medium"
+                      v-model="ruleForm.abandonPrice"
+                      placeholder
+                    ></el-input-number>
                   </el-form-item>
                 </div>
                 <div class="list_con_input">
                   <el-form-item label="基金" prop>
-                    <el-input size="medium" v-model="ruleForm.fund" placeholder></el-input>
+                    <el-input-number
+                      :controls="false"
+                      size="medium"
+                      v-model="ruleForm.fund"
+                      placeholder
+                    ></el-input-number>
                   </el-form-item>
                 </div>
                 <div class="list_con_input">
                   <el-form-item label="评分" prop>
-                    <el-input size="medium" v-model="ruleForm.score" placeholder></el-input>
+                    <el-input-number
+                      :controls="false"
+                      size="medium"
+                      v-model="ruleForm.score"
+                      placeholder
+                    ></el-input-number>
                   </el-form-item>
                 </div>
 
@@ -853,7 +878,7 @@ export default {
         item => item.value === this.ruleForm.add_1
       );
       const businessName = customerNameObj ? customerNameObj.label : "";
-      console.log(businessName);
+      // console.log(businessName);
       const customer =
         this.customers.find(item => item.id === this.ruleForm.one_1) || {};
       let dataTemp = {
@@ -900,7 +925,7 @@ export default {
           delete dataTemp[key];
         }
       });
-      console.log("dataTemp", dataTemp);
+      // console.log("dataTemp", dataTemp);
       return dataTemp;
     },
     save_form() {
@@ -968,11 +993,11 @@ export default {
           this.$message.error("请将上一条内容填写完整，在进行添加");
         }
       }
-      console.log(this.lists);
+      // console.log(this.lists);
     },
     del_lists(index) {
       this.lists.splice(index, 1);
-      console.log(this.lists);
+      // console.log(this.lists);
     },
     remoteMethod_s(query) {
       //客户名称远程搜索选择(带客户ID)
@@ -1325,18 +1350,18 @@ export default {
       this_ajax.preCustomerDetailService(this.data_form, res => {
         if (res.status === 200) {
           // this.ruleForm = Object.assign(this.ruleForm, res.body);
-          console.log(res.body);
+          // console.log(res.body);
           const customerInfo = res.body.customerInfo;
           const powerAmountList = res.body.powerAmountList || [];
           this.attachments = res.body.attachments;
           this.file1 = res.body.attachments.file1.map(item => ({
-              name: item.fileName,
-              url:
-                "http://39.98.43.90/downloads?fileId=" +
-                item.fileId +
-                "&fileName=" +
-                item.fileName
-            }));
+            name: item.fileName,
+            url:
+              "http://39.98.43.90/downloads?fileId=" +
+              item.fileId +
+              "&fileName=" +
+              item.fileName
+          }));
           this.competitionCompanyList = res.body.competitionCompanyList;
           this.ruleForm.one_1 = customerInfo.customerName;
           this.ruleForm.customerNo = customerInfo.customerNo;
@@ -1763,5 +1788,13 @@ p {
 }
 .page-list-title .extra {
   float: right;
+}
+</style>
+<style>
+.el-input-number--medium {
+  width: 100%;
+}
+.el-input-number .el-input__inner {
+  text-align: left;
 }
 </style>
