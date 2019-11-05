@@ -124,11 +124,11 @@
             <div class="content_list_con">
               <div class="list_img">
                 <img :src="`static/img/sub_${item.submitStatus}.png`" alt />
+                <span class="tip" v-if="item.unConfirmCount > 0">{{item.unConfirmCount}}</span>
               </div>
               <div class="list_right">
                 <p>
                   <label>{{item.customerName}}</label>
-                  <!-- <span>{{item.signStatus}}</span> -->
                 </p>
                 <p>所属行业：{{item.industry}}</p>
                 <p>目标年份：{{item.year}}</p>
@@ -163,7 +163,7 @@
 <script>
 // 引入axios
 import ajax_list from "../../../api/preSalePrice";
-import sys_ajax from '../../../api/sys';
+import sys_ajax from "../../../api/sys";
 
 const SUBMIT_STATUS = {
   全部: "",
@@ -823,11 +823,40 @@ p {
   vertical-align: middle;
   display: flex;
   align-items: center;
+  position: relative;
 }
 .list_img img {
   width: 50px;
   height: 50px;
   margin-top: 9px;
+}
+.list_img .tip {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  position: absolute;
+  right: 28px;
+  top: 0;
+  font-size: 12px;
+  color: #fff;
+  background: #f30;
+  border-radius: 50%;
+}
+.list_img .tip::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  bottom: -4px;
+  border-width: 6px;
+  border-top-color: #f30;
+  border-bottom-width: 0;
 }
 .list_right {
   vertical-align: middle;
